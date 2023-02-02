@@ -9,10 +9,12 @@ export default defineConfig({
     sidebar: {
       '/': [
         {
-          text: 'Basics',
+          text: 'Spacing',
           collabsible: true,
           items: [
-            { text: 'Spacing', link: '/spacing/' }
+            { text: 'Padding', link: '/padding/' },
+            { text: 'Margin', link: '/margin/' },
+            { text: 'Space between', link: '/space-between/' },
           ]
         },
         {
