@@ -9,7 +9,7 @@ Utilities for controlling an element's padding.
 ### Add padding to a single side
 Control the padding on one side of an element using the `p{t|r|b|l}-{size}` utilities.
 
-For example,`pt-6` would add `1.5rem` of padding to the top of an element, `pr-4` would add `1rem` of padding to the right of an element, `pb-8` would add `2rem` of padding to the bottom of an element, and `pl-2` would add `0.5rem` of padding to the left of an element.
+For example,`pt-16` would add `1.6rem`which should be equivalent of 16px of padding to the top of an element, `pr-8` would add `0.8rem` (8px) of padding to the right of an element, `pb-32` would add `3.2rem` (32px) of padding to the bottom of an element, and `pl-64` would add `6.4rem` (64px) of padding to the left of an element.
 
 <container>
   <div class="flex flex-wrap items-start justify-center text-white text-sm font-bold leading-6 -mx-5">
@@ -54,7 +54,7 @@ For example,`pt-6` would add `1.5rem` of padding to the top of an element, `pr-4
 ### Horizontal Padding
 Control the horizontal padding of an element using the `px-{size}` utilities.
 <container>
-  <dev class="relative rounded-xl overflow-auto p-8">
+  <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
       <div class="bg-indigo-500 rounded-lg shadow-lg overflow-hidden flex">
         <box striped class="w-16" fg-color="var(--tw-white-fg)"></box>
@@ -62,7 +62,7 @@ Control the horizontal padding of an element using the `px-{size}` utilities.
         <box striped class="w-16" fg-color="var(--tw-white-fg)"></box>
       </div>
     </div>
-  </dev>
+  </div>
 </container>
 
 ```html
