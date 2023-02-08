@@ -12,16 +12,16 @@ Control the padding on one side of an element using the `p{t|r|b|l}-{size}` util
 For example,`pt-16` would add `1.6rem`which should be equivalent of 16px of padding to the top of an element, `pr-8` would add `0.8rem` (8px) of padding to the right of an element, `pb-32` would add `3.2rem` (32px) of padding to the bottom of an element, and `pl-64` would add `6.4rem` (64px) of padding to the left of an element.
 
 <container>
-  <div class="flex flex-wrap items-start justify-center text-white text-sm font-bold leading-6 -mx-5">
+  <div class="flex flex-wrap items-start justify-center text-white text-sm font-bold xleading-6 -mx-5">
     <div class="flex items-start">
       <div class="flex-none px-5">
-        <div class="bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <box striped class="h-16 rounded-t-lg" fg-color="var(--tw-white-fg)"></box>
+        <div class="bg-purple-500 shadow-2 rounded-2 overflow-hidden">
+          <box striped class="h-16" fg-color="var(--tw-white-fg)"></box>
           <div class="p-16">pt-16</div>
         </div>
       </div>
       <div class="flex-none px-5 pt-6">
-        <div class="flex bg-purple-500 shadow-lg rounded-lg overflow-hidden">
+        <div class="flex bg-purple-500 shadow-2 rounded-2 overflow-hidden">
           <div class="flex-none p-16">pr-24</div>
           <box striped class="flex-none w-24" fg-color="var(--tw-white-fg)" ></box>
         </div>
@@ -29,15 +29,15 @@ For example,`pt-16` would add `1.6rem`which should be equivalent of 16px of padd
     </div>
     <div class="flex items-start">
       <div class="flex-none px-5 pt-6">
-        <div class="bg-purple-500 shadow-lg rounded-lg overflow-hidden">
+        <div class="bg-purple-500 shadow-2 rounded-2 overflow-hidden">
           <div class="p-16">pb-8</div>
           <box striped class="h-8" fg-color="var(--tw-white-fg)"></box>
         </div>
       </div>
       <div class="flex-none flex px-5 pt-6">
-        <div class="flex bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <box striped class="flex-none w-2" fg-color="var(--tw-white-fg)"></box>
-          <div class="flex-none p-16">pl-2</div>
+        <div class="flex bg-purple-500 shadow-2 rounded-2 overflow-hidden">
+          <box striped class="flex-none w-32" fg-color="var(--tw-white-fg)"></box>
+          <div class="flex-none p-16">pl-32</div>
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@ Control the padding on all sides of an element using the `p-{size}` utilities.
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <div class="bg-violet-500 rounded-lg shadow-lg ">
+      <div class="bg-violet-500 rounded-lg shadow-lg overflow-hidden">
         <box striped class="p-16" fg-color="var(--tw-white-fg)">
           <div class="bg-violet-500 p-16">p-16</div>
         </box>
@@ -102,5 +102,5 @@ Control the padding on all sides of an element using the `p-{size}` utilities.
 </container>
 
 ```html
-<div class="p-168 ...">p-16</div>
+<div class="p-16 ...">p-16</div>
 ```

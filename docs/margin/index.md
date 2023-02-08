@@ -1,174 +1,112 @@
-# Spacing
+Spacing
 
-## Padding
+# Margin
+Utilities for controlling an element's MArgin.
+## Quick reference
 
+
+## Basic usage
 ### Add padding to a single side
+Control the margin on one side of an element using the `m{t|r|b|l}-{size}` utilities.
 
-<container class="mt-8">
-  <div class="flex flex-wrap items-start justify-center text-white text-sm font-bold leading-6">
-    <div class="flex items-start">
-      <div class="flex-none px-32">
-        <div class="bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <box striped class="h-24 rounded-b-0" fg-color="var(--tw-white-fg)"></box>
-          <div class="p-16">pt-24</div>
-        </div>
-      </div>
-      <div class="flex-none px-5 pt-6">
-        <div class="flex bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <div class="flex-none p-16">pr-16</div>
-          <box striped class="flex-none w-16 rounded-l-0" fg-color="var(--tw-white-fg)" ></box>
-        </div>
-      </div>
-    </div>
-    <div class="flex items-start">
-      <div class="flex-none px-5 pt-6">
-        <div class="bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <div class="p-16">pb-32</div>
-          <box striped class="h-32 rounded-t-0" fg-color="var(--tw-white-fg)"></box>
-        </div>
-      </div>
-      <div class="flex-none flex px-5 pt-6">
-        <div class="flex bg-purple-500 shadow-lg rounded-lg overflow-hidden">
-          <box striped class="flex-none w-8" fg-color="var(--tw-white-fg)"></box>
-          <div class="flex-none p-16">pl-8</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</container>
+For example,`mt-16` would add `1.6rem`which should be equivalent of 16px of margin to the top of an element, `mr-8` would add `0.8rem` (8px) of margin to the right of an element, `pb-32` would add `3.2rem` (32px) of margin to the bottom of an element, and `pl-64` would add `6.4rem` (64px) of margin to the left of an element.
 
-### Horizontal padding
-
-<container class="mt-2">
-  <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <div class="bg-indigo-500 rounded-lg shadow-lg overflow-hidden flex">
-        <box striped class="w-8 rounded-r-0" fg-color="var(--tw-white-fg)"></box>
-        <div class="p-16">px-8</div>
-        <box striped class="w-8 rounded-l-0" fg-color="var(--tw-white-fg)"></box>
-      </div>
-    </div>
-  </div>
-</container>
-
-### Vertical padding
-
-<container class="mt-2">
-  <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <div class="bg-pink-500 rounded-lg shadow-lg overflow-hidden">
-        <box striped class="h-8 rounded-b-0" fg-color="var(--tw-white-fg)"></box>
-        <div class="p-16">py-8</div>
-        <box striped class="h-8 rounded-t-0" fg-color="var(--tw-white-fg)"></box>
-      </div>
-    </div>
-  </div>
-</container>
-
-### Padding on all sides
-
-<container class="mt-2">
-  <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <div class="bg-violet-500 rounded-lg shadow-lg ">
-        <box striped class="p-16" fg-color="var(--tw-white-fg)">
-          <div class="bg-violet-500 p-16">p-16</div>
-        </box>
-      </div>
-    </div>
-  </div>
-</container>
-
-## Margin
-
-### Add margin to a single side
-
-<container bleeding class="mt-2">
-  <div class="relative -my-8 -mx-4 rounded-xl overflow-auto">
-    <div class="relative font-mono text-white text-sm font-bold leading-6 h-56">
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 md:-ml-24">
-        <box striped class="flow-root rounded-b-lg" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
-          <div class="bg-purple-500 rounded-lg shadow-lg p-4 mt-6">mt-6</div>
+<container>
+  <div class="relative -my-32 -mx-16 rounded-2 overflow-auto">
+    <div class="relative font-mono text-white text-sm font-bold leading-6 h-128">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 -ml-16">
+        <box striped class="flow-root rounded-b-2" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
+          <div class="bg-purple-500 rounded-2 shadow-2 p-16 mt-16">mt-16</div>
         </box>
       </div>
       <div class="absolute right-0 top-1/2 -translate-y-1/2">
         <box striped class="flow-root rounded-l-lg" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
-          <div class="flex-none bg-purple-500 rounded-lg shadow-lg p-4 mr-4">mr-4</div>
+          <div class="flex-none bg-purple-500 rounded-2 shadow-lg p-16 mr-24">mr-24</div>
         </box>
       </div>
-      <div class="absolute bottom-0 left-1/2 -translate-x-1/2 md:ml-24">
+      <div class="absolute bottom-0 left-1/2 -translate-x-1/2 ml-64">
         <box striped class="flow-root rounded-t-lg" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
-          <div class="bg-purple-500 rounded-lg shadow-lg p-4 mb-8">mb-8</div>
+          <div class="bg-purple-500 rounded-2 shadow-lg p-16 mb-32">mb-32</div>
         </box>
       </div>
       <div class="absolute left-0 top-1/2 -translate-y-1/2">
         <box striped class="flow-root rounded-r-lg" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
-          <div class="flex-none bg-purple-500 rounded-lg shadow-lg p-4 ml-2">ml-2</div>
+          <div class="flex-none bg-purple-500 rounded-2 shadow-lg p-16 ml-16">ml-16</div>
         </box>
       </div>
     </div>
   </div>
 </container>
 
-### Horizontal margin
+```html
+<div class="mt-16 ...">mt-16</div>
+<div class="mr-24 ...">mr-24</div>
+<div class="mb-32 ...">mb-32</div>
+<div class="ml-16 ...">ml-16</div>
+```
 
-<container class="mt-2">
-  <div class="relative rounded-xl overflow-auto p-8">
+### Add horizontal margin
+Control the horizontal margin of an element using the `mx-{size}` utilities.
+<container>
+  <div class="relative rounded-2 overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <box striped class="rounded-lg" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-        <div class="bg-indigo-500 rounded-lg shadow-lg p-4 mx-8">mx-8</div>
+      <box striped class="rounded-2" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
+        <div class="bg-indigo-500 rounded-2 shadow-lg p-16 mx-32">mx-32</div>
       </box>
     </div>
   </div>
 </container>
 
-### Vertical margin
+```html
+<div class="mx-32 ...">mx-32</div>
+```
 
-<container class="mt-2">
+### Add vertical margin
+Control the vertical margin of an element using the `my-{size}` utilities.
+<container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <box striped class="flow-root rounded-lg" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-        <div class="bg-pink-500 rounded-lg shadow-lg p-4 my-8">my-8</div>
+      <box striped class="flow-root rounded-2" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
+        <div class="bg-pink-500 rounded-2 shadow-lg p-16 my-24">my-24</div>
       </box>
     </div>
   </div>
 </container>
 
-### Margin on all sides
+```html
+<div class="my-24 ...">my-24</div>
+```
 
-<container class="mt-2">
+### Add margin to all sides
+Control the margin on all sides of an element using the `m-{size}` utilities.
+<container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <box striped class="flow-root rounded-lg" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-        <div class="bg-blue-500 rounded-lg shadow-lg p-4 m-8">m-8</div>
+      <box striped class="flow-root rounded-2" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
+        <div class="bg-blue-500 rounded-2 shadow-2 p-16 m-32">m-32</div>
       </box>
     </div>
   </div>
 </container>
 
-### Using negative values in margin
+```html
+<div class="m-32 ...">m-32</div>
+```
 
-<container class="mt-2">
+### Using negative values
+To use a negative margin value, prefix the class name with a dash to convert it to a negative value.
+<container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
       <div class="flex flex-col items-center">
-        <div class="relative w-36 h-16 bg-sky-400/20 border border-sky-700/10 rounded-md overflow-hidden"></div>
-        <div class="relative -mt-8 bg-sky-500 rounded-md flex items-center justify-center p-4 shadow-lg">-mt-8</div>
+        <div class="relative w-128 h-64 bg-sky-400/20 border border-sky-700/10 rounded-md overflow-hidden"></div>
+        <div class="relative -mt-32 bg-sky-500 rounded-md flex items-center justify-center p-16 shadow-lg">-mt-32</div>
       </div>
     </div>
   </div>
 </container>
 
-### Add horizontal space between children
-
-<container class="mt-2">
-  <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-mono text-white text-sm font-bold leading-6">
-      <box striped class="flex space-x-4 bg-stripes-fuchsia rounded-lg" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-        <div class="w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-fuchsia-500">01</div>
-        <div class="w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-fuchsia-500">02</div>
-        <div class="w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-fuchsia-500">03</div>
-      </box>
-    </div>
-  </div>
-</container>
+```html
+<div class="w-128 h-64 bg-sky-400 opacity-20 ..."></div>
+<div class="-mt-32 bg-sky-300 ...">-mt-32</div>
+```
