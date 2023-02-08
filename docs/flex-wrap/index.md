@@ -41,7 +41,7 @@ Use `flex-wrap` to allow flex items to wrap.
 </container>
 
 ```html
-<div class="flex flex-row-reversed ...">
+<div class="flex flex-wrap ...">
   <div>01</div>
   <div>02</div>
   <div>03</div>
