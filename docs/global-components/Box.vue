@@ -29,7 +29,8 @@ const dotSize = computed(() => props.size + 'px')
 .box {
   --tw-purple-fg: #a855f780;
   --tw-purple-bg: #c084fc1a;
-  --tw-white-fg: #ffffffbf;
+  --tw-violet-fg: #8b5cf680;  
+  --tw-violet-bg: #a78bfa1a;
   --tw-pink-fg: #ec489980;
   --tw-pink-bg: #f472b61a;
   --tw-indigo-fg: #6366f180;
@@ -37,7 +38,8 @@ const dotSize = computed(() => props.size + 'px')
   --tw-blue-fg: #3b82f680;
   --tw-blue-bg: #60a5fa1a;
   --tw-fuchsia-fg: #d946ef80;
-  --tw-fuchsia-bg: #e879f91a;
+  --tw-fuchsia-bg: #e879f91a; 
+  --tw-white-fg: #ffffffbf;
   --el-color: v-bind(fgColor);
   --bg-color: v-bind(bgColor);
 }
