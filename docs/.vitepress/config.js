@@ -21,7 +21,12 @@ export default defineConfig({
           text: 'Layout',
           collabsible: true,
           items: [
-            { text: 'Flex', link: '/flex/' }
+            { text: 'Flex', link: '/flex/' },
+            { text: 'Flex Basis', link: '/flex-basis/' },
+            { text: 'Flex Direction', link: '/flex-direction/' },
+            { text: 'Flex Grow', link: '/flex-grow/' },
+            { text: 'Flex Shrink', link: '/flex-shrink/' },
+            { text: 'Flex Wrap', link: '/flex-wrap/' }
           ]
         }
       ]
