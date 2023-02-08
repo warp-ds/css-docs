@@ -41,7 +41,7 @@ Use `flex-row-reverse` to position flex items horizontally in the opposite direc
 </container>
 
 ```html
-  <div class="flex flex-row-reversed ...">
+  <div class="flex flex-row-reverse ...">
     <div>01</div>
     <div>02</div>
     <div>03</div>
