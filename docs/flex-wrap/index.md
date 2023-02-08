@@ -60,7 +60,7 @@ Use `flex-wrap-reverse` to wrap flex items in the reverse direction.
 </container>
 
 ```html
-<div class="flex flex-row-reversed ...">
+<div class="flex flex-row-reverse ...">
   <div>01</div>
   <div>02</div>
   <div>03</div>
