@@ -9,7 +9,7 @@ Utilities for controlling how flex items both grow and shrink.
 
 ## Quick reference
 
-## Besic usage
+## Basic usage
 ### Initial
 Use `flex-initial` to allow a flex item to shrink but not grow, taking into account its initial size.
 
