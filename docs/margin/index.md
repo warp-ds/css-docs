@@ -90,7 +90,7 @@ Control the margin on all sides of an element using the `m-{size}` utilities.
 </container>
 
 ```html
-<div class="m-8 ...">m-8</div>
+<div class="m-32 ...">m-32</div>
 ```
 
 ### Using negative values
@@ -108,5 +108,5 @@ To use a negative margin value, prefix the class name with a dash to convert it 
 
 ```html
 <div class="w-128 h-64 bg-sky-400 opacity-20 ..."></div>
-<div class="-mt-8 bg-sky-300 ...">-mt-32</div>
+<div class="-mt-32 bg-sky-300 ...">-mt-32</div>
 ```
