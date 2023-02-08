@@ -79,7 +79,7 @@ Use `flex-col-reverse` to position flex items vertically in the opposite directi
 </container>
 
 ```html
-<div class="flex flex-col-reversed ...">
+<div class="flex flex-col-reverse ...">
   <div>01</div>
   <div>02</div>
   <div>03</div>
