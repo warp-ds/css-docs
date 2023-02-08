@@ -22,7 +22,7 @@ const dotSize = computed(() => props.size + 'px')
 </script>
 
 <template>
-  <div class="box rounded-2 font-mono" :class="{ dotted, striped }"><slot /></div>
+  <div class="box font-mono" :class="{ dotted, striped }"><slot /></div>
 </template>
 
 <style scoped>
