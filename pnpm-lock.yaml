@@ -2,16 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vueuse/core': ^9.12.0
-  '@warp-ds/preset-docs': ^0.0.6
-  '@warp-ds/uno': ^0.0.9
+  '@warp-ds/preset-docs': ^0.0.7
+  '@warp-ds/uno': ^0.0.11
   unocss: ^0.49.4
   vitepress: 1.0.0-alpha.45
   vue: ^3.2.47
 
 devDependencies:
   '@vueuse/core': 9.12.0_vue@3.2.47
-  '@warp-ds/preset-docs': 0.0.6_@warp-ds+uno@0.0.9
-  '@warp-ds/uno': 0.0.9
+  '@warp-ds/preset-docs': 0.0.7_@warp-ds+uno@0.0.11
+  '@warp-ds/uno': 0.0.11
   unocss: 0.49.4
   vitepress: 1.0.0-alpha.45
   vue: 3.2.47
@@ -799,17 +799,17 @@ packages:
       - vue
     dev: true
 
-  /@warp-ds/preset-docs/0.0.6_@warp-ds+uno@0.0.9:
-    resolution: {integrity: sha512-WK86dC+ETKaJPNdcZec7PnB4fz0gBErgrsWXcFfu1QFAVls/areTo9PMmJ15IJxKLaTC23LUJwY6EgUHK7+1ag==}
+  /@warp-ds/preset-docs/0.0.7_@warp-ds+uno@0.0.11:
+    resolution: {integrity: sha512-YvHsQHoCuuLg1guVrrtmvuMu/h6JOg0sx6AbPyPeSRNKX6LMsgMDqsudcUkLwdm+MbXDxbyhZhUUwliNAO283A==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.49.4
-      '@warp-ds/uno': 0.0.9
+      '@warp-ds/uno': 0.0.11
     dev: true
 
-  /@warp-ds/uno/0.0.9:
-    resolution: {integrity: sha512-OqIvx5dbH+840jXQxy+9k7puN7xuIZA5cGr6cPIC+h+2r8XJbV3Nb1mYtKV7zXbmKCUMwDSJKxUXrhKylftH5A==}
+  /@warp-ds/uno/0.0.11:
+    resolution: {integrity: sha512-QcooGeD/F954w/FrAtlXG+R4bDog5/FnDUUGuvm7B6dFZTGu97xHMsb6Z+e7rgy9MW+SPgxtTidSJILrxIuNkQ==}
     dependencies:
       '@unocss/core': 0.49.4
       '@unocss/preset-mini': 0.49.4
