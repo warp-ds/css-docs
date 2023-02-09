@@ -3,3 +3,7 @@
   --vp-c-brand: #198BA1 !important;
   --vp-home-hero-name-color: var(--vp-c-brand);
 }
+
+.vp-doc blockquote > p {
+  font-size: 0.8rem !important;
+}
