@@ -1,0 +1,5 @@
+:root {
+  --vp-code-block-bg: #2e3440ff !important;
+  --vp-c-brand: #198BA1 !important;
+  --vp-home-hero-name-color: var(--vp-c-brand);
+}

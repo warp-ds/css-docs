@@ -1,8 +1,8 @@
 <script setup>
-const exampleClasses = 'p-24 rounded-2 text-white flex items-center justify-center'
+const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Layout
 
 # Flex Direction
 Utilities for controlling the direction of flex items.

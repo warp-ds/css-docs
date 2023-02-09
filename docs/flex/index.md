@@ -1,8 +1,8 @@
 <script setup>
-const exampleClasses = 'p-24 rounded-2 text-white flex items-center justify-center'
+const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Layout
 
 # Flex
 Utilities for controlling how flex items both grow and shrink.

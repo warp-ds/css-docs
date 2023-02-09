@@ -1,8 +1,8 @@
 <script setup>
-const exampleClasses = 'p-24 rounded-2 text-white flex items-center justify-center'
+const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Layout
 
 # Flex Wrap
 Utilities for controlling how flex items wrap.
@@ -47,10 +47,10 @@ Use `flex-wrap` to allow flex items to wrap.
   <div>03</div>
 </div>
 ```
-   
+
 ### Wrap reversed
 Use `flex-wrap-reverse` to wrap flex items in the reverse direction.
-  
+
 <container>
   <box class="flex flex-wrap-reverse gap-16">
     <div class="w-2/5 flex-none bg-fuchsia-500" :class="exampleClasses">01</div>

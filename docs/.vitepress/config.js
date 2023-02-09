@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Warp CSS',
   lastUpdated: false,
+  markdown: { theme: 'nord' },
   themeConfig: {
     outline: 'deep',
     sidebar: {

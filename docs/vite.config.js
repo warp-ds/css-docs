@@ -10,6 +10,9 @@ export default {
         presetWarp({ usePixels: true, usePreflight: false }),
         presetDocs()
         // presetUno()
+      ],
+      shortcuts: [
+        { 'font-ex': 'text-sm font-bold font-mono text-white' }
       ]
     }))
   ]
