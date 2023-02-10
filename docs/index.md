@@ -6,7 +6,7 @@ hero:
   tagline:
   image: /warp-logo.png
   actions:
-  - theme: alt
+  - theme: brand
     text: Get Started →
     link: introduction
   - theme: alt
