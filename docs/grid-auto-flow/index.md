@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Grid Auto Flow
 Utilities for controlling how elements in a grid are auto-placed.

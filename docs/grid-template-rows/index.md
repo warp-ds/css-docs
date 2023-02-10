@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Grid Template Rows
 Utilities for specifying the rows in a grid layout.

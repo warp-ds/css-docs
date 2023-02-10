@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Grid Columns Start / End
 Utilities for controlling how elements are sized and placed across grid columns.
@@ -33,7 +33,7 @@ Use the `col-span-{n}` utilities to make an element span n columns.
   <div class="col-span-2 ...">04</div>
   <div class="...">05</div>
   <div class="...">06</div>
-  <div class="col-span-2 ...">07</div> 
+  <div class="col-span-2 ...">07</div>
 </div>
 ```
 

@@ -1,4 +1,4 @@
-Flex & Grid
+> Flexbox & Grid
 
 # Grid Auto Columns
 Utilities for controlling the size of implicitly-created grid columns.

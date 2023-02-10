@@ -19,7 +19,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Layout',
+          text: 'Flexbox & Grid',
           collabsible: true,
           items: [
             { text: 'Flex', link: '/flex/' },

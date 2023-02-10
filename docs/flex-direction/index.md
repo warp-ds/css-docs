@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-> Layout
+> Flexbox & Grid
 
 # Flex Direction
 Utilities for controlling the direction of flex items.
