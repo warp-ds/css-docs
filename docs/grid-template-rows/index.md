@@ -9,9 +9,18 @@ Utilities for specifying the rows in a grid layout.
 
 ## Quick reference
 
+| Class                    | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| `grid-rows-{n}`          | Create a grid with `{n}` equally sized rows           |
+| `grid-rows-[{row-spec}]` | Create a grid with the rows specified in `{row-spec}` |
+
+> Available values <br />
+> `{n}`: `1` through `7` <br />
+> `{row-spec}`: _Any valid value for the `grid-template-rows` property - replace spaces with `_`_ <br />
+
 ## Basic usage
 ### Specifying the rows in a grid
-Use the grid-rows-{n} utilities to create grids with n equally sized rows.
+Use the `grid-rows-{n}` utilities to create grids with n equally sized rows.
 
 <container class="overflow-auto">
   <box striped class="grid grid-rows-4 grid-flow-col gap-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
@@ -27,7 +36,7 @@ Use the grid-rows-{n} utilities to create grids with n equally sized rows.
   </box>
 </container>
 
-```html
+```html{1}
 <div class="grid grid-rows-4 grid-flow-col ...">
   <div>01</div>
   <!-- ... -->
@@ -38,8 +47,18 @@ Use the grid-rows-{n} utilities to create grids with n equally sized rows.
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:grid-rows-6` to apply the `grid-rows-6` utility at only medium screen sizes and above.
 
-```html
+```html{1}
 <div class="grid grid-rows-2 md:grid-rows-6">
+  <!-- ... -->
+</div>
+```
+
+### Arbitrary values
+
+If you need to use a one-off `grid-template-rows` value, use square brackets to generate a property on the fly. Replace any spaces in the property with underscore.
+
+```html{1}
+<div class="grid grid-rows-[3.2rem_1fr]">
   <!-- ... -->
 </div>
 ```

@@ -4,7 +4,7 @@ const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 
 Flex & Grid
 
-# place Content
+# Place Content
 Utilities for controlling how content is justified and aligned at the same time.
 
 ## Quick reference

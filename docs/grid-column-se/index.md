@@ -9,6 +9,15 @@ Utilities for controlling how elements are sized and placed across grid columns.
 
 ## Quick reference
 
+| Class           | Description                                  |
+| --------------- | -------------------------------------------- |
+| `col-span-{n}`  | Make an element span `{n}` columns           |
+| `col-start-{n}` | Make a column start at the `{n}th` grid line |
+| `col-end-{n}`   | Make a column end at the `{n}th` grid line   |
+
+> Available values <br />
+> `{n}`: `1` through `13` <br />
+
 ## Basic usage
 ### Spanning columns
 Use the `col-span-{n}` utilities to make an element span n columns.
@@ -55,7 +64,7 @@ Note that CSS grid lines start at 1, not 0, so a full-width element in a 6-colum
   </div>
 </container>
 
-```html
+```html{2-5}
 <div class="grid grid-cols-6 ...">
   <div class="col-start-2 col-span-4 ...">01</div>
   <div class="col-start-1 col-end-3 ...">02</div>
@@ -67,7 +76,7 @@ Note that CSS grid lines start at 1, not 0, so a full-width element in a 6-colum
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:col-span-6` to apply the `col-span-6` utility at only medium screen sizes and above.
 
-```html
+```html{1}
 <div class="col-span-2 md:col-span-6">
   <!-- ... -->
 </div>

@@ -9,9 +9,18 @@ Utilities for controlling how elements are sized and placed across grid rows.
 
 ## Quick reference
 
+| Class           | Description                               |
+| --------------- | ----------------------------------------- |
+| `row-span-{n}`  | Make an element span `{n}` rows           |
+| `row-start-{n}` | Make a row start at the `{n}th` grid line |
+| `row-end-{n}`   | Make a row end at the `{n}th` grid line   |
+
+> Available values <br />
+> `{n}`: `1` through `7` <br />
+
 ## Basic usage
 ### Spanning rows
-Use the row-span-{n} utilities to make an element span n rows.
+Use the `row-span-{n}` utilities to make an element span n rows.
 
 <container>
   <box striped class="grid grid-rows-3 grid-flow-col gap-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
@@ -21,7 +30,7 @@ Use the row-span-{n} utilities to make an element span n rows.
   </box>
 </container>
 
-```html
+```html{2,4}
 <div class="grid grid-rows-3 grid-flow-col ...">
   <div class="row-span-3 ...">01</div>
   <div class="col-span-2 ...">02</div>
@@ -42,7 +51,7 @@ Note that CSS grid lines start at 1, not 0, so a full-height element in a 3-row 
   </box>
 </container>
 
-```html
+```html{2-4}
 <div class="grid grid-rows-3 grid-flow-col ...">
   <div class="row-start-2 row-span-2 ...">01</div>
   <div class="row-end-3 row-span-2 ...">02</div>
@@ -53,7 +62,7 @@ Note that CSS grid lines start at 1, not 0, so a full-height element in a 3-row 
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:row-span-4` to apply the `row-span-4` utility at only medium screen sizes and above.
 
-```html
+```html{1}
 <div class="row-span-3 md:row-span-4">
   <!-- ... -->
 </div>

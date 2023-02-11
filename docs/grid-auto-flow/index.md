@@ -9,6 +9,14 @@ Utilities for controlling how elements in a grid are auto-placed.
 
 ## Quick reference
 
+| Class                 | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| `grid-flow-row`       | Items are placed by filling rows in turn                 |
+| `grid-flow-col`       | Items are placed by filling columns in turn              |
+| `grid-flow-dense`     | Attempt to fill spaces earlier in the grid when possible |
+| `grid-flow-row-dense` | Same as above                                            |
+| `grid-flow-col-dense` | Same as 'dense' but filling columns in turn              |
+
 ## Basic usage
 ### Controlling grid element placement
 Use the `grid-flow-{keyword}` utilities to control how the auto-placement algorithm works for a grid layout.

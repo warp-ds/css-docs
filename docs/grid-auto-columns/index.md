@@ -25,12 +25,3 @@ You can also use variant modifiers to target media queries like responsive break
   <!-- ... -->
 </div>
 ```
-
-### Arbitrary values
-If you need to use a one-off `grid-auto-columns` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
-
-```html
-<div class="grid grid-flow-col auto-cols-[minmax(0,_2fr)]">
-  <!-- ... -->
-</div>
-```

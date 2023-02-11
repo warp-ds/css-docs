@@ -9,6 +9,12 @@ Utilities for controlling how flex items wrap.
 
 ## Quick reference
 
+| Class               | Description                  |
+| ------------------- | ---------------------------- |
+| `flex-nowrap`       | Prevent items from wrapping  |
+| `flex-wrap`         | Allow items to wrap normally |
+| `flex-wrap-reverse` | Wrap items in reverse        |
+
 ## Basic usage
 ### Don't wrap
 Use `flex-nowrap` to prevent flex items from wrapping, causing inflexible items to overflow the container if necessary.
@@ -60,7 +66,7 @@ Use `flex-wrap-reverse` to wrap flex items in the reverse direction.
 </container>
 
 ```html
-<div class="flex flex-row-reverse ...">
+<div class="flex flex-wrap-reverse ...">
   <div>01</div>
   <div>02</div>
   <div>03</div>

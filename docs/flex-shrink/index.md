@@ -9,6 +9,11 @@ Utilities for controlling how flex items shrink.
 
 ## Quick reference
 
+| Class      | Description                    |
+| ---------- | ------------------------------ |
+| `shrink`   | Allow item to shrink if needed |
+| `shrink-0` | Prevent an item from shrinking |
+
 ## Besic usage
 ### Shrink
 Use `shrink` to allow a flex item to shrink if needed.

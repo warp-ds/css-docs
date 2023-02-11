@@ -9,6 +9,16 @@ Utilities for controlling the order of flex and grid items.
 
 ## Quick reference
 
+| Class            | Description                            |
+| ---------------- | -------------------------------------- |
+| `order-{value}`  | Set the order of an item to `{value}`  |
+| `order-none`     | Set the order of an item to `0`        |
+| `order-first`    | Force an item to be first in order     |
+| `order-last`     | Force an item to be last in order      |
+
+> Available values <br />
+> `{value}`: `1` through `12` <br />
+
 ## Basic usage
 ### Ordering flex and grid items
 Use `order-{order}` to render flex and grid items in a different order than they appear in the DOM.

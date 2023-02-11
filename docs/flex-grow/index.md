@@ -9,6 +9,11 @@ Utilities for controlling how flex items grow.
 
 ## Quick reference
 
+| Class    | Description                                |
+| -------- | ------------------------------------------ |
+| `grow`   | Allow item to grow to fill available space |
+| `grow-0` | Prevent an item from growing to fill space |
+
 ## Basic usage
 ### Grow
 Use `grow` to allow a flex item to grow to fill any available space.

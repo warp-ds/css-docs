@@ -9,6 +9,15 @@ Utilities for controlling how flex and grid items are positioned along a contain
 
 ## Quick reference
 
+| Class             | Description                                                             |
+| ----------------- | ----------------------------------------------------------------------- |
+| `justify-start`   | Justify items against the start of the container's main axis            |
+| `justify-center`  | Justify items along the center of the container's main axis             |
+| `justify-end`     | Justify items against the end of the container's main axis              |
+| `justify-between` | Justify items with an equal amount of space between them                |
+| `justify-around`  | Justify items with an equal amount of space on either side of each item |
+| `justify-evenly`  | Justify items with an equal amount of space around each item            |
+
 ## Basic usage
 ### Start
 Use `justify-start` to justify items against the start of the container’s main axis:
@@ -21,7 +30,7 @@ Use `justify-start` to justify items against the start of the container’s main
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-start ...">
   <div>01</div>
   <div>02</div>
@@ -40,7 +49,7 @@ Use `justify-center` to justify items along the center of the container’s main
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-center ...">
   <div>01</div>
   <div>02</div>
@@ -49,7 +58,7 @@ Use `justify-center` to justify items along the center of the container’s main
 ```
 
 ### End
-Use `justify-end` to justify items along the center of the container’s main axis.
+Use `justify-end` to justify items against the end of the container’s main axis
 
 <container>
   <box striped class="flex justify-end gap-16" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
@@ -59,7 +68,7 @@ Use `justify-end` to justify items along the center of the container’s main ax
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-end ...">
   <div>01</div>
   <div>02</div>
@@ -68,7 +77,7 @@ Use `justify-end` to justify items along the center of the container’s main ax
 ```
 
 ### Space between
-Use `justify-between` to justify items along the center of the container’s main axis.
+Use `justify-between` to justify items along the container’s main axis such that there is an equal amount of space between each item.
 
 <container>
   <box striped class="flex justify-between gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
@@ -78,7 +87,7 @@ Use `justify-between` to justify items along the center of the container’s mai
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-between ...">
   <div>01</div>
   <div>02</div>
@@ -87,7 +96,7 @@ Use `justify-between` to justify items along the center of the container’s mai
 ```
 
 ### Space around
-Use `justify-around` to justify items along the center of the container’s main axis.
+Use `justify-around` to justify items along the container’s main axis such that there is an equal amount of space on each side of each item.
 
 <container>
   <box striped class="flex justify-around gap-16" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
@@ -97,7 +106,7 @@ Use `justify-around` to justify items along the center of the container’s main
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-around ...">
   <div>01</div>
   <div>02</div>
@@ -106,7 +115,7 @@ Use `justify-around` to justify items along the center of the container’s main
 ```
 
 ### Space evenly
-Use `justify-evenly` to justify items along the center of the container’s main axis.
+Use `justify-evenly` to justify items along the container’s main axis such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using `justify-around`
 
 <container>
   <box striped class="flex justify-evenly gap-16" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
@@ -116,7 +125,7 @@ Use `justify-evenly` to justify items along the center of the container’s main
   </box>
 </container>
 
-```html
+```html{1}
 <div class="flex justify-evenly ...">
   <div>01</div>
   <div>02</div>

@@ -9,9 +9,18 @@ Utilities for specifying the columns in a grid layout.
 
 ## Quick reference
 
+| Class                    | Description                                              |
+| ------------------------ | -------------------------------------------------------- |
+| `grid-cols-{n}`          | Create a grid with `{n}` equally sized columns           |
+| `grid-cols-[{col-spec}]` | Create a grid with the columns specified in `{col-spec}` |
+
+> Available values <br />
+> `{n}`: `1` through `13` <br />
+> `{col-spec}`: _Any valid value for the `grid-template-columns` property - replace spaces with `_`_ <br />
+
 ## Basic usage
 ### Specifying the columns in a grid
-Use the `grid-cols-{n}` utilities to create grids with n equally sized columns.
+Use the `grid-cols-{n}` utilities to create grids with `n` equally sized columns.
 
 <container class="overflow-auto">
   <box striped class="grid grid-cols-4 gap-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
@@ -27,7 +36,7 @@ Use the `grid-cols-{n}` utilities to create grids with n equally sized columns.
   </box>
 </container>
 
-```html
+```html{1}
 <div class="grid grid-cols-4 ...">
   <div>01</div>
   <!-- ... -->
@@ -38,8 +47,18 @@ Use the `grid-cols-{n}` utilities to create grids with n equally sized columns.
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:grid-cols-6` to apply the `grid-cols-6` utility at only medium screen sizes and above.
 
-```html
+```html{1}
 <div class="grid grid-cols-1 md:grid-cols-6">
+  <!-- ... -->
+</div>
+```
+
+### Arbitrary values
+
+If you need to use a one-off `grid-template-columns` value, use square brackets to generate a property on the fly. Replace any spaces in the property with underscore.
+
+```html{1}
+<div class="grid grid-cols-[3.2rem_1fr]">
   <!-- ... -->
 </div>
 ```
