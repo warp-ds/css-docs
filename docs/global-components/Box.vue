@@ -37,6 +37,8 @@ const dotSize = computed(() => props.size + 'px')
   --tw-indigo-bg: #818cf81a;
   --tw-blue-fg: #3b82f680;
   --tw-blue-bg: #60a5fa1a;
+  --tw-cyan-fg: #06b6d480;
+  --tw-cyan-bg: #22d3ee1a;
   --tw-fuchsia-fg: #d946ef80;
   --tw-fuchsia-bg: #e879f91a; 
   --tw-white-fg: #ffffffbf;
