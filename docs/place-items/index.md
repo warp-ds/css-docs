@@ -2,12 +2,19 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Place Items
 Utilities for controlling how items are justified and aligned at the same time.
 
 ## Quick reference
+
+| Class                 | Description                                   |
+| --------------------- | --------------------------------------------- |
+| `place-items-start`   | Place items on the start of their grid areas  |
+| `place-items-end`     | Place items on the end of their grid areas    |
+| `place-items-center`  | Place items on the center of their grid areas |
+| `place-items-stretch` | Stretch items along their grid areas          |
 
 ## Basic usage
 ### Start

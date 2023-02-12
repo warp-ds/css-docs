@@ -2,16 +2,24 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-> Layout
+> Flexbox & Grid
 
 # Align Self
 Utilities for controlling how an individual flex or grid item is positioned along its container's cross axis.
 
 ## Quick reference
 
+| Class          | Description                                                   |
+| -------------- | ------------------------------------------------------------- |
+| `self-auto`    | Align an item based on the container's `align-items` property |
+| `self-start`   | Align an item to the start of the container's cross axis      |
+| `self-center`  | Align an item along the center of the container's cross axis  |
+| `self-end`     | Align an item to the end of the container's cross axis        |
+| `self-stretch` | Stretch an item to fill the container's cross axis            |
+
 ## Basic usage
 ### Auto
-Use `self-auto` to align an item based on the value of the container’s align-items property.
+Use `self-auto` to align an item based on the value of the container’s `align-items` property.
 
 <container>
   <box striped class="grid grid-cols-3 items-stretch gap-16" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">

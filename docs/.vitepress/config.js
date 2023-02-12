@@ -4,11 +4,22 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Warp CSS',
   lastUpdated: false,
+  cleanUrls: true,
   markdown: { theme: 'nord' },
   themeConfig: {
     outline: 'deep',
     sidebar: {
       '/': [
+        {
+          text: 'Introduction',
+          collabsible: true,
+          items: [
+            { text: 'What is Warp CSS?', link: '/what-is-warp' },
+            { text: 'Getting Started', link: '/getting-started' },
+            { text: 'Plugin API', link: '/plugin-api' },
+            { text: 'Class Variants', link: '/class-variants' },
+          ]
+        },
         {
           text: 'Spacing',
           collabsible: true,

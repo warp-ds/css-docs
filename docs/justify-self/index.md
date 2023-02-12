@@ -2,35 +2,45 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
-# Align Content
-Utilities for controlling how rows are positioned in multi-row flex and grid containers.
+# Justify Self
+Utilities for controlling how an individual grid item is aligned along its inline axis.
 
 ## Quick reference
 
+| Class                  | Description                                                |
+| ---------------------- | ---------------------------------------------------------- |
+| `justify-self-auto`    | Align an item based on the grid's `justify-items` property |
+| `justify-self-start`   | Align an item to the start of its inline axis              |
+| `justify-self-center`  | Align an item along the center of its inline axis          |
+| `justify-self-end`     | Align an item to the end of its inline axis                |
+| `justify-self-stretch` | Stretch an item to fill the area on its inline axis        |
+
 ## Basic usage
-### Start
-Use `content-start` to pack rows in a container against the start of the cross axis.
+
+### Auto
+Use `justify-self-auto` to align an item based on the value of the grid’s `justify-items` property.
 
 <container>
-  <div class="grid grid-cols-3 gap-16 content-start">
-    <div class="bg-blue-500" :class="exampleClasses">01</div>
-    <div class="bg-blue-400" :class="exampleClasses">02</div>
-    <div class="bg-blue-500" :class="exampleClasses">03</div>
-    <div class="bg-blue-500" :class="exampleClasses">04</div>
-    <div class="bg-blue-500" :class="exampleClasses">05</div>
-    <div class="bg-blue-500" :class="exampleClasses">06</div>
+  <div class="grid grid-cols-3 gap-16">
+    <div class="bg-purple-500" :class="exampleClasses">01</div>
+    <div class="bg-purple-400 justify-self-auto" :class="exampleClasses">02</div>
+    <div class="bg-purple-500" :class="exampleClasses">03</div>
+    <div class="bg-purple-500" :class="exampleClasses">04</div>
+    <div class="bg-purple-500" :class="exampleClasses">05</div>
+    <div class="bg-purple-500" :class="exampleClasses">06</div>
   </div>
 </container>
 
-```html
-<div class="h- grid grid-cols-3 gap-4 content-start ...">
-  <div>01</div>
-  <div>02</div>
-  <div>03</div>
-  <div>04</div>
-  <div>05</div>
+```html{3}
+<div class="grid justify-items-stretch ...">
+  <!-- ... -->
+  <div class="justify-self-auto ...">02</div>
+  <!-- ... -->
+  <!-- ... -->
+  <!-- ... -->
+  <!-- ... -->
 </div>
 ```
 
@@ -46,11 +56,11 @@ Use `justify-self-start` to align a grid item to the start its inline axis.
     <div class="bg-cyan-500" :class="exampleClasses">03</div>
     <div class="bg-cyan-500" :class="exampleClasses">04</div>
     <div class="bg-cyan-500" :class="exampleClasses">05</div>
-    <div class="bg-cyan-500" :class="exampleClasses">06</div>  
+    <div class="bg-cyan-500" :class="exampleClasses">06</div>
   </div>
 </container>
 
-```html
+```html{3}
 <div class="grid justify-items-stretch ...">
   <!-- ... -->
   <div class="justify-self-start ...">02</div>
@@ -77,7 +87,7 @@ Use `justify-self-center` to align a grid item along the center its inline axis:
   </div>
 </container>
 
-```html
+```html{3}
 <div class="grid justify-items-stretch ...">
   <!-- ... -->
   <div class="justify-self-center ...">02</div>
@@ -104,7 +114,7 @@ Use `justify-self-end` to align a grid item to the end its inline axis:
   </div>
 </container>
 
-```html
+```html{3}
 <div class="grid justify-items-stretch ...">
   <!-- ... -->
   <div class="justify-self-center ...">02</div>
@@ -140,7 +150,7 @@ Use `justify-self-stretch` to stretch a grid item to fill the grid area on its i
   </div>
 </container>
 
-```html 
+```html{3}
 <div class="grid justify-items-start ...">
   <!-- ... -->
   <div class="justify-self-stretch ...">02</div>

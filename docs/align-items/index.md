@@ -2,12 +2,19 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-> Layout
+> Flexbox & Grid
 
 # Align Items
 Utilities for controlling how flex and grid items are positioned along a container's cross axis.
 
 ## Quick reference
+
+| Class           | Description                                                |
+| --------------- | ---------------------------------------------------------- |
+| `items-stretch` | Stretch items to fill the container's cross axis           |
+| `items-start`   | Align items to the start of the container's cross axis     |
+| `items-center`  | Align items along the center of the container's cross axis |
+| `items-end`     | Align items to the end of the container's cross axis       |
 
 ## Basic usage
 ### Stretch

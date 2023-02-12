@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Justify Content
 Utilities for controlling how flex and grid items are positioned along a container's main axis.

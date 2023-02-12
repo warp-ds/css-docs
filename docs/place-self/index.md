@@ -2,7 +2,7 @@
 const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
 </script>
 
-Flex & Grid
+> Flexbox & Grid
 
 # Place Self
 Utilities for controlling how an individual item is justified and aligned at the same time.
