@@ -4,9 +4,9 @@
 
 While Uno usually handles these variants in any order, we do recommend a consistent pattern to maximize readability.
 
-`{Negative}{Breakpoint}{Class}{Important}`
+`{Pseudo}{Breakpoint}{Negative}{Class}{Important}`
 
-For example: `-sm:m-16!`
+For example: `focus:sm:-m-16!`
 
 ## Important
 

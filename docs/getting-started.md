@@ -18,11 +18,11 @@ Create an `uno.config.js` file with the following content. This file will config
 import { defineConfig } from 'unocss'
 import { presetWarp } from '@warp-ds/uno'
 
-export default {
+export default defineConfig({
   presets: [
     presetWarp()
   ]
-}
+})
 ```
 
 #### Adding Uno to your build tool
