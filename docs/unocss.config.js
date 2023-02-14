@@ -9,7 +9,6 @@ export default defineConfig({
   ],
   shortcuts: [
     {
-      'font-ex': 'text-sm font-bold font-mono text-white',
       'ex-font': 'text-sm font-bold font-mono text-white',
       'ex-box': 'ex-font p-24 rounded flex items-center justify-center'
     }
