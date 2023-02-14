@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Align Content
@@ -24,11 +20,11 @@ Use `content-start` to pack rows in a container against the start of the cross a
 
 <container>
   <box striped class="grid grid-cols-3 gap-16 pb-64 content-start" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-500" :class="exampleClasses">01</div>
-    <div class="bg-purple-500" :class="exampleClasses">02</div>
-    <div class="bg-purple-500" :class="exampleClasses">03</div>
-    <div class="bg-purple-500" :class="exampleClasses">04</div>
-    <div class="bg-purple-500" :class="exampleClasses">05</div>
+    <div class="bg-purple-500 ex-box">01</div>
+    <div class="bg-purple-500 ex-box">02</div>
+    <div class="bg-purple-500 ex-box">03</div>
+    <div class="bg-purple-500 ex-box">04</div>
+    <div class="bg-purple-500 ex-box">05</div>
   </box>
 </container>
 
@@ -47,11 +43,11 @@ Use `content-center` to pack rows in a container in the center of the cross axis
 
 <container>
   <box striped class="grid grid-cols-3 gap-16 py-32 content-center" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-    <div class="bg-blue-500" :class="exampleClasses">01</div>
-    <div class="bg-blue-500" :class="exampleClasses">02</div>
-    <div class="bg-blue-500" :class="exampleClasses">03</div>
-    <div class="bg-blue-500" :class="exampleClasses">04</div>
-    <div class="bg-blue-500" :class="exampleClasses">05</div>
+    <div class="bg-blue-500 ex-box">01</div>
+    <div class="bg-blue-500 ex-box">02</div>
+    <div class="bg-blue-500 ex-box">03</div>
+    <div class="bg-blue-500 ex-box">04</div>
+    <div class="bg-blue-500 ex-box">05</div>
   </box>
 </container>
 
@@ -70,11 +66,11 @@ Use `content-end` to pack rows in a container against the end of the cross axis.
 
 <container>
   <box striped class="grid grid-cols-3 gap-16 pt-64 content-start" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500" :class="exampleClasses">01</div>
-    <div class="bg-pink-500" :class="exampleClasses">02</div>
-    <div class="bg-pink-500" :class="exampleClasses">03</div>
-    <div class="bg-pink-500" :class="exampleClasses">04</div>
-    <div class="bg-pink-500" :class="exampleClasses">05</div>
+    <div class="bg-pink-500 ex-box">01</div>
+    <div class="bg-pink-500 ex-box">02</div>
+    <div class="bg-pink-500 ex-box">03</div>
+    <div class="bg-pink-500 ex-box">04</div>
+    <div class="bg-pink-500 ex-box">05</div>
   </box>
 </container>
 
@@ -93,11 +89,11 @@ Use `content-between` to distribute rows in a container such that there is an eq
 
 <container>
   <box striped class="grid grid-cols-3 gap-16 content-start" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
-    <div class="bg-violet-500 mb-64" :class="exampleClasses">01</div>
-    <div class="bg-violet-500 mb-64" :class="exampleClasses">02</div>
-    <div class="bg-violet-500 mb-64" :class="exampleClasses">03</div>
-    <div class="bg-violet-500" :class="exampleClasses">04</div>
-    <div class="bg-violet-500" :class="exampleClasses">05</div>
+    <div class="bg-violet-500 ex-box mb-64">01</div>
+    <div class="bg-violet-500 ex-box mb-64">02</div>
+    <div class="bg-violet-500 ex-box mb-64">03</div>
+    <div class="bg-violet-500 ex-box">04</div>
+    <div class="bg-violet-500 ex-box">05</div>
   </box>
 </container>
 
@@ -116,11 +112,11 @@ Use `content-around` to distribute rows in a container such that there is an equ
 
 <container>
   <box striped class="grid grid-cols-3 gap-x-16 content-start" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500 my-32" :class="exampleClasses">01</div>
-    <div class="bg-cyan-500 my-32" :class="exampleClasses">02</div>
-    <div class="bg-cyan-500 my-32" :class="exampleClasses">03</div>
-    <div class="bg-cyan-500 my-32" :class="exampleClasses">04</div>
-    <div class="bg-cyan-500 my-32" :class="exampleClasses">05</div>
+    <div class="bg-cyan-500 ex-box my-32">01</div>
+    <div class="bg-cyan-500 ex-box my-32">02</div>
+    <div class="bg-cyan-500 ex-box my-32">03</div>
+    <div class="bg-cyan-500 ex-box my-32">04</div>
+    <div class="bg-cyan-500 ex-box my-32">05</div>
   </box>
 </container>
 
@@ -139,11 +135,11 @@ Use `content-evenly` to distribute rows in a container such that there is an equ
 
 <container>
   <box striped class="grid grid-cols-3 gap-x-16 content-start" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-    <div class="bg-indigo-500 my-24" :class="exampleClasses">01</div>
-    <div class="bg-indigo-500 my-24" :class="exampleClasses">02</div>
-    <div class="bg-indigo-500 my-24" :class="exampleClasses">03</div>
-    <div class="bg-indigo-500 mb-24" :class="exampleClasses">04</div>
-    <div class="bg-indigo-500 mb-24" :class="exampleClasses">05</div>
+    <div class="bg-indigo-500 ex-box my-24">01</div>
+    <div class="bg-indigo-500 ex-box my-24">02</div>
+    <div class="bg-indigo-500 ex-box my-24">03</div>
+    <div class="bg-indigo-500 ex-box mb-24">04</div>
+    <div class="bg-indigo-500 ex-box mb-24">05</div>
   </box>
 </container>
 

@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Flex Basis
@@ -24,9 +20,9 @@ Use the `basis-{size}` utilities to set the initial size of flex items.
 
 <container>
   <box class="flex gap-16">
-    <div class="basis-1/4 bg-fuchsia-500" :class="exampleClasses">01</div>
-    <div class="basis-1/4 bg-fuchsia-500" :class="exampleClasses">02</div>
-    <div class="basis-1/2 bg-fuchsia-500" :class="exampleClasses">03</div>
+    <div class="basis-1/4 bg-fuchsia-500 ex-box">01</div>
+    <div class="basis-1/4 bg-fuchsia-500 ex-box">02</div>
+    <div class="basis-1/2 bg-fuchsia-500 ex-box">03</div>
   </box>
 </container>
 

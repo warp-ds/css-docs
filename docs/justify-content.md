@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Justify Content
@@ -24,9 +20,9 @@ Use `justify-start` to justify items against the start of the container’s main
 
 <container>
   <box striped class="flex justify-start gap-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-    <div class="bg-fuchsia-500" :class="exampleClasses">01</div>
-    <div class="bg-fuchsia-500" :class="exampleClasses">02</div>
-    <div class="bg-fuchsia-500" :class="exampleClasses">03</div>
+    <div class="bg-fuchsia-500 ex-box">01</div>
+    <div class="bg-fuchsia-500 ex-box">02</div>
+    <div class="bg-fuchsia-500 ex-box">03</div>
   </box>
 </container>
 
@@ -43,9 +39,9 @@ Use `justify-center` to justify items along the center of the container’s main
 
 <container>
   <box striped class="flex justify-center gap-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-    <div class="bg-blue-500" :class="exampleClasses">01</div>
-    <div class="bg-blue-500" :class="exampleClasses">02</div>
-    <div class="bg-blue-500" :class="exampleClasses">03</div>
+    <div class="bg-blue-500 ex-box">01</div>
+    <div class="bg-blue-500 ex-box">02</div>
+    <div class="bg-blue-500 ex-box">03</div>
   </box>
 </container>
 
@@ -62,9 +58,9 @@ Use `justify-end` to justify items against the end of the container’s main axi
 
 <container>
   <box striped class="flex justify-end gap-16" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500" :class="exampleClasses">01</div>
-    <div class="bg-cyan-500" :class="exampleClasses">02</div>
-    <div class="bg-cyan-500" :class="exampleClasses">03</div>
+    <div class="bg-cyan-500 ex-box">01</div>
+    <div class="bg-cyan-500 ex-box">02</div>
+    <div class="bg-cyan-500 ex-box">03</div>
   </box>
 </container>
 
@@ -81,9 +77,9 @@ Use `justify-between` to justify items along the container’s main axis such th
 
 <container>
   <box striped class="flex justify-between gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500" :class="exampleClasses">01</div>
-    <div class="bg-pink-500" :class="exampleClasses">02</div>
-    <div class="bg-pink-500" :class="exampleClasses">03</div>
+    <div class="bg-pink-500 ex-box">01</div>
+    <div class="bg-pink-500 ex-box">02</div>
+    <div class="bg-pink-500 ex-box">03</div>
   </box>
 </container>
 
@@ -100,9 +96,9 @@ Use `justify-around` to justify items along the container’s main axis such tha
 
 <container>
   <box striped class="flex justify-around gap-16" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
-    <div class="bg-violet-500" :class="exampleClasses">01</div>
-    <div class="bg-violet-500" :class="exampleClasses">02</div>
-    <div class="bg-violet-500" :class="exampleClasses">03</div>
+    <div class="bg-violet-500 ex-box">01</div>
+    <div class="bg-violet-500 ex-box">02</div>
+    <div class="bg-violet-500 ex-box">03</div>
   </box>
 </container>
 
@@ -119,9 +115,9 @@ Use `justify-evenly` to justify items along the container’s main axis such tha
 
 <container>
   <box striped class="flex justify-evenly gap-16" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-    <div class="bg-indigo-500" :class="exampleClasses">01</div>
-    <div class="bg-indigo-500" :class="exampleClasses">02</div>
-    <div class="bg-indigo-500" :class="exampleClasses">03</div>
+    <div class="bg-indigo-500 ex-box">01</div>
+    <div class="bg-indigo-500 ex-box">02</div>
+    <div class="bg-indigo-500 ex-box">03</div>
   </box>
 </container>
 

@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Order
@@ -25,13 +21,13 @@ Use `order-{order}` to render flex and grid items in a different order than they
 
 <container>
   <box class="flex justify-between gap-4">
-    <div class="bg-indigo-500 order-last" :class="exampleClasses">01</div>
-    <div class="bg-indigo-500" :class="exampleClasses">02</div>
-    <div class="bg-indigo-500" :class="exampleClasses">03</div>
+    <div class="bg-indigo-500 ex-box order-last">01</div>
+    <div class="bg-indigo-500 ex-box">02</div>
+    <div class="bg-indigo-500 ex-box">03</div>
   </box>
 </container>
 
-```html
+```html{2}
 <div class="flex justify-between">
   <div class="order-last">01</div>
   <div>02</div>
@@ -42,9 +38,11 @@ Use `order-{order}` to render flex and grid items in a different order than they
 ### Using negative values
 To use a negative order value, prefix the class name with a dash to convert it to a negative value.
 
+```html{1}
 <div class="-order-1">
   <!-- ... -->
 </div>
+```
 
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:row-span-4` to apply the `row-span-4` utility at only medium screen sizes and above.

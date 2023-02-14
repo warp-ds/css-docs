@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Flex Direction
@@ -22,9 +18,9 @@ Use `flex-row` to position flex items horizontally in the same direction as text
 
 <container>
   <box class="flex flex-row gap-16">
-    <div class="bg-fuchsia-500" :class="exampleClasses">01</div>
-    <div class="bg-fuchsia-500" :class="exampleClasses">02</div>
-    <div class="bg-fuchsia-500" :class="exampleClasses">03</div>
+    <div class="bg-fuchsia-500 ex-box">01</div>
+    <div class="bg-fuchsia-500 ex-box">02</div>
+    <div class="bg-fuchsia-500 ex-box">03</div>
   </box>
 </container>
 
@@ -41,9 +37,9 @@ Use `flex-row-reverse` to position flex items horizontally in the opposite direc
 
 <container>
   <box class="flex flex-row-reverse gap-16">
-    <div class="bg-blue-500" :class="exampleClasses">01</div>
-    <div class="bg-blue-500" :class="exampleClasses">02</div>
-    <div class="bg-blue-500" :class="exampleClasses">03</div>
+    <div class="bg-blue-500 ex-box">01</div>
+    <div class="bg-blue-500 ex-box">02</div>
+    <div class="bg-blue-500 ex-box">03</div>
   </box>
 </container>
 
@@ -60,9 +56,9 @@ Use `flex-col` to position flex items vertically.
 
 <container>
   <box class="flex flex-col gap-16">
-    <div class="bg-indigo-500" :class="exampleClasses">01</div>
-    <div class="bg-indigo-500" :class="exampleClasses">02</div>
-    <div class="bg-indigo-500" :class="exampleClasses">03</div>
+    <div class="bg-indigo-500 ex-box">01</div>
+    <div class="bg-indigo-500 ex-box">02</div>
+    <div class="bg-indigo-500 ex-box">03</div>
   </box>
 </container>
 
@@ -79,9 +75,9 @@ Use `flex-col-reverse` to position flex items vertically in the opposite directi
 
 <container>
   <box class="flex flex-col-reverse gap-16">
-    <div class="bg-violet-500" :class="exampleClasses">01</div>
-    <div class="bg-violet-500" :class="exampleClasses">02</div>
-    <div class="bg-violet-500" :class="exampleClasses">03</div>
+    <div class="bg-violet-500 ex-box">01</div>
+    <div class="bg-violet-500 ex-box">02</div>
+    <div class="bg-violet-500 ex-box">03</div>
   </box>
 </container>
 

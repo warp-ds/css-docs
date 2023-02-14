@@ -13,7 +13,7 @@ For example,`mt-16` would add `1.6rem`which should be equivalent of 16px of marg
 
 <container>
   <div class="relative -my-32 -mx-16 rounded-2 overflow-auto">
-    <div class="relative font-ex leading-6 h-128">
+    <div class="relative ex-font leading-6 h-128">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 -ml-16">
         <box striped class="flow-root rounded-b-2" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)" >
           <div class="bg-purple-500 rounded-2 shadow-2 p-16 mt-16">mt-16</div>
@@ -49,7 +49,7 @@ For example,`mt-16` would add `1.6rem`which should be equivalent of 16px of marg
 Control the horizontal margin of an element using the `mx-{size}` utilities.
 <container>
   <div class="relative rounded-2 overflow-auto p-8">
-    <div class="flex justify-center font-ex leading-6">
+    <div class="flex justify-center ex-font leading-6">
       <box striped class="rounded-2" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
         <div class="bg-indigo-500 rounded-2 shadow-lg p-16 mx-32">mx-32</div>
       </box>
@@ -65,7 +65,7 @@ Control the horizontal margin of an element using the `mx-{size}` utilities.
 Control the vertical margin of an element using the `my-{size}` utilities.
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-ex leading-6">
+    <div class="flex justify-center ex-font leading-6">
       <box striped class="flow-root rounded-2" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
         <div class="bg-pink-500 rounded-2 shadow-lg p-16 my-24">my-24</div>
       </box>
@@ -81,7 +81,7 @@ Control the vertical margin of an element using the `my-{size}` utilities.
 Control the margin on all sides of an element using the `m-{size}` utilities.
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-ex leading-6">
+    <div class="flex justify-center ex-font leading-6">
       <box striped class="flow-root rounded-2" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
         <div class="bg-blue-500 rounded-2 shadow-2 p-16 m-32">m-32</div>
       </box>
@@ -97,7 +97,7 @@ Control the margin on all sides of an element using the `m-{size}` utilities.
 To use a negative margin value, prefix the class name with a dash to convert it to a negative value.
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
-    <div class="flex justify-center font-ex leading-6">
+    <div class="flex justify-center ex-font leading-6">
       <div class="flex flex-col items-center">
         <div class="relative w-128 h-64 bg-sky-400/20 border border-sky-700/10 rounded-md overflow-hidden"></div>
         <div class="relative -mt-32 bg-sky-500 rounded-md flex items-center justify-center p-16 shadow-lg">-mt-32</div>

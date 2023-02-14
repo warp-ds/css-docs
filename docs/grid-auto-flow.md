@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Grid Auto Flow
@@ -23,15 +19,15 @@ Use the `grid-flow-{keyword}` utilities to control how the auto-placement algori
 
 <container>
   <box striped class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-800 col-span-2" :class="exampleClasses">01</div>
-    <div class="bg-purple-800 col-span-2" :class="exampleClasses">02</div>
-    <div class="bg-purple-500" :class="exampleClasses">03</div>
-    <div class="bg-purple-800" :class="exampleClasses">04</div>
-    <div class="bg-purple-800" :class="exampleClasses">05</div>
+    <div class="bg-purple-800 ex-box col-span-2">01</div>
+    <div class="bg-purple-800 ex-box col-span-2">02</div>
+    <div class="bg-purple-500 ex-box">03</div>
+    <div class="bg-purple-800 ex-box">04</div>
+    <div class="bg-purple-800 ex-box">05</div>
   </box>
 </container>
 
-```html
+```html{1}
 <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 ...">
   <div class="col-span-2">01</div>
   <div class="col-span-2">02</div>

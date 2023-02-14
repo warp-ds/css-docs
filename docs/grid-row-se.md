@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Grid Rows Start / End
@@ -24,9 +20,9 @@ Use the `row-span-{n}` utilities to make an element span n rows.
 
 <container>
   <box striped class="grid grid-rows-3 grid-flow-col gap-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-    <div class="bg-fuchsia-500 row-span-3" :class="exampleClasses">01</div>
-    <div class="bg-fuchsia-800 col-span-2" :class="exampleClasses">02</div>
-    <div class="bg-fuchsia-500 col-span-2 row-span-2" :class="exampleClasses">03</div>
+    <div class="bg-fuchsia-500 ex-box row-span-3">01</div>
+    <div class="bg-fuchsia-800 ex-box col-span-2">02</div>
+    <div class="bg-fuchsia-500 ex-box col-span-2 row-span-2">03</div>
   </box>
 </container>
 
@@ -45,9 +41,9 @@ Note that CSS grid lines start at 1, not 0, so a full-height element in a 3-row 
 
 <container>
   <box striped class="grid grid-rows-3 grid-flow-col gap-16">
-    <div class="bg-blue-500 row-start-2 row-span-2 ..." :class="exampleClasses">01</div>
-    <div class="bg-blue-500 row-end-3 row-span-2 ..." :class="exampleClasses">02</div>
-    <div class="bg-blue-500 row-start-1 row-end-4" :class="exampleClasses">03</div>
+    <div class="bg-blue-500 ex-box row-start-2 row-span-2 ...">01</div>
+    <div class="bg-blue-500 ex-box row-end-3 row-span-2 ...">02</div>
+    <div class="bg-blue-500 ex-box row-start-1 row-end-4">03</div>
   </box>
 </container>
 

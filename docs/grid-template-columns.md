@@ -1,7 +1,3 @@
-<script setup>
-const exampleClasses = 'p-24 rounded font-ex flex items-center justify-center'
-</script>
-
 > Flexbox & Grid
 
 # Grid Template Columns
@@ -24,15 +20,15 @@ Use the `grid-cols-{n}` utilities to create grids with `n` equally sized columns
 
 <container class="overflow-auto">
   <box striped class="grid grid-cols-4 gap-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500" :class="exampleClasses">01</div>
-    <div class="bg-pink-500" :class="exampleClasses">02</div>
-    <div class="bg-pink-500" :class="exampleClasses">03</div>
-    <div class="bg-pink-500" :class="exampleClasses">04</div>
-    <div class="bg-pink-500" :class="exampleClasses">05</div>
-    <div class="bg-pink-500" :class="exampleClasses">06</div>
-    <div class="bg-pink-500" :class="exampleClasses">07</div>
-    <div class="bg-pink-500" :class="exampleClasses">08</div>
-    <div class="bg-pink-500" :class="exampleClasses">09</div>
+    <div class="bg-pink-500 ex-box">01</div>
+    <div class="bg-pink-500 ex-box">02</div>
+    <div class="bg-pink-500 ex-box">03</div>
+    <div class="bg-pink-500 ex-box">04</div>
+    <div class="bg-pink-500 ex-box">05</div>
+    <div class="bg-pink-500 ex-box">06</div>
+    <div class="bg-pink-500 ex-box">07</div>
+    <div class="bg-pink-500 ex-box">08</div>
+    <div class="bg-pink-500 ex-box">09</div>
   </box>
 </container>
 
