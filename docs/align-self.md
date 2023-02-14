@@ -25,7 +25,7 @@ Use `self-auto` to align an item based on the value of the container’s `align-
   </box>
 </container>
 
-```html
+```html{3}
 <div class="flex grid-cols-3 items-stretch ...">
   <div>01</div>
   <div class="self-auto ...">02</div>
@@ -44,7 +44,7 @@ Use `self-start` to align an item to the start of the container’s cross axis, 
   </box>
 </container>
 
-```html
+```html{3}
 <div class="flex grid-cols-3 items-stretch ...">
   <div>01</div>
   <div class="self-start">02</div>
@@ -57,13 +57,13 @@ Use `self-center` to align an item along the center of the container’s cross a
 
 <container>
   <box striped class="grid grid-cols-3 items-stretch gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="py-64 bg-pink-600">01</div>
-    <div class="self-center bg-pink-500">02</div>
-    <div class="bg-pink-600">03</div>
+    <div class="py-64 bg-pink-600 ex-box">01</div>
+    <div class="self-center bg-pink-500 ex-box">02</div>
+    <div class="bg-pink-600 ex-box">03</div>
   </box>
 </container>
 
-```html
+```html{3}
 <div class="flex items-stretch ...">
   <div>01</div>
   <div class="self-center">02</div>
@@ -82,7 +82,7 @@ Use `self-end` to align an item to the end of the container’s cross axis, desp
   </box>
 </container>
 
-```html
+```html{3}
 <div class="flex items-stretch ...">
   <div>01</div>
   <div class="self-end">02</div>
@@ -100,7 +100,7 @@ Use `self-stretch` to stretch an item to fill the container’s cross axis, desp
   </box>
 </container>
 
-```html
+```html{3}
 <div class="flex items-stretch ...">
   <div>01</div>
   <div class="self-stretch">02</div>
