@@ -22,6 +22,14 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Sizing',
+          collabsible: true,
+          items: [
+            { text: 'Width', link: '/width' },
+            { text: 'Height', link: '/height' },
+          ]
+        },
+        {
           text: 'Spacing',
           collabsible: true,
           items: [
