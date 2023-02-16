@@ -6,6 +6,7 @@ export default defineConfig({
   lastUpdated: false,
   cleanUrls: true,
   markdown: { theme: 'nord' },
+  base: '/css',
   themeConfig: {
     outline: 'deep',
     sidebar: {
