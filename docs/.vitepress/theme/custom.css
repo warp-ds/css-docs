@@ -1,6 +1,11 @@
 :root {
   --vp-code-block-bg: #2e3440ff !important;
+  --vp-code-line-highlight-color: #39455a !important;
   --vp-c-brand: #198BA1 !important;
+  --vp-c-brand-light: #74B9CB !important;
+  --vp-c-brand-lighter: #3EA4BA !important;
+  --vp-c-brand-dark: #277181 !important;
+  --vp-c-brand-darker: #1b4c56 !important;
   --vp-home-hero-name-color: var(--vp-c-brand);
   --vp-font-family-base: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif !important;
 }
