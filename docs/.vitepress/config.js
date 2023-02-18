@@ -3,11 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
   title: 'Warp CSS',
+  description: 'Documentation for the Warp utility-based CSS system and UnoCSS plugin',
   lastUpdated: false,
   cleanUrls: true,
   markdown: { theme: 'nord' },
   base: '/css-docs/',
   themeConfig: {
+    logo: '/warp-logo.svg',
     outline: 'deep',
     sidebar: {
       '/': [

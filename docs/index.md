@@ -4,7 +4,7 @@ hero:
   name: Warp Drive
   text: CSS for Warp
   tagline:
-  image: /warp-logo.png
+  image: /warp-logo.svg
   actions:
   - theme: brand
     text: Get Started →
