@@ -9,7 +9,7 @@ export default defineConfig({
   markdown: { theme: 'nord' },
   base: '/css-docs/',
   themeConfig: {
-    logo: '/warp-logo.svg',
+    logo: '/warp-logo-small.svg',
     outline: 'deep',
     sidebar: {
       '/': [
