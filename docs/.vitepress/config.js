@@ -28,7 +28,11 @@ export default defineConfig({
           collabsible: true,
           items: [
             { text: 'Width', link: '/width' },
+            { text: 'Min-Width', link: '/min-width' },
+            { text: 'Max-Width', link: '/max-width' },           
             { text: 'Height', link: '/height' },
+            { text: 'Min-Height', link: '/min-height' },
+            { text: 'Max-Height', link: '/max-height' },
           ]
         },
         {
