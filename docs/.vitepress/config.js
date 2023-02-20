@@ -24,6 +24,16 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Layout',
+          collabsible: true,
+          items: [
+            { text: 'Aspect Ratio', link: '/aspect-ratio' },
+            { text: 'Display', link: '/display' },
+            { text: 'Object Fit', link: '/object-fit' },
+            { text: 'Object Position', link: '/object-position' },
+          ]
+        },
+        {
           text: 'Sizing',
           collabsible: true,
           items: [
