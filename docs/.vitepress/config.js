@@ -35,6 +35,7 @@ export default defineConfig({
             { text: 'Object Fit', link: '/object-fit' },
             { text: 'Object Position', link: '/object-position' },
             { text: 'Overflow', link: '/overflow' },
+            { text: 'Overscroll', link: '/overscroll' },
           ]
         },
         {
