@@ -29,8 +29,12 @@ export default defineConfig({
           items: [
             { text: 'Aspect Ratio', link: '/aspect-ratio' },
             { text: 'Display', link: '/display' },
+            { text: 'Floats', link: '/floats' },
+            { text: 'Clear', link: '/clear' },
+            { text: 'Isolate', link: '/isolate' },
             { text: 'Object Fit', link: '/object-fit' },
             { text: 'Object Position', link: '/object-position' },
+            { text: 'Overflow', link: '/overflow' },
           ]
         },
         {
