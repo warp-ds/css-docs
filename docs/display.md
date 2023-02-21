@@ -234,3 +234,90 @@ Use contents to create a “phantom” container whose children act like direct 
 </div>
 ```
 
+### Table
+Use the `table`, `table-row`, `table-cell`, `table-caption`, `table-column`, `table-column-group`, `table-header-group`, `table-row-group`, and `table-footer-group` utilities to create elements that behave like their respective table elements.
+<container>
+<div class="table w-full">
+  <div class="table-header-group font-bold">
+    <div class="table-row">
+      <div class="table-cell text-left">Song</div>
+      <div class="table-cell text-left">Artist</div>
+      <div class="table-cell text-left">Year</div>
+    </div>
+  </div>
+  <div class="table-row-group">
+    <div class="table-row">
+      <div class="table-cell">Manic Depression</div>
+      <div class="table-cell">Jimi Hendrix</div>
+      <div class="table-cell">1967</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">(Ballad Of) The Hip Death Goddess</div>
+      <div class="table-cell">Ultimate Spinach</div>
+      <div class="table-cell">1968</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">Sonic Prayer</div>
+      <div class="table-cell">Earthless</div>
+      <div class="table-cell">2017</div>
+    </div>
+  </div>
+</div>
+</container>
+
+```html
+<div class="table w-full ...">
+  <div class="table-header-group ...">
+    <div class="table-row">
+      <div class="table-cell text-left ...">Song</div>
+      <div class="table-cell text-left ...">Artist</div>
+      <div class="table-cell text-left ...">Year</div>
+    </div>
+  </div>
+  <div class="table-row-group">
+    <div class="table-row">
+      <div class="table-cell ...">Manic Depression</div>
+      <div class="table-cell ...">Jimi Hendrix</div>
+      <div class="table-cell ...">1967</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell ...">(Ballad Of) The Hip Death Goddess</div>
+      <div class="table-cell ...">Ultimate Spinach</div>
+      <div class="table-cell ...">1968</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell ...">Sonic Prayer</div>
+      <div class="table-cell ...">Earthless</div>
+      <div class="table-cell ...">2017</div>
+    </div>
+  </div>
+</div>
+```
+
+### Hidden
+Use `hidden` to set an element to `display: none` and remove it from the page layout (compare with `.invisible` from the `visibility` documentation).
+
+<container>
+  <box striped class="grid grid-cols-3 gap-16" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
+    <div class="bg-purple-500 ex-box hidden">01</div>
+    <div class="bg-purple-500 ex-box">02</div>
+    <div class="bg-purple-500 ex-box">03</div>
+  </box>
+</container>
+
+```html{1}
+<div class="grid grid-cols-3 gap-16">
+  <div class="hidden ...">01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+### Breakpoints and media queries
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:inline-flex` to apply the `inline-flex` utility at only medium screen sizes and above.
+
+```html
+<div class="flex md:inline-flex">
+  <!-- ... -->
+</div>
+```
