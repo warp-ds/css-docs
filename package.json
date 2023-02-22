@@ -6,15 +6,18 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs"
+    "build": "vitepress build docs",
+    "lint": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vueuse/core": "^9.12.0",
+    "@warp-ds/eslint-config": "^0.0.1",
     "@warp-ds/preset-docs": "^0.0.7",
     "@warp-ds/uno": "^0.0.11",
+    "eslint": "^8.34.0",
     "unocss": "^0.49.4",
     "vitepress": "1.0.0-alpha.47",
     "vue": "^3.2.47"
@@ -26,5 +29,8 @@
         "vite"
       ]
     }
+  },
+  "eslintConfig": {
+    "extends": "@warp-ds"
   }
 }
