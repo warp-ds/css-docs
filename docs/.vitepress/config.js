@@ -11,6 +11,18 @@ export default defineConfig({
   themeConfig: {
     logo: '/warp-logo-small.svg',
     outline: 'deep',
+    algolia: {
+      appId: 'Q311JSQKZY',
+      apiKey: '6d03c0585e59cf9aec0c86fc18528f30',
+      indexName: 'warpdscss'
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/warp-ds/drive' }
+    ],
+    footer: {
+      message: 'Released under the Apache 2.0 License.',
+      copyright: 'Copyright © 2023-present Schibsted'
+    },
     sidebar: {
       '/': [
         {
@@ -29,7 +41,7 @@ export default defineConfig({
           items: [
             { text: 'Width', link: '/width' },
             { text: 'Min-Width', link: '/min-width' },
-            { text: 'Max-Width', link: '/max-width' },           
+            { text: 'Max-Width', link: '/max-width' },
             { text: 'Height', link: '/height' },
             { text: 'Min-Height', link: '/min-height' },
             { text: 'Max-Height', link: '/max-height' },

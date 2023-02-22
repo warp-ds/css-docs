@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: Warp Drive
-  text: CSS for Warp
+  text: CSS for Warp Design System
   tagline:
   image: /warp-logo.svg
   actions:
