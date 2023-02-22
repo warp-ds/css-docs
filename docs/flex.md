@@ -120,3 +120,12 @@ Use `flex-none` to prevent a flex item from growing or shrinking.
   </div>
 </div>
 ```
+
+### Arbitrary values
+If you need to use a one-off `flex` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+
+```html
+<div class="flex-[2_2_0%]">
+  <!-- ... -->
+</div>
+```
