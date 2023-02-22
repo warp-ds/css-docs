@@ -6,7 +6,10 @@ export default defineConfig({
   description: 'Documentation for the Warp utility-based CSS system and UnoCSS plugin',
   lastUpdated: false,
   cleanUrls: true,
-  markdown: { theme: 'nord' },
+  markdown: {
+    theme: 'nord',
+    headers: { level: [0, 0] }
+  },
   base: '/css-docs/',
   themeConfig: {
     logo: '/warp-logo-small.svg',
