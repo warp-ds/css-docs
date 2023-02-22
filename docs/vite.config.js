@@ -1,5 +1,5 @@
-import uno from 'unocss/vite'
+import uno from 'unocss/vite';
 
 export default {
-  plugins: [uno()]
-}
+  plugins: [uno()],
+};
