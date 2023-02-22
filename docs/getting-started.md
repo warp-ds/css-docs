@@ -1,6 +1,6 @@
 > Introduction
 
-# Getting started
+# Getting Started
 
 ## Integrating Uno and Warp in your project
 

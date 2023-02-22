@@ -4,7 +4,7 @@
 
 The `presetWarp` export provided via `@warp-ds/uno` supports the following options.
 
-```
+```ts
 {
   development?: boolean
   usePreflight?: boolean

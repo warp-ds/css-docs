@@ -16,7 +16,7 @@ export default defineConfig({
     outline: 'deep',
     algolia: {
       appId: 'Q311JSQKZY',
-      apiKey: '6d03c0585e59cf9aec0c86fc18528f30',
+      apiKey: 'f860301343b6bc5003d9d5bb0894947e',
       indexName: 'warpdscss'
     },
     socialLinks: [
