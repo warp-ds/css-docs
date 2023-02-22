@@ -45,7 +45,7 @@ You can also use variant modifiers to target media queries like responsive break
 If you need to use a one-off max-height value, you can use square brackets to generate a property using any arbitrary value.
 
 ```html
-<div class="max-h-[32rem]">
+<div class="max-h-[32]">
   <!-- ... -->
 </div>
 ```

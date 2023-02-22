@@ -36,7 +36,7 @@ You can also use variant modifiers to target media queries like responsive break
 If you need to use a one-off `min-width` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
-<div class="min-w-[50%]">
+<div class="min-w-[50]">
   <!-- ... -->
 </div>
 ```
