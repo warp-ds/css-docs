@@ -7,8 +7,12 @@ const registerSelf = () => widthController?.register(el.value)
 onMounted(registerSelf)
 </script>
 
+<style>
+  .border-strictly-temporary-gray{ border-color: var(--vp-c-border) }
+</style>
+
 <template>
-  <section class="py-32 px-16 rounded-4 border border-gray-200 dark:bg-gray-600 bg-gray-100 dark:bg-gray-700" ref="el">
+  <section class="py-32 px-16 rounded-8 border border-strictly-temporary-gray bg-gray-100 dark:bg-gray-700" ref="el">
     <slot />
   </section>
 </template>
