@@ -26,6 +26,9 @@ export default defineConfig({
       message: 'Released under the Apache 2.0 License.',
       copyright: 'Copyright © 2023-present Schibsted'
     },
+    nav: [
+      { text: 'Warp Tech', link: 'https://warp-ds.github.io/tech-docs' }
+    ],
     sidebar: {
       '/': [
         {
