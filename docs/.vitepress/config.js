@@ -43,6 +43,10 @@ export default defineConfig({
           collabsible: true,
           items: [
             { text: 'Aspect Ratio', link: '/aspect-ratio' },
+            { text: 'Columns', link: '/columns' },
+            { text: 'Break After', link: '/break-after' },
+            { text: 'Break Before', link: '/break-before' },
+            { text: 'Break Inside', link: '/break-inside' },
             { text: 'Display', link: '/display' },
             { text: 'Floats', link: '/floats' },
             { text: 'Clear', link: '/clear' },
