@@ -50,6 +50,7 @@ export default defineConfig({
             { text: 'Break After', link: '/break-after' },
             { text: 'Break Before', link: '/break-before' },
             { text: 'Break Inside', link: '/break-inside' },
+            { text: 'Box sizing', link: '/box-sizing' },
             { text: 'Display', link: '/display' },
             { text: 'Floats', link: '/floats' },
             { text: 'Clear', link: '/clear' },

@@ -4,7 +4,7 @@ import { presetDocs } from '@warp-ds/preset-docs';
 
 export default defineConfig({
   presets: [
-    presetWarp({ usePixels: true, usePreflight: false }),
+    presetWarp({ usePixels: true, usePreflight: true }),
     presetDocs(),
   ],
   shortcuts: [
