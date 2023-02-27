@@ -69,6 +69,7 @@ export default defineConfig({
               link: '/top-right-bottom-left',
             },
             { text: 'Visibility', link: '/visibility' },
+            { text: 'Z-Index', link: '/z-index' },
           ],
         },
         {
