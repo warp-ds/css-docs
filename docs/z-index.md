@@ -9,14 +9,15 @@ Utilities for controlling the stack order of an element.
 | ----------- | --------------------- |
 | `z-{index}` | z-index: {index};     |
 
+> Available values <br />
+> `{index}`: `0`, `10`, `20`, `30`, `40`, `50` , `auto` 
+
 ## The NMP and the z-index 
 For the site to behave in a predictable way we need to follow a strict scheme when it comes to the z-index. The z-index should be kept in these layers:
 
-> z-30: Modals and overlays that are supposed to lay onto of all other parts. 
-
-> z-20: Header
-
-> z-10: The rest
+z-30: Modals and overlays that are supposed to lay onto of all other parts.<br />
+z-20: Header<br />
+z-10: The rest<br />
 
 <!--
 #TODO: Z-index should probably be kept to a bare minimum. Everything has a defined place within the 3 values used today in the FINN platform. Suggest we just support 0, 10, 20, 30, and Auto unless theres a reason to support more.  We might want to make these 3 into semantic z-index classes and maybe have some freerange z-indexes z-0 to z-9 including negatives, these would never interfer with the important ones mentioned above no matter if used in the same stacking-context (which is unlikely anyways)    
