@@ -37,7 +37,7 @@ export default defineConfig({
       '/': [
         {
           text: 'Introduction',
-          collabsible: true,
+          collapsible: true,
           items: [
             { text: 'What is Warp CSS?', link: '/what-is-warp' },
             { text: 'Getting Started', link: '/getting-started' },
@@ -47,7 +47,7 @@ export default defineConfig({
         },
         {
           text: 'Layout',
-          collabsible: true,
+          collapsible: true,
           items: [
             { text: 'Aspect Ratio', link: '/aspect-ratio' },
             { text: 'Columns', link: '/columns' },
@@ -74,7 +74,7 @@ export default defineConfig({
         },
         {
           text: 'Sizing',
-          collabsible: true,
+          collapsible: true,
           items: [
             { text: 'Width', link: '/width' },
             { text: 'Min-Width', link: '/min-width' },
@@ -86,7 +86,7 @@ export default defineConfig({
         },
         {
           text: 'Spacing',
-          collabsible: true,
+          collapsible: true,
           items: [
             { text: 'Padding', link: '/padding' },
             { text: 'Margin', link: '/margin' },
@@ -95,7 +95,7 @@ export default defineConfig({
         },
         {
           text: 'Flexbox & Grid',
-          collabsible: true,
+          collapsible: true,
           items: [
             { text: 'Flex', link: '/flex' },
             { text: 'Flex Basis', link: '/flex-basis' },
@@ -130,6 +130,15 @@ export default defineConfig({
             { text: 'Place Content', link: '/place-content' },
             { text: 'Place Items', link: '/place-items' },
             { text: 'Place Self', link: '/place-self' },
+          ],
+        },
+        {
+          text: 'Border',
+          collapsible: true,
+          items: [
+            { text: 'Border Radius', link: '/border-radius' },
+            { text: 'Border Width', link: '/border-width' },
+            { text: 'Border Color', link: '/border-color' },
           ],
         },
       ],
