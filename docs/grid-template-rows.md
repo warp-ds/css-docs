@@ -19,7 +19,7 @@ Utilities for specifying the rows in a grid layout.
 Use the `grid-rows-{n}` utilities to create grids with n equally sized rows.
 
 <container class="overflow-auto">
-  <box striped class="grid grid-rows-4 grid-flow-col gap-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
+  <box striped class="grid grid-rows-4 grid-flow-col gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
     <div class="bg-pink-500 ex-box">01</div>
     <div class="bg-pink-500 ex-box">02</div>
     <div class="bg-pink-500 ex-box">03</div>
