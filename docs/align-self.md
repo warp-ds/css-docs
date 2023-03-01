@@ -108,11 +108,4 @@ Use `self-stretch` to stretch an item to fill the container’s cross axis, desp
 </div>
 ```
 
-### Breakpoints and media queries
-You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:self-end` to apply the `self-end` utility at only medium screen sizes and above.
-
-```html
-<div class="self-auto md:self-end">
-  <!-- ... -->
-</div>
-```
+<!--@include: ./_breakpoints-and-media-queries.md-->

@@ -108,11 +108,4 @@ Use `items-baseline` to align items along the container’s cross axis such that
 </div>
 ```
 
-### Breakpoints and media queries
-You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:items-center` to apply the `items-center` utility at only medium screen sizes and above.
-
-```html
-<div class="flex items-stretch md:items-center">
-  <!-- ... -->
-</div>
-```
+<!--@include: ./_breakpoints-and-media-queries.md-->
