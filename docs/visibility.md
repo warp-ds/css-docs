@@ -12,12 +12,12 @@ Utilities for controlling the visibility of an element.
 | `invisible` | visibility: hidden;   |
 | `collapse`  | visibility: collapse; |
 
-<!-- 
+<!--
 
 #TODO: Collapse doesnt work
 
-Sidenote:  Visibility: collapse used to have / has(?) so many weird quirks that we might wanna keep it ignored(?). 
-I think Chrome still treats it = visibility: hidden which makes it kinda useless. 
+Sidenote:  Visibility: collapse used to have / has(?) so many weird quirks that we might wanna keep it ignored(?).
+I think Chrome still treats it = visibility: hidden which makes it kinda useless.
 https://caniuse.com/mdn-css_properties_visibility_collapse
 
 -->
@@ -62,19 +62,19 @@ This makes it possible to dynamically toggle rows and columns without affecting 
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>
@@ -89,19 +89,19 @@ This makes it possible to dynamically toggle rows and columns without affecting 
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr class="collapse">
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>
@@ -116,19 +116,19 @@ This makes it possible to dynamically toggle rows and columns without affecting 
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr class="hidden">
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>
@@ -181,7 +181,7 @@ Use `visible` to make an element visible. This is mostly useful for undoing the 
 </div>
 ```
 ### Breakpoints and media queries
-You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:invisible` to apply the `invisible` utility 
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:invisible` to apply the `invisible` utility
 at only medium screen sizes and above.
 
 ```html

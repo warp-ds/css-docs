@@ -18,7 +18,7 @@ Utilities for controlling how elements in a grid are auto-placed.
 Use the `grid-flow-{keyword}` utilities to control how the auto-placement algorithm works for a grid layout.
 
 <container>
-  <box striped class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
+  <box striped class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-16" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
     <div class="bg-purple-800 ex-box col-span-2">01</div>
     <div class="bg-purple-800 ex-box col-span-2">02</div>
     <div class="bg-purple-500 ex-box">03</div>
