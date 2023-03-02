@@ -12,8 +12,11 @@ export default defineConfig({
     headers: { level: [0, 0] },
   },
   base: '/css-docs/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/warp-logo-tiny.svg' }]
+  ],
   themeConfig: {
-    logo: '/warp-logo-small.svg',
+    logo: '/warp-logo-tiny.svg',
     outline: 'deep',
     algolia: {
       appId: 'Q311JSQKZY',
