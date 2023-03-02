@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress';
 
+const base = '/css-docs'
+
 export default defineConfig({
   lang: 'en-US',
   title: 'Warp CSS',
@@ -11,9 +13,9 @@ export default defineConfig({
     theme: 'nord',
     headers: { level: [0, 0] },
   },
-  base: '/css-docs/',
+  base: `${base}/`,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/warp-logo-tiny.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}/warp-logo-tiny.svg` }]
   ],
   themeConfig: {
     logo: '/warp-logo-tiny.svg',
