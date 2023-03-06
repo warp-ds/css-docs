@@ -629,6 +629,12 @@ packages:
       '@unocss/core': 0.49.4
     dev: true
 
+  /@unocss/preset-mini/0.49.8:
+    resolution: {integrity: sha512-iJEbunr8sPdvZkp/ncHL3853LobfMtn5l1yE+6MDr7kjiS9Teiopt+FkR2xSmv8nCcCp39gFT3mKtJ/sZVG61Q==}
+    dependencies:
+      '@unocss/core': 0.49.8
+    dev: true
+
   /@unocss/preset-tagify/0.49.4:
     resolution: {integrity: sha512-9KBrkPNZefejUYZlfRHHcdmWPISkAvc1BAZTZYvwOHgacQMKlcfscEVW985E78z14er4nJ7qZNP95o76MYhCQg==}
     dependencies:
@@ -890,7 +896,7 @@ packages:
     resolution: {integrity: sha512-OAQc+oh9Q4siv/HO3C6NLV/SCXOUNsRqsdk6kb74OYPYTNmV6+RY0cc6MWgDRBcD08vt+4dsRdNorvL070KGsg==}
     dependencies:
       '@unocss/core': 0.49.8
-      '@unocss/preset-mini': 0.49.4
+      '@unocss/preset-mini': 0.49.8
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
