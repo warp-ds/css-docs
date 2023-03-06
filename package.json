@@ -11,7 +11,7 @@
     "@vueuse/core": "^9.12.0",
     "@warp-ds/eslint-config": "^0.0.1",
     "@warp-ds/preset-docs": "^0.0.9",
-    "@warp-ds/uno": "^0.0.14",
+    "@warp-ds/uno": "^0.0.15",
     "eslint": "^8.34.0",
     "unocss": "^0.49.4",
     "vitepress": "1.0.0-alpha.47",
