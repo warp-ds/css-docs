@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 
-const base = '/css-docs'
+const base = '/css-docs';
 
 export default defineConfig({
   lang: 'en-US',
@@ -15,7 +15,14 @@ export default defineConfig({
   },
   base: `${base}/`,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}/warp-logo-tiny.svg` }]
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: `${base}/warp-logo-tiny.svg`,
+      },
+    ],
   ],
   themeConfig: {
     logo: '/warp-logo-tiny.svg',
@@ -89,6 +96,22 @@ export default defineConfig({
             { text: 'Max-Height', link: '/max-height' },
           ],
         },
+        {
+          text: 'Typography',
+          collapsible: true,
+          items: [
+            { text: 'Font Size', link: '/font-size' },
+            { text: 'Font Style', link: '/font-style' },
+            {
+              text: 'Font Variant Numeric',
+              link: '/font-variant-numeric',
+            },
+            { text: 'Line Height', link: '/line-height' },
+            { text: 'Text Align', link: '/text-align' },
+            { text: 'Text Color', link: '/text-color' },
+          ],
+        },
+
         {
           text: 'Spacing',
           collapsible: true,
