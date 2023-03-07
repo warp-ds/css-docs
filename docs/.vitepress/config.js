@@ -109,6 +109,13 @@ export default defineConfig({
             { text: 'Line Height', link: '/line-height' },
             { text: 'Text Align', link: '/text-align' },
             { text: 'Text Color', link: '/text-color' },
+            { text: 'Text Decoration', link: '/text-decoration' },
+            { text: 'Text Transform', link: '/text-transform' },
+            { text: 'Text Overflow', link: '/text-overflow' },
+            { text: 'Vertical Align', link: '/vertical-align' },
+            { text: 'Whitespace', link: '/whitespace' },
+            { text: 'Word Break', link: '/word-break' },
+            { text: 'Content', link: '/content' },
           ],
         },
 
