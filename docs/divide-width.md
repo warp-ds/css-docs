@@ -9,12 +9,10 @@ Utilities for controlling the border width between elements.
 | --------------------------------- | ----------------------------------------------------------- |
 | `divide-x` > * + *                | border-right-width: 1px <br /> border-left-width: 1px       |
 | `divide-y` > * + *                | border-top-width: 1px <br /> border-bottom-width: 1px       |
-| `divide-x-reverse` > * + *        | Flips the borders to work with flex-row-reverse             |
-| `divide-y-reverse` > * + *        | Flips the borders to work with flex-col-reverse             |
 | `divide-x-{size}` > * + *         | border-right-width: {size} <br /> border-left-width: {size} |
 | `divide-y-{size}` > * + *         | border-top-width: {size} <br /> border-bottom-width: {size} |
-| `divide-x-{size}-reverse` > * + * | Flips the borders to work with flex-row-reverse             |
-| `divide-y-{size}-reverse` > * + * | Flips the borders to work with flex-col-reverse             |
+| `divide-x-reverse` > * + *        | Flips the borders to work with flex-row-reverse             |
+| `divide-y-reverse` > * + *        | Flips the borders to work with flex-col-reverse             |
 
 > Available values<br />
 `{sizes}` : `0`, `2`, `4`, `8`
@@ -65,7 +63,7 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="flex flex-col-reverse bg-pink-500 rounded-8 divide-y-reverse w-full max-w-[300]">
+    <div class="flex flex-col-reverse bg-pink-500 rounded-8 divide-y divide-y-reverse w-full max-w-[300]">
       <div class="p-24 text-center">1</div>
       <div class="p-24 text-center">2</div>
       <div class="p-24 text-center">3</div>
