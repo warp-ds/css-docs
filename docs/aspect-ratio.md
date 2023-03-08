@@ -16,6 +16,10 @@ Utilities for controlling the aspect ratio of an element.
 | `aspect-16/9`   | Sets the aspect ratio to 16:9 |
 | `aspect-2/1`    | Sets the aspect ratio to 2:1  |
 
+::: tip Note
+Aspect ratio support is currently provided via the ['padding-bottom'](https://css-tricks.com/aspect-ratio-boxes/) fallback method. The built-in `aspect-ratio` property is not yet well supported.
+:::
+
 ## Basic usage
 
 ### Setting the aspect ratio

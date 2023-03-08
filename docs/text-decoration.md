@@ -5,12 +5,7 @@ Utilities for controlling the decoration of text.
 
 ## Quick reference
 
-| Class          | Description                         |
-| -------------- | ----------------------------------- |
-| `underline`    | text-decoration-line: underline;    |
-| `line-through` | text-decoration-line: line-through; |
-| `no-underline` | text-decoration-line: none;         |
-
+<qr-table />
 
 ## Basic usage
 ### Setting the text decoration

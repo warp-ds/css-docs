@@ -5,12 +5,12 @@ Utilities for controlling the order of flex and grid items.
 
 ## Quick reference
 
-| Class            | Description                            |
-| ---------------- | -------------------------------------- |
-| `order-{value}`  | Set the order of an item to `{value}`  |
-| `order-none`     | Set the order of an item to `0`        |
-| `order-first`    | Force an item to be first in order     |
-| `order-last`     | Force an item to be last in order      |
+| Class            | Description       |
+| ---------------- | ----------------- |
+| `order-{value}`  | `order: {value}`  |
+| `order-none`     | `order: 0`        |
+| `order-first`    | `order: -9999`    |
+| `order-last`     | `order: 9999`     |
 
 > Available values <br />
 > `{value}`: `1` through `12` <br />

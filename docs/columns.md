@@ -5,10 +5,10 @@ Utilities for controlling the number of columns within an element.
 
 ## Quick reference
 
-| Class           | Description                                                             |
-| --------------- | ----------------------------------------------------------------------- |
-| `columns-{n}`   | columns:{n}  - Make inline content flow 'naturally' in `{n}` columns.   |
-| `columns-auto`  | columns:auto;                                                           |
+| Class           | Description     |
+| --------------- | --------------- |
+| `columns-{n}`   | `columns: {n}`  |
+| `columns-auto`  | `columns: auto` |
 
 > Available values <br />
 > `{n}`: `1` through `12` <br />
@@ -22,7 +22,7 @@ Use the `columns-{count}` utilities to set the number of columns that should be 
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <img class="w-full mb-24" src="/la09.jpg" alt="Ai generated line drawing of warp scientists">
       <img class="w-full aspect-square object-cover mb-24" src="/la01.jpg" alt="Ai generated line drawing of warp related scene">
-      <img class="w-full mb-24" src="/la02.jpg" alt="Ai generated line drawing of warp related scene"> 
+      <img class="w-full mb-24" src="/la02.jpg" alt="Ai generated line drawing of warp related scene">
       <img class="w-full mb-24" src="/la06.jpg" alt="Ai generated line drawing of warp related scene">
       <img class="w-full aspect-square object-cover mb-24" src="/la03.jpg" alt="Ai generated line drawing of warp related scene">
       <img class="w-full mb-24" src="/la04.jpg" alt="Ai generated line drawing of warp related scene">
@@ -50,11 +50,11 @@ Use the `columns-{count}` utilities to set the number of columns that should be 
 To specify the width between columns, you can use the `gap-x` utilities.
 
 <container>
-  <div class="grid grid-cols-[1fr_2.4rem_1fr_2.4rem_1fr]" style=""> 
+  <div class="grid grid-cols-[1fr_2.4rem_1fr_2.4rem_1fr]" style="">
     <div class="flex flex-col w-full">
       <img class="w-full mb-24" src="/la09.jpg" alt="Ai generated line drawing of warp scientists">
       <img class="w-full aspect-square object-cover mb-24" src="/la01.jpg" alt="Ai generated line drawing of warp related scene">
-      <img class="w-full mb-24" src="/la02.jpg" alt="Ai generated line drawing of warp related scene"> 
+      <img class="w-full mb-24" src="/la02.jpg" alt="Ai generated line drawing of warp related scene">
       <img class="w-full mb-24" src="/la06.jpg" alt="Ai generated line drawing of warp related scene">
     </div>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)"></box>

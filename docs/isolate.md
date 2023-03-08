@@ -4,10 +4,8 @@
 Utilities for controlling whether an element should explicitly create a new stacking context.
 
 ## Quick reference
-| Class               | Description                           |
-| ------------------- | ------------------------------------- |
-| `isolate`           | isolation: isolate;                   |
-| `isolation-auto`    | isolation: auto;                      |
+
+<qr-table />
 
 ## Basic usage
 ### Setting the stacking context

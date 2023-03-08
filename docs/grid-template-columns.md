@@ -5,10 +5,10 @@ Utilities for specifying the columns in a grid layout.
 
 ## Quick reference
 
-| Class                    | Description                                              |
-| ------------------------ | -------------------------------------------------------- |
-| `grid-cols-{n}`          | Create a grid with `{n}` equally sized columns           |
-| `grid-cols-[{col-spec}]` | Create a grid with the columns specified in `{col-spec}` |
+| Class                    | Description                                          |
+| ------------------------ | ---------------------------------------------------- |
+| `grid-cols-{n}`          | `grid-template-columns: repeat({n} ,minmax(0,1fr))`  |
+| `grid-cols-[{col-spec}]` | `grid-template-columns: {col-spec}`                  |
 
 > Available values <br />
 > `{n}`: `1` through `13` <br />

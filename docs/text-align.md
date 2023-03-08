@@ -5,15 +5,7 @@ Utilities for controlling the alignment of text.
 
 ## Quick reference
 
-| Class          | Description          |
-| -------------- | -------------------- |
-| `text-left`    | text-align: left;    |
-| `text-center`  | text-align: center;  |
-| `text-right`   | text-align: right;   |
-| `text-justify` | text-align: justify; |
-| `text-start`   | text-align: start;   |
-| `text-end`     | text-align: end;     |
-
+<qr-table />
 
 ## Basic usage
 ### Setting the text alignment
