@@ -8,13 +8,15 @@
     "lint": "eslint . --fix"
   },
   "devDependencies": {
+    "@itsy/okay": "^0.0.2",
+    "@unocss/core": "^0.50.4",
     "@vueuse/core": "^9.13.0",
     "@warp-ds/eslint-config": "^0.0.1",
     "@warp-ds/preset-docs": "^0.0.10",
     "@warp-ds/uno": "^0.0.15",
     "eslint": "^8.35.0",
     "unocss": "^0.50.4",
-    "vitepress": "1.0.0-alpha.47",
+    "vitepress": "1.0.0-alpha.50",
     "vue": "^3.2.47"
   },
   "pnpm": {
