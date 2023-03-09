@@ -1,3 +1,52 @@
+export const backgroundAttachment = [
+  'bg-fixed',
+  'bg-local',
+  'bg-scroll',
+];
+
+export const backgroundClip = [
+  'bg-clip-border',
+  'bg-clip-padding',
+  'bg-clip-content',
+  'bg-clip-text',
+];
+
+export const backgroundColor = [
+  'bg-inherit',
+  'bg-current',
+  'bg-transparent',
+  'bg-normal',
+];
+
+export const backgroundOrigin = [
+  'bg-origin-border',
+  'bg-origin-padding',
+  'bg-origin-content',
+];
+
+export const backgroundPosition = [
+  'bg-bottom',
+  'bg-center',
+  'bg-left',
+  'bg-left-bottom',
+  'bg-left-top',
+  'bg-right',
+  'bg-right-bottom',
+  'bg-right-top',
+  'bg-top',
+];
+
+export const backgroundRepeat = [
+  'bg-repeat',
+  'bg-no-repeat',
+  'bg-repeat-x',
+  'bg-repeat-y',
+  'bg-repeat-round',
+  'bg-repeat-space',
+];
+
+export const backgroundSize = ['bg-auto', 'bg-cover', 'bg-contain'];
+
 export const breakAfter = [
   'break-after-auto',
   'break-after-avoid',
@@ -27,10 +76,7 @@ export const breakInside = [
   'break-inside-avoid-column',
 ];
 
-export const boxSizing = [
-  'box-border',
-  'box-content',
-];
+export const boxSizing = ['box-border', 'box-content'];
 
 export const display = [
   'hidden',
@@ -56,11 +102,7 @@ export const display = [
   'list-item',
 ];
 
-export const floats = [
-  'float-right',
-  'float-left',
-  'float-none',
-];
+export const floats = ['float-right', 'float-left', 'float-none'];
 
 export const clear = [
   'clear-left',
@@ -69,10 +111,7 @@ export const clear = [
   'clear-none',
 ];
 
-export const isolate = [
-  'isolate',
-  'isolation-auto',
-];
+export const isolate = ['isolate', 'isolation-auto'];
 
 export const objectFit = [
   'object-contain',
@@ -132,11 +171,7 @@ export const position = [
   'sticky',
 ];
 
-export const visibility = [
-  'visible',
-  'invisible',
-  'collapse',
-];
+export const visibility = ['visible', 'invisible', 'collapse'];
 
 export const minWidth = [
   'min-w-0',
@@ -169,15 +204,9 @@ export const fontSize = [
   'text-t6',
 ];
 
-export const fontStyle = [
-  'italic',
-  'not-italic',
-];
+export const fontStyle = ['italic', 'not-italic'];
 
-export const fontVariantNumeric = [
-  'normal-nums',
-  'tabular-nums',
-];
+export const fontVariantNumeric = ['normal-nums', 'tabular-nums'];
 
 // !TODO - different names
 export const lineHeight = [
@@ -267,15 +296,9 @@ export const flexDirection = [
   'flex-col-reverse',
 ];
 
-export const flexGrow = [
-  'grow',
-  'grow-0',
-];
+export const flexGrow = ['grow', 'grow-0'];
 
-export const flexShrink = [
-  'shrink',
-  'shrink-0',
-];
+export const flexShrink = ['shrink', 'shrink-0'];
 
 export const flexWrap = [
   'flex-nowrap',
