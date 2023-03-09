@@ -5,12 +5,7 @@ Utilities for controlling how items are justified and aligned at the same time.
 
 ## Quick reference
 
-| Class                 | Description                                   |
-| --------------------- | --------------------------------------------- |
-| `place-items-start`   | Place items on the start of their grid areas  |
-| `place-items-end`     | Place items on the end of their grid areas    |
-| `place-items-center`  | Place items on the center of their grid areas |
-| `place-items-stretch` | Stretch items along their grid areas          |
+<qr-table />
 
 ## Basic usage
 ### Start

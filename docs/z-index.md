@@ -7,12 +7,12 @@ Utilities for controlling the stack order of an element.
 
 | Class       | Description           |
 | ----------- | --------------------- |
-| `z-{index}` | z-index: {index};     |
+| `z-{index}` | `z-index: {index}`    |
 
 > Available values <br />
-> `{index}`: `0`, `10`, `20`, `30`, `40`, `50` , `auto` 
+> `{index}`: `0`, `10`, `20`, `30`, `40`, `50` , `auto`
 
-## The NMP and the z-index 
+## The NMP and the z-index
 For the site to behave in a predictable way we need to follow a strict scheme when it comes to the z-index. The z-index should be kept in these layers:
 
 z-30: Modals and overlays that are supposed to lay onto of all other parts.<br />
@@ -20,7 +20,7 @@ z-20: Header<br />
 z-10: The rest<br />
 
 <!--
-#TODO: Z-index should probably be kept to a bare minimum. Everything has a defined place within the 3 values used today in the FINN platform. Suggest we just support 0, 10, 20, 30, and Auto unless theres a reason to support more.  We might want to make these 3 into semantic z-index classes and maybe have some freerange z-indexes z-0 to z-9 including negatives, these would never interfer with the important ones mentioned above no matter if used in the same stacking-context (which is unlikely anyways)    
+#TODO: Z-index should probably be kept to a bare minimum. Everything has a defined place within the 3 values used today in the FINN platform. Suggest we just support 0, 10, 20, 30, and Auto unless theres a reason to support more.  We might want to make these 3 into semantic z-index classes and maybe have some freerange z-indexes z-0 to z-9 including negatives, these would never interfer with the important ones mentioned above no matter if used in the same stacking-context (which is unlikely anyways)
 -->
 ## Basic usage
 ### Setting the z-index
@@ -31,7 +31,7 @@ Control the stack order (or three-dimensional positioning) of an element in warp
   <div class="flex justify-center -space-x-24 font-mono text-white text-sm font-bold">
     <div class="w-80 h-80 rounded-full flex items-center justify-center bg-pink-500 z-0 border">01</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center bg-fuchsia-500 z-10 border">02</div>
-    <div class="w-80 h-80 rounded-full flex items-center justify-center bg-purple-500 z-20 border">03</div>   
+    <div class="w-80 h-80 rounded-full flex items-center justify-center bg-purple-500 z-20 border">03</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center bg-violet-500 z-30 border">04</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center bg-indigo-500 z-20 border">05</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center bg-blue-500 z-10 border">06</div>

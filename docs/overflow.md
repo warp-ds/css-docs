@@ -5,23 +5,7 @@ Utilities for controlling how an element handles content that is too large for t
 
 ## Quick reference
 
-| Class                 | Description                   |
-| ----------------------| ----------------------------- |
-| `overflow-auto`       | overflow: auto;               |
-| `overflow-hidden`     | overflow: hidden;             |
-| `overflow-clip`       | overflow: clip;               |
-| `overflow-visible`    | overflow: visible;            |
-| `overflow-scroll`     | overflow: scroll;             |
-| `overflow-x-auto`     | overflow-x: auto;             |
-| `overflow-y-auto`     | overflow-y: auto;             |
-| `overflow-x-hidden`   | overflow-x: hidden;           |
-| `overflow-y-hidden`   | overflow-y: hidden;           |
-| `overflow-x-clip`     | overflow-x: clip;             |
-| `overflow-y-clip`     | overflow-y: clip;             |
-| `overflow-x-visible`  | overflow-x: visible;          |
-| `overflow-y-visible`  | overflow-y: visible;          |
-| `overflow-x-scroll`   | overflow-x: scroll;           |
-| `overflow-y-scroll`   | overflow-y: scroll;           |
+<qr-table />
 
 ## Basic usage
 ### Showing content that overflows
@@ -32,10 +16,10 @@ Use `overflow-visible` to prevent content within an element from being clipped. 
     <div class="relative">
       <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center overflow-visible">
-          <img src="/matter.jpg" class="absolute aspect-1/1 object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/matter.jpg" class="absolute aspect-1/1 object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="pl-112">
             <div class="font-bold">Justina Matter</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
       </div>
@@ -55,10 +39,10 @@ Use `overflow-hidden` to clip any content within an element that overflows the b
     <div class="relative">
       <div style="width:300px;" class="relative overflow-hidden mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center ">
-          <img src="/matter.jpg" class="absolute aspect-1/1 object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/matter.jpg" class="absolute aspect-1/1 object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="pl-112">
             <div class="font-bold">Justina Matter</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
       </div>
@@ -78,34 +62,34 @@ Use `overflow-auto` to add scrollbars to an element in the event that its conten
     <div class="relative">
       <div style="width:300px;max-height:275px" class="relative overflow-auto mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center ">
-          <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Justina Matter</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Narve Hoops</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Dagny Calamity</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Joar Quack</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
       </div>
@@ -126,45 +110,45 @@ Use `overflow-x-scroll` to allow horizontal scrolling and always show scrollbars
       <div class="flex cols-6">
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/matter.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Matter</div>  
-          </div> 
+            <img src="/matter.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Matter</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile1.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Hoops</div>  
-          </div> 
+            <img src="/profile1.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Hoops</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile2.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Quack</div>  
-          </div> 
+            <img src="/profile2.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Quack</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile3.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Sparks</div>  
-          </div> 
+            <img src="/profile3.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Sparks</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile4.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Hubble</div>  
-          </div> 
+            <img src="/profile4.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Hubble</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile5.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Calamity</div>  
-          </div> 
+            <img src="/profile5.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Calamity</div>
+          </div>
         </div>
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
-            <img src="/profile6.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
-            <div class="font-bold">Glum</div>  
-          </div> 
+            <img src="/profile6.jpg" class="aspect-1/1 object-cover w-64 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <div class="font-bold">Glum</div>
+          </div>
         </div>
       </div>
     </div>
@@ -179,34 +163,34 @@ Use `overflow-y-scroll` to allow vertical scrolling and always show scrollbars u
     <div class="relative">
       <div style="width:300px;max-height:275px" class="relative overflow-y-scroll mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center ">
-          <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Justina Matter</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Narve Hoops</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Dagny Calamity</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Joar Quack</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
       </div>

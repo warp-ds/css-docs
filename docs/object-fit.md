@@ -5,13 +5,7 @@ Utilities for controlling how a replaced element's content should be resized.
 
 ## Quick reference
 
-| Class                 | Description               |
-| ----------------------| ------------------------- |
-| `object-contain`      | object-fit: contain;      |
-| `object-cover`        | object-fit: cover;        |
-| `object-fill`         | object-fit: fill;         |
-| `object-none`         | object-fit: none;         |
-| `object-scale-down`   | object-fit: scale.down;   |
+<qr-table />
 
 ## Basic usage
 ### Resizing to cover a container
@@ -20,7 +14,7 @@ Resize an element’s content to cover its container using `.object-cover`.
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-cover aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />    
+      <img src="/50s-scientists.jpg" class="object-cover aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
     </box>
   </div>
 </container>
@@ -36,7 +30,7 @@ Resize an element’s content to stay contained within its container using `.obj
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-contain aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />    
+      <img src="/50s-scientists.jpg" class="object-contain aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
     </box>
   </div>
 </container>
@@ -52,7 +46,7 @@ Stretch an element’s content to fit its container using `.object-fill`.
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-stretch aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />    
+      <img src="/50s-scientists.jpg" class="object-stretch aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
     </box>
   </div>
 </container>
@@ -69,7 +63,7 @@ Display an element’s content at its original size but scale it down to fit its
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-scale-down aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />    
+      <img src="/50s-scientists.jpg" class="object-scale-down aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
     </box>
   </div>
 </container>
@@ -86,7 +80,7 @@ Display an element’s content at its original size ignoring the container size 
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-none aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />    
+      <img src="/50s-scientists.jpg" class="object-none aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
     </box>
   </div>
 </container>

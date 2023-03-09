@@ -5,15 +5,15 @@ Utilities for setting the maximum height of an element.
 
 ## Quick reference
 
-| Class               | Description                                                          |
-| ------------------- | -------------------------------------------------------------------- |
-| `max-h-full`        | max-height: 100%;                                                    |
-| `max-h-screen`      | max-height: 100vh;                                                   |
-| `max-h-min`         | max-height: min-content;                                             |
-| `max-h-max`         | max-height: max-content;                                             |
-| `max-h-fit`         | max-height: fit-content;                                             |
-| `max-h-{size}`      | Set the max-height of the item to `{size}`                           |
-| `max-h-{fraction}`  | Set the max-height of the item to a percentage based on `{fraction}` |
+| Class               | Description               |
+| ------------------- | ------------------------- |
+| `max-h-full`        | `max-height: 100%`        |
+| `max-h-screen`      | `max-height: 100vh`       |
+| `max-h-min`         | `max-height: min-content` |
+| `max-h-max`         | `max-height: max-content` |
+| `max-h-fit`         | `max-height: fit-content` |
+| `max-h-{size}`      | `max-height: {size}`      |
+| `max-h-{fraction}`  | `max-height: {fraction}`  |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />

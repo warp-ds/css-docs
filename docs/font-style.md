@@ -5,11 +5,7 @@ Utilities for controlling the style of text.
 
 ## Quick reference
 
-| Class         | Description         |
-| ------------- | ------------------- |
-| `italic`      | font-style: italic; |
-| `not-italic` | font-style: normal; |
-
+<qr-table />
 
 ## Basic usage
 ### Italicizing text

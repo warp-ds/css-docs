@@ -5,29 +5,7 @@ Utilities for controlling the display box type of an element.
 
 ## Quick reference
 
-| Class                 | Description                   |
-| ----------------------| ----------------------------- |
-| `block`	              | display: block;               |
-| `inline-block`	      | display: inline-block;        |
-| `inline`              |	display: inline;              |
-| `flex`                |	display: flex;                |
-| `inline-flex`         |	display: inline-flex;         |
-| `table`               |	display: table;               |
-| `inline-table`        |	display: inline-table;        |
-| `table-caption`       |	display: table-caption;       |
-| `table-cell`	        | display: table-cell;          |
-| `table-column`	      | display: table-column;        |
-| `table-column-group`	| display: table-column-group;  |
-| `table-footer-group`	| display: table-footer-group;  |
-| `table-header-group`	| display: table-header-group;  |
-| `table-row-group`     | display: table-row-group;     |
-| `table-row`	          | display: table-row;           |
-| `flow-root`	          | display: flow-root;           |
-| `grid`	              | display: grid;                |
-| `inline-grid`         |	display: inline-grid;         |
-| `contents`            |	display: contents;            |
-| `list-item`           |	display: list-item;           |
-| `hidden`              |	display: none;                |
+<qr-table />
 
 ## Basic usage
 ### Block And Inline
@@ -100,10 +78,10 @@ Use `flex` to create a block-level flex container.
     <div class="relative rounded-xl overflow-auto">
       <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center">
-          <img src="/matter.jpg" class="aspect-1/1 object-cover h-64 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />  
+          <img src="/matter.jpg" class="aspect-1/1 object-cover h-64 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Justina Matter</div>
-            <span>Warp Scientist</span>  
+            <span>Warp Scientist</span>
           </div>
         </div>
       </div>

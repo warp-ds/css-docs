@@ -1,19 +1,19 @@
 > Layout
 
-# Align Items
-Utilities for controlling how flex and grid items are positioned along a container's cross axis.
+# Top / Right / Bottom / Left
+Utilities for controlling the placement of positioned elements.
 
 ## Quick reference
 
 | Class                     | Description                                                         |
 | ------------------------- | ------------------------------------------------------------------- |
-| `top-{size}`              | top: {size};                                                        |
-| `right-{size}`            | right: {size};                                                      |
-| `bottom-{size}`           | bottom: {size};                                                     |
-| `left-{size}`             | left: {size};                                                       |
-| `inset-{size}`            | top: {size};<br>right: {size};<br>bottom: {size};<br>left: {size};  |
-| `inset-x-{size}`          | right: {size};<br>left: {size};                                     |
-| `inset-y-{size}`          | top: {size};<br>bottom: {size};                                     |
+| `top-{size}`              | `top: {size}`                                                        |
+| `right-{size}`            | `right: {size}`                                                      |
+| `bottom-{size}`           | `bottom: {size}`                                                     |
+| `left-{size}`             | `left: {size}`                                                       |
+| `inset-{size}`            | `top: {size}`<br>`right: {size}`<br>`bottom: {size}`<br>`left: {size}`  |
+| `inset-x-{size}`          | `right: {size}`<br>`left: {size}`                                     |
+| `inset-y-{size}`          | `top: {size}`<br>`bottom: {size}`                                     |
 
 <!--
  !TODO: Does this thing support: Full?, auto?, Fractions? other?

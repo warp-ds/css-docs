@@ -6,11 +6,7 @@ Utilities for controlling the visibility of an element.
 
 ## Quick reference
 
-| Class       | Description           |
-| ----------- | --------------------- |
-| `visible`   | visibility: visible;  |
-| `invisible` | visibility: hidden;   |
-| `collapse`  | visibility: collapse; |
+<qr-table />
 
 <!--
 

@@ -5,16 +5,16 @@ Utilities for setting the height of an element.
 
 ## Quick reference
 
-| Class          | Description                                                            |
-| -------------- | ---------------------------------------------------------------------- |
-| `h-auto`       | height: auto;                                                           |
-| `h-full`       | height: 100%;                                                           |
-| `h-screen`     | height: 100vw;                                                          |
-| `h-min`        | height: min-content;                                                    |
-| `h-max`        | height: max-content;                                                    |
-| `h-fit`        | height: fit-content;                                                     |
-| `h-{size}`     | Set the initial height of the item to `{size}`                           |
-| `h-{fraction}` | Set the initial height of the item to a percentage based on `{fraction}` |
+| Class          | Description           |
+| -------------- | --------------------- |
+| `h-auto`       | `height: auto`        |
+| `h-full`       | `height: 100%`        |
+| `h-screen`     | `height: 100vw`       |
+| `h-min`        | `height: min-content` |
+| `h-max`        | `height: max-content` |
+| `h-fit`        | `height: fit-content` |
+| `h-{size}`     | `height: {size}`      |
+| `h-{fraction}` | `height: {fraction}`  |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
@@ -22,7 +22,7 @@ Utilities for setting the height of an element.
 
 ## Basic usage
 ### Fixed heights
-Use `h-{number}` to set an element to a fixed height. Example `h-16` = 1.6rem = 16px. 
+Use `h-{number}` to set an element to a fixed height. Example `h-16` = 1.6rem = 16px.
 
 <container class="flex justify-center items-end gap-16">
   <div class="h-128 w-32 mb-16 bg-blue-500 rounded"></div>

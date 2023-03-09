@@ -5,19 +5,7 @@ Utilities for controlling the font size of an element.
 
 ## Quick reference
 
-| Class          | Description                     |
-| -------------- | ------------------------------- |
-| `text-detail`  | These will have different names |
-| `text-body`    |                                 |
-| `text-caption` |                                 |
-| `text-large`   |                                 |
-| `text-display` |                                 |
-| `text-t1`      | These will have different names |
-| `text-t2`      |                                 |
-| `text-t3`      |                                 |
-| `text-t4`      |                                 |
-| `text-t5`      |                                 |
-| `text-t6`      |                                 |
+<qr-table />
 
 ## Basic usage
 ### Setting the font size

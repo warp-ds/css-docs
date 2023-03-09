@@ -5,13 +5,7 @@ Utilities for controlling how an individual grid item is aligned along its inlin
 
 ## Quick reference
 
-| Class                  | Description                                                |
-| ---------------------- | ---------------------------------------------------------- |
-| `justify-self-auto`    | Align an item based on the grid's `justify-items` property |
-| `justify-self-start`   | Align an item to the start of its inline axis              |
-| `justify-self-center`  | Align an item along the center of its inline axis          |
-| `justify-self-end`     | Align an item to the end of its inline axis                |
-| `justify-self-stretch` | Stretch an item to fill the area on its inline axis        |
+<qr-table />
 
 ## Basic usage
 
