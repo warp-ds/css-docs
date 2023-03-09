@@ -1,18 +1,11 @@
 > Typography
 
-# Font Size
-Utilities for controlling the font size of an element.
+# Line Height
+Utilities for controlling the leading (line height) of an element.
 
 ## Quick reference
 
-| Class            | Description                            |
-| ---------------- | -------------------------------------- |
-| `leading-1`      | !TODO: These will have different names |
-| `leading-2`      |                                        |
-| `leading-3`      |                                        |
-| `leading-4`      |                                        |
-| `leading-5`      |                                        |
-| `leading-6`      | These will have different names        |
+<qr-table />
 
 ## Basic usage
 ### Setting the font size

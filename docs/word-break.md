@@ -5,12 +5,7 @@ Utilities for controlling word breaks in an element.
 
 ## Quick reference
 
-| Class          | Description                                      |
-| -------------- | ------------------------------------------------ |
-| `break-normal` | overflow-wrap: normal; <br />word-break: normal; |
-| `break-words`  | overflow-wrap: break-word;                       |
-| `break-all`    | overflow-wrap: break-all;                        |
-| `break-keep`   | overflow-wrap: keep-all;                         |
+<qr-table />
 
 ## Basic usage
 ### Normal

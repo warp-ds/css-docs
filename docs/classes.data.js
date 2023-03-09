@@ -6,7 +6,7 @@ import * as classLists from './classes.list.js';
 const uno = createGenerator({ presets: [presetWarp()] });
 const cssFor = async (selector) => {
   const result = await uno.parseToken(selector);
-  const css = result ? formatCSS(result[0][2]).replace(':', ': ').replace(';', '') : null;
+  const css = result ? formatCSS(result[0][2]).replaceAll(':', ': ').replaceAll(';', '') : null;
   return [selector, css];
 };
 

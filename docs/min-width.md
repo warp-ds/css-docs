@@ -5,13 +5,7 @@ Utilities for setting the minimum width of an element.
 
 ## Quick reference
 
-| Class          | Description                                             |
-| -------------- | ------------------------------------------------------- |
-| `min-w-0`      | min-width: 0;                                           |
-| `min-w-full`   | min-width: 100%;                                        |
-| `min-w-min`    | min-width: min-content;                                 |
-| `min-w-max`    | min-width: max-content;                                 |
-| `min-w-fit`    | min-width: fit-content;                                 |
+<qr-table />
 
 ## Basic usage
 ### Setting the minimum width

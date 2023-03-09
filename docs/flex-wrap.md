@@ -5,11 +5,7 @@ Utilities for controlling how flex items wrap.
 
 ## Quick reference
 
-| Class               | Description                  |
-| ------------------- | ---------------------------- |
-| `flex-nowrap`       | Prevent items from wrapping  |
-| `flex-wrap`         | Allow items to wrap normally |
-| `flex-wrap-reverse` | Wrap items in reverse        |
+<qr-table />
 
 ## Basic usage
 ### Don't wrap

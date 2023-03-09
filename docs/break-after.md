@@ -1,20 +1,11 @@
 > Layout
 
-# Break after
+# Break After
 Utilities for controlling how a column or page should break after an element.
 
 ## Quick reference
 
-| Class                       | Description                               |
-| --------------------------- | ----------------------------------------- |
-| `break-after-auto`          | Break-after: auto;                        |
-| `break-after-avoid`         | Break-after: avoid;                       |
-| `break-after-all`           | Break-after: all;                         |
-| `break-after-avoid-page`    | Break-after: avoid-page;                  |
-| `break-after-page`          | Break-after: page;                        |
-| `break-after-left`          | Break-after: left;                        |
-| `break-after-right`         | Break-after: right;                       |
-| `break-after-column`        | Break-after: column;                      |
+<qr-table />
 
 ## Basic usage
 ### Setting the break-after behavior

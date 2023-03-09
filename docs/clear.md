@@ -4,12 +4,8 @@
 Utilities for controlling the wrapping of content around an element.
 
 ## Quick reference
-| Class           | Description                           |
-| --------------- | ------------------------------------- |
-| `clear-left`   | clear: left;                         |
-| `clear-right`    | clear: right;                          |
-| `clear-both`    | clear: both;                          |
-| `clear-none`    | clear: none;                          |
+
+<qr-table />
 
 ## Basic usage
 ### Clearing left-floated elements

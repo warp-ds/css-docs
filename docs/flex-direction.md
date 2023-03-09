@@ -5,12 +5,7 @@ Utilities for controlling the direction of flex items.
 
 ## Quick reference
 
-| Class              | Description                                   |
-| ------------------ | --------------------------------------------- |
-| `flex-row`         | Position flex items horizontally              |
-| `flex-row-reverse` | Position flex items horizontally, in reverse  |
-| `flex-col`         | Position flex items vertically                |
-| `flex-col-reverse` | Position flex items vertically, in reverse    |
+<qr-table />
 
 ## Basic usage
 ### Row

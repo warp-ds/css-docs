@@ -5,14 +5,7 @@ Utilities for controlling how flex and grid items are positioned along a contain
 
 ## Quick reference
 
-| Class             | Description                                                             |
-| ----------------- | ----------------------------------------------------------------------- |
-| `justify-start`   | Justify items against the start of the container's main axis            |
-| `justify-center`  | Justify items along the center of the container's main axis             |
-| `justify-end`     | Justify items against the end of the container's main axis              |
-| `justify-between` | Justify items with an equal amount of space between them                |
-| `justify-around`  | Justify items with an equal amount of space on either side of each item |
-| `justify-evenly`  | Justify items with an equal amount of space around each item            |
+<qr-table />
 
 ## Basic usage
 ### Start

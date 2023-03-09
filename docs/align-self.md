@@ -5,13 +5,7 @@ Utilities for controlling how an individual flex or grid item is positioned alon
 
 ## Quick reference
 
-| Class          | Description                                                   |
-| -------------- | ------------------------------------------------------------- |
-| `self-auto`    | Align an item based on the container's `align-items` property |
-| `self-start`   | Align an item to the start of the container's cross axis      |
-| `self-center`  | Align an item along the center of the container's cross axis  |
-| `self-end`     | Align an item to the end of the container's cross axis        |
-| `self-stretch` | Stretch an item to fill the container's cross axis            |
+<qr-table />
 
 ## Basic usage
 ### Auto
