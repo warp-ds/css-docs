@@ -5,9 +5,13 @@ Utilities for controlling the content of the before and after pseudo-elements.
 
 ## Quick reference
 
-| Class          | Description   |
-| -------------- | ------------- |
-| `content-none` | content:none; |
+| Class             | Description      |
+| ----------------- | ---------------- |
+| `content-none`    | `content: none`  |
+| `content-[{str}]` | `content: {str}` |
+
+> Available values <br />
+> `{str}`: Can be any string, will usually contain single-quotes as seen in the examples below
 
 ## Basic usage
 ### Setting a pseudo-element's content

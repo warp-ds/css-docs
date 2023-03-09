@@ -5,14 +5,7 @@ Utilities for controlling the text color of an element.
 
 ## Quick reference
 
-| Class            | Description                     |
-| ---------------- | ------------------------------- |
-| `text-normal`    | These will have different names |
-| `text-success`   |                                 |
-| `text-warning`   |                                 |
-| `text-danger`    |                                 |
-| `text-primary`   |                                 |
-| `text-secondary` |                                 |
+<qr-table />
 
 ## Basic usage
 ### Setting the text color

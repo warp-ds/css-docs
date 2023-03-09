@@ -5,6 +5,15 @@ Utilities for controlling gutters between grid and flexbox items.
 
 ## Quick reference
 
+| Class       | Description       |
+| ----------- | ----------------- |
+| `gap-{n}`   | `gap: {n}`        |
+| `gap-x-{n}` | `column-gap: {n}` |
+| `gap-y-{n}` | `row-gap: {n}`    |
+
+> Available values <br />
+> `{n}`: Any spacing value <br />
+
 ## Basic usage
 ### Setting the gap between elements
 Use `gap-{size}` to change the gap between both rows and columns in grid and flexbox layouts.

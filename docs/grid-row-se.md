@@ -5,11 +5,11 @@ Utilities for controlling how elements are sized and placed across grid rows.
 
 ## Quick reference
 
-| Class           | Description                               |
-| --------------- | ----------------------------------------- |
-| `row-span-{n}`  | Make an element span `{n}` rows           |
-| `row-start-{n}` | Make a row start at the `{n}th` grid line |
-| `row-end-{n}`   | Make a row end at the `{n}th` grid line   |
+| Class           | Description                     |
+| --------------- | ------------------------------- |
+| `row-span-{n}`  | `grid-row: span {n} / span {n}` |
+| `row-start-{n}` | `grid-row-start: {n}`           |
+| `row-end-{n}`   | `grid-row-end: {n}`             |
 
 > Available values <br />
 > `{n}`: `1` through `7` <br />
@@ -21,7 +21,7 @@ Use the `row-span-{n}` utilities to make an element span n rows.
 <container>
   <box striped class="grid grid-rows-3 grid-flow-col gap-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
     <div class="bg-fuchsia-500 ex-box row-span-3">01</div>
-    <div class="bg-fuchsia-800 ex-box col-span-2">02</div>
+    <div class="bg-fuchsia-300 ex-box col-span-2">02</div>
     <div class="bg-fuchsia-500 ex-box col-span-2 row-span-2">03</div>
   </box>
 </container>

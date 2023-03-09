@@ -5,12 +5,7 @@ Utilities for controlling how flex items both grow and shrink.
 
 ## Quick reference
 
-| Class          | Description                                               |
-| -------------- | --------------------------------------------------------- |
-| `flex-initial` | Allow item to shrink but not grow                         |
-| `flex-1`       | Allow item to grow and shrink, ignoring initial size      |
-| `flex-auto`    | Allow item to grow and shrink, respective of initial size |
-| `flex-none`    | Prevent item from growing or shrinking                    |
+<qr-table />
 
 ## Basic usage
 ### Initial

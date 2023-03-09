@@ -2,18 +2,13 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 import { data } from '../classes.data.js'
+import camelcase from 'camelcase'
 
+const camelcaseify = str => camelcase(str.replace(/[^\w\s]/gi, ''))
 const pageData = useData()
 const props = defineProps({ list: Array })
-const dataTitle = computed(() => camelize(pageData.page.value.title))
+const dataTitle = computed(() => camelcaseify(pageData.page.value.title))
 const rows = computed(() => props.list ?? data[dataTitle.value])
-
-function camelize(str) {
-  if (!str) return
-  return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(word, index) {
-    return index === 0 ? word.toLowerCase() : word.toUpperCase();
-  }).replace(/\s+/g, '');
-}
 </script>
 
 <template>
@@ -28,7 +23,12 @@ function camelize(str) {
       <tr v-for="[cls, desc] in rows">
         <td><code>{{ cls }}</code></td>
         <td v-if="desc === null">Unsupported</td>
-        <td v-else><code>{{ desc }}</code></td>
+        <td v-else>
+          <code v-for="(l, i) in desc.split('\n')">
+            {{ l }}
+            <br v-if="desc.split('\n').length > 1 && i < desc.split('n').length - 1" />
+          </code>
+        </td>
       </tr>
     </tbody>
   </table>

@@ -1,20 +1,11 @@
 > Layout
 
-# Break before
+# Break Before
 Utilities for controlling how a column or page should break before an element.
 
 ## Quick reference
 
-| Class                       | Description                               |
-| --------------------------- | ----------------------------------------- |
-| `break-before-auto`          | Break-before: auto;                        |
-| `break-before-avoid`         | Break-before: avoid;                       |
-| `break-before-all`           | Break-before: all;                         |
-| `break-before-avoid-page`    | Break-before: avoid-page;                  |
-| `break-before-page`          | Break-before: page;                        |
-| `break-before-left`          | Break-before: left;                        |
-| `break-before-right`         | Break-before: right;                       |
-| `break-before-column`        | Break-before: column;                      |
+<qr-table />
 
 ## Basic usage
 ### Setting the break-before behavior

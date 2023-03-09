@@ -5,10 +5,7 @@ Utilities for controlling the variant of numbers.
 
 ## Quick reference
 
-| Class          | Description                         |
-| -------------- | ----------------------------------- |
-| `normal-nums`  | font-variant-numeric: normal;       |
-| `tabular-nums` | font-variant-numeric: tabular-nums; |
+<qr-table />
 
 ## Basic usage
 ### Applying numeric variants

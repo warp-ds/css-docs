@@ -5,16 +5,16 @@ Utilities for setting the width of an element.
 
 ## Quick reference
 
-| Class          | Description                                                            |
-| -------------- | ---------------------------------------------------------------------- |
-| `w-auto`       | width: auto;                                                           |
-| `w-full`       | width: 100%;                                                           |
-| `w-screen`     | width: 100vw;                                                          |
-| `w-min`        | width: min-content;                                                    |
-| `w-max`        | width: max-content;                                                    |
-| `w-fit`        | width: fit-content                                                     |
-| `w-{size}`     | Set the initial size of the item to `{size}`                           |
-| `w-{fraction}` | Set the initial size of the item to a percentage based on `{fraction}` |
+| Class          | Description          |
+| -------------- | -------------------- |
+| `w-auto`       | `width: auto`        |
+| `w-full`       | `width: 100%`        |
+| `w-screen`     | `width: 100vw`       |
+| `w-min`        | `width: min-content` |
+| `w-max`        | `width: max-content` |
+| `w-fit`        | `width: fit-content` |
+| `w-{size}`     | `width: {size}`      |
+| `w-{fraction}` | `width: {fraction}`  |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
@@ -22,7 +22,7 @@ Utilities for setting the width of an element.
 
 ## Basic usage
 ### Fixed widths
-Use `w-{number}` to set an element to a fixed width. Example `w-32` = 3.2rem = 32px. 
+Use `w-{number}` to set an element to a fixed width. Example `w-32` = 3.2rem = 32px.
 
 <container class="flex justify-center">
   <div class="space-y-16">
