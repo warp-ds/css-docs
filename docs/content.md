@@ -21,11 +21,40 @@ to set the contents of the `::before` and `::after` pseudo-elements.
 Use the square bracket notation to define any arbitrary content value on the fly.
 
 <container>
-  <div>
-    <span class="before:content-['Before'] after:content-['After'] before:bg-cyan-500 after:bg-indigo-800 after:inline-block"> I am </span>
+  <div class="text-center">
+    <span class="before:content-['Before'] after:content-['after'] before:text-indigo-400 after:text-indigo-400"> I am </span>.
   </div>
 </container>
 
 ```html
-<span class="before:content-['Before'] after:content-['After'] before:bg-cyan-500 after:bg-indigo-800 before:inline after:inline"> I am </span>
+<span class="before:content-['Before'] after:content-['after'] ..."> I am </span>
 ```
+
+### Using spaces and underscores
+Since whitespace denotes the end of a class in HTML, replace any spaces in an arbitrary value with an underscore.
+
+<container>
+  <div class="text-center">
+    <span class="before:content-['Hello_World!']"></span>
+  </div>
+</container>
+
+```html
+<div class="before:content-['Hello_World!']">
+  <!-- ... -->
+</div>
+```
+
+If you need to include an actual underscore, you can do this by escaping it with a backslash.
+<container>
+  <div class="text-center">
+    <span class="before:content-['Hello\_World!']"></span>
+  </div>
+</container>
+
+```html
+<div class="before:content-['Hello\_World!']">
+  <!-- ... -->
+</div>
+```
+
