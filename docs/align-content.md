@@ -5,14 +5,7 @@ Utilities for controlling how rows are positioned in multi-row flex and grid con
 
 ## Quick reference
 
-| Class             | Description                                                                                     |
-| ----------------- | ----------------------------------------------------------------------------------------------- |
-| `content-start`   | Pack rows in a container against the start of the cross axis                                    |
-| `content-center`  | Pack rows in a container along the center of the cross axis                                     |
-| `content-end`     | Pack rows in a container against the end of the cross axis                                      |
-| `content-between` | Distribute rows in a container so there is an equal amount of space between each line           |
-| `content-around`  | Distribute rows in a container so there is an equal amount of space on either side of each line |
-| `content-evenly`  | Distribute rows in a container so there is an equal amount of space around each line            |
+<qr-table />
 
 ## Basic usage
 ### Start

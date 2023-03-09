@@ -5,6 +5,8 @@ Utilities for controlling how an individual item is justified and aligned at the
 
 ## Quick reference
 
+<qr-table />
+
 ## Basic usage
 ### Auto
 Use `place-self-auto` to align an item based on the value of the container’s `place-items` property.

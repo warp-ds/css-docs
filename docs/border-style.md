@@ -5,18 +5,7 @@ Utilities for controlling the style of an element's borders.
 
 ## Quick reference
 
-| Class           | Description           |
-| --------------- | --------------------- |
-| `border-solid`  | border-style: solid;  |
-| `border-dashed` | border-style: dashed; |
-| `border-dotted` | border-style: dotted; |
-| `border-double` | border-style: double; |
-| `border-hidden` | border-style: hidden; |
-| `border-none`   | border-style: none;   |
-| `border-groove` | border-style: dotted; |
-| `border-ridge`  | border-style: double; |
-| `border-inset`  | border-style: hidden; |
-| `border-outset` | border-style: none;   |
+<qr-table />
 
 ## Basic usage
 ### Setting the border style

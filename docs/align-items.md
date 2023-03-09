@@ -5,12 +5,7 @@ Utilities for controlling how flex and grid items are positioned along a contain
 
 ## Quick reference
 
-| Class           | Description                                                |
-| --------------- | ---------------------------------------------------------- |
-| `items-stretch` | Stretch items to fill the container's cross axis           |
-| `items-start`   | Align items to the start of the container's cross axis     |
-| `items-center`  | Align items along the center of the container's cross axis |
-| `items-end`     | Align items to the end of the container's cross axis       |
+<qr-table />
 
 ## Basic usage
 ### Stretch

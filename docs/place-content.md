@@ -5,14 +5,7 @@ Utilities for controlling how content is justified and aligned at the same time.
 
 ## Quick reference
 
-| Class                   | Description                                                                      |
-| ----------------------- | -------------------------------------------------------------------------------- |
-| `place-content-center`  | Pack items in the center of the block axis                                       |
-| `place-content-start`   | Pack items against the start of the block axis                                   |
-| `place-content-end`     | Pack items against the end of the block axis                                     |
-| `place-content-between` | Distribute items along block axis with an equal amount of space between          |
-| `place-content-around`  | Distribute items along block axis with an equal amount of space on either side   |
-| `place-content-evently` | Distribute items along block axis with an equal amount of space around each side |
+<qr-table />
 
 ## Basic usage
 ### Center

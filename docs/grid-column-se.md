@@ -5,11 +5,11 @@ Utilities for controlling how elements are sized and placed across grid columns.
 
 ## Quick reference
 
-| Class           | Description                                  |
-| --------------- | -------------------------------------------- |
-| `col-span-{n}`  | Make an element span `{n}` columns           |
-| `col-start-{n}` | Make a column start at the `{n}th` grid line |
-| `col-end-{n}`   | Make a column end at the `{n}th` grid line   |
+| Class           | Description                        |
+| --------------- | ---------------------------------- |
+| `col-span-{n}`  | `grid-column: span {n} / span {n}` |
+| `col-start-{n}` | `grid-column-start: {n}`           |
+| `col-end-{n}`   | `grid-column-end: {n}`             |
 
 > Available values <br />
 > `{n}`: `1` through `13` <br />

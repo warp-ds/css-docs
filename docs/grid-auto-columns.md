@@ -5,6 +5,8 @@ Utilities for controlling the size of implicitly-created grid columns.
 
 ## Quick reference
 
+<qr-table />
+
 ## Basic usage
 ### Sizing implicitly-created grid columns
 Use the `auto-cols-{size}` utilities to control the size of implicitly-created grid columns.

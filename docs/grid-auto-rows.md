@@ -5,6 +5,8 @@ Utilities for controlling the size of implicitly-created grid rows.
 
 ## Quick reference
 
+<qr-table />
+
 ## Basic usage
 ### Sizing implicitly-created grid rows
 Use the `auto-rows-{size}` utilities to control the size implicitly-created grid rows.

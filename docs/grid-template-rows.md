@@ -5,10 +5,10 @@ Utilities for specifying the rows in a grid layout.
 
 ## Quick reference
 
-| Class                    | Description                                           |
-| ------------------------ | ----------------------------------------------------- |
-| `grid-rows-{n}`          | Create a grid with `{n}` equally sized rows           |
-| `grid-rows-[{row-spec}]` | Create a grid with the rows specified in `{row-spec}` |
+| Class                    | Description                                       |
+| ------------------------ | ------------------------------------------------- |
+| `grid-rows-{n}`          | `grid-template-rows: repeat({n} ,minmax(0, 1fr))` |
+| `grid-rows-[{row-spec}]` | `grid-template-rows: {row-spec}`                  |
 
 > Available values <br />
 > `{n}`: `1` through `7` <br />

@@ -282,3 +282,110 @@ export const flexWrap = [
   'flex-wrap',
   'flex-wrap-reverse',
 ];
+
+export const gridAutoFlow = [
+  'grid-flow-row',
+  'grid-flow-col',
+  'grid-flow-dense',
+  'grid-flow-row-dense',
+  'grid-flow-col-dense',
+];
+
+export const gridAutoColumns = [
+  'auto-cols-auto',
+  'auto-cols-min',
+  'auto-cols-max',
+  'auto-cols-fr',
+];
+
+export const gridAutoRows = [
+  'auto-rows-auto',
+  'auto-rows-min',
+  'auto-rows-max',
+  'auto-rows-fr',
+];
+
+export const justifyContent = [
+  'justify-start',
+  'justify-center',
+  'justify-end',
+  'justify-between',
+  'justify-around',
+  'justify-evenly',
+];
+
+export const justifyItems = [
+  'justify-items-start',
+  'justify-items-center',
+  'justify-items-end',
+  'justify-items-stretch',
+];
+
+export const justifySelf = [
+  'justify-self-auto',
+  'justify-self-start',
+  'justify-self-center',
+  'justify-self-end',
+  'justify-self-stretch',
+];
+
+export const alignContent = [
+  'content-start',
+  'content-center',
+  'content-end',
+  'content-between',
+  'content-around',
+  'content-evenly',
+];
+
+export const alignItems = [
+  'items-stretch',
+  'items-start',
+  'items-center',
+  'items-end',
+];
+
+export const alignSelf = [
+  'self-auto',
+  'self-start',
+  'self-center',
+  'self-end',
+  'self-stretch',
+];
+
+export const placeContent = [
+  'place-content-center',
+  'place-content-start',
+  'place-content-end',
+  'place-content-between',
+  'place-content-around',
+  'place-content-evenly',
+];
+
+export const placeItems = [
+  'place-items-start',
+  'place-items-end',
+  'place-items-center',
+  'place-items-stretch',
+];
+
+export const placeSelf = [
+  'place-self-auto',
+  'place-self-start',
+  'place-self-end',
+  'place-self-center',
+  'place-self-stretch',
+];
+
+export const borderStyle = [
+  'border-solid',
+  'border-dashed',
+  'border-dotted',
+  'border-double',
+  'border-hidden',
+  'border-none',
+  'border-groove',
+  'border-ridge',
+  'border-inset',
+  'border-outset',
+];
