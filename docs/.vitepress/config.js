@@ -102,6 +102,7 @@ export default defineConfig({
           items: [
             { text: 'Font Size', link: '/font-size' },
             { text: 'Font Style', link: '/font-style' },
+            { text: 'Font Weight', link: '/font-weight' },
             {
               text: 'Font Variant Numeric',
               link: '/font-variant-numeric',
