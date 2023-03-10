@@ -119,7 +119,25 @@ export default defineConfig({
             { text: 'Content', link: '/content' },
           ],
         },
-
+        {
+          text: 'Backgrounds',
+          collapsible: true,
+          items: [
+            {
+              text: 'Background Attachment',
+              link: '/background-attachment',
+            },
+            { text: 'Background Clip', link: '/background-clip' },
+            { text: 'Background Color', link: '/background-color' },
+            { text: 'Background Origin', link: '/background-origin' },
+            {
+              text: 'Background Position',
+              link: '/background-position',
+            },
+            { text: 'Background Repeat', link: '/background-repeat' },
+            { text: 'Background Size', link: '/background-size' },
+          ],
+        },
         {
           text: 'Spacing',
           collapsible: true,
