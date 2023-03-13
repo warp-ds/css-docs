@@ -136,6 +136,7 @@ export default defineConfig({
             },
             { text: 'Background Repeat', link: '/background-repeat' },
             { text: 'Background Size', link: '/background-size' },
+            { text: 'Background Image', link: '/background-image' },
           ],
         },
         {
@@ -197,6 +198,13 @@ export default defineConfig({
             { text: 'Divide Width', link: '/divide-width' },
             { text: 'Divide Color', link: '/divide-color' },
             { text: 'Divide Style', link: '/divide-style' },
+          ],
+        },
+        {
+          text: 'Accessibility',
+          collapsible: true,
+          items: [
+            { text: 'Screen Readers', link: '/screen-readers' },
           ],
         },
       ],

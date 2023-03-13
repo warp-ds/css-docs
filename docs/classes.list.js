@@ -47,6 +47,8 @@ export const backgroundRepeat = [
 
 export const backgroundSize = ['bg-auto', 'bg-cover', 'bg-contain'];
 
+export const backgroundImage = ['bg-none'];
+
 export const breakAfter = [
   'break-after-auto',
   'break-after-avoid',
@@ -412,3 +414,5 @@ export const borderStyle = [
   'border-inset',
   'border-outset',
 ];
+
+export const screenReaders = ['sr-only', 'not-sr-only'];
