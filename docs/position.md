@@ -15,10 +15,10 @@ Any `offsets` will be ignored and the element will not act as a position referen
 
 <container>
   <div class="relative">
-    <box striped class="rounded p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded">
+    <box striped class="rounded-8 p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
+      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Static parent</p>
-        <div class="absolute bottom-0 left-0 bg-purple-600 shadow-lg rounded px-16 py-4 text-white">
+        <div class="absolute bottom-0 left-0 bg-purple-600 shadow-l rounded-4 px-16 py-4 text-white">
           <p class="ex-font">Absolute child</p>
         </div>
       </div>
@@ -42,10 +42,10 @@ Any `offsets` are calculated relative to the element’s normal position and the
 
 <container>
   <div class="relative">
-    <box striped class="rounded p-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="relative bg-blue-500 px-16 py-4 h-144 rounded">
+    <box striped class="rounded-8 p-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
+      <div class="relative bg-blue-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Relative parent</p>
-        <div class="absolute bottom-0 left-0 bg-indigo-600 shadow-lg rounded px-16 py-4 text-white">
+        <div class="absolute bottom-0 left-0 bg-indigo-600 shadow-l rounded-4 px-16 py-4 text-white">
           <p class="ex-font">Absolute child</p>
         </div>
       </div>
@@ -70,15 +70,15 @@ Any `offsets` are calculated relative to the nearest parent that has a position 
 <container>
   <h4 class="mb-8">With static positioning</h4>
   <div class="relative">
-    <box striped class="relative rounded p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
+    <box striped class="relative rounded-8 p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <div class="ex-font text-black pb-4">Relative parent</div>
-      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded">
+      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Static parent</p>
         <div class="flex gap-16">
-          <div class="static bottom-0 left-0 bg-purple-500 shadow-lg rounded px-16 py-4 text-white">
+          <div class="static bottom-0 left-0 bg-purple-500 shadow-lg rounded-4 px-16 py-4 text-white">
             <p class="ex-font">Static child</p>
           </div>
-          <div class="static bottom-0 left-0 bg-white shadow-lg rounded px-16 py-4 text-black">
+          <div class="static bottom-0 left-0 bg-white shadow-lg rounded-4 px-16 py-4 text-black">
             <p class="ex-font text-black!">Static sibling</p>
           </div>
         </div>
@@ -92,10 +92,10 @@ Any `offsets` are calculated relative to the nearest parent that has a position 
       <div class="static bg-blue-500 px-16 py-4 h-144 rounded">
         <p class="ex-font">Static parent</p>
         <div class="flex gap-16">
-          <div class="absolute top-0 right-0 bg-indigo-500 shadow-lg rounded px-16 py-4 text-white">
+          <div class="absolute top-0 right-0 bg-indigo-500 shadow-lg rounded-4 px-16 py-4 text-white">
             <p class="ex-font">Absolute child</p>
           </div>
-          <div class="static bottom-0 left-0 bg-white shadow-lg rounded px-16 py-4 text-black">
+          <div class="static bottom-0 left-0 bg-white shadow-lg rounded-4 px-16 py-4 text-black">
             <p class="ex-font text-black">Static sibling</p>
           </div>
         </div>
@@ -126,28 +126,28 @@ Any `offsets` are calculated relative to the viewport and the element will act a
       <div style="width:300px;max-height:275px" class="overflow-auto mx-auto bg-white px-16 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="absolute left-0 right-0 px-16 py-8 text-slate-900 dark:text-slate-200 bg-slate-50/90 dark:bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">Warp Scientists</div>
         <div class="flex items-center pt-16">
-          <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+          <img src="/matter.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Justina Matter</div>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+          <img src="/profile1.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Narve Hoops</div>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center ">
-          <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+          <img src="/profile5.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Dagny Calamity</div>
           </div>
         </div>
         <hr class="-mx-16!" />
         <div class="flex items-center pb-16">
-          <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+          <img src="/profile2.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Joar Quack</div>
           </div>
@@ -188,28 +188,28 @@ Any `offsets` are calculated relative to the element’s normal position and the
             A - Warp Scientists
           </div>
           <div class="flex items-center pt-16">
-            <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/matter.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Ainsley Matter</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile1.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Alarik Hoops</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile5.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Ambrose Calamity</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center pb-16">
-            <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile2.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Anders Quack</div>
             </div>
@@ -220,28 +220,28 @@ Any `offsets` are calculated relative to the element’s normal position and the
             B - Warp Scientists
           </div>
           <div class="flex items-center pt-16">
-            <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/matter.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Bella Matter</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile1.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Brayden Hoops</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile5.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Bailey Calamity</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center pb-16">
-            <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile2.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Bentley Quack</div>
             </div>
@@ -252,28 +252,28 @@ Any `offsets` are calculated relative to the element’s normal position and the
             C - Warp Scientists
           </div>
           <div class="flex items-center pt-16">
-            <img src="/matter.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/matter.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Charlotte Matter</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile1.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile1.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Carter Hoops</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center ">
-            <img src="/profile5.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile5.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Claire Calamity</div>
             </div>
           </div>
           <hr class="-mx-16!" />
           <div class="flex items-center pb-16">
-            <img src="/profile2.jpg" class="aspect-1/1 object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+            <img src="/profile2.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
             <div class="">
               <div class="font-bold">Cora Quack</div>
             </div>
