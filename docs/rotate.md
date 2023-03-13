@@ -76,6 +76,13 @@ Use the rotate-{angle} utilities to rotate an element.
   </div>
 </container>
 
+```html
+<img class="rotate-0 ...">
+<img class="rotate-45 ...">
+<img class="rotate-90 ...">
+<img class="rotate-180 ...">
+```
+
 ### Using negative values
 
 To use a negative rotate value, prefix the class name with a dash to convert it to a negative value.
