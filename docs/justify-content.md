@@ -12,7 +12,7 @@ Utilities for controlling how flex and grid items are positioned along a contain
 Use `justify-start` to justify items against the start of the container’s main axis:
 
 <container>
-  <box striped class="flex justify-start gap-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
+  <box striped class="flex justify-start gap-24 rounded-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
     <div class="bg-fuchsia-500 ex-box">01</div>
     <div class="bg-fuchsia-500 ex-box">02</div>
     <div class="bg-fuchsia-500 ex-box">03</div>
@@ -31,7 +31,7 @@ Use `justify-start` to justify items against the start of the container’s main
 Use `justify-center` to justify items along the center of the container’s main axis.
 
 <container>
-  <box striped class="flex justify-center gap-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
+  <box striped class="flex justify-center gap-24 rounded-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
     <div class="bg-blue-500 ex-box">01</div>
     <div class="bg-blue-500 ex-box">02</div>
     <div class="bg-blue-500 ex-box">03</div>
@@ -50,7 +50,7 @@ Use `justify-center` to justify items along the center of the container’s main
 Use `justify-end` to justify items against the end of the container’s main axis
 
 <container>
-  <box striped class="flex justify-end gap-16" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
+  <box striped class="flex justify-end gap-24 rounded-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
     <div class="bg-cyan-500 ex-box">01</div>
     <div class="bg-cyan-500 ex-box">02</div>
     <div class="bg-cyan-500 ex-box">03</div>
@@ -69,7 +69,7 @@ Use `justify-end` to justify items against the end of the container’s main axi
 Use `justify-between` to justify items along the container’s main axis such that there is an equal amount of space between each item.
 
 <container>
-  <box striped class="flex justify-between gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
+  <box striped class="flex justify-between gap-24 rounded-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
     <div class="bg-pink-500 ex-box">01</div>
     <div class="bg-pink-500 ex-box">02</div>
     <div class="bg-pink-500 ex-box">03</div>
@@ -88,7 +88,7 @@ Use `justify-between` to justify items along the container’s main axis such th
 Use `justify-around` to justify items along the container’s main axis such that there is an equal amount of space on each side of each item.
 
 <container>
-  <box striped class="flex justify-around gap-16" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
+  <box striped class="flex justify-around gap-24 rounded-4" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
     <div class="bg-violet-500 ex-box">01</div>
     <div class="bg-violet-500 ex-box">02</div>
     <div class="bg-violet-500 ex-box">03</div>
@@ -107,7 +107,7 @@ Use `justify-around` to justify items along the container’s main axis such tha
 Use `justify-evenly` to justify items along the container’s main axis such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using `justify-around`
 
 <container>
-  <box striped class="flex justify-evenly gap-16" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
+  <box striped class="flex justify-evenly gap-24 rounded-4" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
     <div class="bg-indigo-500 ex-box">01</div>
     <div class="bg-indigo-500 ex-box">02</div>
     <div class="bg-indigo-500 ex-box">03</div>
@@ -119,5 +119,14 @@ Use `justify-evenly` to justify items along the container’s main axis such tha
   <div>01</div>
   <div>02</div>
   <div>03</div>
+</div>
+```
+
+### Breakpoints and media queries
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:justify-between` to apply the `justify-between` utility at only medium screen sizes and above.
+
+```html
+<div class="flex justify-start md:justify-between">
+  <!-- ... -->
 </div>
 ```
