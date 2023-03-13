@@ -136,6 +136,7 @@ export default defineConfig({
             },
             { text: 'Background Repeat', link: '/background-repeat' },
             { text: 'Background Size', link: '/background-size' },
+            { text: 'Background Image', link: '/background-image' },
           ],
         },
         {

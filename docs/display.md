@@ -78,7 +78,7 @@ Use `flex` to create a block-level flex container.
     <div class="relative rounded-xl overflow-auto">
       <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
        <div class="flex items-center">
-          <img src="/matter.jpg" class="aspect-1/1 object-cover h-64 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
+          <img src="/matter.jpg" class="h-64 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
             <div class="font-bold">Justina Matter</div>
             <span>Warp Scientist</span>
@@ -107,7 +107,7 @@ Use `inline-flex` to create an inline flex container that flows with text.
     <div class="relative rounded-xl overflow-auto">
       <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
         <p>I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here.<span class="inline-flex items-baseline">
-          <img src="/matter.jpg" alt="" class="self-center w-16 h-16 rounded-full mx-4" />
+          <img src="/matter.jpg" alt="" class="self-center w-24 h-24 rounded-full mx-4" />
           <span class="font-bold">Justina</span>
         </span>
         keeps telling me there is no way to make it work, that she has run the numbers on every possible approach, but I just have to believe there's a way to make it work, there's simply too much opportunity here.</p>

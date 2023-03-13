@@ -14,14 +14,16 @@ Resize an element’s content to cover its container using `.object-cover`.
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-cover aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      <div class="aspect-2/1">
+        <img src="/50s-scientists.jpg" class="object-cover rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      </div>
     </box>
   </div>
 </container>
 
 ```html
-<div class="bg-indigo-300">
-  <img class="object-cover aspect-2/1" src="..." alt="..." />
+<div class="aspect-2/1 ...">
+  <img class="object-cover ..." src="..." alt="..." />
 </div>
 ```
 ### Containing an element
@@ -30,14 +32,16 @@ Resize an element’s content to stay contained within its container using `.obj
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-contain aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      <div class="aspect-2/1">
+        <img src="/50s-scientists.jpg" class="object-contain rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      </div>
     </box>
   </div>
 </container>
 
 ```html
-<div class="bg-indigo-300">
-  <img class="object-contain aspect-2/1" src="..." alt="..." />
+<div class="aspect-2/1 ...">
+  <img class="object-contain ..." src="..." alt="..." />
 </div>
 ```
 
@@ -46,14 +50,16 @@ Stretch an element’s content to fit its container using `.object-fill`.
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-stretch aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      <div class="aspect-2/1">
+        <img src="/50s-scientists.jpg" class="object-stretch rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      </div>
     </box>
   </div>
 </container>
 
 ```html
-<div class="bg-indigo-300">
-  <img class="object-stretch aspect-2/1" src="..." alt="..." />
+<div class="aspect-2/1 ...">
+  <img class="object-stretch ..." src="..." alt="..." />
 </div>
 ```
 
@@ -63,14 +69,16 @@ Display an element’s content at its original size but scale it down to fit its
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-scale-down aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      <div class="aspect-2/1">
+        <img src="/50s-scientists.jpg" class="object-scale-down rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      </div>
     </box>
   </div>
 </container>
 
 ```html
-<div class="bg-indigo-300">
-  <img class="object-scale-down aspect-2/1" src="..." alt="..." />
+<div class="aspect-2/1 ...">
+  <img class="object-scale-down ..." src="..." alt="..." />
 </div>
 ```
 
@@ -80,14 +88,16 @@ Display an element’s content at its original size ignoring the container size 
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-      <img src="/50s-scientists.jpg" class="object-none aspect-2/1 rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      <div class="aspect-2/1">
+        <img src="/50s-scientists.jpg" class="object-none rounded" alt="AI generated picture of 1950s scientists working on a warp drive" />
+      </div>
     </box>
   </div>
 </container>
 
 ```html
-<div class="bg-indigo-300">
-  <img class="object-none aspect-2/1" src="..." alt="..." />
+<div class="aspect-2/1 ...">
+  <img class="object-none ..." src="..." alt="..." />
 </div>
 ```
 

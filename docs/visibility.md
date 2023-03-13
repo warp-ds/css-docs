@@ -26,9 +26,9 @@ Use `invisible` to hide an element, but still maintain its place in the DOM, aff
 
 <container>
   <div class="grid grid-cols-3 gap-16">
-   <div class="ex-box bg-fuchsia-500">01</div>
-   <div class="ex-box bg-fuchsia-500 invisible">02</div>
-   <div class="ex-box bg-fuchsia-500">03</div>
+   <div class="ex-box bg-fuchsia-500 rounded-4">01</div>
+   <div class="ex-box bg-fuchsia-500 rounded-4 invisible">02</div>
+   <div class="ex-box bg-fuchsia-500 rounded-4">03</div>
   </div>
 </container>
 
@@ -163,9 +163,9 @@ Use `visible` to make an element visible. This is mostly useful for undoing the 
 
 <container>
   <div class="grid grid-cols-3 gap-16">
-   <div class="ex-box bg-cyan-500">01</div>
-   <div class="ex-box bg-cyan-500 visible">02</div>
-   <div class="ex-box bg-cyan-500">03</div>
+   <div class="ex-box bg-cyan-500 rounded-4">01</div>
+   <div class="ex-box bg-cyan-500 rounded-4 visible">02</div>
+   <div class="ex-box bg-cyan-500 rounded-4">03</div>
   </div>
 </container>
 
