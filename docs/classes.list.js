@@ -416,3 +416,15 @@ export const borderStyle = [
 ];
 
 export const screenReaders = ['sr-only', 'not-sr-only'];
+
+export const transformOrigin = [
+  'origin-center',
+  'origin-top',
+  'origin-top-right',
+  'origin-right',
+  'origin-bottom-right',
+  'origin-bottom',
+  'origin-bottom-left',
+  'origin-left',
+  'origin-top-left',
+];

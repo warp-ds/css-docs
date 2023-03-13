@@ -201,6 +201,17 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Transforms',
+          collapsible: true,
+          items: [
+            { text: 'Scale', link: '/scale' },
+            { text: 'Rotate', link: '/rotate' },
+            { text: 'Translate', link: '/translate' },
+            { text: 'Skew', link: '/skew' },
+            { text: 'Transform Origin', link: '/transform-origin' },
+          ],
+        },
+        {
           text: 'Accessibility',
           collapsible: true,
           items: [
