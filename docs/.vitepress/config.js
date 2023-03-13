@@ -199,6 +199,24 @@ export default defineConfig({
             { text: 'Divide Style', link: '/divide-style' },
           ],
         },
+        {
+          text: 'Transforms',
+          collapsible: true,
+          items: [
+            { text: 'Scale', link: '/scale' },
+            { text: 'Rotate', link: '/rotate' },
+            { text: 'Translate', link: '/translate' },
+            { text: 'Skew', link: '/skew' },
+            { text: 'Transform Origin', link: '/transform-origin' },
+          ],
+        },
+        {
+          text: 'Accessibility',
+          collapsible: true,
+          items: [
+            { text: 'Screen Readers', link: '/screen-readers' },
+          ],
+        },
       ],
     },
   },
