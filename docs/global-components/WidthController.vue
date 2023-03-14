@@ -40,7 +40,7 @@ watch(right, () => {
   <div class="relative pr-16" ref="wrapperEl">
     <slot />
     <button ref="handleEl" @mousedown="handleDragStart" @touchstart="handleDragStart" class="absolute rounded-full right-0 top-0 bottom-0 flex items-center cursor-ew-resize">
-      <div class="h-32 w-8 rounded-full bg-gray-600" />
+      <div class="h-48 w-8 rounded-full bg-gray-600" />
     </button>
   </div>
 </template>

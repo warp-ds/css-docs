@@ -12,7 +12,7 @@ Utilities for controlling the direction of flex items.
 Use `flex-row` to position flex items horizontally in the same direction as text.
 
 <container>
-  <box class="flex flex-row gap-16">
+  <box class="flex flex-row gap-24">
     <div class="bg-fuchsia-500 ex-box">01</div>
     <div class="bg-fuchsia-500 ex-box">02</div>
     <div class="bg-fuchsia-500 ex-box">03</div>
@@ -31,7 +31,7 @@ Use `flex-row` to position flex items horizontally in the same direction as text
 Use `flex-row-reverse` to position flex items horizontally in the opposite direction.
 
 <container>
-  <box class="flex flex-row-reverse gap-16">
+  <box class="flex flex-row-reverse gap-24">
     <div class="bg-blue-500 ex-box">01</div>
     <div class="bg-blue-500 ex-box">02</div>
     <div class="bg-blue-500 ex-box">03</div>
@@ -50,7 +50,7 @@ Use `flex-row-reverse` to position flex items horizontally in the opposite direc
 Use `flex-col` to position flex items vertically.
 
 <container>
-  <box class="flex flex-col gap-16">
+  <box class="flex flex-col gap-24">
     <div class="bg-indigo-500 ex-box">01</div>
     <div class="bg-indigo-500 ex-box">02</div>
     <div class="bg-indigo-500 ex-box">03</div>
@@ -69,7 +69,7 @@ Use `flex-col` to position flex items vertically.
 Use `flex-col-reverse` to position flex items vertically in the opposite direction.
 
 <container>
-  <box class="flex flex-col-reverse gap-16">
+  <box class="flex flex-col-reverse gap-24">
     <div class="bg-violet-500 ex-box">01</div>
     <div class="bg-violet-500 ex-box">02</div>
     <div class="bg-violet-500 ex-box">03</div>
@@ -81,5 +81,14 @@ Use `flex-col-reverse` to position flex items vertically in the opposite directi
   <div>01</div>
   <div>02</div>
   <div>03</div>
+</div>
+```
+
+### Breakpoints and media queries
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:flex-row` to apply the `flex-row` utility at only medium screen sizes and above.
+
+```html
+<div class="flex flex-col md:flex-row">
+  <!-- ... -->
 </div>
 ```

@@ -12,7 +12,7 @@ Utilities for controlling how flex items wrap.
 Use `flex-nowrap` to prevent flex items from wrapping, causing inflexible items to overflow the container if necessary.
 
 <container class="overflow-auto">
-  <box class="flex flex-nowrap gap-16">
+  <box class="flex flex-nowrap gap-24 rounded-4">
     <div class="w-2/5 flex-none bg-sky-500 ex-box">01</div>
     <div class="w-2/5 flex-none bg-sky-500 ex-box">02</div>
     <div class="w-2/5 flex-none bg-sky-500 ex-box">03</div>
@@ -31,7 +31,7 @@ Use `flex-nowrap` to prevent flex items from wrapping, causing inflexible items 
 Use `flex-wrap` to allow flex items to wrap.
 
 <container>
-  <box class="flex flex-wrap gap-16">
+  <box class="flex flex-wrap gap-24 rounded-4">
     <div class="w-2/5 flex-none bg-indigo-500 ex-box">01</div>
     <div class="w-2/5 flex-none bg-indigo-500 ex-box">02</div>
     <div class="w-2/5 flex-none bg-indigo-500 ex-box">03</div>
@@ -50,7 +50,7 @@ Use `flex-wrap` to allow flex items to wrap.
 Use `flex-wrap-reverse` to wrap flex items in the reverse direction.
 
 <container>
-  <box class="flex flex-wrap-reverse gap-16">
+  <box class="flex flex-wrap-reverse gap-24 rounded-4">
     <div class="w-2/5 flex-none bg-fuchsia-500 ex-box">01</div>
     <div class="w-2/5 flex-none bg-fuchsia-500 ex-box">02</div>
     <div class="w-2/5 flex-none bg-fuchsia-500 ex-box">03</div>
@@ -62,5 +62,14 @@ Use `flex-wrap-reverse` to wrap flex items in the reverse direction.
   <div>01</div>
   <div>02</div>
   <div>03</div>
+</div>
+```
+
+### Breakpoints and media queries
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:flex-wrap-reverse` to apply the `flex-wrap-reverse` utility at only medium screen sizes and above.
+
+```html
+<div class="flex flex-wrap md:flex-wrap-reverse">
+  <!-- ... -->
 </div>
 ```

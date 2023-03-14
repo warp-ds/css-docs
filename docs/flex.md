@@ -13,7 +13,7 @@ Use `flex-initial` to allow a flex item to shrink but not grow, taking into acco
 
 <width-controller>
   <container>
-    <box striped class="flex gap-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
+    <box striped class="flex gap-24 rounded-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
       <div class="w-64 flex-none bg-blue-800 ex-box">01</div>
       <div class="w-128 flex-initial bg-blue-500 ex-box">02</div>
       <div class="w-80 flex-initial bg-blue-500 ex-box">03</div>
@@ -40,7 +40,7 @@ Use `flex-1` to allow a flex item to grow and shrink as needed, ignoring its ini
 
 <width-controller>
   <container>
-    <box striped class="flex gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
+    <box striped class="flex gap-24 rounded-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
       <div class="w-64 flex-none bg-pink-800 ex-box">01</div>
       <div class="w-128 flex-1 bg-pink-500 ex-box">02</div>
       <div class="w-40 flex-1 bg-pink-500 ex-box">03</div>
@@ -67,7 +67,7 @@ Use `flex-auto` to allow a flex item to grow and shrink, taking into account its
 
 <width-controller>
   <container>
-    <box striped class="flex gap-16" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
+    <box striped class="flex gap-24" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
       <div class="w-64 flex-none bg-violet-800 ex-box">01</div>
       <div class="w-128 flex-auto bg-violet-500 ex-box">02</div>
       <div class="w-40 flex-auto bg-violet-500 ex-box">03</div>
@@ -94,7 +94,7 @@ Use `flex-none` to prevent a flex item from growing or shrinking.
 
 <width-controller>
   <container>
-    <box striped class="flex gap-16" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
+    <box striped class="flex gap-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
       <div class="w-64 flex-none bg-indigo-800 ex-box">01</div>
       <div class="w-128 flex-none bg-indigo-500 ex-box">02</div>
       <div class="w-40 flex-1 bg-indigo-500 ex-box">03</div>

@@ -20,7 +20,7 @@ Utilities for controlling the order of flex and grid items.
 Use `order-{order}` to render flex and grid items in a different order than they appear in the DOM.
 
 <container>
-  <box class="flex justify-between gap-4">
+  <box class="flex justify-between gap-24 rounded-4">
     <div class="bg-indigo-500 ex-box order-last">01</div>
     <div class="bg-indigo-500 ex-box">02</div>
     <div class="bg-indigo-500 ex-box">03</div>
@@ -49,6 +49,15 @@ You can also use variant modifiers to target media queries like responsive break
 
 ```html
 <div class="row-span-3 md:row-span-4">
+  <!-- ... -->
+</div>
+```
+
+### Arbitrary values
+If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+
+```html
+<div class="order-[14]">
   <!-- ... -->
 </div>
 ```
