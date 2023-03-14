@@ -49,6 +49,8 @@ export const backgroundSize = ['bg-auto', 'bg-cover', 'bg-contain'];
 
 export const backgroundImage = ['bg-none'];
 
+export const borderCollapse = ['border-collapse', 'border-separate'];
+
 export const breakAfter = [
   'break-after-auto',
   'break-after-avoid',
@@ -416,6 +418,8 @@ export const borderStyle = [
 ];
 
 export const screenReaders = ['sr-only', 'not-sr-only'];
+
+export const tableLayout = ['table-auto', 'table-fixed'];
 
 export const transformOrigin = [
   'origin-center',
