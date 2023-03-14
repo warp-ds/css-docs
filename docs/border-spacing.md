@@ -19,7 +19,7 @@ Utilities for controlling the spacing between table borders.
 Use `border-spacing` to control the space between the borders of table cells with [separate borders](/border-collapse.md#separate).
 
 <container>
-  <table class="table! border border-separate! border-spacing-8 border-spacing-x-8 w-full  border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-xl" style="border-collapse: separate;" >
+  <table class="table! border border-separate! border-spacing-8 w-full  border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-xl" style="border-collapse: separate;" >
     <thead class="bg-slate-50 dark:bg-slate-700">
       <tr>
         <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Song</th>
