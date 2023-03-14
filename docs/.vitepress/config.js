@@ -210,6 +210,28 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Transitions & Animation',
+          collapsible: true,
+          items: [
+            {
+              text: 'Transition Property',
+              link: '/transition-property',
+            },
+            {
+              text: 'Transition Duration',
+              link: '/transition-duration',
+            },
+            {
+              text: 'Transition Timing',
+              link: '/transition-timing',
+            },
+            {
+              text: 'Transition Delay',
+              link: '/transition-delay',
+            },
+          ],
+        },
+        {
           text: 'Transforms',
           collapsible: true,
           items: [
