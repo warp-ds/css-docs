@@ -11,7 +11,7 @@ Utilities for controlling the delay of CSS transitions.
 
 
 > Available values <br />
-> `{amount}`: Accepts any value in ms (1000 = 1 sek)<br />
+> `{amount}`: Accepts any value in ms (1000 = 1 s)<br />
 
 ## Basic usage
 ### Delaying transitions
