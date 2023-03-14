@@ -201,6 +201,15 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Tables',
+          collapsible: true,
+          items: [
+            { text: 'Border Collapse', link: '/border-collapse' },
+            { text: 'Border Spacing', link: '/border-spacing' },
+            { text: 'Table Layout', link: '/table-layout' },
+          ],
+        },
+        {
           text: 'Transforms',
           collapsible: true,
           items: [
