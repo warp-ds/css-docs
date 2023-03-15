@@ -432,3 +432,20 @@ export const transformOrigin = [
   'origin-left',
   'origin-top-left',
 ];
+
+export const transitionProperty = [
+  'transition-none',
+  'transition-all',
+  'transition',
+  'transition-colors',
+  'transition-opacity',
+  'transition-shadow',
+  'transition-transform',
+];
+
+export const transitionTiming = [
+  'ease-linear',
+  'ease-in',
+  'ease-out',
+  'ease-in-out',
+];
