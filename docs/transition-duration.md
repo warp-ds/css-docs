@@ -1,4 +1,4 @@
-> Tables
+> Transitions & Animation
 
 # Transition Duration
 Utilities for controlling the duration of CSS transitions.
@@ -11,7 +11,7 @@ Utilities for controlling the duration of CSS transitions.
 |                         |                               |
 
 > Available values <br />
-> `{amount}`: `75` - `1000`<br />
+> `{amount}`: Accepts any value in ms (1000 = 1 s)<br />
 
 ## Basic usage
 ### Changing transition duration
