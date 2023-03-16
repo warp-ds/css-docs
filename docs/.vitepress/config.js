@@ -243,6 +243,23 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Interactivity',
+          collapsible: true,
+          items: [
+            { text: 'Appearance', link: '/appearance' },
+            { text: 'Cursor', link: '/cursor' },
+            { text: 'Pointer Events', link: '/pointer-events' },
+            { text: 'Resize', link: '/resize' },
+            { text: 'Scroll Behavior', link: '/scroll-behavior' },
+            { text: 'Scroll Snap Align', link: '/scroll-snap-align' },
+            { text: 'Scroll Snap Stop', link: '/scroll-snap-stop' },
+            { text: 'Scroll Snap Type', link: '/scroll-snap-type' },
+            { text: 'Touch Action', link: '/touch-action' },
+            { text: 'User Select', link: '/user-select' },
+            { text: 'Will Change', link: '/will-change' },
+          ],
+        },
+        {
           text: 'Accessibility',
           collapsible: true,
           items: [

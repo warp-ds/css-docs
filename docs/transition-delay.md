@@ -1,4 +1,4 @@
-> Tables
+> Transitions & Animation
 
 # Transition Delay
 Utilities for controlling the delay of CSS transitions.
