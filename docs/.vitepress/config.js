@@ -58,6 +58,16 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Core Concepts',
+          collapsible: true,
+          items: [
+            {
+              text: 'Hover, Focus, and Other States',
+              link: '/states',
+            },
+          ],
+        },
+        {
           text: 'Layout',
           collapsible: true,
           items: [
