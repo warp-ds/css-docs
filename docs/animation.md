@@ -8,12 +8,13 @@ Utilities for animating elements with CSS animations.
 <qr-table />
 
 ## Basic usage
-### Spin
-Add the animate-inprogress utility to add a animated background to indigate that something is in progress.
+### In Progress
+Add the `animate-inprogress` utility to add a animated background to indicate that something is in progress.
 <container>
-  <button disabled class="in-progress">Save</button>
+  <button class="hidden py-12 px-16 border-0 text-white bg-slate-700 hover:bg-slate-600 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out">Save</button>
+  <button class="bg-white text-slate-400 font-bold px-16 py-12 rounded-8 animate-inprogress">Saving</button>
 </container>
 
 ```html
-  <button disabled class="in-progress">Save</button>
+  <button class="animate-inprogress">Save</button>
 ```
