@@ -201,6 +201,11 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Effects',
+          collapsible: true,
+          items: [{ text: 'Opacity', link: '/opacity' }],
+        },
+        {
           text: 'Tables',
           collapsible: true,
           items: [

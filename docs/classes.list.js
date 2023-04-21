@@ -350,6 +350,14 @@ export const overflow = [
   'overflow-y-scroll',
 ];
 
+export const opacity = [
+  'opacity-0',
+  'opacity-25',
+  'opacity-50',
+  'opacity-75',
+  'opacity-100',
+];
+
 export const overscrollBehavior = [
   'overscroll-auto',
   'overscroll-contain',
