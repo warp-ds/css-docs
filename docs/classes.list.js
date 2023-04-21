@@ -22,6 +22,8 @@ export const alignSelf = [
   'self-stretch',
 ];
 
+export const animation = ['animate-inprogress'];
+
 export const appearance = ['appearance-none'];
 
 export const backgroundAttachment = [
@@ -346,6 +348,14 @@ export const overflow = [
   'overflow-y-visible',
   'overflow-x-scroll',
   'overflow-y-scroll',
+];
+
+export const opacity = [
+  'opacity-0',
+  'opacity-25',
+  'opacity-50',
+  'opacity-75',
+  'opacity-100',
 ];
 
 export const overscrollBehavior = [

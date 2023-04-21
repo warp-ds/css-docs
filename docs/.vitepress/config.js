@@ -201,6 +201,11 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Effects',
+          collapsible: true,
+          items: [{ text: 'Opacity', link: '/opacity' }],
+        },
+        {
           text: 'Tables',
           collapsible: true,
           items: [
@@ -228,6 +233,10 @@ export default defineConfig({
             {
               text: 'Transition Delay',
               link: '/transition-delay',
+            },
+            {
+              text: 'Animation',
+              link: '/animation',
             },
           ],
         },
