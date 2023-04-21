@@ -123,11 +123,11 @@ export const breakInside = [
 
 export const boxSizing = ['box-border', 'box-content'];
 
-export const clear = [
-  'clear-left',
-  'clear-right',
-  'clear-both',
-  'clear-none',
+export const caretColor= [
+  'caret',
+  'caret-current',
+  'caret-inherit',
+  'caret-transparent',
 ];
 
 export const cursor = [

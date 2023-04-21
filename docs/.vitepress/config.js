@@ -256,6 +256,7 @@ export default defineConfig({
           collapsible: true,
           items: [
             { text: 'Appearance', link: '/appearance' },
+            { text: 'Caret', link: '/caret' },
             { text: 'Cursor', link: '/cursor' },
             { text: 'Pointer Events', link: '/pointer-events' },
             { text: 'Resize', link: '/resize' },
