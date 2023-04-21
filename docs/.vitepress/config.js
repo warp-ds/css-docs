@@ -229,6 +229,10 @@ export default defineConfig({
               text: 'Transition Delay',
               link: '/transition-delay',
             },
+            {
+              text: 'Animation',
+              link: '/animation',
+            },
           ],
         },
         {

@@ -22,6 +22,8 @@ export const alignSelf = [
   'self-stretch',
 ];
 
+export const animation = ['animate-inprogress'];
+
 export const appearance = ['appearance-none'];
 
 export const backgroundAttachment = [
