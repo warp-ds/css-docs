@@ -8,8 +8,7 @@ Utilities for controlling an element's background image.
 
 <qr-table />
 
-!TODO: Add support for bg-none + gg-image through arbitrary values
-
+! TODO: Add support for bg-none
 ## Basic usage
 
 ### Arbitrary values
