@@ -15,6 +15,7 @@ export default defineConfig({
   },
   base: `${base}/`,
   head: [
+    ['script', { src: '/theme-container.js', type: 'module' }],
     [
       'link',
       {
@@ -277,6 +278,13 @@ export default defineConfig({
           ],
         },
       ],
+    },
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => ['theme-container'].includes(tag),
+      },
     },
   },
 });
