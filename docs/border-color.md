@@ -26,7 +26,7 @@ Control the border color of an element using the `border-{color}` utilities.
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200"></div>
   </div>
 </container>
 
@@ -39,16 +39,16 @@ Control the opacity of an element’s border color using the color opacity modif
 
 <container>
   <div class="grid grid-cols-3 gap-16 justify-items-center">
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-500/100"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-500/75"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-500/50"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-500/100"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-500/75"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-500/50"></div>
   </div>
 </container>
 
 ```html
-<div class="border-4 border-indigo-500/100 ..."></div>
-<div class="border-4 border-indigo-500/75 ..."></div>
-<div class="border-4 border-indigo-500/50 ..."></div>
+<div class="border-4 pd-border-indigo-500/100 ..."></div>
+<div class="border-4 pd-border-indigo-500/75 ..."></div>
+<div class="border-4 pd-border-indigo-500/50 ..."></div>
 ```
 
 ### Individual sides
@@ -56,10 +56,10 @@ Use the `border-{side}-{color}` utilities to set the border color for one side o
 
 <container>
   <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-t-indigo-500"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-r-indigo-500"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-b-indigo-500"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-l-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-t-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-r-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-b-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-l-indigo-500"></div>
   </div>
 </container>
 
@@ -75,8 +75,8 @@ Use the `border-{x|y}-{color}` utilities to set the border color on two sides of
 
 <container>
   <div class="grid grid-cols-2 gap-16 justify-items-center">
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-x-indigo-500"></div>
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 border-y-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-x-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-y-indigo-500"></div>
    </div>
 </container>
 
@@ -90,7 +90,7 @@ Tailwind lets you conditionally apply utility classes in different states using 
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="bg-violet-500 h-80 w-80 border-4 rounded-4 border-indigo-200 hover:border-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 hover:pd-border-indigo-500"></div>
    </div>
 </container>
 

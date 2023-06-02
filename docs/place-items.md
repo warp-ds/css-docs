@@ -14,22 +14,22 @@ Use `place-items-start` to place grid items on the start of their grid areas on 
 <container>
   <div class="grid grid-cols-3  gap-24">
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">01</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">01</div>
     </box>
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">02</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">02</div>
     </box>
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">03</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">03</div>
     </box>
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">04</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">04</div>
     </box>
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">05</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">05</div>
     </box>
     <box striped class="h-96 rounded-tl-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">06</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">06</div>
     </box>
   </div>
 </container>
@@ -51,22 +51,22 @@ Use `place-items-end` to place grid items on the end of their grid areas on both
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">01</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">01</div>
     </box>
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">02</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">02</div>
     </box>
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">03</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">03</div>
     </box>
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">04</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">04</div>
     </box>
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">05</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">05</div>
     </box>
     <box striped class="h-96 grid place-items-end rounded-br-4" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">06</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">06</div>
     </box>
   </div>
 </container>
@@ -88,22 +88,22 @@ Use `place-items-center` to place grid items on the center of their grid areas o
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">01</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">01</div>
     </box>
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">02</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">02</div>
     </box>
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">03</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">03</div>
     </box>
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">04</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">04</div>
     </box>
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">05</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">05</div>
     </box>
     <box striped class="h-96 grid place-items-center" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="w-64 bg-fuchsia-500 ex-box">06</div>
+      <div class="w-64 pd-bg-fuchsia-500 ex-box">06</div>
     </box>
   </div>
 </container>
@@ -124,22 +124,22 @@ Use `place-items-stretch` to stretch items along their grid areas on both axes.
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">01</div>
+      <div class="pd-bg-fuchsia-500 ex-box">01</div>
     </box>
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">02</div>
+      <div class="pd-bg-fuchsia-500 ex-box">02</div>
     </box>
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">03</div>
+      <div class="pd-bg-fuchsia-500 ex-box">03</div>
     </box>
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">04</div>
+      <div class="pd-bg-fuchsia-500 ex-box">04</div>
     </box>
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">05</div>
+      <div class="pd-bg-fuchsia-500 ex-box">05</div>
     </box>
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="bg-fuchsia-500 ex-box">06</div>
+      <div class="pd-bg-fuchsia-500 ex-box">06</div>
     </box>
   </div>
 </container>

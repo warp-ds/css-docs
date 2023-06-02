@@ -12,13 +12,13 @@ Use the `cursor-{style}` to control which cursor is displayed when hovering over
 
 <container>
   <div class="grid grid-cols-2 sm:grid-cols-3 flex-wrap gap-16 items-center justify-around">
-    <div class="ex-box bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 cursor-auto" tabindex="-1">
+    <div class="ex-box pd-bg-indigo-600 hover:pd-bg-indigo-700 disabled:pd-bg-indigo-300 dark:disabled:pd-bg-indigo-800 pd-text-white dark:disabled:pd-text-indigo-400 cursor-auto" tabindex="-1">
       cursor-auto
     </div>
-    <div class="ex-box bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 cursor-pointer" tabindex="-1">
+    <div class="ex-box pd-bg-indigo-600 hover:pd-bg-indigo-700 disabled:pd-bg-indigo-300 dark:disabled:pd-bg-indigo-800 pd-text-white dark:disabled:pd-text-indigo-400 cursor-pointer" tabindex="-1">
       cursor-pointer
     </div>
-    <div class="ex-box bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-300 dark:disabled:bg-indigo-800 text-white dark:disabled:text-indigo-400 cursor-none" tabindex="-1">
+    <div class="ex-box pd-bg-indigo-600 hover:pd-bg-indigo-700 disabled:pd-bg-indigo-300 dark:disabled:pd-bg-indigo-800 pd-text-white dark:disabled:pd-text-indigo-400 cursor-none" tabindex="-1">
       cursor-none
     </div>
   </div>

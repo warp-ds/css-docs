@@ -12,29 +12,29 @@ Utilities for controlling the table layout algorithm.
 Use `table-auto` to allow the table to automatically size columns to fit the contents of the cell.
 
 <container>
-  <table class="table! table-auto border-collapse w-full border border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-xl">
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="table! table-auto border-collapse w-full border pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl">
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Song</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Artist</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Year</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Song</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Artist</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Year</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Manic Depression</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Jimi Hendrix</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1967</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Manic Depression</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Jimi Hendrix</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1967</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">(Ballad Of) The Hip Death Goddess</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Ultimate Spinach</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1968</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">(Ballad Of) The Hip Death Goddess</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Ultimate Spinach</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1968</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Sonic Prayer</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Earthless</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">2017</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Sonic Prayer</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Earthless</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">2017</td>
       </tr>
     </tbody>
   </table>
@@ -75,29 +75,29 @@ Use `table-fixed` to allow the table to ignore the content and use fixed widths 
 You can manually set the widths for some columns and the rest of the available width will be divided evenly amongst the columns without explicit width.
 
 <container>
-  <table class="table! table-fixed border-collapse w-full border border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-xl">
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="table! table-fixed border-collapse w-full border pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl">
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Song</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Artist</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Year</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Song</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Artist</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Year</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Manic Depression</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Jimi Hendrix</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1967</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Manic Depression</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Jimi Hendrix</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1967</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">(Ballad Of) The Hip Death Goddess</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Ultimate Spinach</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1968</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">(Ballad Of) The Hip Death Goddess</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Ultimate Spinach</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1968</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Sonic Prayer</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Earthless</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">2017</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Sonic Prayer</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Earthless</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">2017</td>
       </tr>
     </tbody>
   </table>

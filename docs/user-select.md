@@ -12,7 +12,7 @@ Use `select-none` to prevent selecting text in an element and its children.
 
 <container>
   <div class="flex justify-center">
-    <div class="ex-box select-none inline-flex text-center bg-white text-slate-900 font-semibold shadow-xl rounded-8 dark:bg-slate-800 dark:highlight-white/5 dark:text-slate-200 border border-slate-900/5 dark:border-slate-100/5">
+    <div class="ex-box select-none inline-flex text-center pd-bg-white pd-text-slate-900 pd-font-semibold pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-200 border pd-border-slate-900/5 dark:pd-border-slate-100/5">
      The quick smart warp scientist drinks the hazy coffee.
     </div>
   </div>
@@ -29,7 +29,7 @@ Use `select-text` to allow selecting text in an element and its children.
 
 <container>
   <div class="flex justify-center">
-    <div class="ex-box select-text inline-flex text-center bg-white text-slate-900 font-semibold shadow-xl rounded-8 dark:bg-slate-800 dark:highlight-white/5 dark:text-slate-200 border border-slate-900/5 dark:border-slate-100/5">
+    <div class="ex-box select-text inline-flex text-center pd-bg-white pd-text-slate-900 pd-font-semibold pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-200 border pd-border-slate-900/5 dark:pd-border-slate-100/5">
      The quick smart warp scientist drinks the hazy coffee.
     </div>
   </div>
@@ -46,7 +46,7 @@ Use `select-all` to automatically select all the text in an element when a user 
 
 <container>
   <div class="flex justify-center">
-    <div class="ex-box select-all inline-flex text-center bg-white text-slate-900 font-semibold shadow-xl rounded-8 dark:bg-slate-800 dark:highlight-white/5 dark:text-slate-200 border border-slate-900/5 dark:border-slate-100/5">
+    <div class="ex-box select-all inline-flex text-center pd-bg-white pd-text-slate-900 pd-font-semibold pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-200 border pd-border-slate-900/5 dark:pd-border-slate-100/5">
      The quick smart warp scientist drinks the hazy coffee.
     </div>
   </div>
@@ -63,7 +63,7 @@ Use `select-auto` to use the default browser behavior for selecting text. Useful
 
 <container>
   <div class="flex justify-center">
-    <div class="ex-box select-auto inline-flex text-center bg-white text-slate-900 font-semibold shadow-xl rounded-8 dark:bg-slate-800 dark:highlight-white/5 dark:text-slate-200 border border-slate-900/5 dark:border-slate-100/5">
+    <div class="ex-box select-auto inline-flex text-center pd-bg-white pd-text-slate-900 pd-font-semibold pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-200 border pd-border-slate-900/5 dark:pd-border-slate-100/5">
      The quick smart warp scientist drinks the hazy coffee.
     </div>
   </div>

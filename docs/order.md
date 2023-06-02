@@ -21,9 +21,9 @@ Use `order-{order}` to render flex and grid items in a different order than they
 
 <container>
   <box class="flex justify-between gap-24 rounded-4">
-    <div class="bg-indigo-500 ex-box order-last">01</div>
-    <div class="bg-indigo-500 ex-box">02</div>
-    <div class="bg-indigo-500 ex-box">03</div>
+    <div class="pd-bg-indigo-500 ex-box order-last">01</div>
+    <div class="pd-bg-indigo-500 ex-box">02</div>
+    <div class="pd-bg-indigo-500 ex-box">03</div>
   </box>
 </container>
 

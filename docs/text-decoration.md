@@ -13,11 +13,11 @@ Control how text is decorated with the `underline`, `no-underline`, and `line-th
 
 <container>
   <div class="mx-24">
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">underline</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">underline</span>
     <p class="text-t1 mt-0! underline">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">line-through</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">line-through</span>
     <p class="text-t3 mt-0! line-through">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">no-underline</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">no-underline</span>
     <p class="text-t4 mt-0! no-underline">The quick smart warp scientist</p>
   </div>
 </container>

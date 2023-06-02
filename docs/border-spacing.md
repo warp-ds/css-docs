@@ -19,29 +19,29 @@ Utilities for controlling the spacing between table borders.
 Use `border-spacing` to control the space between the borders of table cells with [separate borders](/border-collapse.md#separate).
 
 <container>
-  <table class="table! border border-separate! border-spacing-8 w-full  border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-xl" style="border-collapse: separate;" >
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="table! border border-separate! border-spacing-8 w-full  pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl" style="border-collapse: separate;" >
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Song</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Artist</th>
-        <th class="border border-slate-300 dark:border-slate-600 font-semibold p-16 text-slate-900 dark:text-slate-200 text-left">Year</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Song</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Artist</th>
+        <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Year</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Manic Depression</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Jimi Hendrix</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1967</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Manic Depression</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Jimi Hendrix</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1967</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">(Ballad Of) The Hip Death Goddess</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Ultimate Spinach</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">1968</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">(Ballad Of) The Hip Death Goddess</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Ultimate Spinach</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">1968</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Sonic Prayer</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">Earthless</td>
-        <td class="border border-slate-300 dark:border-slate-700 p-16 text-slate-500 dark:text-slate-400">2017</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Sonic Prayer</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">Earthless</td>
+        <td class="border pd-border-slate-300 dark:pd-border-slate-700 p-16 pd-text-slate-500 dark:pd-text-slate-400">2017</td>
       </tr>
     </tbody>
   </table>

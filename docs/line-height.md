@@ -13,27 +13,27 @@ Control the Line-height of an element using the `leading-{size}` utilities.
 
 <container>
   <div class="mx-24">
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-6</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-6</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:1.6rem">The quick smart warp scientist</p>
     </box>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-5</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-5</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:1.8rem">The quick smart warp scientist</p>
     </box>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-4</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-4</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:2.2rem">The quick smart warp scientist</p>
     </box>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-3</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-3</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:2.8rem">The quick smart warp scientist</p>
     </box>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-2</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-2</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:3.4rem">The quick smart warp scientist</p>
     </box>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-body leading-1</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">text-body leading-1</span>
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <p class="text-body mt-0!" style="line-height:4.1rem">The quick smart warp scientist</p>
     </box>

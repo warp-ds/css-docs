@@ -15,9 +15,9 @@ Utilities for skewing elements with transform.
 Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
 
 <container>
-  <div class="flex items-center justify-around gap-32 sm:gap-16 font-mono font-bold">
+  <div class="flex items-center justify-around gap-32 sm:gap-16 pd-font-mono font-bold">
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         skew-y-0
       </p>
       <div class="relative">
@@ -25,13 +25,13 @@ Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 skew-y-0">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         skew-y-3
       </p>
       <div class="relative">
@@ -39,13 +39,13 @@ Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 skew-y-3">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         skew-y-6
       </p>
       <div class="relative">
@@ -53,13 +53,13 @@ Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 skew-y-6">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         skew-y-12
       </p>
       <div class="relative">
@@ -67,7 +67,7 @@ Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 skew-y-12">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>

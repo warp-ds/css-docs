@@ -13,16 +13,16 @@ Use the `ease-{timing}` utilities to control an element’s easing curve.
 
 <container>
 <box striped class="relative group max-w-[344] mx-a mb-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
-  <div class="ex-box bg-indigo-500 text-white group-hover:translate-x-144 ease-linear duration-300 w-[200] transform-gpu">Ease-inlinear</div>
+  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-linear duration-300 w-[200] transform-gpu">Ease-inlinear</div>
 </box>
 <box striped class="relative group max-w-[344] mx-a mb-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
-  <div class="ex-box bg-indigo-500 text-white group-hover:translate-x-144 ease-in duration-300 w-[200] transform-gpu">Ease-in</div>
+  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-in duration-300 w-[200] transform-gpu">Ease-in</div>
 </box>
 <box striped class="relative group max-w-[344] mx-a mb-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
-  <div class="ex-box bg-indigo-500 text-white group-hover:translate-x-144 ease-out duration-300 w-[200] transform-gpu">Ease-out</div>
+  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-out duration-300 w-[200] transform-gpu">Ease-out</div>
 </box>
 <box striped class="relative group max-w-[344] mx-a" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
-  <div class="ex-box bg-indigo-500 text-white group-hover:translate-x-144 ease-in-out duration-300 w-[200] transform-gpu">Ease-in-out</div>
+  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-in-out duration-300 w-[200] transform-gpu">Ease-in-out</div>
 </box>
 </container>
 

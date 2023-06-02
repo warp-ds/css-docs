@@ -15,11 +15,11 @@ Use the `grid-flow-{keyword}` utilities to control how the auto-placement algori
 Items are placed by filling each row in turn, adding new rows as necessary.
 <container>
   <box striped class="grid grid-flow-row grid-cols-3 grid-rows-3 gap-24" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-800 ex-box col-span-2">01</div>
-    <div class="bg-purple-800 ex-box col-span-2">02</div>
-    <div class="bg-purple-500 ex-box ">03</div>
-    <div class="bg-purple-800 ex-box ">04</div>
-    <div class="bg-purple-800 ex-box ">05</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">01</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">02</div>
+    <div class="pd-bg-purple-500 ex-box ">03</div>
+    <div class="pd-bg-purple-800 ex-box ">04</div>
+    <div class="pd-bg-purple-800 ex-box ">05</div>
   </box>
 </container>
 
@@ -37,11 +37,11 @@ Items are placed by filling each row in turn, adding new rows as necessary.
 Items are placed by filling each column in turn, adding new columns as necessary.
 <container>
   <box striped class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-24" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-800 ex-box col-span-2">01</div>
-    <div class="bg-purple-800 ex-box col-span-2">02</div>
-    <div class="bg-purple-500 ex-box ">03</div>
-    <div class="bg-purple-800 ex-box ">04</div>
-    <div class="bg-purple-800 ex-box ">05</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">01</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">02</div>
+    <div class="pd-bg-purple-500 ex-box ">03</div>
+    <div class="pd-bg-purple-800 ex-box ">04</div>
+    <div class="pd-bg-purple-800 ex-box ">05</div>
   </box>
 </container>
 
@@ -61,11 +61,11 @@ Items are placed by filling each column in turn, adding new columns as necessary
 If it is omitted, a "sparse" algorithm is used, where the placement algorithm only ever moves "forward" in the grid when placing items, never backtracking to fill holes. This ensures that all of the auto-placed items appear "in order", even if this leaves holes that could have been filled by later items.
 <container>
   <box striped class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-24" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-800 ex-box col-span-2">01</div>
-    <div class="bg-purple-800 ex-box col-span-2">02</div>
-    <div class="bg-purple-500 ex-box ">03</div>
-    <div class="bg-purple-800 ex-box ">04</div>
-    <div class="bg-purple-800 ex-box ">05</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">01</div>
+    <div class="pd-bg-purple-800 ex-box col-span-2">02</div>
+    <div class="pd-bg-purple-500 ex-box ">03</div>
+    <div class="pd-bg-purple-800 ex-box ">04</div>
+    <div class="pd-bg-purple-800 ex-box ">05</div>
   </box>
 </container>
 

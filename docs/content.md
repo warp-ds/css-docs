@@ -22,7 +22,7 @@ Use the square bracket notation to define any arbitrary content value on the fly
 
 <container>
   <div class="text-center">
-    <span class="before:content-['Before'] after:content-['after'] before:text-indigo-400 after:text-indigo-400"> I am </span>.
+    <span class="before:content-['Before'] after:content-['after'] before:pd-text-indigo-400 after:pd-text-indigo-400"> I am </span>.
   </div>
 </container>
 

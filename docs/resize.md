@@ -13,7 +13,7 @@ Use `resize` to make an element horizontally and vertically resizable.
 <container>
   <div class="relative overflow-auto">
     <div class="w-full flex items-center justify-center">
-      <textarea class="resize text-sm p-16 mb-32 w-144 border-1 border-slate-900/10 shadow-xl rounded-8 dark:bg-slate-800 dark:border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
+      <textarea class="resize pd-text-sm p-16 mb-32 w-144 border-1 pd-border-slate-900/10 pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:pd-border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
     </div>
   </div>
 </container>
@@ -28,7 +28,7 @@ Use `resize-y` to make an element vertically resizable.
 <container>
   <div class="relative overflow-auto">
     <div class="w-full flex items-center justify-center">
-      <textarea class="resize-y text-sm p-16 mb-32 w-144 border-1 border-slate-900/10 shadow-xl rounded-8 dark:bg-slate-800 dark:border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
+      <textarea class="resize-y pd-text-sm p-16 mb-32 w-144 border-1 pd-border-slate-900/10 pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:pd-border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
     </div>
   </div>
 </container>
@@ -43,7 +43,7 @@ Use `resize-x` to make an element horizontally resizable.
 <container>
   <div class="relative overflow-auto">
     <div class="w-full flex items-center justify-center">
-      <textarea class="resize-x text-sm p-16 mb-32 w-144 border-1 border-slate-900/10 shadow-xl rounded-8 dark:bg-slate-800 dark:border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
+      <textarea class="resize-x pd-text-sm p-16 mb-32 w-144 border-1 pd-border-slate-900/10 pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:pd-border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
     </div>
   </div>
 </container>
@@ -58,7 +58,7 @@ Use `resize-none` to prevent an element from being resizable.
 <container>
   <div class="relative overflow-auto">
     <div class="w-full flex items-center justify-center">
-      <textarea class="resize-none text-sm p-16 mb-32 w-144 border-1 border-slate-900/10 shadow-xl rounded-8 dark:bg-slate-800 dark:border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
+      <textarea class="resize-none pd-text-sm p-16 mb-32 w-144 border-1 pd-border-slate-900/10 pd-shadow-xl rounded-8 dark:pd-bg-slate-800 dark:pd-border-slate-100/10 dark:highlight-white/5" rows="3" style="height: 134px; width: 226px;"></textarea>
     </div>
   </div>
 </container>

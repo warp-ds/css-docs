@@ -12,10 +12,10 @@ Utilities for controlling word breaks in an element.
 Use `break-normal` to only add line breaks at normal word break points.
 
 <container>
-  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-400">
+  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 pd-bg-white pd-text-slate-700 dark:pd-bg-slate-900 dark:pd-text-slate-400">
     <p class="break-normal">
       A really long finnish word that has nothing to do with warp technology is
-       <span class="text-slate-900 dark:text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
+       <span class="pd-text-slate-900 dark:pd-text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
       Aeroplane jet turbine motor assistant mechanic non-commissioned officer in training.
     </p>
   </div>
@@ -29,10 +29,10 @@ Use `break-normal` to only add line breaks at normal word break points.
 Use `break-words` to add line breaks mid-word if needed.
 
 <container>
-  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-400">
+  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 pd-bg-white pd-text-slate-700 dark:pd-bg-slate-900 dark:pd-text-slate-400">
     <p class="break-words">
       A really long finnish word that has nothing to do with warp technology is
-       <span class="text-slate-900 dark:text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
+       <span class="pd-text-slate-900 dark:pd-text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
       Aeroplane jet turbine motor assistant mechanic non-commissioned officer in training.
     </p>
   </div>
@@ -46,10 +46,10 @@ Use `break-words` to add line breaks mid-word if needed.
 Use `break-all` to add line breaks whenever necessary, without trying to preserve whole words.
 
 <container>
-  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-400">
+  <div class="mx-24 -my-32 max-w-[320] mx-a p-24 pd-bg-white pd-text-slate-700 dark:pd-bg-slate-900 dark:pd-text-slate-400">
     <p class="break-all">
       A really long finnish word that has nothing to do with warp technology is
-       <span class="text-slate-900 dark:text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
+       <span class="pd-text-slate-900 dark:pd-text-slate-200">Lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas</span> meaning
       Aeroplane jet turbine motor assistant mechanic non-commissioned officer in training.
     </p>
   </div>

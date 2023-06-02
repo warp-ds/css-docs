@@ -26,13 +26,13 @@ Use `w-{number}` to set an element to a fixed width. Example `w-32` = 3.2rem = 3
 
 <container class="flex justify-center">
   <div class="space-y-16">
-    <div class="w-128 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-64 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-32 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-16 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-8 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-4 h-32 mb-16 bg-blue-500 rounded"></div>
-    <div class="w-2 h-32 mb-16 bg-blue-500 rounded"></div>
+    <div class="w-128 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-64 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-32 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-16 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-8 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-4 h-32 mb-16 pd-bg-blue-500 rounded"></div>
+    <div class="w-2 h-32 mb-16 pd-bg-blue-500 rounded"></div>
   </div>
 </container>
 
@@ -51,31 +51,31 @@ Use `w-{fraction}` or `w-full` to set an element to a percentage based width.
 
 <container>
   <div class="flex gap-16">
-    <div class="w-1/2 h-32 mb-16 bg-violet-500 ex-box">w-1/2</div>
-    <div class="w-1/2 h-32 mb-16 bg-violet-500 ex-box">w-1/2</div>
+    <div class="w-1/2 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/2</div>
+    <div class="w-1/2 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/2</div>
   </div>
   <div class="flex gap-16">
-    <div class="w-2/5 h-32 mb-16 bg-violet-500 ex-box">w-2/5</div>
-    <div class="w-3/5 h-32 mb-16 bg-violet-500 ex-box">w-3/5</div>
+    <div class="w-2/5 h-32 mb-16 pd-bg-violet-500 ex-box">w-2/5</div>
+    <div class="w-3/5 h-32 mb-16 pd-bg-violet-500 ex-box">w-3/5</div>
   </div>
   <div class="flex gap-16">
-    <div class="w-1/3 h-32 mb-16 bg-violet-500 ex-box">w-1/3</div>
-    <div class="w-2/3 h-32 mb-16 bg-violet-500 ex-box">w-2/3</div>
+    <div class="w-1/3 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/3</div>
+    <div class="w-2/3 h-32 mb-16 pd-bg-violet-500 ex-box">w-2/3</div>
   </div>
   <div class="flex gap-16">
-    <div class="w-1/4 h-32 mb-16 bg-violet-500 ex-box">w-1/4</div>
-    <div class="w-3/4 h-32 mb-16 bg-violet-500 ex-box">w-3/4</div>
+    <div class="w-1/4 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/4</div>
+    <div class="w-3/4 h-32 mb-16 pd-bg-violet-500 ex-box">w-3/4</div>
   </div>
   <div class="flex gap-16">
-    <div class="w-1/5 h-32 mb-16 bg-violet-500 ex-box">w-1/5</div>
-    <div class="w-4/5 h-32 mb-16 bg-violet-500 ex-box">w-4/5</div>
+    <div class="w-1/5 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/5</div>
+    <div class="w-4/5 h-32 mb-16 pd-bg-violet-500 ex-box">w-4/5</div>
   </div>
   <div class="flex gap-16">
-    <div class="w-1/6 h-32 mb-16 bg-violet-500 ex-box">w-1/6</div>
-    <div class="w-5/6 h-32 mb-16 bg-violet-500 ex-box">w-5/6</div>
+    <div class="w-1/6 h-32 mb-16 pd-bg-violet-500 ex-box">w-1/6</div>
+    <div class="w-5/6 h-32 mb-16 pd-bg-violet-500 ex-box">w-5/6</div>
   </div>
     <div class="flex gap-16">
-    <div class="w-full h-32 mb-16 bg-violet-500 ex-box">w-full</div>
+    <div class="w-full h-32 mb-16 pd-bg-violet-500 ex-box">w-full</div>
   </div>
 </container>
 

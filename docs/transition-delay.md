@@ -18,18 +18,18 @@ Utilities for controlling the delay of CSS transitions.
 Use the `delay-{amount}` utilities to control an element’s transition-delay.
 
 <container>
- <div class="flex flex-col sm:flex-row gap-8 sm:gap-0 justify-around text-white text-sm font-bold leading-6">
+ <div class="flex flex-col sm:flex-row gap-8 sm:gap-0 justify-around pd-text-white pd-text-sm font-bold leading-6">
   <div class="flex flex-col items-center shrink-0">
-    <p class="font-medium text-sm text-slate-500 font-mono text-center mb-16 dark:text-slate-400">delay-150</p>
-    <div class="ex-box bg-indigo-500 text-white hover:scale-125 ease-in-out delay-150 duration-300">Hover me</div>
+    <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">delay-150</p>
+    <div class="ex-box pd-bg-indigo-500 pd-text-white hover:scale-125 ease-in-out delay-150 duration-300">Hover me</div>
   </div>
   <div class="flex flex-col items-center shrink-0">
-    <p class="font-medium text-sm text-slate-500 font-mono text-center mb-16 dark:text-slate-400">delay-300</p>
-    <div class="ex-box bg-blue-500 text-white hover:scale-125 ease-in-out delay-300 duration-300">Hover me</div>
+    <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">delay-300</p>
+    <div class="ex-box pd-bg-blue-500 pd-text-white hover:scale-125 ease-in-out delay-300 duration-300">Hover me</div>
   </div>
   <div class="flex flex-col items-center shrink-0">
-    <p class="font-medium text-sm text-slate-500 font-mono text-center mb-16 dark:text-slate-400">delay-700</p>
-    <div class="ex-box bg-cyan-500 text-white hover:scale-125 ease-in-out delay-1700 duration-300">Hover me</div>
+    <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">delay-700</p>
+    <div class="ex-box bg-cyan-500 pd-text-white hover:scale-125 ease-in-out delay-1700 duration-300">Hover me</div>
   </div>
  </div>
 </container>
