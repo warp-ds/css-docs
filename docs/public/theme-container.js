@@ -1,12 +1,18 @@
+import styles from '/__uno.css';
+
 class ThemeContainer extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
+    const brandCss = document.createElement('link');
+    brandCss.rel = 'stylesheet';
+    brandCss.href = 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css';
+    this.shadowRoot.appendChild(brandCss);
 
-    const style = document.createElement('link');
-    style.rel = 'stylesheet';
-    style.href = 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css';
-    this.shadowRoot.appendChild(style);
+    const unoStyles = document.createElement('style');
+    unoStyles.innerHTML = styles;
+    this.shadowRoot.appendChild(unoStyles);
+
   }
 
   connectedCallback() {
