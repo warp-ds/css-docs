@@ -1,7 +1,7 @@
 import 'uno.css'
-import './custom.css'
 import Box from '../../global-components/Box.vue'
 import DefaultTheme from 'vitepress/theme'
+import './custom.css'
 import Container from '../../global-components/Container.vue'
 import QrTable from '../../global-components/qr-table.vue'
 import ThemeContainer from '../../global-components/ThemeContainer.vue'

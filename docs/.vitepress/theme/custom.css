@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 :root {
   --vp-code-block-bg: #2e3440ff !important;
   --vp-code-line-highlight-color: #39455a !important;
@@ -17,6 +20,6 @@
 }
 
 .vp-doc blockquote > p {
-  font-size: 0.8rem !important;
+  font-size: 1.28rem !important;
 }
 
