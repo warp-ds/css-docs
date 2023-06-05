@@ -14,16 +14,16 @@ Use `inline`, `inline-block`, and `block` to control the flow of text and elemen
 <container>
   <div class="flex justify-center">
     <div class="relative rounded overflow-auto">
-      <div style="max-width:300px" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-        When controlling the flow of text, using the CSS property <span class="inline bg-sky-100 font-bold text-sm text-slate-900 font-mono rounded dark:bg-slate-600 dark:text-slate-200">display: inline</span>
+      <div style="max-width:300px" class="mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
+        When controlling the flow of text, using the CSS property <span class="inline pd-bg-sky-100 font-bold pd-text-sm pd-text-slate-900 pd-font-mono rounded dark:pd-bg-slate-600 dark:pd-text-slate-200">display: inline</span>
         will cause the text inside the element to wrap normally.
         <br><br>
         While using the property
-        <span class="inline-block bg-sky-100 font-bold text-sm text-slate-900 font-mono rounded dark:bg-slate-600 dark:text-slate-200">display: inline-block</span>
+        <span class="inline-block pd-bg-sky-100 font-bold pd-text-sm pd-text-slate-900 pd-font-mono rounded dark:pd-bg-slate-600 dark:pd-text-slate-200">display: inline-block</span>
         will wrap the element to prevent the text inside from extending beyond its parent.
         <br><br>
         Lastly, using the property
-        <span class="block bg-sky-100 font-bold text-sm text-slate-900 font-mono rounded dark:bg-slate-600 dark:text-slate-200">display: block</span>
+        <span class="block pd-bg-sky-100 font-bold pd-text-sm pd-text-slate-900 pd-font-mono rounded dark:pd-bg-slate-600 dark:pd-text-slate-200">display: block</span>
         will put the element on its own line and fill its parent.
       </div>
     </div>
@@ -49,7 +49,7 @@ Use `flow-root` to create a block-level element with its own block formatting co
 <container>
   <div class="flex justify-center">
     <div class="relative rounded-xl overflow-auto">
-      <div style="max-width:300px" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="max-width:300px" class="mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
         <box striped class="h-16"> </box>
         Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"? Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.
         <box striped class="h-16 mb-2"> </box>
@@ -76,7 +76,7 @@ Use `flex` to create a block-level flex container.
 <container>
   <div class="flex justify-center">
     <div class="relative rounded-xl overflow-auto">
-      <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;" class="mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
        <div class="flex items-center">
           <img src="/matter.jpg" class="h-64 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
@@ -105,7 +105,7 @@ Use `inline-flex` to create an inline flex container that flows with text.
 <container>
   <div class="flex justify-center">
     <div class="relative rounded-xl overflow-auto">
-      <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;" class="mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
         <p>I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here.<span class="inline-flex items-baseline">
           <img src="/matter.jpg" alt="" class="self-center w-24 h-24 rounded-full mx-4" />
           <span class="font-bold">Justina</span>
@@ -156,20 +156,20 @@ Use `inline-grid` to create a inline grid container.
 
 <container>
   <box striped class="inline-grid grid-cols-3 gap-16 mr-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500 ex-box">01</div>
-    <div class="bg-pink-500 ex-box">02</div>
-    <div class="bg-pink-500 ex-box">03</div>
-    <div class="bg-pink-500 ex-box">04</div>
-    <div class="bg-pink-500 ex-box">05</div>
-    <div class="bg-pink-500 ex-box">06</div>
+    <div class="pd-bg-pink-500 ex-box">01</div>
+    <div class="pd-bg-pink-500 ex-box">02</div>
+    <div class="pd-bg-pink-500 ex-box">03</div>
+    <div class="pd-bg-pink-500 ex-box">04</div>
+    <div class="pd-bg-pink-500 ex-box">05</div>
+    <div class="pd-bg-pink-500 ex-box">06</div>
   </box>
   <box striped class="inline-grid grid-cols-3 gap-16" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500 ex-box">01</div>
-    <div class="bg-pink-500 ex-box">02</div>
-    <div class="bg-pink-500 ex-box">03</div>
-    <div class="bg-pink-500 ex-box">04</div>
-    <div class="bg-pink-500 ex-box">05</div>
-    <div class="bg-pink-500 ex-box">06</div>
+    <div class="pd-bg-pink-500 ex-box">01</div>
+    <div class="pd-bg-pink-500 ex-box">02</div>
+    <div class="pd-bg-pink-500 ex-box">03</div>
+    <div class="pd-bg-pink-500 ex-box">04</div>
+    <div class="pd-bg-pink-500 ex-box">05</div>
+    <div class="pd-bg-pink-500 ex-box">06</div>
   </box>
 </container>
 
@@ -191,12 +191,12 @@ Use contents to create a “phantom” container whose children act like direct 
 <container>
   <box striped fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
     <div class="flex gap-16">
-      <div class="bg-violet-500 flex-1 ex-box">01</div>
+      <div class="pd-bg-violet-500 flex-1 ex-box">01</div>
       <div class="contents">
-        <div class="bg-violet-500 flex-1 ex-box">02</div>
-        <div class="bg-violet-500 flex-1 ex-box">03</div>
+        <div class="pd-bg-violet-500 flex-1 ex-box">02</div>
+        <div class="pd-bg-violet-500 flex-1 ex-box">03</div>
       </div>
-      <div class="bg-violet-500 flex-1 ex-box">04</div>
+      <div class="pd-bg-violet-500 flex-1 ex-box">04</div>
     </div>
   </box>
 </container>
@@ -277,9 +277,9 @@ Use `hidden` to set an element to `display: none` and remove it from the page la
 
 <container>
   <box striped class="grid grid-cols-3 gap-16" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-    <div class="bg-purple-500 ex-box hidden">01</div>
-    <div class="bg-purple-500 ex-box">02</div>
-    <div class="bg-purple-500 ex-box">03</div>
+    <div class="pd-bg-purple-500 ex-box hidden">01</div>
+    <div class="pd-bg-purple-500 ex-box">02</div>
+    <div class="pd-bg-purple-500 ex-box">03</div>
   </box>
 </container>
 

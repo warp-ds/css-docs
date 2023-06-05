@@ -14,22 +14,22 @@ Use `justify-items-start` to justify grid items against the start of their inlin
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">01</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">01</div>
     </box>
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">02</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">02</div>
     </box>
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">03</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">03</div>
     </box>
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">04</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">04</div>
     </box>
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">05</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">05</div>
     </box>
     <box striped class="rounded-l-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="w-64 bg-blue-500 ex-box">06</div>
+      <div class="w-64 pd-bg-blue-500 ex-box">06</div>
     </box>
   </div>
 </container>
@@ -82,22 +82,22 @@ Use `justify-items-center` to justify grid items along their inline axis.
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">01</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">01</div>
     </box>
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">02</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">02</div>
     </box>
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">03</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">03</div>
     </box>
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">04</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">04</div>
     </box>
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">05</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">05</div>
     </box>
     <box striped class="flex justify-center" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-      <div class="w-64 bg-pink-500 ex-box">06</div>
+      <div class="w-64 pd-bg-pink-500 ex-box">06</div>
     </box>
   </div>
 </container>
@@ -115,12 +115,12 @@ Use `justify-items-stretch` to stretch items along their inline axis.
 
 <container>
   <div class="grid grid-cols-3 gap-24">
-    <div class="bg-indigo-500 ex-box">01</div>
-    <div class="bg-indigo-500 ex-box">02</div>
-    <div class="bg-indigo-500 ex-box">03</div>
-    <div class="bg-indigo-500 ex-box">04</div>
-    <div class="bg-indigo-500 ex-box">05</div>
-    <div class="bg-indigo-500 ex-box">06</div>
+    <div class="pd-bg-indigo-500 ex-box">01</div>
+    <div class="pd-bg-indigo-500 ex-box">02</div>
+    <div class="pd-bg-indigo-500 ex-box">03</div>
+    <div class="pd-bg-indigo-500 ex-box">04</div>
+    <div class="pd-bg-indigo-500 ex-box">05</div>
+    <div class="pd-bg-indigo-500 ex-box">06</div>
   </div>
 </container>
 

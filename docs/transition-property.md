@@ -12,7 +12,7 @@ Utilities for controlling which CSS properties transition.
 Use the `transition-{properties}` utilities to specify which properties should transition when they change.
 
 <container>
-  <div class="max-w-[230] mx-a ex-box transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600 duration-300">
+  <div class="max-w-[230] mx-a ex-box transition ease-in-out delay-150 pd-bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:pd-bg-indigo-600 duration-300">
     Im a nice box, why are you not hovering over me?
   </div>
 </container>

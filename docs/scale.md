@@ -19,33 +19,33 @@ Utilities for scaling elements with transform.
 Use the `scale-{percentage}`, `scale-x-{percentage}`, and `scale-y-{percentage}` utilities to scale an element.
 
 <container>
-<div class="flex items-center justify-around gap-16 sm:gap-4 font-mono font-bold p-8 px-12 sm:px-8 pb-10 shrink-0">
+<div class="flex items-center justify-around gap-16 sm:gap-4 pd-font-mono font-bold p-8 px-12 sm:px-8 pb-10 shrink-0">
 <div class="flex flex-col items-center shrink-0">
-  <p class="font-medium text-sm text-slate-500 font-mono text-center mb-32 dark:text-slate-400">scale-75</p>
+  <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-32 dark:pd-text-slate-400">scale-75</p>
   <div class="relative">
     <div class="absolute inset-0">
       <img class="w-128 h-128 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
     </div>
     <div class="relative z-10 scale-75">
-      <img class="w-128 h-128 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+      <img class="w-128 h-128 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
       <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
     </div>
   </div>
 </div>
 <div class="flex flex-col items-center shrink-0">
- <p class="font-medium text-sm text-slate-500 font-mono text-center mb-32 dark:text-slate-400">scale-100</p>
+ <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-32 dark:pd-text-slate-400">scale-100</p>
   <div class="relative">
     <div class="relative z-10 scale-100">
-      <img class="w-128 h-128 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+      <img class="w-128 h-128 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
       <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
     </div>
   </div>
 </div>
 <div class="flex flex-col items-center shrink-0">
- <p class="font-medium text-sm text-slate-500 font-mono text-center mb-32 dark:text-slate-400">scale-125</p>
+ <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-32 dark:pd-text-slate-400">scale-125</p>
   <div class="relative">
     <div class="relative z-10 scale-125">
-      <img class="w-128 h-128 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+      <img class="w-128 h-128 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
       <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
     </div>
   </div>

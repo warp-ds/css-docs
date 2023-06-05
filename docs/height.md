@@ -25,13 +25,13 @@ Utilities for setting the height of an element.
 Use `h-{number}` to set an element to a fixed height. Example `h-16` = 1.6rem = 16px.
 
 <container class="flex justify-center items-end gap-16">
-  <div class="h-128 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-64 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-32 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-16 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-8 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-4 w-32 mb-16 bg-blue-500 rounded"></div>
-  <div class="h-2 w-32 mb-16 bg-blue-500 rounded"></div>
+  <div class="h-128 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-64 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-32 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-16 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-8 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-4 w-32 mb-16 pd-bg-blue-500 rounded"></div>
+  <div class="h-2 w-32 mb-16 pd-bg-blue-500 rounded"></div>
 </container>
 
 ```html

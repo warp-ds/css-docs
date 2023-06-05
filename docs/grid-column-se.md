@@ -20,13 +20,13 @@ Use the `col-span-{n}` utilities to make an element span n columns.
 
 <container>
   <box class="grid grid-cols-3 gap-24 rounded-4">
-    <div class="bg-indigo-800 ex-box">01</div>
-    <div class="bg-indigo-800 ex-box">02</div>
-    <div class="bg-indigo-800 ex-box">03</div>
-    <div class="bg-indigo-500 ex-box col-span-2">04</div>
-    <div class="bg-indigo-800 ex-box">05</div>
-    <div class="bg-indigo-800 ex-box">06</div>
-    <div class="bg-indigo-500 ex-box col-span-2">07</div>
+    <div class="pd-bg-indigo-800 ex-box">01</div>
+    <div class="pd-bg-indigo-800 ex-box">02</div>
+    <div class="pd-bg-indigo-800 ex-box">03</div>
+    <div class="pd-bg-indigo-500 ex-box col-span-2">04</div>
+    <div class="pd-bg-indigo-800 ex-box">05</div>
+    <div class="pd-bg-indigo-800 ex-box">06</div>
+    <div class="pd-bg-indigo-500 ex-box col-span-2">07</div>
   </box>
 </container>
 
@@ -52,13 +52,13 @@ CSS grid lines start at 1, not 0, so a full-width element in a 6-column grid wou
 <container>
   <div class="grid grid-cols-6 gap-24 rounded-4">
     <box striped class="ex-box" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)"></box>
-    <div class="bg-blue-500 ex-box col-start-2 col-span-4">01</div>
+    <div class="pd-bg-blue-500 ex-box col-start-2 col-span-4">01</div>
     <box striped class="ex-box" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)"></box>
-    <div class="bg-blue-500 ex-box col-start-1 col-end-3">02</div>
+    <div class="pd-bg-blue-500 ex-box col-start-1 col-end-3">02</div>
     <box striped class="ex-box" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)"></box>
     <box striped class="ex-box" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)"></box>
-    <div class="bg-blue-500 ex-box col-end-7 col-span-2">03</div>
-    <div class="bg-blue-500 ex-box col-start-1 col-end-7">04</div>
+    <div class="pd-bg-blue-500 ex-box col-end-7 col-span-2">03</div>
+    <div class="pd-bg-blue-500 ex-box col-start-1 col-end-7">04</div>
   </div>
 </container>
 

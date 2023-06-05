@@ -12,9 +12,9 @@ Utilities for specifying the origin for an element's transformations.
 Specify an element’s transform origin using the `origin-{keyword}` utilities.
 
 <container>
-  <div class="flex items-center justify-around gap-32 sm:gap-16 font-mono font-bold pb-32">
+  <div class="flex items-center justify-around gap-32 sm:gap-16 pd-font-mono font-bold pb-32">
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         origin-center
       </p>
       <div class="relative">
@@ -22,13 +22,13 @@ Specify an element’s transform origin using the `origin-{keyword}` utilities.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 origin-center rotate-30">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         origin-top-left
       </p>
       <div class="relative">
@@ -36,13 +36,13 @@ Specify an element’s transform origin using the `origin-{keyword}` utilities.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 origin-top-left rotate-30">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>
     </div>
     <div class="flex flex-col items-center shrink-0">
-      <p class="font-medium text-sm text-slate-500 font-mono text-center mb-24 dark:text-slate-400">
+      <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-24 dark:pd-text-slate-400">
         origin-bottom
       </p>
       <div class="relative">
@@ -50,7 +50,7 @@ Specify an element’s transform origin using the `origin-{keyword}` utilities.
           <img class="w-96 h-96 object-cover rounded-8 opacity-25" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
         </div>
         <div class="relative z-10 origin-bottom rotate-30">
-          <img class="w-96 h-96 object-cover rounded-8 shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
+          <img class="w-96 h-96 object-cover rounded-8 pd-shadow-xl" src="/20s-scientists.jpg" alt="Ai generated image of 1920s scientists working on a warp drive">
           <div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
         </div>
       </div>

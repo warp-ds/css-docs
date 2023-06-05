@@ -11,7 +11,7 @@ Utilities for controlling the repetition of an element's background image.
 Use `bg-repeat` to repeat the background image both vertically and horizontally.
 
 <container>
-  <div class="h-144 bg-repeat rounded-8 bg-white dark:bg-slate-800 dark:border dark:border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
+  <div class="h-144 bg-repeat rounded-8 pd-bg-white dark:pd-bg-slate-800 dark:border dark:pd-border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
 </container>
 
 ```html
@@ -22,7 +22,7 @@ Use `bg-repeat` to repeat the background image both vertically and horizontally.
 Use `bg-no-repeat` when you don’t want to repeat the background image.
 
 <container>
-  <div class="h-144 bg-no-repeat bg-center rounded-8 bg-white dark:bg-slate-800 dark:border dark:border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
+  <div class="h-144 bg-no-repeat bg-center rounded-8 pd-bg-white dark:pd-bg-slate-800 dark:border dark:pd-border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
 </container>
 
 ```html
@@ -33,7 +33,7 @@ Use `bg-no-repeat` when you don’t want to repeat the background image.
 Use `bg-repeat-x` to repeat the background image only horizontally.
 
 <container>
-  <div class="h-144 bg-repeat-x bg-center rounded-8 bg-white dark:bg-slate-800 dark:border dark:border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
+  <div class="h-144 bg-repeat-x bg-center rounded-8 pd-bg-white dark:pd-bg-slate-800 dark:border dark:pd-border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
 </container>
 
 ```html
@@ -44,7 +44,7 @@ Use `bg-repeat-x` to repeat the background image only horizontally.
 Use `bg-repeat-y` to repeat the background image only vertically.
 
 <container>
-  <div class="h-144 bg-repeat-y bg-center rounded-8 bg-white dark:bg-slate-800 dark:border dark:border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
+  <div class="h-144 bg-repeat-y bg-center rounded-8 pd-bg-white dark:pd-bg-slate-800 dark:border dark:pd-border-slate-200/20" style="background-image:url(/repeatable.png);background-size:10%"></div>
 </container>
 
 ```html

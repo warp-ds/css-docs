@@ -13,9 +13,9 @@ The `italic` utility can be used to make text italic. Likewise, the `not-italic`
 
 <container>
   <div class="mx-24">
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">italic</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">italic</span>
     <p class="text-t2 mt-0! italic">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">not-italic</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">not-italic</span>
     <p class="text-t2 mt-0! not-italic">The quick smart warp scientist</p>
   </div>
 </container>

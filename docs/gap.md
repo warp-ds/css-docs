@@ -20,10 +20,10 @@ Use `gap-{size}` to change the gap between both rows and columns in grid and fle
 
 <container>
   <box striped class="grid gap-24 grid-cols-2 rounded-4" fg-color="var(--tw-violet-fg)" bg-color="var(--tw-violet-bg)">
-    <div class="bg-violet-500 ex-box">01</div>
-    <div class="bg-violet-500 ex-box">02</div>
-    <div class="bg-violet-500 ex-box">03</div>
-    <div class="bg-violet-500 ex-box">04</div>
+    <div class="pd-bg-violet-500 ex-box">01</div>
+    <div class="pd-bg-violet-500 ex-box">02</div>
+    <div class="pd-bg-violet-500 ex-box">03</div>
+    <div class="pd-bg-violet-500 ex-box">04</div>
   </box>
 </container>
 
@@ -40,12 +40,12 @@ Use `gap-{size}` to change the gap between both rows and columns in grid and fle
 Use `gap-x-{size}` and `gap-y-{size}` to change the gap between rows and columns independently.
 <container>
   <box striped class="grid gap-x-48 gap-y-24 grid-cols-3 rounded-4" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-    <div class="bg-blue-500 ex-box">01</div>
-    <div class="bg-blue-500 ex-box">02</div>
-    <div class="bg-blue-500 ex-box">03</div>
-    <div class="bg-blue-500 ex-box">04</div>
-    <div class="bg-blue-500 ex-box">05</div>
-    <div class="bg-blue-500 ex-box">06</div>
+    <div class="pd-bg-blue-500 ex-box">01</div>
+    <div class="pd-bg-blue-500 ex-box">02</div>
+    <div class="pd-bg-blue-500 ex-box">03</div>
+    <div class="pd-bg-blue-500 ex-box">04</div>
+    <div class="pd-bg-blue-500 ex-box">05</div>
+    <div class="pd-bg-blue-500 ex-box">06</div>
   </box>
 </container>
 

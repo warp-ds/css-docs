@@ -13,9 +13,9 @@ Use `border-{style}` to control an element’s border style.
 
 <container>
   <div class="grid grid-cols-3 gap-16 justify-items-center">
-    <div class="bg-pink-500 p-24 rounded-8 border-1 border-solid">01</div>
-    <div class="bg-pink-500 p-24 rounded-8 border-1 border-dashed">02</div>
-    <div class="bg-pink-500 p-24 rounded-8 border-1 border-dotted">03</div>
+    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-solid">01</div>
+    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-dashed">02</div>
+    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-dotted">03</div>
   </div>
 </container>
 
@@ -32,7 +32,7 @@ This is most commonly used to remove a border style that was applied at a smalle
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="bg-pink-500 p-24 rounded-8 border-1 border-none">No border here!</div>
+    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-none">No border here!</div>
   </div>
 </container>
 
