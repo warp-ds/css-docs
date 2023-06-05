@@ -9,7 +9,11 @@ import WidthController from '../../global-components/WidthController.vue'
 
 export default {
   ...DefaultTheme,
-  enhanceApp(ctx) {
+  async enhanceApp(ctx) {
+    if (!import.meta.env.SSR) {
+      const plugin = await import('../theme-container.js')
+      ctx.app.use(plugin)
+    }
     DefaultTheme.enhanceApp(ctx)
     ctx.app.component('Box', Box)
     ctx.app.component('Container', Container)

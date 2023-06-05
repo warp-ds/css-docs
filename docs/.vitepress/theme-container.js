@@ -1,4 +1,4 @@
-import styles from '/__uno.css';
+import styles from '/__uno.css?inline';
 
 class ThemeContainer extends HTMLElement {
   constructor() {
