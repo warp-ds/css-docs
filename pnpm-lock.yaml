@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^0.0.1
     version: 0.0.1(eslint@8.35.0)
   '@warp-ds/preset-docs':
-    specifier: ^0.0.14
-    version: 0.0.14(@warp-ds/uno@1.0.0-alpha.36)
+    specifier: ^0.0.15
+    version: 0.0.15(@warp-ds/uno@1.0.0-alpha.36)
   '@warp-ds/uno':
     specifier: ^1.0.0-alpha.36
     version: 1.0.0-alpha.36
@@ -901,8 +901,8 @@ packages:
       eslint: 8.35.0
     dev: true
 
-  /@warp-ds/preset-docs@0.0.14(@warp-ds/uno@1.0.0-alpha.36):
-    resolution: {integrity: sha512-Px7yTmhkXbAIKePXO0qAjGsoo2mtf7dJRmTaFVRJuJ2oaQIW4Qwrn9j95Mycz2ypPy5/+eULqxDHOAx1+gA8Zw==}
+  /@warp-ds/preset-docs@0.0.15(@warp-ds/uno@1.0.0-alpha.36):
+    resolution: {integrity: sha512-sjXcSklUKoei/ElAo/lYIFDmHtyyE7dNfFWgKXLMrxob+E3570wg2TSA7vtDPPjwDqdyOfO+EZ9DOV2gcYmQag==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
