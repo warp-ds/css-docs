@@ -13,7 +13,7 @@
     "@vueuse/core": "^9.13.0",
     "@warp-ds/eslint-config": "^0.0.1",
     "@warp-ds/preset-docs": "^0.0.14",
-    "@warp-ds/uno": "^1.0.0-alpha.34",
+    "@warp-ds/uno": "^1.0.0-alpha.36",
     "camelcase": "^7.0.1",
     "eslint": "^8.35.0",
     "unocss": "^0.50.4",
