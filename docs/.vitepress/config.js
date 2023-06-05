@@ -18,7 +18,7 @@ export default defineConfig({
   },
   base: `${base}/`,
   head: [
-    ['script', { src: '/theme-container.js', type: 'module' }],
+    ['script', { src: `${base}/theme-container.js`, type: 'module' }],
     [
       'link',
       {
