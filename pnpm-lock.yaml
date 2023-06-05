@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@itsy/okay':
@@ -17,7 +21,7 @@ devDependencies:
     specifier: ^0.0.15
     version: 0.0.15(@warp-ds/uno@1.0.0-alpha.36)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.36
+    specifier: ^1.0.0-alpha.35
     version: 1.0.0-alpha.36
   camelcase:
     specifier: ^7.0.1
