@@ -9,7 +9,7 @@ import WidthController from '../../global-components/WidthController.vue'
 export default {
   ...DefaultTheme,
   async enhanceApp(ctx) {
-    // DefaultTheme.enhanceApp(ctx)
+    DefaultTheme.enhanceApp(ctx)
     ctx.app.component('Box', Box)
     ctx.app.component('Container', Container)
     ctx.app.component('QrTable', QrTable)
