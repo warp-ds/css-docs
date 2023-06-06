@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
 --w-font-family: var(--vp-font-family-base);
 --w-font-size-m: 16px;
