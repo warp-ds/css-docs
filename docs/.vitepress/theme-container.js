@@ -1,4 +1,4 @@
-import styles from 'virtual:uno.css?inline';
+import styles from '/__uno.css?inline';
 
 class ThemeContainer extends HTMLElement {
   constructor() {

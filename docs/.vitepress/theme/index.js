@@ -1,5 +1,5 @@
 import Box from '../../global-components/Box.vue'
-import 'virtual:uno.css'
+import 'uno.css'
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import Container from '../../global-components/Container.vue'
