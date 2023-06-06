@@ -26,6 +26,27 @@ export default defineConfig({
         href: `${base}/warp-logo-tiny.svg`,
       },
     ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/finn-no.css'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/tori-fi.css'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/blocket-se.css'
+      }
+    ]
   ],
   themeConfig: {
     logo: '/warp-logo-tiny.svg',
@@ -293,7 +314,7 @@ export default defineConfig({
     plugins: [
       uno({
         presets: [
-          presetWarp({ usePixels: true, usePreflight: true }),
+          presetWarp({ usePixels: true }),
           presetDocs(),
         ],
         shortcuts: [
