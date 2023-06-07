@@ -17,6 +17,33 @@ export default defineConfig({
     headers: { level: [0, 0] },
   },
   base: `${base}/`,
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.includes('-example'),
+        // isCustomElement: (tag) => ['theme-container'].includes(tag),
+      },
+    },
+  },
+  vite: {
+    plugins: [
+      uno({
+        presets: [
+          presetWarp({ usePixels: true }),
+          presetDocs(),
+        ],
+        safelist: ['text-xl', 'aspect-2/1'],     
+        mode: 'shadow-dom',
+        shortcuts: [
+          {
+            'ex-font': 'pd-text-sm font-bold pd-font-mono pd-text-white',
+            'ex-box':
+              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
+          },
+        ],    
+      }),
+    ],
+  },
   head: [
     [
       'link',
@@ -46,7 +73,7 @@ export default defineConfig({
         rel: 'stylesheet',
         href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/blocket-se.css'
       }
-    ]
+    ],
   ],
   themeConfig: {
     logo: '/warp-logo-tiny.svg',
@@ -302,29 +329,5 @@ export default defineConfig({
         },
       ],
     },
-  },
-  vue: {
-    template: {
-      compilerOptions: {
-        isCustomElement: (tag) => ['theme-container'].includes(tag),
-      },
-    },
-  },
-  vite: {
-    plugins: [
-      uno({
-        presets: [
-          presetWarp({ usePixels: true }),
-          presetDocs(),
-        ],
-        shortcuts: [
-          {
-            'ex-font': 'pd-text-sm font-bold pd-font-mono pd-text-white',
-            'ex-box':
-              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
-          },
-        ],    
-      }),
-    ],
   },
 });

@@ -9,6 +9,7 @@ onMounted(registerSelf)
 
 <style>
   .pd-border-strictly-temporary-gray{ border-color: var(--vp-c-border) }
+  /*@unocss-placeholder*/
 </style>
 
 <template>

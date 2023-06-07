@@ -36,6 +36,7 @@ watch(right, () => {
 })
 </script>
 
+<style>/*@unocss-placeholder*/</style>
 <template>
   <div class="relative pr-16" ref="wrapperEl">
     <slot />

@@ -1,11 +1,12 @@
 import Box from '../../global-components/Box.vue'
-import 'uno.css'
 import DefaultTheme from 'vitepress/theme'
-import './custom.css'
 import Container from '../../global-components/Container.vue'
 import QrTable from '../../global-components/qr-table.vue'
 import ThemeContainer from '../../global-components/ThemeContainer.vue'
 import WidthController from '../../global-components/WidthController.vue'
+import '../bootExamples.js';
+import './custom.css';
+import UnoCSSPlaceholder from '../unoCSSPlaceholder.vue';
 
 export default {
   ...DefaultTheme,
@@ -19,5 +20,6 @@ export default {
     ctx.app.component('QrTable', QrTable)
     ctx.app.component('ThemeContainer', ThemeContainer)
     ctx.app.component('WidthController', WidthController)
+    ctx.app.component('UnoCSSPlaceholder', UnoCSSPlaceholder)
   }
 }

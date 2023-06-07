@@ -24,7 +24,7 @@ const dotSize = computed(() => props.size + 'px')
 <template>
   <div class="box pd-font-mono" :class="{ dotted, striped }"><slot /></div>
 </template>
-
+<style>/*@unocss-placeholder*/</style>
 <style scoped>
 .box {
   --tw-purple-fg: #a855f780;

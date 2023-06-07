@@ -12,26 +12,7 @@ Utilities for controlling the font size of an element.
 Control the font size of an element using the `text-{size}` utilities. These comes with built in line-heights. Line-heights can be overridden by the `.leading-{size}` classes, but please only do that as a last resort since that might take them out of the brand themeing patterns.
 
 <container class="pt-0">
-  <themeContainer>
-    <div class="mx-24">
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-xs</span>
-      <p class="text-xs mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-s</span>
-      <p class="text-s mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-m</span>
-      <p class="text-m mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-ml</span>
-      <p class="text-ml mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-l</span>
-      <p class="text-l mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-xl</span>
-      <p class="text-xl mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-xxl</span>
-      <p class="text-xxl mt-0!">The quick smart warp scientist</p>
-      <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-xxxl</span>
-      <p class="text-xxxl mt-0!">The quick smart warp scientist</p>
-    </div>
-  </themeContainer>
+  <fontsize-example />
 </container>
 
 ```html
@@ -51,7 +32,7 @@ The heading tags should be implemented strictly semantic in a clear tree structu
 :::
 
 <container class="pt-0">
-  <themeContainer>
+  <!-- <themeContainer>
     <div class="mx-24">
       <h1 class="h3">Warping</h1>
       <h2 class="h2">The process</h2>
@@ -59,7 +40,7 @@ The heading tags should be implemented strictly semantic in a clear tree structu
       <h2 class="h2">The goal</h2>
       <p>The quick smart warp scientist ...</p>
     </div>
-  </themeContainer>
+  </themeContainer> -->
 </container>
 
 ```html
