@@ -1,6 +1,4 @@
-import styles from '/__uno.css?inline';
-
-class ThemeContainer extends HTMLElement {
+class FontSizeHeadingExample extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -12,6 +10,17 @@ class ThemeContainer extends HTMLElement {
     const unoStyles = document.createElement('style');
     unoStyles.innerHTML = `@unocss-placeholder`;
     this.shadowRoot.appendChild(unoStyles);
+    const test = document.createElement('div');
+    test.innerHTML = `
+    <div class="mx-24">
+      <h1 class="h3">Warping</h1>
+      <h2 class="h2">The process</h2>
+      <p>The quick smart warp scientist ...</p>
+      <h2 class="h2">The goal</h2>
+      <p>The quick smart warp scientist ...</p>
+    </div>
+    `;
+    this.shadowRoot.appendChild(test);
 
   }
 
@@ -33,4 +42,4 @@ class ThemeContainer extends HTMLElement {
   }
 }
 
-customElements.define('theme-container', ThemeContainer);
+customElements.define('heading-example', FontSizeHeadingExample);

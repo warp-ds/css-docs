@@ -306,7 +306,7 @@ export default defineConfig({
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => ['theme-container'].includes(tag),
+        isCustomElement: (tag) => tag.includes('-example'),
       },
     },
   },
@@ -318,14 +318,6 @@ export default defineConfig({
           presetDocs(),
         ],
         mode: 'shadow-dom',
-        safelist: ['text-s', 'text-xl'],
-        shortcuts: [
-          {
-            'ex-font': 'pd-text-sm font-bold pd-font-mono pd-text-white',
-            'ex-box':
-              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
-          },
-        ],    
       }),
       uno({
         presets: [

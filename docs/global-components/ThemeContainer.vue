@@ -23,18 +23,15 @@ const selectedTheme = computed({
 */
 </script>
 
-
 <template>
-    <ClientOnly>
+  <ClientOnly>
         <div class="select">
             <select v-model="selectedTheme" name="themes">
             <option v-for="[name, value] in Object.entries(themes)" :key="name" :value="value">{{ name }}</option>
             </select>
         </div>  
-        <theme-container>
         <slot />
-        </theme-container>
-    </ClientOnly>
+      </ClientOnly>
   </template>
 
 <style scoped>
