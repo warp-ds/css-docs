@@ -3,6 +3,10 @@
 # Will Change
 Utilities for optimizing upcoming animations of elements that are expected to change.
 
+::: warning Partially Unsupported
+Some of this functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 <qr-table />
 

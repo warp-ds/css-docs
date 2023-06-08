@@ -54,3 +54,6 @@ If you need to use a one-off flex-basis value, use square brackets to generate a
 </div>
 ```
 
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::

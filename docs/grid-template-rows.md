@@ -14,6 +14,10 @@ Utilities for specifying the rows in a grid layout.
 > `{n}`: `1` through `7` <br />
 > `{row-spec}`: _Any valid value for the `grid-template-rows` property - replace spaces with `_`_ <br />
 
+::: warning grid-rows-[{col-spec}] not yet supported
+If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Basic usage
 ### Specifying the rows in a grid
 Use the `grid-rows-{n}` utilities to create grids with n equally sized rows.
@@ -58,3 +62,7 @@ If you need to use a one-off `grid-template-rows` value, use square brackets to 
   <!-- ... -->
 </div>
 ```
+
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::

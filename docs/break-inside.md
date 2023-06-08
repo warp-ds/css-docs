@@ -3,6 +3,10 @@
 # Break Inside
 Utilities for controlling how a column or page should break within an element.
 
+::: warning Unsupported
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 
 <qr-table />

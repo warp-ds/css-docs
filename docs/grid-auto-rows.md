@@ -36,3 +36,7 @@ If you need to use a one-off `grid-auto-rows` value that doesn’t make sense to
   <!-- ... -->
 </div>
 ```
+
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::

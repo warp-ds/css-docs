@@ -12,7 +12,7 @@ const rows = computed(() => props.list ?? data[dataTitle.value])
 </script>
 
 <template>
-  <table>
+  <table style="border: 1px solid #99FF99; border-radius: 8px">
     <thead>
       <tr>
         <th>Class</th>

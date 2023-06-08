@@ -123,7 +123,14 @@ export const breakInside = [
 
 export const boxSizing = ['box-border', 'box-content'];
 
-export const caretColor= [
+export const clear = [
+  'clear-left',
+  'clear-right',
+  'clear-both',
+  'clear-none',
+];
+
+export const caretColor = [
   'caret',
   'caret-current',
   'caret-inherit',
@@ -540,7 +547,7 @@ export const verticalAlign = [
   'align-super',
 ];
 
-export const visibility = ['visible', 'invisible', 'collapse'];
+export const visibility = ['visible', 'invisible'];
 
 export const whitespace = [
   'whitespace-normal',
