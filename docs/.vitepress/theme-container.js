@@ -10,7 +10,7 @@ class ThemeContainer extends HTMLElement {
     this.shadowRoot.appendChild(brandCss);
 
     const unoStyles = document.createElement('style');
-    unoStyles.innerHTML = styles;
+    unoStyles.innerHTML = `@unocss-placeholder`;
     this.shadowRoot.appendChild(unoStyles);
 
   }

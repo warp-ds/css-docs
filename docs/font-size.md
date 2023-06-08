@@ -10,7 +10,6 @@ Utilities for controlling the font size of an element.
 ## Basic usage
 ### Setting the font size
 Control the font size of an element using the `text-{size}` utilities. These comes with built in line-heights. Line-heights can be overridden by the `.leading-{size}` classes, but please only do that as a last resort since that might take them out of the brand themeing patterns.
-
 <container class="pt-0">
   <themeContainer>
     <div class="mx-24">
