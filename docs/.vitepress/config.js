@@ -30,21 +30,7 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/finn-no.css'
-      }
-    ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/tori-fi.css'
-      }
-    ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/blocket-se.css'
+        href: 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css'
       }
     ]
   ],
@@ -321,7 +307,7 @@ export default defineConfig({
       }),
       uno({
         presets: [
-          presetWarp({ usePixels: true }),
+          presetWarp({ usePixels: true, skipPreflight: true }),
           presetDocs(),
         ],
         shortcuts: [
