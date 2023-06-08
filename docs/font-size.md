@@ -11,7 +11,7 @@ Utilities for controlling the font size of an element.
 ### Setting the font size
 Control the font size of an element using the `text-{size}` utilities. These comes with built in line-heights. Line-heights can be overridden by the `.leading-{size}` classes, but please only do that as a last resort since that might take them out of the brand themeing patterns.
 
-<container class="pt-0">
+<container>
   <ThemeContainer>
     <fontsize-example/>
   </ThemeContainer>
@@ -33,7 +33,7 @@ Control the heading sizes using the `h1` - `h5` utilities. These classes aim to 
 The heading tags should be implemented strictly semantic in a clear tree structure. Use the `h1` - `h5` classes to give them the correct visual size and appearance.
 :::
 
-<container class="pt-0">
+<container>
   <ThemeContainer>
     <heading-example/>
   </ThemeContainer>
