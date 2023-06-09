@@ -29,7 +29,7 @@ Use the `duration-{amount}` utilities to control an element’s transition-durat
   </div>
   <div class="flex flex-col items-center shrink-0">
     <p class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">duration-700</p>
-    <div class="ex-box bg-cyan-500 pd-text-white hover:scale-125 ease-in-out duration-700">Hover me</div>
+    <div class="ex-box pd-bg-cyan-500 pd-text-white hover:scale-125 ease-in-out duration-700">Hover me</div>
   </div>
  </div>
 </container>

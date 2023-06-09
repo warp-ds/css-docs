@@ -48,22 +48,22 @@ Use `justify-items-end` to justify grid items against the end of their inline ax
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">01</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">01</div>
     </box>
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">02</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">02</div>
     </box>
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">03</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">03</div>
     </box>
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">04</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">04</div>
     </box>
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">05</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">05</div>
     </box>
     <box striped class="flex justify-end rounded-r-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">06</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">06</div>
     </box>
   </div>
 </container>

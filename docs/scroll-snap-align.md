@@ -15,7 +15,7 @@ Use the `snap-center` utility to snap an element to its center when being scroll
     <div class="relative">
       <!-- Snap Point -->
       <div class="flex ml-[50%] items-end justify-start pt-32 mb-16">
-        <div class="ml-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:highlight-white/10">snap point</div>
+        <div class="ml-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:pd-highlight-white/10">snap point</div>
         <div class="absolute top-0 bottom-0 left-1/2 border-l pd-border-indigo-500"></div>
       </div>
       <!-- Contents -->
@@ -80,7 +80,7 @@ Use the `snap-start` utility to snap an element to its start when being scrolled
       <div class="relative">
         <!-- Snap Point -->
         <div class="ml-0 flex items-end justify-start pt-32 mb-16">
-          <div class="ml-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:highlight-white/10">snap point</div>
+          <div class="ml-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:pd-highlight-white/10">snap point</div>
           <div class="absolute top-0 bottom-0 left-0 border-l pd-border-indigo-500"></div>
         </div>
         <!-- Contents -->
@@ -142,7 +142,7 @@ Use the `snap-end` utility to snap an element to its end when being scrolled ins
     <div class="relative">
       <!-- Snap Point -->
       <div class="flex items-end justify-end pt-32 mb-16">
-        <div class="mr-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:highlight-white/10">snap point</div>
+        <div class="mr-8 rounded-4 pd-font-mono text-[0.625rem] px-8 pd-bg-indigo-50 pd-text-indigo-600 dark:pd-bg-indigo-500 dark:pd-text-white dark:pd-highlight-white/10">snap point</div>
         <div class="absolute top-0 bottom-0 right-0 border-l pd-border-indigo-500"></div>
       </div>
       <!-- Contents -->

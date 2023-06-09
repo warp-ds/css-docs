@@ -41,7 +41,7 @@ Use `justify-self-start` to align a grid item to the start its inline axis.
   <div class="grid grid-cols-3 gap-24">
     <div class="bg-cyan-700 ex-box">01</div>
     <box striped class="flex rounded-l-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="w-64 bg-cyan-500 ex-box">02</div>
+      <div class="w-64 pd-bg-cyan-500 ex-box">02</div>
     </box>
     <div class="bg-cyan-700 ex-box">03</div>
     <div class="bg-cyan-700 ex-box">04</div>

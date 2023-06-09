@@ -107,7 +107,7 @@ To use a negative margin value, prefix the class name with a dash to convert it 
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center ex-font leading-6">
       <div class="flex flex-col items-center">
-        <div class="relative w-128 h-64 pd-bg-sky-400/20 border border-sky-700/10 rounded-4 overflow-hidden"></div>
+        <div class="relative w-128 h-64 pd-bg-sky-400/20 pd-border pd-border-sky-700/10 rounded-4 overflow-hidden"></div>
         <div class="relative -mt-32 pd-bg-sky-500 rounded-4 flex items-center justify-center p-16 pd-shadow-xl">-mt-32</div>
       </div>
     </div>
@@ -115,8 +115,8 @@ To use a negative margin value, prefix the class name with a dash to convert it 
 </container>
 
 ```html
-<div class="w-128 h-64 pd-bg-sky-400 opacity-20 ..."></div>
-<div class="-mt-32 pd-bg-sky-300 ...">-mt-32</div>
+<div class="w-128 h-64 bg-sky-400 opacity-20 ..."></div>
+<div class="-mt-32 bg-sky-300 ...">-mt-32</div>
 ```
 
 ### Hover, focus, and other states

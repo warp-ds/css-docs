@@ -12,7 +12,7 @@ Utilities for controlling whether table borders should collapse or be separated.
 Use `border-collapse` to combine adjacent cell borders into a single border when possible. Note that this includes collapsing borders on the top-level `<table>` tag.
 
 <container>
-  <table class="table! border-collapse w-full border pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl">
+  <table class="table! border-collapse w-full pd-border pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl">
     <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
         <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Song</th>
@@ -73,7 +73,7 @@ Use `border-collapse` to combine adjacent cell borders into a single border when
 Use `border-separate` to force each cell to display its own separate borders.
 
 <container>
-  <table class="table! border border-separate! border-spacing-8 w-full  pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl" style="border-collapse: separate;" >
+  <table class="table! pd-border border-separate! border-spacing-8 w-full  pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm pd-shadow-xl" style="border-collapse: separate;" >
     <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
         <th class="border pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold p-16 pd-text-slate-900 dark:pd-text-slate-200 text-left">Song</th>

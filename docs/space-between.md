@@ -68,9 +68,9 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-end ex-font leading-6">
       <box striped class="flex flex-row-reverse space-x-24 space-x-reverse rounded" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 bg-cyan-500">01</div>
-        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 bg-cyan-500">02</div>
-        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 bg-cyan-500">03</div>
+        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 pd-bg-cyan-500">01</div>
+        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 pd-bg-cyan-500">02</div>
+        <div class="w-64 h-112 flex items-center justify-center pd-shadow-xl rounded-4 pd-bg-cyan-500">03</div>
       </box>
     </div>
   </div>

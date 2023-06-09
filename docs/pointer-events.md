@@ -22,7 +22,7 @@ Use `pointer-events-none` to make an element ignore pointer events. The pointer 
             <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
           </svg>
         </div>
-        <input type="text" placeholder="Search" class="pd-font-sans block pd-text-sm w-full pl-32 py-8 px-6 border pd-border-slate-900/10 dark:pd-border-slate-100/10 pd-text-slate-500 rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-400">
+        <input type="text" placeholder="Search" class="pd-font-sans block pd-text-sm w-full pl-32 py-8 px-6 pd-border pd-border-slate-900/10 dark:pd-border-slate-100/10 pd-text-slate-500 rounded-8 dark:pd-bg-slate-800 dark:pd-highlight-white/5 dark:pd-text-slate-400">
       </div>
     </div>
     <div class="flex flex-col">
@@ -33,7 +33,7 @@ Use `pointer-events-none` to make an element ignore pointer events. The pointer 
             <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
           </svg>
         </div>
-        <input type="text" placeholder="Search" class="pd-font-sans block pd-text-sm w-full pl-32 py-8 px-6 border pd-border-slate-900/10 dark:pd-border-slate-100/10 pd-text-slate-500 rounded-8 dark:pd-bg-slate-800 dark:highlight-white/5 dark:pd-text-slate-400">
+        <input type="text" placeholder="Search" class="pd-font-sans block pd-text-sm w-full pl-32 py-8 px-6 pd-border pd-border-slate-900/10 dark:pd-border-slate-100/10 pd-text-slate-500 rounded-8 dark:pd-bg-slate-800 dark:pd-highlight-white/5 dark:pd-text-slate-400">
       </div>
     </div>
   </div>
