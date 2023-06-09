@@ -9,34 +9,44 @@ Utilities for controlling the font size of an element.
 
 ## Basic usage
 ### Setting the font size
-Control the font size of an element using the `text-{size}` utilities.
+Control the font size of an element using the `text-{size}` utilities. These comes with built in line-heights. Line-heights can be overridden by the `.leading-{size}` classes, but please only do that as a last resort since that might take them out of the brand themeing patterns.
 
 <container>
-  <div class="mx-24">
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t1</span>
-    <p class="text-t1 mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t2</span>
-    <p class="text-t2 mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t3</span>
-    <p class="text-t3 mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t4</span>
-    <p class="text-t4 mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t5</span>
-    <p class="text-t5 mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">text-t6</span>
-    <p class="text-t6 mt-0!">The quick smart warp scientist</p>
-  </div>
+  <ThemeContainer>
+    <fontsize-example/>
+  </ThemeContainer>
 </container>
 
 ```html
-<p class="text-t1 ...">The quick smart warp scientist ...</p>
-<p class="text-t2 ...">The quick smart warp scientist ...</p>
-<p class="text-t3 ...">The quick smart warp scientist ...</p>
-<p class="text-t4 ...">The quick smart warp scientist ...</p>
-<p class="text-t5 ...">The quick smart warp scientist ...</p>
-<p class="text-t6 ...">The quick smart warp scientist ...</p>
+<p class="text-xs ...">The quick smart warp scientist ...</p>
+<p class="text-s ...">The quick smart warp scientist ...</p>
+<p class="text-m ...">The quick smart warp scientist ...</p>
+<p class="text-ml ...">The quick smart warp scientist ...</p>
+<p class="text-l ...">The quick smart warp scientist ...</p>
+<p class="text-xl ...">The quick smart warp scientist ...</p>
+<p class="text-xxl ...">The quick smart warp scientist ...</p>
+<p class="text-xxxl ...">The quick smart warp scientist ...</p>
+```
+### Setting the headings
+Control the heading sizes using the `h1` - `h5` utilities. These classes aim to contain all the styling needed for each heading-level pr. brand.
+::: tip
+The heading tags should be implemented strictly semantic in a clear tree structure. Use the `h1` - `h5` classes to give them the correct visual size and appearance.
+:::
+
+<container>
+  <ThemeContainer>
+    <heading-example/>
+  </ThemeContainer>
+</container>
+
+```html
+<h1 class="h3">Warping</h1>
+<h2 class="h2">The process</h2>
+<p>The quick smart warp scientist ...</p>
+<h2 class="h2">The goal</h2>
 ```
 
+<p>The quick smart warp scientist ...</p>
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:text-detail` to apply the `text-detail` utility at only medium screen sizes and above.
 

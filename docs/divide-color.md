@@ -24,7 +24,7 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 Control the border color between elements using the `divide-{color}` utilities.
 
 <container>
-  <div class="flex justify-items-stretch bg-pink-500 rounded-8 divide-x divide-blue-200 w-full">
+  <div class="flex justify-items-stretch pd-bg-pink-500 rounded-8 divide-x divide-blue-200 w-full">
     <div class="p-24 flex-1 text-center">1</div>
     <div class="p-24 flex-1 text-center">2</div>
     <div class="p-24 flex-1 text-center">3</div>

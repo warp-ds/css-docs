@@ -1,3 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--vp-font-family-base);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
 :root {
   --vp-code-block-bg: #2e3440ff !important;
   --vp-code-line-highlight-color: #39455a !important;
@@ -17,6 +29,6 @@
 }
 
 .vp-doc blockquote > p {
-  font-size: 0.8rem !important;
+  font-size: 1.28rem !important;
 }
 

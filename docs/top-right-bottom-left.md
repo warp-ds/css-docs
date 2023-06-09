@@ -33,31 +33,31 @@ Use the `{top|right|bottom|left|inset}-{size}` utilities to set the horizontal o
 <container>
   <div class="grid grid-cols-3 gap-16">
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 rounded-8 absolute left-0 top-0 h-32 w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 rounded-8 absolute left-0 top-0 h-32 w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute top-0 inset-x-0 h-32  bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute top-0 inset-x-0 h-32  pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 left-a top-0 h-32 w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 left-a top-0 h-32 w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute left-0 top-0 bottom-0 w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute left-0 top-0 bottom-0 w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute inset-0 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute inset-0 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 left-a inset-y-0 w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 left-a inset-y-0 w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute left-0 bottom-0 h-32 top-a w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute left-0 bottom-0 h-32 top-a w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute inset-x-0 bottom-0 top-a h-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute inset-x-0 bottom-0 top-a h-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 bottom-0 left-a top-a h-32 w-32 bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 bottom-0 left-a top-a h-32 w-32 pd-bg-violet-600">01</div>
     </box>
 
   </div>
@@ -115,7 +115,7 @@ To use a negative top/right/bottom/left value, prefix the class name with a dash
 
 <container>
   <box striped class="relative rounded-8 max-w-144 h-96 mx-auto" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
-    <div class="ex-box rounded-8 absolute -left-16 -top-16 h-64 w-64 bg-indigo-600"> </div>
+    <div class="ex-box rounded-8 absolute -left-16 -top-16 h-64 w-64 pd-bg-indigo-600"> </div>
   </box>
 </container>
 

@@ -16,40 +16,49 @@ const selectedTheme = computed({
   set: (value) => { window.theme = value; }
 });
 
-/* USAGE:
-<ThemeContainer>
-    <button type="button">I’m a scoped button!</button>
-</ThemeContainer>
-*/
 </script>
 
-
 <template>
-    <ClientOnly>
+  <ClientOnly>
         <div class="select">
             <select v-model="selectedTheme" name="themes">
             <option v-for="[name, value] in Object.entries(themes)" :key="name" :value="value">{{ name }}</option>
             </select>
         </div>  
-        <theme-container>
         <slot />
-        </theme-container>
-    </ClientOnly>
+      </ClientOnly>
   </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .select {
   display: grid;
   grid-template-areas: "select";
   align-items: center;
   position: relative;
   width: 300px;
-  height: 30px;
-  margin-top: 24px;
+  margin-bottom: 24px;
   padding: 4px 8px;
-  border: 1px solid hotpink;
+  border: 1px solid var(--vp-c-text-2);
   border-radius: 5px;
-  font-size: 14px;
-  line-height: 1.5;
+  background-color: var(--vp-c-bg);
+
+  select,
+  &::after {
+    grid-area: select;
+  }
+
+  &::after {
+    content: "";
+    justify-self: end;
+    width: 8px;
+    height: 5px;
+    background-color: var(--vp-code-block-bg);
+    clip-path: polygon(100% 0%, 0 0, 50% 100%);
+  }
+
+  &:focus-within {
+    border: 2px solid var(--vp-c-brand);
+    padding: 3px 7px;
+  }
 }
 </style>

@@ -20,9 +20,9 @@ Use the `basis-{size}` utilities to set the initial size of flex items.
 
 <container>
   <box class="flex gap-24">
-    <div class="basis-1/4 bg-fuchsia-500 ex-box">01</div>
-    <div class="basis-1/4 bg-fuchsia-500 ex-box">02</div>
-    <div class="basis-1/2 bg-fuchsia-500 ex-box">03</div>
+    <div class="basis-1/4 pd-bg-fuchsia-500 ex-box">01</div>
+    <div class="basis-1/4 pd-bg-fuchsia-500 ex-box">02</div>
+    <div class="basis-1/2 pd-bg-fuchsia-500 ex-box">03</div>
   </box>
 </container>
 

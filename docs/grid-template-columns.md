@@ -23,15 +23,15 @@ Use the `grid-cols-{n}` utilities to create grids with `n` equally sized columns
 
 <container class="overflow-auto">
   <box striped class="grid grid-cols-4 gap-24 rounded-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">
-    <div class="bg-pink-500 ex-box">01</div>
-    <div class="bg-pink-500 ex-box">02</div>
-    <div class="bg-pink-500 ex-box">03</div>
-    <div class="bg-pink-500 ex-box">04</div>
-    <div class="bg-pink-500 ex-box">05</div>
-    <div class="bg-pink-500 ex-box">06</div>
-    <div class="bg-pink-500 ex-box">07</div>
-    <div class="bg-pink-500 ex-box">08</div>
-    <div class="bg-pink-500 ex-box">09</div>
+    <div class="pd-bg-pink-500 ex-box">01</div>
+    <div class="pd-bg-pink-500 ex-box">02</div>
+    <div class="pd-bg-pink-500 ex-box">03</div>
+    <div class="pd-bg-pink-500 ex-box">04</div>
+    <div class="pd-bg-pink-500 ex-box">05</div>
+    <div class="pd-bg-pink-500 ex-box">06</div>
+    <div class="pd-bg-pink-500 ex-box">07</div>
+    <div class="pd-bg-pink-500 ex-box">08</div>
+    <div class="pd-bg-pink-500 ex-box">09</div>
   </box>
 </container>
 

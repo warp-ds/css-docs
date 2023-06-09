@@ -23,7 +23,7 @@ Add borders between horizontal elements using the `divide-x-{width}` utilities.
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="flex justify-items-stretch bg-pink-500 rounded-8 divide-x w-full">
+    <div class="flex justify-items-stretch pd-bg-pink-500 rounded-8 divide-x w-full">
       <div class="p-24 flex-1 text-center">1</div>
       <div class="p-24 flex-1 text-center">2</div>
       <div class="p-24 flex-1 text-center">3</div>
@@ -42,7 +42,7 @@ Add borders between horizontal elements using the `divide-x-{width}` utilities.
 Add borders between stacked elements using the `divide-y-{width}` utilities.
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="bg-pink-500 rounded-8 divide-y w-full max-w-[300]">
+    <div class="pd-bg-pink-500 rounded-8 divide-y w-full max-w-[300]">
       <div class="p-24 text-center">1</div>
       <div class="p-24 text-center">2</div>
       <div class="p-24 text-center">3</div>
@@ -63,7 +63,7 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="flex flex-col-reverse bg-pink-500 rounded-8 divide-y divide-y-reverse w-full max-w-[300]">
+    <div class="flex flex-col-reverse pd-bg-pink-500 rounded-8 divide-y divide-y-reverse w-full max-w-[300]">
       <div class="p-24 text-center">1</div>
       <div class="p-24 text-center">2</div>
       <div class="p-24 text-center">3</div>

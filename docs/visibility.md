@@ -26,9 +26,9 @@ Use `invisible` to hide an element, but still maintain its place in the DOM, aff
 
 <container>
   <div class="grid grid-cols-3 gap-16">
-   <div class="ex-box bg-fuchsia-500 rounded-4">01</div>
-   <div class="ex-box bg-fuchsia-500 rounded-4 invisible">02</div>
-   <div class="ex-box bg-fuchsia-500 rounded-4">03</div>
+   <div class="ex-box pd-bg-fuchsia-500 rounded-4">01</div>
+   <div class="ex-box pd-bg-fuchsia-500 rounded-4 invisible">02</div>
+   <div class="ex-box pd-bg-fuchsia-500 rounded-4">03</div>
   </div>
 </container>
 
@@ -48,83 +48,83 @@ This makes it possible to dynamically toggle rows and columns without affecting 
 
 <container>
   <div>Showing all rows</div>
-  <table class="border-collapse table! w-full border-y border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm">
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="border-collapse table! w-full border-y pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800">
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-right">#</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Scientist</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Title</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-right">#</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Scientist</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Title</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>
   <div>Hiding a row using `collapse`</div>
-  <table class="border-collapse table! w-full border-y border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm">
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="border-collapse table! w-full border-y pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm">
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-right">#</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Scientist</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Title</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-right">#</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Scientist</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Title</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr class="collapse">
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>
   <div>Hiding a row using `hidden`</div>
-  <table class="border-collapse table! w-full border-y border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm">
-    <thead class="bg-slate-50 dark:bg-slate-700">
+  <table class="border-collapse table! w-full border-y pd-border-slate-400 dark:pd-border-slate-500 pd-bg-white dark:pd-bg-slate-800 pd-text-sm">
+    <thead class="pd-bg-slate-50 dark:pd-bg-slate-700">
       <tr>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-right">#</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Scientist</th>
-        <th class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-600 font-semibold px-16 py-8 text-slate-900 dark:text-slate-200 text-left">Title</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-right">#</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Scientist</th>
+        <th class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-600 pd-font-semibold px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 text-left">Title</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">1</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Justina Matter</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">1</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Justina Matter</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr class="hidden">
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">2</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Narve Hoops</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">2</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Narve Hoops</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
       <tr>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">3</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Dagny Calamity</td>
-        <td class="border first:border-l-0 last:border-r-0 border-slate-300 dark:border-slate-700 px-4 py-4 text-slate-500 dark:text-slate-400">Warp Scientist</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">3</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Dagny Calamity</td>
+        <td class="border first:border-l-0 last:border-r-0 pd-border-slate-300 dark:pd-border-slate-700 px-4 py-4 pd-text-slate-500 dark:pd-text-slate-400">Warp Scientist</td>
       </tr>
     </tbody>
   </table>

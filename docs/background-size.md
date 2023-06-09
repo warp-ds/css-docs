@@ -15,7 +15,7 @@ Utilities for controlling the background size of an element's background image.
 Use `bg-auto` to display the background image at its default size.
 
 <container>
-  <box striped class="rounded-8 dark:border dark:border-slate-200/20 overflow-hidden">
+  <box striped class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden">
     <div class="h-144 bg-auto bg-center bg-no-repeat" style="background-image:url(/20s-scientists.jpg);">
     </div>
   </box>
@@ -34,7 +34,7 @@ Use `bg-cover` to scale the background image until it fills the background layer
 <container>
   <box
     striped
-    class="rounded-8 dark:border dark:border-slate-200/20 overflow-hidden"
+    class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden"
   >
     <div
       class="h-144 bg-cover bg-center bg-no-repeat"
@@ -56,7 +56,7 @@ Use `bg-contain` to scale the background image to the outer edges without croppi
 <container>
   <box
     striped
-    class="rounded-8 dark:border dark:border-slate-200/20 overflow-hidden"
+    class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden"
   >
     <div
       class="h-144 bg-contain bg-center bg-no-repeat"

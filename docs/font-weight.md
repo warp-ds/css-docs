@@ -16,9 +16,9 @@ Control the font size of an element using the `text-{size}` utilities.
 
 <container>
   <div class="mx-24">
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">font-normal</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">font-normal</span>
     <p class="text-t1 font-normal mt-0!">The quick smart warp scientist</p>
-    <span class="font-medium text-sm text-slate-500 font-mono dark:text-slate-400">font-bold</span>
+    <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">font-bold</span>
     <p class="text-t2 font-bold mt-0!">The quick smart warp scientist</p>
   </div>
 </container>

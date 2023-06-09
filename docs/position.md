@@ -16,9 +16,9 @@ Any `offsets` will be ignored and the element will not act as a position referen
 <container>
   <div class="relative">
     <box striped class="rounded-8 p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
+      <div class="static pd-bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Static parent</p>
-        <div class="absolute bottom-0 left-0 bg-purple-600 shadow-l rounded-4 px-16 py-4 text-white">
+        <div class="absolute bottom-0 left-0 pd-bg-purple-600 pd-shadow-lg rounded-4 px-16 py-4 pd-text-white">
           <p class="ex-font">Absolute child</p>
         </div>
       </div>
@@ -43,9 +43,9 @@ Any `offsets` are calculated relative to the element’s normal position and the
 <container>
   <div class="relative">
     <box striped class="rounded-8 p-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="relative bg-blue-500 px-16 py-4 h-144 rounded-4">
+      <div class="relative pd-bg-blue-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Relative parent</p>
-        <div class="absolute bottom-0 left-0 bg-indigo-600 shadow-l rounded-4 px-16 py-4 text-white">
+        <div class="absolute bottom-0 left-0 pd-bg-indigo-600 pd-shadow-lg rounded-4 px-16 py-4 pd-text-white">
           <p class="ex-font">Absolute child</p>
         </div>
       </div>
@@ -71,15 +71,15 @@ Any `offsets` are calculated relative to the nearest parent that has a position 
   <h4 class="mb-8">With static positioning</h4>
   <div class="relative">
     <box striped class="relative rounded-8 p-16" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
-      <div class="ex-font text-black pb-4">Relative parent</div>
-      <div class="static bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
+      <div class="ex-font pd-text-black pb-4">Relative parent</div>
+      <div class="static pd-bg-fuchsia-500 px-16 py-4 h-144 rounded-4">
         <p class="ex-font">Static parent</p>
         <div class="flex gap-16">
-          <div class="static bottom-0 left-0 bg-purple-500 shadow-lg rounded-4 px-16 py-4 text-white">
+          <div class="static bottom-0 left-0 pd-bg-purple-500 pd-shadow-lg rounded-4 px-16 py-4 pd-text-white">
             <p class="ex-font">Static child</p>
           </div>
-          <div class="static bottom-0 left-0 bg-white shadow-lg rounded-4 px-16 py-4 text-black">
-            <p class="ex-font text-black!">Static sibling</p>
+          <div class="static bottom-0 left-0 pd-bg-white pd-shadow-lg rounded-4 px-16 py-4 pd-text-black">
+            <p class="ex-font pd-text-black!">Static sibling</p>
           </div>
         </div>
       </div>
@@ -88,15 +88,15 @@ Any `offsets` are calculated relative to the nearest parent that has a position 
   <h4 class="mt-24 mb-8">With absolute positioning</h4>
   <div class="relative">
     <box striped class="relative rounded p-16" fg-color="var(--tw-blue-fg)" bg-color="var(--tw-blue-bg)">
-      <div class="pb-4 ex-font text-black">Relative parent</div>
-      <div class="static bg-blue-500 px-16 py-4 h-144 rounded">
+      <div class="pb-4 ex-font pd-text-black">Relative parent</div>
+      <div class="static pd-bg-blue-500 px-16 py-4 h-144 rounded">
         <p class="ex-font">Static parent</p>
         <div class="flex gap-16">
-          <div class="absolute top-0 right-0 bg-indigo-500 shadow-lg rounded-4 px-16 py-4 text-white">
+          <div class="absolute top-0 right-0 pd-bg-indigo-500 pd-shadow-lg rounded-4 px-16 py-4 pd-text-white">
             <p class="ex-font">Absolute child</p>
           </div>
-          <div class="static bottom-0 left-0 bg-white shadow-lg rounded-4 px-16 py-4 text-black">
-            <p class="ex-font text-black">Static sibling</p>
+          <div class="static bottom-0 left-0 pd-bg-white pd-shadow-lg rounded-4 px-16 py-4 pd-text-black">
+            <p class="ex-font pd-text-black">Static sibling</p>
           </div>
         </div>
       </div>
@@ -123,8 +123,8 @@ Any `offsets` are calculated relative to the viewport and the element will act a
 <container>
   <div class="flex justify-center -my-32">
     <div class="relative">
-      <div style="width:300px;max-height:275px" class="overflow-auto mx-auto bg-white px-16 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-       <div class="absolute left-0 right-0 px-16 py-8 text-slate-900 dark:text-slate-200 bg-slate-50/90 dark:bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">Warp Scientists</div>
+      <div style="width:300px;max-height:275px" class="overflow-auto mx-auto pd-bg-white px-16 pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
+       <div class="absolute left-0 right-0 px-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 pd-bg-slate-50/90 dark:pd-bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">Warp Scientists</div>
         <div class="flex items-center pt-16">
           <img src="/matter.jpg" class="h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
@@ -182,9 +182,9 @@ Any `offsets` are calculated relative to the element’s normal position and the
 <container class="relative">
   <div class="flex justify-center -my-32">
     <div class="relative">
-      <div style="width:300px;max-height:275px" class="overflow-auto mx-auto bg-white px-16 text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;max-height:275px" class="overflow-auto mx-auto pd-bg-white px-16 pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
         <div class="relative">
-          <div class="sticky top-0 px-16 -mx-16 py-8 text-slate-900 dark:text-slate-200 bg-slate-50/90 dark:bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
+          <div class="sticky top-0 px-16 -mx-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 pd-bg-slate-50/90 dark:pd-bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
             A - Warp Scientists
           </div>
           <div class="flex items-center pt-16">
@@ -216,7 +216,7 @@ Any `offsets` are calculated relative to the element’s normal position and the
           </div>
         </div>
         <div class="relative">
-          <div class="sticky top-0 px-16 -mx-16 py-8 text-slate-900 dark:text-slate-200 bg-slate-50/90 dark:bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
+          <div class="sticky top-0 px-16 -mx-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 pd-bg-slate-50/90 dark:pd-bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
             B - Warp Scientists
           </div>
           <div class="flex items-center pt-16">
@@ -248,7 +248,7 @@ Any `offsets` are calculated relative to the element’s normal position and the
           </div>
         </div>
         <div class="relative">
-          <div class="sticky top-0 px-16 -mx-16 py-8 text-slate-900 dark:text-slate-200 bg-slate-50/90 dark:bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
+          <div class="sticky top-0 px-16 -mx-16 py-8 pd-text-slate-900 dark:pd-text-slate-200 pd-bg-slate-50/90 dark:pd-bg-slate-700/90 backdrop-blur-sm ring-1 ring-slate-900/10 dark:ring-black/10">
             C - Warp Scientists
           </div>
           <div class="flex items-center pt-16">

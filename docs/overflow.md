@@ -14,7 +14,7 @@ Use `overflow-visible` to prevent content within an element from being clipped. 
 <container>
   <div class="flex justify-center">
     <div class="relative">
-      <div style="width:300px;" class="mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;" class="mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
        <div class="flex items-center overflow-visible">
           <img src="/matter.jpg" class="absolute object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="pl-112">
@@ -37,7 +37,7 @@ Use `overflow-hidden` to clip any content within an element that overflows the b
 <container>
   <div class="flex justify-center">
     <div class="relative">
-      <div style="width:300px;" class="relative overflow-hidden mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;" class="relative overflow-hidden mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
        <div class="flex items-center ">
           <img src="/matter.jpg" class="absolute object-cover h-128 -ml-40 -my-32 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="pl-112">
@@ -60,7 +60,7 @@ Use `overflow-auto` to add scrollbars to an element in the event that its conten
 <container>
   <div class="flex justify-center">
     <div class="relative">
-      <div style="width:300px;max-height:275px" class="relative overflow-auto mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;max-height:275px" class="relative overflow-auto mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
        <div class="flex items-center ">
           <img src="/matter.jpg" class="object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">
@@ -106,7 +106,7 @@ Use `overflow-x-scroll` to allow horizontal scrolling and always show scrollbars
 
 <container>
   <div class="flex justify-center ">
-    <div class="overflow-x-scroll mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400" style="max-width:520px">
+    <div class="overflow-x-scroll mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400" style="max-width:520px">
       <div class="flex cols-6">
         <div class="flex-none py-24 px-12 first:pl-24 last:pr-24">
           <div class="flex flex-col items-center justify-center min-width-64 gap-8">
@@ -161,7 +161,7 @@ Use `overflow-y-scroll` to allow vertical scrolling and always show scrollbars u
 <container>
   <div class="flex justify-center">
     <div class="relative">
-      <div style="width:300px;max-height:275px" class="relative overflow-y-scroll mx-auto bg-white p-16 rounded text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+      <div style="width:300px;max-height:275px" class="relative overflow-y-scroll mx-auto pd-bg-white p-16 rounded pd-text-slate-500 dark:pd-bg-slate-800 dark:pd-text-slate-400">
        <div class="flex items-center ">
           <img src="/matter.jpg" class="object-cover h-48 mr-16 rounded-full" alt="AI generated picture of 1950s scientists working on a warp drive" />
           <div class="">

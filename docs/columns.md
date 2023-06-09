@@ -28,57 +28,57 @@ Use the `columns-{count}` utilities to set the number of columns that should be 
     <box striped fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">
       <div class="relative">
         <img class="w-full mb-24" src="/la09.jpg" alt="Ai generated line drawing of warp scientists" />
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">1</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">1</div>
       </div>
       <div class="relative">
         <div class="aspect-1/1 block mb-24">
           <img class="w-full object-cover" src="/la01.jpg" alt="Ai generated line drawing of warp related scene">
         </div>
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">2</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">2</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la02.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">3</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">3</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la06.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">4</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">4</div>
       </div>
       <div class="relative">
         <div class="aspect-1/1 block mb-24">
           <img class="w-full object-cover" src="/la03.jpg" alt="Ai generated line drawing of warp related scene">
         </div>
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">5</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">5</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la04.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">6</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">6</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la11.jpg" alt="Ai generated line drawing of warp scientists">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">7</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">7</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la05.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">8</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">8</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la07.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">9</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">9</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la10.jpg" alt="Ai generated line drawing of warp scientists">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">10</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">10</div>
       </div>
       <div class="relative">
         <img class="w-full mb-24" src="/la08.jpg" alt="Ai generated line drawing of warp related scene">
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">11</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">11</div>
       </div>
       <div class="relative">
         <div class="aspect-1/1 block mb-24">
           <img class="w-full" src="/la12.jpg" alt="Ai generated line drawing of warp scientists">
         </div>
-        <div class="absolute top-10 left-10 h-32 w-32 text-center bg-white rounded-full text-slate-800" style="line-height:32px">12</div>
+        <div class="absolute top-10 left-10 h-32 w-32 text-center pd-bg-white rounded-full pd-text-slate-800" style="line-height:32px">12</div>
       </div>
     </box>
   </div>

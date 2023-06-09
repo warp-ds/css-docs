@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress';
+import uno from 'unocss/vite';
+import { presetWarp } from '@warp-ds/uno';
+import { presetDocs } from '@warp-ds/preset-docs';
 
 const base = '/css-docs';
 
@@ -15,7 +18,6 @@ export default defineConfig({
   },
   base: `${base}/`,
   head: [
-    ['script', { src: '/theme-container.js', type: 'module' }],
     [
       'link',
       {
@@ -24,6 +26,13 @@ export default defineConfig({
         href: `${base}/warp-logo-tiny.svg`,
       },
     ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css'
+      }
+    ]
   ],
   themeConfig: {
     logo: '/warp-logo-tiny.svg',
@@ -283,8 +292,32 @@ export default defineConfig({
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => ['theme-container'].includes(tag),
+        isCustomElement: (tag) => tag.includes('-example'),
       },
     },
+  },
+  vite: {
+    plugins: [
+      uno({
+        presets: [
+          presetWarp({ usePixels: true }),
+          presetDocs(),
+        ],
+        mode: 'shadow-dom',
+      }),
+      uno({
+        presets: [
+          presetWarp({ usePixels: true, skipPreflight: true }),
+          presetDocs(),
+        ],
+        shortcuts: [
+          {
+            'ex-font': 'pd-text-sm font-bold pd-font-mono pd-text-white',
+            'ex-box':
+              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
+          },
+        ],    
+      }),
+    ],
   },
 });

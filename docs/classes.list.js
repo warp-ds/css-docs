@@ -176,6 +176,13 @@ export const cursor = [
   'cursor-zoom-out',
 ];
 
+export const boxShadow = [
+  'shadow-small',
+  'shadow-medium',
+  'shadow-large',
+  'shadow-xlarge',
+];
+
 export const display = [
   'hidden',
   'block',
@@ -226,19 +233,25 @@ export const flexWrap = [
 
 export const floats = ['float-right', 'float-left', 'float-none'];
 
-// !TODO - different names
 export const fontSize = [
   'text-detail',
-  'text-body',
   'text-caption',
-  'text-large',
+  'text-body',
+  'text-preamble',
   'text-display',
-  'text-t1',
-  'text-t2',
-  'text-t3',
-  'text-t4',
-  'text-t5',
-  'text-t6',
+  'text-xs',
+  'text-s',
+  'text-m',
+  'text-ml',
+  'text-l',
+  'text-xl',
+  'text-xxl',
+  'text-xxxl',
+  'h5',
+  'h4',
+  'h3',
+  'h2',
+  'h1',
 ];
 
 export const fontStyle = ['italic', 'not-italic'];
