@@ -18,14 +18,14 @@ Control the font size of an element using the `text-{size}` utilities. These com
 </container>
 
 ```html
-<p class="text-xs ...">The quick smart warp scientist ...</p>
-<p class="text-s ...">The quick smart warp scientist ...</p>
-<p class="text-m ...">The quick smart warp scientist ...</p>
-<p class="text-ml ...">The quick smart warp scientist ...</p>
-<p class="text-l ...">The quick smart warp scientist ...</p>
-<p class="text-xl ...">The quick smart warp scientist ...</p>
-<p class="text-xxl ...">The quick smart warp scientist ...</p>
-<p class="text-xxxl ...">The quick smart warp scientist ...</p>
+<p class="text-xs ...">The quick warp scientist ...</p>
+<p class="text-s ...">The quick warp scientist ...</p>
+<p class="text-m ...">The quick warp scientist ...</p>
+<p class="text-ml ...">The quick warp scientist ...</p>
+<p class="text-l ...">The quick warp scientist ...</p>
+<p class="text-xl ...">The quick warp scientist ...</p>
+<p class="text-xxl ...">The quick warp scientist ...</p>
+<p class="text-xxxl ...">The quick warp scientist ...</p>
 ```
 ### Setting the headings
 Control the heading sizes using the `h1` - `h5` utilities. These classes aim to contain all the styling needed for each heading-level pr. brand.
@@ -44,9 +44,9 @@ The heading tags should be implemented strictly semantic in a clear tree structu
 <h2 class="h2">The process</h2>
 <p>The quick smart warp scientist ...</p>
 <h2 class="h2">The goal</h2>
+<p>The quick smart warp scientist ...</p>
 ```
 
-<p>The quick smart warp scientist ...</p>
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:text-detail` to apply the `text-detail` utility at only medium screen sizes and above.
 
