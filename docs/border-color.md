@@ -3,6 +3,10 @@
 # Border Color
 Utilities for controlling the color of an element's borders.
 
+::: warning Unsupported
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 
 | Class                            | Description                                               |

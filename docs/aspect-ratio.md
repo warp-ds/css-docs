@@ -6,6 +6,10 @@ Utilities for controlling the aspect ratio of an element.
 
 ## Quick reference
 
+::: Warning
+  Known problem: the shortcuts `aspect-ratio`, `aspect-square`, `aspect-video` are not working as intended
+:::
+
 | Class               | Description                             |
 | ------------------- | --------------------------------------- |
 | `aspect-ratio`      | aspect-ratio: auto;                     |

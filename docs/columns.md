@@ -3,6 +3,10 @@
 # Columns
 Utilities for controlling the number of columns within an element.
 
+::: warning Unsupported
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 
 | Class           | Description     |
@@ -12,6 +16,8 @@ Utilities for controlling the number of columns within an element.
 
 > Available values <br />
 > `{n}`: `1` through `12` <br />
+
+
 
 ## Basic usage
 ### Adding based on column count

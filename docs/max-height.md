@@ -49,3 +49,7 @@ If you need to use a one-off max-height value, you can use square brackets to ge
   <!-- ... -->
 </div>
 ```
+
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::

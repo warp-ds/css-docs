@@ -14,6 +14,9 @@ Utilities for specifying the columns in a grid layout.
 > `{n}`: `1` through `13` <br />
 > `{col-spec}`: _Any valid value for the `grid-template-columns` property - replace spaces with `_`_ <br />
 
+::: warning grid-cols-[{col-spec}] not yet supported
+If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
 ## Basic usage
 ### Specifying the columns in a grid
 Use the `grid-cols-{n}` utilities to create grids with `n` equally sized columns.
@@ -58,3 +61,7 @@ If you need to use a one-off `grid-template-columns` value, use square brackets 
   <!-- ... -->
 </div>
 ```
+
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::

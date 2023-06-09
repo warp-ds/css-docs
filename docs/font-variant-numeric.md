@@ -3,6 +3,10 @@
 # Font Variant Numeric
 Utilities for controlling the variant of numbers.
 
+::: warning Unsupported
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 
 <qr-table />
