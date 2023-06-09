@@ -3,11 +3,11 @@ html {
 }
 
 body {
---w-font-family: var(--vp-font-family-base);
---w-font-size-m: 16px;
---w-line-height-m: 24px;
---w-color-background: var(--vp-c-bg);
---w-color-text: var(--vp-c-text-1);
+  font-family: var(--vp-font-family-base);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
 }
 
 :root {
