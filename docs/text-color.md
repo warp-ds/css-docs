@@ -3,6 +3,10 @@
 # Text Color
 Utilities for controlling the text color of an element.
 
+::: warning Unsupported
+Part of the semantic color system, will arrive shortly! WIP! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+:::
+
 ## Quick reference
 
 <qr-table />
