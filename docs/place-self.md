@@ -65,14 +65,14 @@ Use `place-self-center` to align an item at the center on both axes.
 
 <container>
   <div class="grid grid-cols-3 gap-24">
-    <div class="bg-cyan-600 ex-box h-96">01</div>
+    <div class="pd-bg-cyan-600 ex-box h-96">01</div>
     <box striped class="grid h-96" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-      <div class="bg-cyan-500 ex-box h-64 place-self-center">02</div>
+      <div class="pd-bg-cyan-500 ex-box h-64 place-self-center">02</div>
     </box>
-    <div class="bg-cyan-600 ex-box h-96">03</div>
-    <div class="bg-cyan-600 ex-box h-96">04</div>
-    <div class="bg-cyan-600 ex-box h-96">05</div>
-    <div class="bg-cyan-600 ex-box h-96">06</div>
+    <div class="pd-bg-cyan-600 ex-box h-96">03</div>
+    <div class="pd-bg-cyan-600 ex-box h-96">04</div>
+    <div class="pd-bg-cyan-600 ex-box h-96">05</div>
+    <div class="pd-bg-cyan-600 ex-box h-96">06</div>
   </div>
 </container>
 

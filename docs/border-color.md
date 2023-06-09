@@ -60,10 +60,10 @@ Use the `border-{side}-{color}` utilities to set the border color for one side o
 
 <container>
   <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-t-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-r-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-b-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-l-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-t-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-r-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-b-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-l-indigo-500"></div>
   </div>
 </container>
 
@@ -79,8 +79,8 @@ Use the `border-{x|y}-{color}` utilities to set the border color on two sides of
 
 <container>
   <div class="grid grid-cols-2 gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-x-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 border-y-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-x-indigo-500"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-y-indigo-500"></div>
    </div>
 </container>
 

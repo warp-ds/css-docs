@@ -12,7 +12,7 @@ onMounted(registerSelf)
 </style>
 
 <template>
-  <section class="py-32 px-16 rounded-8 border pd-border-strictly-temporary-gray pd-bg-gray-100 dark:pd-bg-gray-800" ref="el">
+  <section class="py-32 px-16 rounded-8 pd-border pd-border-strictly-temporary-gray pd-bg-gray-100 dark:pd-bg-gray-800" ref="el">
     <slot />
   </section>
 </template>

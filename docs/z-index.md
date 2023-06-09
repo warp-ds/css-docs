@@ -35,7 +35,7 @@ Control the stack order (or three-dimensional positioning) of an element in warp
     <div class="w-80 h-80 rounded-full flex items-center justify-center pd-bg-violet-500 z-30 border">04</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center pd-bg-indigo-500 z-20 border">05</div>
     <div class="w-80 h-80 rounded-full flex items-center justify-center pd-bg-blue-500 z-10 border">06</div>
-    <div class="w-80 h-80 rounded-full flex items-center justify-center bg-cyan-500 z-0 border">07</div>
+    <div class="w-80 h-80 rounded-full flex items-center justify-center pd-bg-cyan-500 z-0 border">07</div>
   </div>
 </container>
 
