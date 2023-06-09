@@ -23,7 +23,7 @@ export default defineConfig({
       {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: `${base}/warp-logo-tiny.svg`,
+        href: `${base}/warp-logo-small.svg`,
       },
     ],
     [
@@ -35,7 +35,7 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
-    logo: '/warp-logo-tiny.svg',
+    logo: '/warp-logo-small.svg',
     outline: 'deep',
     algolia: {
       appId: 'Q311JSQKZY',

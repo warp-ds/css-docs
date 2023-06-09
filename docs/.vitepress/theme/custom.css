@@ -13,14 +13,19 @@ body {
 :root {
   --vp-code-block-bg: #2e3440ff !important;
   --vp-code-line-highlight-color: #39455a !important;
-  --vp-c-brand: #198BA1 !important;
-  --vp-c-brand-light: #74B9CB !important;
-  --vp-c-brand-lighter: #3EA4BA !important;
-  --vp-c-brand-dark: #277181 !important;
-  --vp-c-brand-darker: #1b4c56 !important;
-  --vp-home-hero-name-background: linear-gradient(135deg, rgba(4,121,144,1) 0%, rgba(138,105,156,1) 100%) !important;
-  --vp-home-hero-name-color: transparent !important;
+  --vp-c-brand: #BE3830;
+  --vp-c-brand-dark: #BE3830;
+  --vp-home-hero-name-color: #BE3830;
+  --vp-c-brand-darker: #9F2F28;
+  --vp-c-brand-light: #CF4840;
+  --vp-c-brand-lighter: #E6A29D;
   --vp-font-family-base: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif !important;
+}
+
+.dark body {
+  --vp-c-brand: #F6D553;
+  --vp-c-brand-dark: #F6D553;
+  --vp-home-hero-name-color: #F6D553;
 }
 
 .dark .VPHero .image-bg {
