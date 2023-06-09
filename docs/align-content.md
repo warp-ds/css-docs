@@ -105,11 +105,11 @@ Use `content-around` to distribute rows in a container such that there is an equ
 
 <container>
   <box striped class="grid grid-cols-3 gap-x-24 content-start" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500 ex-box my-32">01</div>
-    <div class="bg-cyan-500 ex-box my-32">02</div>
-    <div class="bg-cyan-500 ex-box my-32">03</div>
-    <div class="bg-cyan-500 ex-box my-32">04</div>
-    <div class="bg-cyan-500 ex-box my-32">05</div>
+    <div class="pd-bg-cyan-500 ex-box my-32">01</div>
+    <div class="pd-bg-cyan-500 ex-box my-32">02</div>
+    <div class="pd-bg-cyan-500 ex-box my-32">03</div>
+    <div class="pd-bg-cyan-500 ex-box my-32">04</div>
+    <div class="pd-bg-cyan-500 ex-box my-32">05</div>
   </box>
 </container>
 

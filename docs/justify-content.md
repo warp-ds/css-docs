@@ -51,9 +51,9 @@ Use `justify-end` to justify items against the end of the container’s main axi
 
 <container>
   <box striped class="flex justify-end gap-24 rounded-4" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500 ex-box">01</div>
-    <div class="bg-cyan-500 ex-box">02</div>
-    <div class="bg-cyan-500 ex-box">03</div>
+    <div class="pd-bg-cyan-500 ex-box">01</div>
+    <div class="pd-bg-cyan-500 ex-box">02</div>
+    <div class="pd-bg-cyan-500 ex-box">03</div>
   </box>
 </container>
 

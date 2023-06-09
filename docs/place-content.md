@@ -57,10 +57,10 @@ Use `place-content-end` to to pack items against the end of the block axis.
 
 <container>
   <box striped class="grid grid-cols-[repeat(2,56px)] gap-24 rounded-4 pt-128 place-content-start" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500 ex-box">01</div>
-    <div class="bg-cyan-500 ex-box">02</div>
-    <div class="bg-cyan-500 ex-box">03</div>
-    <div class="bg-cyan-500 ex-box">04</div>
+    <div class="pd-bg-cyan-500 ex-box">01</div>
+    <div class="pd-bg-cyan-500 ex-box">02</div>
+    <div class="pd-bg-cyan-500 ex-box">03</div>
+    <div class="pd-bg-cyan-500 ex-box">04</div>
   </box>
 </container>
 

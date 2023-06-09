@@ -132,14 +132,14 @@ Use `grid` to create a grid container.
 
 <container>
   <box striped class="grid grid-cols-4 gap-16" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
-    <div class="bg-cyan-500 ex-box">01</div>
-    <div class="bg-cyan-500 ex-box">02</div>
-    <div class="bg-cyan-500 ex-box">03</div>
-    <div class="bg-cyan-500 ex-box">04</div>
-    <div class="bg-cyan-500 ex-box">05</div>
-    <div class="bg-cyan-500 ex-box">06</div>
-    <div class="bg-cyan-500 ex-box">07</div>
-    <div class="bg-cyan-500 ex-box">08</div>
+    <div class="pd-bg-cyan-500 ex-box">01</div>
+    <div class="pd-bg-cyan-500 ex-box">02</div>
+    <div class="pd-bg-cyan-500 ex-box">03</div>
+    <div class="pd-bg-cyan-500 ex-box">04</div>
+    <div class="pd-bg-cyan-500 ex-box">05</div>
+    <div class="pd-bg-cyan-500 ex-box">06</div>
+    <div class="pd-bg-cyan-500 ex-box">07</div>
+    <div class="pd-bg-cyan-500 ex-box">08</div>
   </box>
 </container>
 
