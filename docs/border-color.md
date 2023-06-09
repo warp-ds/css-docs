@@ -50,9 +50,9 @@ Control the opacity of an element’s border color using the color opacity modif
 </container>
 
 ```html
-<div class="border-4 pd-border-indigo-500/100 ..."></div>
-<div class="border-4 pd-border-indigo-500/75 ..."></div>
-<div class="border-4 pd-border-indigo-500/50 ..."></div>
+<div class="border-4 border-indigo-500/100 ..."></div>
+<div class="border-4 border-indigo-500/75 ..."></div>
+<div class="border-4 border-indigo-500/50 ..."></div>
 ```
 
 ### Individual sides
