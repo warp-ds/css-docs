@@ -307,7 +307,7 @@ export default defineConfig({
       }),
       uno({
         presets: [
-          presetWarp({ usePixels: true, skipPreflight: true }),
+          presetWarp({ usePixels: true }),
           presetDocs(),
         ],
         shortcuts: [
