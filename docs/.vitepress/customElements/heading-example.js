@@ -7,7 +7,7 @@ class FontSizeHeadingExample extends HTMLElement {
       <style>
         @unocss-placeholder
       </style>
-      <div>
+      <div class="rounded-8 bg bg-color p-24">
         <h1 class="h3">Warping</h1>
         <h2 class="h2">The process</h2>
         <p>The quick smart warp scientist ...</p>
