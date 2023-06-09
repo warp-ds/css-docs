@@ -12,7 +12,8 @@ Utilities for controlling how a background image behaves when scrolling.
 Use `bg-fixed` to fix the background image relative to the viewport.
 
 <container>
-  <div class="-my-32 mx-32 overflow-hidden bg-fixed" style="background-image:url('/50s-scientists.jpg'); background-position: center -280px;">
+<div class="position:relative">
+  <div class="-my-32 mx-32 overflow-hidden" style="background-image:url('/50s-scientists.jpg'); background-position: center -280px;">
     <div class="h-[320] pd-shadow-lg overflow-y-scroll overscroll-contain">
       <div class="pd-bg-white/90 p-16 sm:p-24 mt-144">
         <div class="pd-text-black font-bold">The science</div>
@@ -21,6 +22,7 @@ Use `bg-fixed` to fix the background image relative to the viewport.
         <p class="mt-16 pd-text-slate-500">In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electro-magnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.</p>
       </div>
     </div>
+  </div>
   </div>
 </container>
 
