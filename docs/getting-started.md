@@ -2,25 +2,27 @@
 
 # Getting Started
 
+This documentation will guide you through the process of integrating UnoCSS and Warp into your project. UnoCSS is a utility-first CSS framework, and Warp is a design system built on top of UnoCSS.
+
 ## 1. Integrate with UnoCSS and Warp
 
 ### Install
 
-`alpha` versions of @warp-ds packages should be installed until major versions are available.
+To get started, you need to install the necessary packages. At the moment, you should install the `alpha` versions of the `@warp-ds/uno` packages until the major versions are available.
 
-#### with npm:
+#### Using npm:
 
 ```shell
 npm install -D @warp-ds/uno@alpha unocss
 ```
 
-#### or, with pnpm:
+#### Using pnpm:
 
 ```shell
 pnpm add -D @warp-ds/uno@alpha unocss
 ```
 
-> Webpack based projects should also add: `@unocss/webpack` (see [UnoCSS docs](https://unocss.dev/integrations/webpack) for more information)
+> If you are using a Webpack-based project, you also need to add `@unocss/webpack` (see [UnoCSS docs](https://unocss.dev/integrations/webpack) for more information)
 
 ### Configure
 
@@ -36,7 +38,7 @@ export default defineConfig({
 
 #### Adding Uno to your build tool
 
-By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. You can also specify the config file manually and in that case you won't need a separate uno config file. Like in this example for Vite:
+By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. If you prefer to specify the config file manually, you can do so. Here's an example for Vite:
 
 ```ts
 // vite.config.js
@@ -47,7 +49,7 @@ import { classes } from "@warp-ds/component-classes/classes";
 
 export default defineConfig({
   plugins: [
-    // leave it empty to use your config defined in uno.config.js
+    // Leave it empty to use your config defined in uno.config.js
     UnoCSS(),
     // OR just define it here
     UnoCSS({
@@ -57,9 +59,11 @@ export default defineConfig({
 });
 ```
 
-For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
+For more examples on how to configure other build tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
-### Add uno.css to your main entry
+### Add `uno.css` to your main entry
+
+To apply UnoCSS styles to your project, import the uno.css file in your main entry file (e.g., main.[ts|js]).
 
 ```js
 // e.g. main.[ts|js]
@@ -68,7 +72,7 @@ import "uno.css";
 
 ## 2. Apply theme
 
-In order for components to apply your application's theme, a respective theme stylesheet should be added to the document. Theme specific stylesheets are vailable via our Eik CDN server:
+To ensure that the components in your application apply your desired theme, you need to add the respective theme stylesheet to your document. Theme specific stylesheets are vailable via our Eik CDN server:
 
 - Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
 - Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
