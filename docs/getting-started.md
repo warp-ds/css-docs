@@ -38,24 +38,15 @@ export default defineConfig({
 
 #### Adding Uno to your build tool
 
-By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. If you prefer to specify the config file manually, you can do so. Here's an example for Vite:
+By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. Here's an example for Vite:
 
 ```ts
 // vite.config.js
 import { defineConfig } from "vite";
 import UnoCSS from "unocss/vite";
-import { presetWarp } from "@warp-ds/uno";
-import { classes } from "@warp-ds/component-classes/classes";
 
 export default defineConfig({
-  plugins: [
-    // Leave it empty to use your config defined in uno.config.js
-    UnoCSS(),
-    // OR just define it here
-    UnoCSS({
-      presets: [presetWarp()],
-    }),
-  ],
+  plugins: [UnoCSS()],
 });
 ```
 
