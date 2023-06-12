@@ -35,13 +35,9 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
+    search: { provider: 'local' },
     logo: '/warp-logo-small.svg',
     outline: 'deep',
-    algolia: {
-      appId: 'Q311JSQKZY',
-      apiKey: 'f860301343b6bc5003d9d5bb0894947e',
-      indexName: 'warpdscss',
-    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/warp-ds/drive' },
     ],
