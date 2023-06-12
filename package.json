@@ -19,13 +19,12 @@
     "eslint": "^8.35.0",
     "sass": "^1.62.1",
     "unocss": "^0.52.4",
-    "vitepress": "1.0.0-alpha.64",
+    "vitepress": "1.0.0-beta.2",
     "vue": "^3.3.4"
   },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@algolia/client-search",
         "vite"
       ]
     }
