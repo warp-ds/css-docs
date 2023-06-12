@@ -20,12 +20,15 @@ body {
   --vp-c-brand-light: #CF4840;
   --vp-c-brand-lighter: #E6A29D;
   --vp-font-family-base: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif !important;
+  --vp-local-search-highlight-bg: #E6A29D;
 }
 
 .dark body {
   --vp-c-brand: #F6D553;
   --vp-c-brand-dark: #F6D553;
   --vp-home-hero-name-color: #F6D553;
+  --vp-local-search-highlight-bg: #E6A29D;
+  --w-color-text: white;
 }
 
 .dark .VPHero .image-bg {
