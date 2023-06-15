@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 import uno from 'unocss/vite';
 import { presetWarp } from '@warp-ds/uno';
 import { presetDocs } from '@warp-ds/preset-docs';
+import { classes } from '../classes.js';
 
 const base = '/css-docs';
 
@@ -297,19 +298,19 @@ export default defineConfig({
       uno({
         presets: [presetWarp({ usePixels: true }), presetDocs()],
         mode: 'shadow-dom',
-        safelist: ['s-bg-default'],
+        safelist: classes,
       }),
       uno({
         presets: [presetWarp({ usePixels: true }), presetDocs()],
         shortcuts: [
           {
             'ex-font':
-              'pd-text-sm font-bold pd-font-mono pd-text-white',
+            'pd-text-sm font-bold pd-font-mono pd-text-white',
             'ex-box':
-              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
+            'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
           },
         ],
-        safelist: ['s-bg-default'],
+        safelist: classes,
       }),
     ],
   },
