@@ -30,9 +30,9 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css'
-      }
-    ]
+        href: 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css',
+      },
+    ],
   ],
   themeConfig: {
     search: { provider: 'local' },
@@ -295,24 +295,21 @@ export default defineConfig({
   vite: {
     plugins: [
       uno({
-        presets: [
-          presetWarp({ usePixels: true }),
-          presetDocs(),
-        ],
+        presets: [presetWarp({ usePixels: true }), presetDocs()],
         mode: 'shadow-dom',
+        safelist: ['s-bg-default'],
       }),
       uno({
-        presets: [
-          presetWarp({ usePixels: true }),
-          presetDocs(),
-        ],
+        presets: [presetWarp({ usePixels: true }), presetDocs()],
         shortcuts: [
           {
-            'ex-font': 'pd-text-sm font-bold pd-font-mono pd-text-white',
+            'ex-font':
+              'pd-text-sm font-bold pd-font-mono pd-text-white',
             'ex-box':
               'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
           },
-        ],    
+        ],
+        safelist: ['s-bg-default'],
       }),
     ],
   },

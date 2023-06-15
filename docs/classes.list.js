@@ -44,6 +44,36 @@ export const backgroundColor = [
   'bg-current',
   'bg-transparent',
   'bg-normal',
+  's-bg-default',
+  's-bg-hover',
+  's-bg-active',
+  's-bg-active-hover',
+  's-bg-disabled',
+  's-bg-subtle-default',
+  's-bg-subtle-hover',
+  's-bg-subtle-active',
+  's-bg-subtle-active-hover',
+  's-bg-subtle-disabled',
+  's-bg-primary-default',
+  's-bg-primary-hover',
+  's-bg-primary-active',
+  's-bg-primary-active-hover',
+  's-bg-positive-default',
+  's-bg-positive-hover',
+  's-bg-positive-active',
+  's-bg-positive-active-hover',
+  's-bg-negative-default',
+  's-bg-negative-hover',
+  's-bg-negative-active',
+  's-bg-negative-active-hover',
+  's-bg-warning-default',
+  's-bg-warning-hover',
+  's-bg-warning-active',
+  's-bg-warning-active-hover',
+  's-bg-info-default',
+  's-bg-info-hover',
+  's-bg-info-active',
+  's-bg-info-active-hover',
 ];
 
 export const backgroundOrigin = [
@@ -584,3 +614,136 @@ export const wordBreak = [
   'break-all',
   'break-keep',
 ];
+
+/*
+
+  's-bg-subtle-default',
+  's-bg-subtle-hover',
+  's-bg-subtle-active',
+  's-bg-subtle-active-hover',
+  's-bg-subtle-disabled',
+  's-bg-primary-default',
+  's-bg-primary-hover',
+  's-bg-primary-active',
+  's-bg-primary-active-hover',
+  's-bg-positive-default',
+  's-bg-positive-hover',
+  's-bg-positive-active',
+  's-bg-positive-active-hover',
+  's-bg-negative-default',
+  's-bg-negative-hover',
+  's-bg-negative-active',
+  's-bg-negative-active-hover',
+  's-bg-warning-default',
+  's-bg-warning-hover',
+  's-bg-warning-active',
+  's-bg-warning-active-hover',
+  's-bg-info-default',
+  's-bg-info-hover',
+  's-bg-info-active',
+  's-bg-info-active-hover',
+
+    border:
+      default: bluegray-300
+      hover: gray-500
+      active:
+        _: gray-700
+        hover: gray-800
+      disabled: bluegray-300
+      primary:
+        default: blue-600
+        hover: blue-700
+        active:
+          _: blue-800
+          hover: blue-700
+        subtle:
+          default: blue-300
+          hover: blue-400
+          active:
+            _: blue-600
+            hover: blue-700
+      positive:
+        default: green-600
+        hover: green-700
+        active:
+          _: green-600
+          hover: green-700
+        subtle:
+          default: green-300
+          hover: green-400
+          active:
+            _: green-600
+            hover: green-700
+      negative:
+        default: red-600
+        hover: red-700
+        active:
+          _: red-600
+          hover: red-700
+        subtle:
+          default: red-300
+          hover: red-400
+          active:
+            _: red-600
+            hover: red-700
+      warning:
+        default: yellow-600
+        hover: yellow-700
+        active:
+          _: yellow-600
+          hover: yellow-700
+        subtle:
+          default: yellow-300
+          hover: yellow-400
+          active:
+            _: yellow-600
+            hover: yellow-700
+      info:
+        default: aqua-600
+        hover: aqua-700
+        active:
+          _: aqua-600
+          hover: aqua-700
+        subtle:
+          default: aqua-300
+          hover: aqua-400
+          active:
+            _: aqua-600
+            hover: aqua-700
+
+    icon:
+      default: gray-500
+      hover: gray-600
+      active:
+        _: blue-600
+        hover: gray-600
+      disabled: bluegray-300
+      subtle:
+        default: bluegray-500
+        hover: bluegray-600
+        active:
+          _: blue-600
+          hover: blue-700
+      inverted: white
+      primary: blue-600
+      positive: green-600
+      negative: red-600
+      warning: yellow-600
+      info: aqua-600
+
+    text:
+      default: gray-700
+      subtle: gray-500
+      placeholder: bluegray-300
+      inverted:
+        _: white
+        subtle: gray-50
+      link:
+        _: blue-600
+        hover: blue-600
+        active: blue-600
+        disabled: bluegray-300
+      negative: red-600
+      positive: green-600
+
+*/
