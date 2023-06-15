@@ -9,7 +9,7 @@ Part of the semantic color system, will arrive shortly! WIP! If you need this, r
 
 ## Quick reference
 
-<qr-table />
+<qr-color-table />
 
 ## Basic usage
 ### Setting the text color

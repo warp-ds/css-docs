@@ -9,20 +9,7 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 
 ## Quick reference
 
-| Class                            | Description                                               |
-| -------------------------------- | --------------------------------------------------------- |
-| `border-inherit`                 | border-color: inherit;                                    |
-| `border-current`                 | border-color: currentColor;                               |
-| `border-transparent`             | border-color: transparent;                                |
-| `border-{direction}-inherit`     | border-{direction}-color: inherit;                        |
-| `border-{direction}-current`     | border-{direction}-color: current;                        |
-| `border-{direction}-transparent` | border-{direction}-color: transparent;                    |
-| `border-{color}`                 | border: {color};                                          |
-| `border-{direction}-{color}`     | border-{direction}: {color};                              |
-
-> Available values <br />
-> `{direction}`: `x`, `y`, `t`, `l`, `r`, `b` <br />
-> `{color}`: All colors from the palette?  <br />
+<qr-color-table />
 
 ## Basic usage
 ### Setting the border color

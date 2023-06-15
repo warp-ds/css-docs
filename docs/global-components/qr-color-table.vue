@@ -25,7 +25,7 @@ aaa
         <td><code>{{ cls }}</code></td>
         <td v-if="desc === null">Unsupported</td>
         <template v-else>
-        <td><div :class="cls" class="w-16">&nbsp;&nbsp;&nbsp;</div></td>
+        <td class="s-text-inverted"><div :class="cls" class="border">&nbspText&nbsp;</div></td>
         <td>
 
           <code v-for="(l, i) in desc.split('\n')">

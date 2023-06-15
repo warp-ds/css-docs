@@ -3,12 +3,11 @@
 # Background Color
 Utilities for controlling an element's background color.
 
-::: warning Unsupported
-Part of the semantic color system, will arrive shortly! WIP! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+::: tip s-prefix
+The s-prefix (semantic) signals that these will change with the brand css
 :::
 
 ## Quick reference
-
 
 <qr-color-table />
 
@@ -17,6 +16,7 @@ Part of the semantic color system, will arrive shortly! WIP! If you need this, r
 Control the background color of an element using the bg-{color} utilities.
 
 <container>
-<p>oO Yet to be determined......</p>
+  <ThemeContainer>
+    <background-color-example/>
+  </ThemeContainer>
 </container>
-
