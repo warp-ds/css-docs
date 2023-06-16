@@ -12,7 +12,6 @@ const rows = computed(() => props.list ?? data[dataTitle.value])
 </script>
 
 <template>
-aaa
   <table>
     <thead>
       <tr>

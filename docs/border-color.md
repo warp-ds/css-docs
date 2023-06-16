@@ -9,6 +9,12 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 
 ## Quick reference
 
+<container>
+  <ThemeContainer>
+    <background-color-example/>
+  </ThemeContainer>
+</container>
+
 <qr-color-table />
 
 ## Basic usage
