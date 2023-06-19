@@ -20,14 +20,14 @@ const selectedTheme = computed({
 
 <template>
   <ClientOnly>
-        <div class="select">
-            <select v-model="selectedTheme" name="themes">
-            <option v-for="[name, value] in Object.entries(themes)" :key="name" :value="value">{{ name }}</option>
-            </select>
-        </div>  
-        <slot />
-      </ClientOnly>
-  </template>
+      <div class="select">
+          <select v-model="selectedTheme" name="themes">
+          <option v-for="[name, value] in Object.entries(themes)" :key="name" :value="value">{{ name }}</option>
+          </select>
+      </div>
+      <slot />
+    </ClientOnly>
+</template>
 
 <style lang="scss" scoped>
 .select {
@@ -41,6 +41,10 @@ const selectedTheme = computed({
   border: 1px solid var(--vp-c-text-2);
   border-radius: 5px;
   background-color: var(--vp-c-bg);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   select,
   &::after {
