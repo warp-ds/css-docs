@@ -177,10 +177,10 @@ export const cursor = [
 ];
 
 export const boxShadow = [
-  'shadow-small',
-  'shadow-medium',
-  'shadow-large',
-  'shadow-xlarge',
+  'shadow-s',
+  'shadow-m',
+  'shadow-l',
+  'shadow-xl',
 ];
 
 export const display = [
