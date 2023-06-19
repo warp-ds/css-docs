@@ -12,6 +12,9 @@ export default {
   ...DefaultTheme,
   async enhanceApp(ctx) {
     if (!import.meta.env.SSR) {
+      const backgroundColor = await import(
+        '../customElements/background-color-example.js'
+      );
       const fontsize = await import(
         '../customElements/fontsize-example.js'
       );
@@ -21,6 +24,7 @@ export default {
       const themeSwitcherListener = await import(
         '../theme-switcher-listener.js'
       );
+      ctx.app.use(backgroundColor);
       ctx.app.use(fontsize);
       ctx.app.use(heading);
       ctx.app.use(themeSwitcherListener);
