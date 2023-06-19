@@ -95,7 +95,7 @@ For example, use `hover:s-border-active` to only apply the `s-border-active` uti
 </container>
 
 ```html
-    <div class="s-border-default hover:s-border-hover ..."></div>
+<div class="s-border-default hover:s-border-hover ..."></div>
 ```
 
 ### Breakpoints and media queries
@@ -109,5 +109,5 @@ For example, use `md:s-border-positive-default` to apply the `s-border-positive-
 </container>
 
 ```html
-    <div class="s-border-default md:s-border-positive-default ..."></div>
+<div class="s-border-default md:s-border-positive-default ..."></div>
 ```

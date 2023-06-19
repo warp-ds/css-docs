@@ -62,9 +62,9 @@ For example, use `md:s-bg-positive-default` to apply the `s-bg-positive-default`
 <container>
   <div class="grid gap-16 justify-items-center">
     <div class="h-80 w-80 border rounded-16 s-bg-default md:s-bg-positive-default"></div>
-   </div>
+  </div>
 </container>
 
 ```html
-    <div class="s-bg-default md:s-bg-positive-default ..."></div>
+<div class="s-bg-default md:s-bg-positive-default ..."></div>
 ```
