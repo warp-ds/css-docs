@@ -210,7 +210,10 @@ export default defineConfig({
         {
           text: 'Effects',
           collapsible: true,
-          items: [{ text: 'Opacity', link: '/opacity' }],
+          items: [
+            { text: 'Box Shadow', link: '/box-shadow' },
+            { text: 'Opacity', link: '/opacity' },
+          ],
         },
         {
           text: 'Tables',

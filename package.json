@@ -14,7 +14,7 @@
     "@vueuse/core": "^9.13.0",
     "@warp-ds/eslint-config": "^0.0.1",
     "@warp-ds/preset-docs": "^0.0.16",
-    "@warp-ds/uno": "^1.0.0-alpha.42",
+    "@warp-ds/uno": "^1.0.0-alpha.45",
     "camelcase": "^7.0.1",
     "eslint": "^8.35.0",
     "sass": "^1.62.1",

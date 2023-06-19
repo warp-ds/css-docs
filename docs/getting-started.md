@@ -2,7 +2,7 @@
 
 # Getting Started
 
-This documentation will guide you through the process of integrating UnoCSS and Warp into your project. UnoCSS is a utility-first CSS framework, and Warp is a design system built on top of UnoCSS.
+This documentation will guide you through the process of integrating UnoCSS and Warp into your project.
 
 ## 1. Integrate with UnoCSS and Warp
 
@@ -36,7 +36,7 @@ export default defineConfig({
 });
 ```
 
-#### Adding Uno to your build tool
+#### Add UnoCSS to your build tool
 
 By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. Here's an example for Vite:
 
