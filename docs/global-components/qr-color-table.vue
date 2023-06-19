@@ -16,22 +16,25 @@ const rows = computed(() => props.list ?? data[dataTitle.value])
     <thead>
       <tr>
         <th>Class</th>
+        <th>Color</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="[cls, desc] in rows">
         <td><code>{{ cls }}</code></td>
-        <td v-if="desc === null">Unsupported</td>
+        <td v-if="desc === null" colspan="2">Unsupported</td>
         <template v-else>
-        <td class="s-text-inverted"><div :class="cls" class="border">&nbspText&nbsp;</div></td>
-        <td>
+          <td :class="{ 's-text-inverted': /^s-bg-primary-/.test(cls) }">
+            <div :class="[cls, { 's-bg-primary-default': /^s-text-inverted/.test(cls) }]" class="border w-64 px-8">Text</div>
+          </td>
+          <td>
 
-          <code v-for="(l, i) in desc.split('\n')">
-            {{ l }}
-            <br v-if="desc.split('\n').length > 1 && i < desc.split('n').length - 1" />
-          </code>
-        </td>
+            <code v-for="(l, i) in desc.split('\n')">
+              {{ l }}
+              <br v-if="desc.split('\n').length > 1 && i < desc.split('n').length - 1" />
+            </code>
+          </td>
         </template>
       </tr>
     </tbody>
