@@ -109,6 +109,9 @@ export const backgroundImage = ['bg-none'];
 export const borderCollapse = ['border-collapse', 'border-separate'];
 
 export const borderColor = [
+  'border-inherit',
+  'border-current',
+  'border-transparent',
   's-border-default',
   's-border-hover',
   's-border-active',
@@ -568,6 +571,8 @@ export const textAlign = [
 ];
 
 export const textColor = [
+  'text-transparent',
+  'text-current',
   's-text-default',
   's-text-subtle',
   's-text-placeholder',
