@@ -43,7 +43,36 @@ export const backgroundColor = [
   'bg-inherit',
   'bg-current',
   'bg-transparent',
-  'bg-normal',
+  's-bg-default',
+  's-bg-hover',
+  's-bg-active',
+  's-bg-active-hover',
+  's-bg-disabled',
+  's-bg-subtle-default',
+  's-bg-subtle-hover',
+  's-bg-subtle-active',
+  's-bg-subtle-active-hover',
+  's-bg-subtle-disabled',
+  's-bg-primary-default',
+  's-bg-primary-hover',
+  's-bg-primary-active',
+  's-bg-primary-active-hover',
+  's-bg-positive-default',
+  's-bg-positive-hover',
+  's-bg-positive-active',
+  's-bg-positive-active-hover',
+  's-bg-negative-default',
+  's-bg-negative-hover',
+  's-bg-negative-active',
+  's-bg-negative-active-hover',
+  's-bg-warning-default',
+  's-bg-warning-hover',
+  's-bg-warning-active',
+  's-bg-warning-active-hover',
+  's-bg-info-default',
+  's-bg-info-hover',
+  's-bg-info-active',
+  's-bg-info-active-hover',
 ];
 
 export const backgroundOrigin = [
@@ -79,6 +108,57 @@ export const backgroundImage = ['bg-none'];
 
 export const borderCollapse = ['border-collapse', 'border-separate'];
 
+export const borderColor = [
+  'border-inherit',
+  'border-current',
+  'border-transparent',
+  's-border-default',
+  's-border-hover',
+  's-border-active',
+  's-border-active-hover',
+  's-border-disabled',
+  's-border-primary-default',
+  's-border-primary-hover',
+  's-border-primary-active',
+  's-border-primary-active-hover',
+  's-border-primary-subtle-default',
+  's-border-primary-subtle-hover',
+  's-border-primary-subtle-active',
+  's-border-primary-subtle-active-hover',
+  's-border-positive-default',
+  's-border-positive-hover',
+  's-border-positive-active',
+  's-border-positive-active-hover',
+  's-border-positive-subtle-default',
+  's-border-positive-subtle-hover',
+  's-border-positive-subtle-active',
+  's-border-positive-subtle-active-hover',
+  's-border-negative-default',
+  's-border-negative-hover',
+  's-border-negative-active',
+  's-border-negative-active-hover',
+  's-border-negative-subtle-default',
+  's-border-negative-subtle-hover',
+  's-border-negative-subtle-active',
+  's-border-negative-subtle-active-hover',
+  's-border-warning-default',
+  's-border-warning-hover',
+  's-border-warning-active',
+  's-border-warning-active-hover',
+  's-border-warning-subtle-default',
+  's-border-warning-subtle-hover',
+  's-border-warning-subtle-active',
+  's-border-warning-subtle-active-hover',
+  's-border-info-default',
+  's-border-info-hover',
+  's-border-info-active',
+  's-border-info-active-hover',
+  's-border-info-subtle-default',
+  's-border-info-subtle-hover',
+  's-border-info-subtle-active',
+  's-border-info-subtle-active-hover',
+];
+
 export const borderStyle = [
   'border-solid',
   'border-dashed',
@@ -90,6 +170,13 @@ export const borderStyle = [
   'border-ridge',
   'border-inset',
   'border-outset',
+];
+
+export const boxShadow = [
+  'shadow-s',
+  'shadow-m',
+  'shadow-l',
+  'shadow-xl',
 ];
 
 export const breakAfter = [
@@ -174,13 +261,6 @@ export const cursor = [
   'cursor-nwse-resize',
   'cursor-zoom-in',
   'cursor-zoom-out',
-];
-
-export const boxShadow = [
-  'shadow-s',
-  'shadow-m',
-  'shadow-l',
-  'shadow-xl',
 ];
 
 export const display = [
@@ -278,6 +358,24 @@ export const gridAutoRows = [
   'auto-rows-min',
   'auto-rows-max',
   'auto-rows-fr',
+];
+
+export const iconColor = [
+  's-icon-default',
+  's-icon-hover',
+  's-icon-active',
+  's-icon-active-hover',
+  's-icon-disabled',
+  's-icon-subtle-default',
+  's-icon-subtle-hover',
+  's-icon-subtle-active',
+  's-icon-subtle-active-hover',
+  's-icon-inverted',
+  's-icon-primary',
+  's-icon-positive',
+  's-icon-negative',
+  's-icon-warning',
+  's-icon-info',
 ];
 
 export const isolate = ['isolate', 'isolation-auto'];
@@ -472,13 +570,20 @@ export const textAlign = [
   'text-end',
 ];
 
-// !TODO - different names
 export const textColor = [
-  'text',
-  'text-subtle',
-  'text-success',
-  'text-danger',
-  'text-warning',
+  'text-transparent',
+  'text-current',
+  's-text-default',
+  's-text-subtle',
+  's-text-placeholder',
+  's-text-inverted',
+  's-text-inverted-subtle',
+  's-text-link',
+  's-text-link-hover',
+  's-text-link-active',
+  's-text-link-disabled',
+  's-text-negative',
+  's-text-positive',
 ];
 
 export const textDecoration = [

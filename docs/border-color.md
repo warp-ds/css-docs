@@ -3,40 +3,34 @@
 # Border Color
 Utilities for controlling the color of an element's borders.
 
-::: warning Unsupported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+::: tip s-prefix
+The s-prefix (semantic) signals that these will change with the brand css.
 :::
 
 ## Quick reference
 
-| Class                            | Description                                               |
-| -------------------------------- | --------------------------------------------------------- |
-| `border-inherit`                 | border-color: inherit;                                    |
-| `border-current`                 | border-color: currentColor;                               |
-| `border-transparent`             | border-color: transparent;                                |
-| `border-{direction}-inherit`     | border-{direction}-color: inherit;                        |
-| `border-{direction}-current`     | border-{direction}-color: current;                        |
-| `border-{direction}-transparent` | border-{direction}-color: transparent;                    |
-| `border-{color}`                 | border: {color};                                          |
-| `border-{direction}-{color}`     | border-{direction}: {color};                              |
+<container>
+  <ThemeContainer />
+</container>
 
-> Available values <br />
-> `{direction}`: `x`, `y`, `t`, `l`, `r`, `b` <br />
-> `{color}`: All colors from the palette?  <br />
+<qr-color-table />
 
 ## Basic usage
 ### Setting the border color
-Control the border color of an element using the `border-{color}` utilities.
+Control the border color of an element using the `border-{transparent | inherit | current}` or `s-border-{semantic color}` utilities specified in the table above.
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-positive-default"></div>
   </div>
 </container>
 
 ```html
-<div class="border-4 border-indigo-200 rounded-4 ..."></div>
+<div class="s-border-positive-default border-4 rounded-16 ..."></div>
 ```
+
+<!--
+TODO: How should we handle opacity?
 
 ### Changing the opacity
 Control the opacity of an element’s border color using the color opacity modifier.
@@ -54,59 +48,66 @@ Control the opacity of an element’s border color using the color opacity modif
 <div class="border-4 border-indigo-500/75 ..."></div>
 <div class="border-4 border-indigo-500/50 ..."></div>
 ```
+-->
 
 ### Individual sides
-Use the `border-{side}-{color}` utilities to set the border color for one side of an element.
+Use the `border-{l|r|t|b}-{transparent|inherit|current}` or `s-border-{l|r|t|b}-{semantic color}` utilities to set the border color for only one side of an element.
 
 <container>
   <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-t-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-r-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-b-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-l-indigo-500"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-l-positive-default"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-r-positive-default"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-t-positive-default"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-b-positive-default"></div>
   </div>
 </container>
 
 ```html
-<div class="border-4 border-indigo-200 border-t-indigo-500 ..."></div>
-<div class="border-4 border-indigo-200 border-r-indigo-500 ..."></div>
-<div class="border-4 border-indigo-200 border-b-indigo-500 ..."></div>
-<div class="border-4 border-indigo-200 border-l-indigo-500 ..."></div>
+<div class="s-border-subtle s-border-l-positive-default ..."></div>
+<div class="s-border-default s-border-r-positive-default ..."></div>
+<div class="s-border-default s-border-t-positive-default ..."></div>
+<div class="s-border-default s-border-b-positive-default ..."></div>
 ```
 
 ### Horizontal and vertical sides
-Use the `border-{x|y}-{color}` utilities to set the border color on two sides of an element at the same time.
+Use the `border-{x|y}-{transparent|inherit|current}` or `s-border-{x|y}-{semantic color}` utilities to set the border color on two sides of an element at the same time.
 
 <container>
   <div class="grid grid-cols-2 gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-x-indigo-500"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 pd-border-y-indigo-500"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-x-positive-default"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default s-border-y-positive-default"></div>
    </div>
 </container>
 
 ```html
-<div class="border-4 border-indigo-200 border-x-indigo-500 ..."></div>
-<div class="border-4 border-indigo-200 border-y-indigo-500 ..."></div>
+<div class="s-border-default s-border-x-positive-default ..."></div>
+<div class="s-border-default s-border-y-positive-default ..."></div>
 ```
 
-### Hover, focus, and other states
-Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:border-gray-500` to only apply the `border-gray-500` utility on hover.
+### Hover, focus and other states
+Conditionally apply utility classes in different states using variant modifiers.
+For example, use `hover:s-border-active` to only apply the `s-border-active` utility on hover.
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="pd-bg-violet-500 h-80 w-80 border-4 rounded-4 pd-border-indigo-200 hover:pd-border-indigo-500"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default hover:s-border-hover"></div>
    </div>
 </container>
 
 ```html
-<div class="border-4 border-indigo-200 hover:border-indigo-500 ..."></div>
+<div class="s-border-default hover:s-border-hover ..."></div>
 ```
 
 ### Breakpoints and media queries
-You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:border-green-500` to apply the `border-green-500` utility at only medium screen sizes and above.
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more.
+For example, use `md:s-border-positive-default` to apply the `s-border-positive-default` utility at only medium screen sizes and above.
+
+<container>
+  <div class="grid gap-16 justify-items-center">
+    <div class="h-80 w-80 border-4 rounded-16 s-border-default md:s-border-positive-default"></div>
+   </div>
+</container>
 
 ```html
-<button class="border-blue-500 md:border-green-500">
-  <!-- ... -->
-</button>
+<div class="s-border-default md:s-border-positive-default ..."></div>
 ```
