@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -19,10 +19,10 @@ devDependencies:
     version: 0.0.1(eslint@8.35.0)
   '@warp-ds/preset-docs':
     specifier: ^0.0.16
-    version: 0.0.16(@warp-ds/uno@1.0.0-alpha.42)
+    version: 0.0.16(@warp-ds/uno@1.0.0-alpha.46)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.42
-    version: 1.0.0-alpha.42
+    specifier: ^1.0.0-alpha.46
+    version: 1.0.0-alpha.46
   camelcase:
     specifier: ^7.0.1
     version: 7.0.1
@@ -1024,17 +1024,17 @@ packages:
       eslint: 8.35.0
     dev: true
 
-  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.0.0-alpha.42):
+  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.0.0-alpha.46):
     resolution: {integrity: sha512-R4gsVtPcvYZ0LWGKGzEYuuRo+Iy8HIlSFCUwSt0MEmXtk4pCslDlxX/c2GJarUnAt6h86PUDCyAaUbHfPHAFOg==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.50.4
-      '@warp-ds/uno': 1.0.0-alpha.42
+      '@warp-ds/uno': 1.0.0-alpha.46
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.42:
-    resolution: {integrity: sha512-o6VZWqPS72T/Gjq0Ds6PJqLrSQdBwB8WGlrVhxZFTROn8tckwgfHNoYamkY8AeEP2TJxwfGLEdMZxdrFjdk2dg==}
+  /@warp-ds/uno@1.0.0-alpha.46:
+    resolution: {integrity: sha512-wQkBjjrPO3yaF/O/59bLZDgOriYJvS/0Kse09blGiTUgWL/sZy5HZQCwifGD5YCuos4RcOJulMJxpJDQRkPtHg==}
     dependencies:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8
