@@ -8,8 +8,8 @@ Utilities for controlling the border width of an element.
 | Class             | Description                                               |
 | ----------------- | --------------------------------------------------------- |
 | `border`          | border-width: 1px;                                        |
-| `border-x`        | border-left-width: 1;<br>border-right-width: 1;           |
-| `border-y`        | border-top-width: 1;<br>border-bottom-width: 1;           |
+| `border-x`        | border-left-width: 1px;<br>border-right-width: 1px;       |
+| `border-y`        | border-top-width: 1px;<br>border-bottom-width: 1px;       |
 | `border-t`        | border-top-width: 1px;                                    |
 | `border-r`        | border-right-width: 1px;                                  |
 | `border-b`        | border-bottom-width: 1px;                                 |
