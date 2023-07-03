@@ -28,6 +28,8 @@ pnpm add -D @warp-ds/uno@alpha unocss
 
 Create an `uno.config.js` file with the following content. This file will configure Uno, but we still need to get Uno into your project.
 
+> uno.config.js
+
 ```js
 import { defineConfig } from "unocss";
 import { presetWarp } from "@warp-ds/uno";
@@ -40,8 +42,9 @@ export default defineConfig({
 
 By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. Here's an example for Vite:
 
+> vite.config.js
+
 ```ts
-// vite.config.js
 import { defineConfig } from "vite";
 import UnoCSS from "unocss/vite";
 
@@ -54,11 +57,12 @@ For more examples on how to configure other build tools, please refer to the [ex
 
 ### Add `uno.css` to your main entry
 
-To apply UnoCSS styles to your project, import the uno.css file in your main entry file (e.g., main.[ts|js]).
+Depending on the build tool you have chosen, this step can look different. The example below is applicable if you build UnoCSS together with Vite. If you for example use PostCSS as a build tool, you would need to add `@unocss` to the main stylesheet. Please take a look at the [examples](https://github.com/unocss/unocss/tree/main/examples) and see what is needed to be added in your setup.
+
+> e.g. main.js or main.ts
 
 ```js
-// e.g. main.[ts|js]
-import "uno.css";
+import 'uno.css';
 ```
 
 ## 2. Apply theme
