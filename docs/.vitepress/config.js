@@ -205,6 +205,10 @@ export default defineConfig({
             { text: 'Divide Width', link: '/divide-width' },
             { text: 'Divide Color', link: '/divide-color' },
             { text: 'Divide Style', link: '/divide-style' },
+            { text: 'Outline style', link: '/outline-style' },
+            { text: 'Outline width', link: '/outline-width' },
+            { text: 'Outline color', link: '/outline-color' },
+            { text: 'Outline offset', link: '/outline-offset' },
           ],
         },
         {
