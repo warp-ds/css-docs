@@ -17,22 +17,22 @@ Use the `outline-offset-{size}` utilities to set the outline offset for an eleme
 
 <container>
   <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div>outline-1</div>
-    <div>outline-2</div>
-    <div>outline-4</div>
-    <div>outline-8</div>
+    <div>outline-offset-1</div>
+    <div>outline-offset-2</div>
+    <div>outline-offset-4</div>
+    <div>outline-offset-8</div>
+    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-1 outline-2"></div>
     <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-dashed outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-dotted outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-double outline-offset-2 outline-2"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-4 outline-2"></div>
+    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-8 outline-2"></div>
   </div>
 </container>
 
 ```html
+<div class="outline outline-offset-1 outline-2 ..."></div>
 <div class="outline outline-offset-2 outline-2 ..."></div>
-<div class="outline-dashed outline-offset-2 outline-2 ..."></div>
-<div class="outline-dotted outline-offset-2 outline-2 ..."></div>
-<div class="outline-double outline-offset-2 outline-2 ..."></div>
+<div class="outline outline-offset-4 outline-2 ..."></div>
+<div class="outline outline-offset-8 outline-2 ..."></div>
 ```
 
 ### Removing outlines
@@ -44,7 +44,7 @@ It is highly recommended to apply Warp:s focus styling for accessibility when us
 <div class="flex flex-col sm:flex-row items-center justify-center gap-x-16 gap-y-8 px-0 sm:px-10 font-mono font-bold">
 <input type="text"
   placeholder="Default focus style"
-  class="font-sans block pd-text-sm py-4 px-6 border-2 border-solid pd-border-slate-900/10 pd-text-slate-500 rounded-8 shadow-sm dark:pd-bg-slate-800 outline-inherit dark:pd-highlight-white/5 dark:pd-text-slate-400" 
+  class="font-sans block pd-text-sm py-4 px-6 border-2 border-solid pd-border-slate-900/10 pd-text-slate-500 rounded-8 shadow-sm dark:pd-bg-slate-800 outline-inherit dark:pd-highlight-white/5 dark:pd-text-slate-400"
   style="outline: revert !important"
   />
 
