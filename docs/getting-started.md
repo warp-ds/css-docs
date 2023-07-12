@@ -35,7 +35,7 @@ When setting up Warp in your project, you can choose to create a `uno.config.js`
 
 - **Alternative 1: Add a uno.config.js file**
 
-Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file will configure UnoCSS with our Warp preset. See all configuration options for `presetWarp` in the [Warp CSS docs](/plugin-api).
+Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file will configure UnoCSS with our Warp preset. See all configuration options for `presetWarp` at [Plugin API](/plugin-api) page.
 
 > uno.config.js
 
