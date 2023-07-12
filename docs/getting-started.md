@@ -6,54 +6,88 @@ This documentation will guide you through the process of integrating UnoCSS and 
 
 ## 1. Integrate with UnoCSS and Warp
 
-### Install
+A guide on how to integrate your project with UnoCSS and Warp.
 
-To get started, you need to install the necessary packages. At the moment, you should install the `alpha` versions of the `@warp-ds/uno` packages until the major versions are available.
+### Installation
 
-#### Using npm:
-
-```shell
-npm install -D @warp-ds/uno@alpha unocss
-```
-
-#### Using pnpm:
+To get started, you need to install the necessary packages. At the moment, you should install the `alpha` versions of the `@warp-ds/uno` packages until the major version is available.
+Below version of `@warp-ds/uno` is compatible with the theme stylesheets mentioned in the [Apply Theme](#_2-apply-theme) section.
 
 ```shell
-pnpm add -D @warp-ds/uno@alpha unocss
+npm install unocss @warp-ds/uno@1.0.0-alpha.49
 ```
 
-> If you are using a Webpack-based project, you also need to add `@unocss/webpack` (see [UnoCSS docs](https://unocss.dev/integrations/webpack) for more information)
+#### If you are using Webpack
 
-### Configure
+In addition to the installation of the Warp packages, Webpack based projects should also install `@unocss/webpack`
 
-Create an `uno.config.js` file with the following content. This file will configure Uno, but we still need to get Uno into your project.
+```shell
+npm install @unocss/webpack --save-dev
+```
+
+See [UnoCSS docs](https://unocss.dev/integrations/webpack) for more information.
+
+---
+
+### Configuration and setup
+
+When setting up Warp in your project, you can choose to create a `uno.config.js` file, or you can include the UnoCSS configuration settings directly in the build tool. Below, the two different alternatives are described.
+
+- **Alternative 1: Add a uno.config.js file**
+
+Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file will configure UnoCSS with our Warp preset. See all configuration options for `presetWarp` in the [Warp CSS docs](/plugin-api).
 
 > uno.config.js
 
 ```js
-import { defineConfig } from "unocss";
-import { presetWarp } from "@warp-ds/uno";
-export default defineConfig({
-  presets: [presetWarp()],
+import { defineConfig } from 'unocss';
+import { presetWarp } from '@warp-ds/uno';
+
+export default defineConfig({ 
+  presets: [presetWarp()]
 });
 ```
 
-#### Add UnoCSS to your build tool
+By default, UnoCSS will automatically look in the root directory of your project for `uno.config.[js,ts,mjs,mts]` or `unocss.config.[js,ts,mjs,mts]`.
 
-By default, UnoCSS will automatically look for uno.config.{js,ts,mjs,mts} or unocss.config.{js,ts,mjs,mts} in the root directory of your project. Here's an example for Vite:
+### Add UnoCSS to your build tool
+
+Then add UnoCSS to your build tool
 
 > vite.config.js
 
 ```ts
-import { defineConfig } from "vite";
-import UnoCSS from "unocss/vite";
+import { defineConfig } from 'vite';
+import UnoCSS from 'unocss/vite';
 
 export default defineConfig({
   plugins: [UnoCSS()],
 });
 ```
 
-For more examples on how to configure other build tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
+- **Alternative 2: Include UnoCSS directly in the build setup**
+
+You can also specify the configuration file manually and in that case you won't need a separate `uno.config.js` file.
+
+Below is an example for Vite:
+
+> vite.config.js
+
+```ts
+import { defineConfig } from 'vite';
+import UnoCSS from 'unocss/vite';
+import { presetWarp } from '@warp-ds/uno';
+
+export default defineConfig({
+  plugins: [
+    UnoCSS({
+      presets: [presetWarp()]
+    }),
+  ],
+});
+```
+
+For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
 ### Add `uno.css` to your main entry
 
@@ -67,7 +101,7 @@ import 'uno.css';
 
 ## 2. Apply theme
 
-To ensure that the components in your application apply your desired theme, you need to add the respective theme stylesheet to your document. Theme specific stylesheets are vailable via our Eik CDN server:
+In order for components to apply your application's theme, a respective theme stylesheet should be added to the document. Theme specific stylesheets are vailable via our Eik CDN server:
 
 - Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
 - Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
