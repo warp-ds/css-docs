@@ -11,9 +11,10 @@ A guide on how to integrate your project with UnoCSS and Warp.
 ### Installation
 
 To get started, you need to install the necessary packages. At the moment, you should install the `alpha` versions of the `@warp-ds/uno` packages until the major version is available.
+Below version of `@warp-ds/uno` is compatible with the theme stylesheets mentioned in the [Apply Theme](#_2-apply-theme) section.
 
 ```shell
-npm install unocss @warp-ds/uno@alpha
+npm install unocss @warp-ds/uno@1.0.0-alpha.49
 ```
 
 #### If you are using Webpack
