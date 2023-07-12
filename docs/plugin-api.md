@@ -7,7 +7,9 @@ The `presetWarp` export provided via `@warp-ds/uno` supports the following optio
 ```ts
 {
   development?: boolean
-  usePreflight?: boolean
+  skipResets?: boolean
+  omitComponentClasses?: boolean
+  usePixels?: boolean
   externalizeClasses?: boolean
   externalClasses?: string[]
 }
@@ -15,11 +17,19 @@ The `presetWarp` export provided via `@warp-ds/uno` supports the following optio
 
 ## development
 
-This is the only option most users should need to set. This will automatically control when preflights are enabled, and when classes are 'externalized' to prefer the Eik version.
+If set to `true`, forces preflights(resets.css + transform resets) to be excluded, and no external classes will be processed.
 
-## usePreflight
+### skipResets
 
-Force preflights to be included in the output.
+If `true`, forces resets to be excluded from preflights.
+
+### omitComponentClasses
+
+If `true` forces component classes to be excluded from the process. Styling for the classes already used in component classes won't be generated.
+
+### usePixels
+
+For use on sites that are incompatible with root REM/`font-size` changes.
 
 ## externalizeClasses
 
