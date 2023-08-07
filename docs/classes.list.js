@@ -111,6 +111,7 @@ export const borderCollapse = ['border-collapse', 'border-separate'];
 export const borderColor = [
   'border-inherit',
   'border-current',
+  'border-inverted',
   'border-transparent',
   's-border-default',
   's-border-hover',
@@ -336,7 +337,7 @@ export const fontSize = [
 
 export const fontStyle = ['italic', 'not-italic'];
 
-export const fontVariantNumeric = ['normal-nums', 'tabular-nums'];
+export const fontVariantNumeric = ['normal-nums', 'tabular-nums', 'ordinal', 'slashed-zero', 'lining-nums', 'oldstyle-nums', 'proportional-nums'];
 
 export const gridAutoFlow = [
   'grid-flow-row',
