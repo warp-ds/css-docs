@@ -603,8 +603,10 @@ export const textColor = [
   's-text-link-hover',
   's-text-link-active',
   's-text-link-disabled',
+  's-text-disabled',
   's-text-negative',
   's-text-positive',
+  's-text-notification',
 ];
 
 export const textDecoration = [
