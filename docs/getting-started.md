@@ -43,8 +43,8 @@ Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file
 import { defineConfig } from 'unocss';
 import { presetWarp } from '@warp-ds/uno';
 
-export default defineConfig({ 
-  presets: [presetWarp()]
+export default defineConfig({
+  presets: [presetWarp()],
 });
 ```
 
@@ -81,7 +81,7 @@ import { presetWarp } from '@warp-ds/uno';
 export default defineConfig({
   plugins: [
     UnoCSS({
-      presets: [presetWarp()]
+      presets: [presetWarp()],
     }),
   ],
 });
@@ -103,12 +103,12 @@ import 'uno.css';
 
 In order for components to apply your application's theme, a respective theme stylesheet should be added to the document. Theme specific stylesheets are vailable via our Eik CDN server:
 
-- Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
-- Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
-- Blocket: https://assets.finn.no/pkg/@warp-ds/tokens/v1/blocket-se.css
+- Finn: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css
+- Tori: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/tori-fi.css
+- Blocket: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/blocket-se.css
 
 Add this to your `index.html`:
 
 ```js
-<link rel="stylesheet" href="https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css">
+<link rel="stylesheet" href="https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css">
 ```
