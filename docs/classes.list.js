@@ -154,6 +154,8 @@ export const borderColor = [
   's-border-negative',
   's-border-negative-hover',
   's-border-negative-active',
+  's-border-negative-selected',
+  's-border-negative-selected-hover',
   's-border-negative-subtle',
   's-border-negative-subtle-hover',
   's-border-negative-subtle-active',

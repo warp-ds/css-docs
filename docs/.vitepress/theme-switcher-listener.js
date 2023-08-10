@@ -8,6 +8,12 @@ document.addEventListener('change', () => {
           `https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/${theme}.css`,
         );
       }
+      if (s.getAttribute('href').includes('@warp-ds/fonts')) {
+        s.setAttribute(
+          'href',
+          `https://assets.finn.no/pkg/@warp-ds/fonts/v1/${theme}.css`,
+        );
+      }
     });
   }
 });
