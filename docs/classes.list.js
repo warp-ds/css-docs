@@ -320,6 +320,12 @@ export const fontSize = [
   'text-body',
   'text-preamble',
   'text-display',
+  't6',
+  't5',
+  't4',
+  't3',
+  't2',
+  't1',
   'text-xs',
   'text-s',
   'text-m',
@@ -328,11 +334,6 @@ export const fontSize = [
   'text-xl',
   'text-xxl',
   'text-xxxl',
-  'h5',
-  'h4',
-  'h3',
-  'h2',
-  'h1',
 ];
 
 export const fontStyle = ['italic', 'not-italic'];
