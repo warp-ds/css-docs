@@ -14,7 +14,7 @@ To get started, you need to install the necessary packages. At the moment, you s
 Below version of `@warp-ds/uno` is compatible with the theme stylesheets mentioned in the [Apply Theme](#_2-apply-theme) section.
 
 ```shell
-npm install unocss @warp-ds/uno@1.0.0-alpha.49
+npm install unocss@0.54.3 @warp-ds/uno@1.0.0-alpha.49
 ```
 
 #### If you are using Webpack
