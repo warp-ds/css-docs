@@ -62,6 +62,10 @@ export default defineConfig({
             { text: 'Getting Started', link: '/getting-started' },
             { text: 'Plugin API', link: '/plugin-api' },
             { text: 'Class Variants', link: '/class-variants' },
+            {
+              text: 'Hover, Focus and other states',
+              link: '/states',
+            },
           ],
         },
         {
@@ -312,9 +316,9 @@ export default defineConfig({
         shortcuts: [
           {
             'ex-font':
-            'pd-text-sm font-bold pd-font-mono pd-text-white',
+              'pd-text-sm font-bold pd-font-mono pd-text-white',
             'ex-box':
-            'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
+              'ex-font p-24 rounded-4 pd-shadow-xl flex items-center justify-center',
           },
         ],
         safelist: classes,
