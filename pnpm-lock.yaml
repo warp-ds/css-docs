@@ -19,10 +19,10 @@ devDependencies:
     version: 0.0.1(eslint@8.35.0)
   '@warp-ds/preset-docs':
     specifier: ^0.0.16
-    version: 0.0.16(@warp-ds/uno@1.0.0-alpha.60)
+    version: 0.0.16(@warp-ds/uno@1.0.0-alpha.61)
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.60
-    version: 1.0.0-alpha.60(@warp-ds/css@1.0.0-alpha.33)
+    specifier: ^1.0.0-alpha.61
+    version: 1.0.0-alpha.61(@warp-ds/css@1.0.0-alpha.33)
   camelcase:
     specifier: ^7.0.1
     version: 7.0.1
@@ -1021,7 +1021,7 @@ packages:
     dependencies:
       '@warp-ds/fonts': 1.1.0
       '@warp-ds/tokenizer': 0.0.2
-      '@warp-ds/uno': 1.0.0-alpha.60(@warp-ds/css@1.0.0-alpha.33)
+      '@warp-ds/uno': 1.0.0-alpha.61(@warp-ds/css@1.0.0-alpha.33)
     dev: true
 
   /@warp-ds/eslint-config@0.0.1(eslint@8.35.0):
@@ -1036,13 +1036,13 @@ packages:
     resolution: {integrity: sha512-kLNZzK3o0rMJApm7/YT3K7rYoFKgH5PyJMTVwv34O4Dx6ikfN7appc4f2DFYkE2XY6gifpD5F2r1ftcJtdW4+w==}
     dev: true
 
-  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.0.0-alpha.60):
+  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.0.0-alpha.61):
     resolution: {integrity: sha512-R4gsVtPcvYZ0LWGKGzEYuuRo+Iy8HIlSFCUwSt0MEmXtk4pCslDlxX/c2GJarUnAt6h86PUDCyAaUbHfPHAFOg==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.50.4
-      '@warp-ds/uno': 1.0.0-alpha.60(@warp-ds/css@1.0.0-alpha.33)
+      '@warp-ds/uno': 1.0.0-alpha.61(@warp-ds/css@1.0.0-alpha.33)
     dev: true
 
   /@warp-ds/tokenizer@0.0.2:
@@ -1052,8 +1052,8 @@ packages:
       yaml: 2.3.1
     dev: true
 
-  /@warp-ds/uno@1.0.0-alpha.60(@warp-ds/css@1.0.0-alpha.33):
-    resolution: {integrity: sha512-66rZPwuneD7UY31CgCvwVpTN/dlmnutoGRBqHaVsJHNCkQT9SumE5jaz+iCmuoA4hbsxFmrsGHO89Oq1CX4WJQ==}
+  /@warp-ds/uno@1.0.0-alpha.61(@warp-ds/css@1.0.0-alpha.33):
+    resolution: {integrity: sha512-xev+eouzEHdNCGuXPT7gzdaYrecByP52pDdNfzDF/j0/R5hwAB6lu/ZtCaVVzv+jhWiQJxPrElQuIVvvhi2w8Q==}
     peerDependencies:
       '@warp-ds/css': ^1.0.0-alpha.33
     dependencies:
