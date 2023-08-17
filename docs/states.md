@@ -6,7 +6,7 @@ Using utilities to style elements on hover, focus, and more.
 ## Basic usage
 Every utility class in Warp can be applied conditionally by adding a modifier to the beginning of the class name that describes the condition you want to target.
 
-For example, to apply the p-16 class (padding:16px) on the sm breakpoint (from 480px and up), use the sm:p-16 class..
+For example, to apply the `p-16` class (padding:16px) on the sm breakpoint (from 480px and up), use the `sm:p-16` class.
 
 ## Modifier support
 
