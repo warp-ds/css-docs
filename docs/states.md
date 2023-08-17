@@ -166,7 +166,7 @@ It’s worth noting that you don’t really need `::before` and `::after` pseudo
 ### Placeholder text
 Style the placeholder text of any input or textarea using the `placeholder` modifier.
 
-html```
+```html
   <input class="placeholder:s-text-placeholder ... " placeholder="Search for anything..." type="text" name="dingbat"/>
 ```
 
