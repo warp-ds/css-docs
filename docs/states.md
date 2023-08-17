@@ -173,7 +173,7 @@ html```
 ### File input buttons
 Style the button in file inputs using the file modifier.
 
-html```
+```html
 <input type="file" class="file:mr-16 ... "/>
 ```
 
