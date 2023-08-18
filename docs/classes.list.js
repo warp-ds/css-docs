@@ -338,7 +338,15 @@ export const fontSize = [
 
 export const fontStyle = ['italic', 'not-italic'];
 
-export const fontVariantNumeric = ['normal-nums', 'tabular-nums', 'ordinal', 'slashed-zero', 'lining-nums', 'oldstyle-nums', 'proportional-nums'];
+export const fontVariantNumeric = [
+  'normal-nums',
+  'tabular-nums',
+  'ordinal',
+  'slashed-zero',
+  'lining-nums',
+  'oldstyle-nums',
+  'proportional-nums',
+];
 
 export const gridAutoFlow = [
   'grid-flow-row',
