@@ -181,7 +181,7 @@ Style the button in file inputs using the file modifier.
 Style the counters or bullets in lists using the marker modifier.
 
 ```html
-<ul role="list" class="marker:s-marker">
+<ul role="list" class="marker:s-text-current">
   <li>...</li>
   ...
 </ul>
@@ -210,7 +210,7 @@ Style the active text selection using the selection modifier.
 Style the backdrop of a native `<dialog>` element using the `backdrop` modifier.
 
 ```html
-<dialog class="backdrop:s-bg-backdrop ...">
+<dialog class="backdrop:opacity-25 ...">
   <form method="dialog">
     <!-- ... -->
   </form>
@@ -243,3 +243,8 @@ Use the `motion-reduce` modifier to conditionally add styles when the user has r
   Processing...
 </button>
 ```
+
+Warp also includes a `motion-safe` modifier that only adds styles when the user has not requested reduced motion. This can be useful when using the `motion-reduce` helper would mean having to “undo” a lot of styles.
+
+
+
