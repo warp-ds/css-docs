@@ -53,7 +53,7 @@ By default, UnoCSS will automatically look in the root directory of your project
 
 -  **Add UnoCSS to your build tool**
 
-Then add UnoCSS to your build tool. Below is an example for Vite:
+Then add UnoCSS to your build tool. Below is an example for Vite but you choose whatever build tool that suites your case. For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
 > vite.config.js
 
@@ -89,8 +89,6 @@ export default defineConfig({
   ],
 });
 ```
-
-For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
 ### Add `uno.css` to your main entry
 
