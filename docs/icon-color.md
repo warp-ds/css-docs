@@ -18,4 +18,4 @@ The s-prefix (semantic) signals that these will change with the brand css.
 
 ## Basic usage
 
-This section will be updated when Warp support icons.
+This section will be updated when Warp adds support for icons.
