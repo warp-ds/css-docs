@@ -10,11 +10,10 @@ A guide on how to integrate your project with UnoCSS and Warp.
 
 ### Installation
 
-To get started, you need to install the necessary packages. At the moment, you should install the `alpha` versions of the `@warp-ds/uno` packages until the major version is available.
-Below version of `@warp-ds/uno` is compatible with the theme stylesheets mentioned in the [Apply Theme](#_2-apply-theme) section.
+To get started, you need to install the necessary packages.
 
 ```shell
-npm install unocss@0.54.3 @warp-ds/uno@1.0.0-alpha.49
+npm install unocss @warp-ds/uno
 ```
 
 #### If you are using Webpack
@@ -33,7 +32,9 @@ See [UnoCSS docs](https://unocss.dev/integrations/webpack) for more information.
 
 When setting up Warp in your project, you can choose to create a `uno.config.js` file, or you can include the UnoCSS configuration settings directly in the build tool. Below, the two different alternatives are described.
 
-- **Alternative 1: Add a uno.config.js file**
+#### Alternative 1
+
+- **Add a uno.config.js file**
 
 Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file will configure UnoCSS with our Warp preset. See all configuration options for `presetWarp` at [Plugin API](/plugin-api) page.
 
@@ -43,16 +44,16 @@ Create a `uno.config.[js,ts,mjs,mts]` file with the following content. This file
 import { defineConfig } from 'unocss';
 import { presetWarp } from '@warp-ds/uno';
 
-export default defineConfig({ 
-  presets: [presetWarp()]
+export default defineConfig({
+  presets: [presetWarp()],
 });
 ```
 
 By default, UnoCSS will automatically look in the root directory of your project for `uno.config.[js,ts,mjs,mts]` or `unocss.config.[js,ts,mjs,mts]`.
 
-### Add UnoCSS to your build tool
+-  **Add UnoCSS to your build tool**
 
-Then add UnoCSS to your build tool
+Then add UnoCSS to your build tool. Below is an example for Vite but you choose whatever build tool that suites your case. For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
 > vite.config.js
 
@@ -65,7 +66,9 @@ export default defineConfig({
 });
 ```
 
-- **Alternative 2: Include UnoCSS directly in the build setup**
+#### Alternative 2
+
+- **Include UnoCSS directly in the build setup**
 
 You can also specify the configuration file manually and in that case you won't need a separate `uno.config.js` file.
 
@@ -81,13 +84,11 @@ import { presetWarp } from '@warp-ds/uno';
 export default defineConfig({
   plugins: [
     UnoCSS({
-      presets: [presetWarp()]
+      presets: [presetWarp()],
     }),
   ],
 });
 ```
-
-For more examples how to configure other building tools, please refer to the [examples](https://github.com/unocss/unocss/tree/main/examples) found in the UnoCSS project. We will eventually have in-depth install guides for frameworks on the golden path.
 
 ### Add `uno.css` to your main entry
 
@@ -101,14 +102,27 @@ import 'uno.css';
 
 ## 2. Apply theme
 
-In order for components to apply your application's theme, a respective theme stylesheet should be added to the document. Theme specific stylesheets are vailable via our Eik CDN server:
+### Add fonts
 
-- Finn: https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css
-- Tori: https://assets.finn.no/pkg/@warp-ds/tokens/v1/tori-fi.css
-- Blocket: https://assets.finn.no/pkg/@warp-ds/tokens/v1/blocket-se.css
+In order to load correct fonts for each brand, you need to include a font setup for that brand in your document.
 
 Add this to your `index.html`:
 
-```js
-<link rel="stylesheet" href="https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css">
+```html
+<link rel="stylesheet" href="https://assets.finn.no/pkg/@warp-ds/fonts/v1/finn-no.css">
+```
+
+### Add brand CSS
+
+In order to apply your application's theme, a respective brand CSS should be added to the document. Brand specific stylesheets are vailable via our Eik CDN server:
+
+- Finn: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css
+- Tori: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/tori-fi.css
+- Blocket: https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/blocket-se.css
+
+
+Add this to your `index.html`:
+
+```html
+<link rel="stylesheet" href="https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css">
 ```

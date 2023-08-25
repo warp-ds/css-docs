@@ -31,7 +31,28 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/tokens/v1/finn-no.css',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/finn-no.css',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/tori-fi.css',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/blocket-se.css',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css',
       },
     ],
   ],
@@ -128,6 +149,12 @@ export default defineConfig({
             { text: 'Whitespace', link: '/whitespace' },
             { text: 'Word Break', link: '/word-break' },
             { text: 'Content', link: '/content' },
+          ],
+        },
+        { text: 'Icongraphy',
+          collapsible: true,
+          items: [
+            { text: 'Icon Color', link: '/icon-color' },
           ],
         },
         {
