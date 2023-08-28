@@ -18,3 +18,13 @@ Add the `animate-inprogress` utility to add a animated background to indicate th
 ```html
   <button class="animate-inprogress">Save</button>
 ```
+
+### Spinner
+Add the `animate-spinner` utility to add a animated background to indicate that something is loading.
+<container>
+  <div className="animate-spinner"></div>
+</container>
+
+```html
+  <div className="animate-spinner"></div>
+```

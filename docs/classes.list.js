@@ -22,7 +22,7 @@ export const alignSelf = [
   'self-stretch',
 ];
 
-export const animation = ['animate-inprogress'];
+export const animation = ['animate-inprogress', 'animate-spinner'];
 
 export const appearance = ['appearance-none'];
 
