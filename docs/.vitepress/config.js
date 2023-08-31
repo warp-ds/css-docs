@@ -81,7 +81,6 @@ export default defineConfig({
           items: [
             { text: 'What is Warp CSS?', link: '/what-is-warp' },
             { text: 'Getting Started', link: '/getting-started' },
-            { text: 'Plugin API', link: '/plugin-api' },
             { text: 'Class Variants', link: '/class-variants' },
             {
               text: 'Hover, Focus and other states',
