@@ -26,9 +26,8 @@ const rows = computed(() => props.list ?? data[dataTitle.value])
         <td v-if="desc === null" colspan="2">Unsupported</td>
         <template v-else>
           <td>
-            <div :class="[cls, { 's-bg-primary': /^s-text-inverted/.test(cls) },{ 'border': !/^s-bg/.test(cls) } ]" class="w-64 px-8">
+            <div :class="[cls, { 's-bg-primary': /^s-text-inverted/.test(cls) },{ 'border': !/^s-bg/.test(cls) }, { 'h-24': !/^s-text/.test(cls) } ]" class="w-64 px-8">
               <span v-if="/^s-text/.test(cls)">Text</span>
-              <div v-else class="h-24"></div>
             </div>
           </td>
           <td>
