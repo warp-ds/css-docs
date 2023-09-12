@@ -17,6 +17,9 @@ devDependencies:
   '@warp-ds/eslint-config':
     specifier: ^0.0.1
     version: 0.0.1(eslint@8.35.0)
+  '@warp-ds/icons':
+    specifier: 1.0.0-alpha.1
+    version: 1.0.0-alpha.1
   '@warp-ds/preset-docs':
     specifier: ^0.0.16
     version: 0.0.16(@warp-ds/uno@1.0.0)
@@ -1033,6 +1036,10 @@ packages:
       eslint: ^8.34.0
     dependencies:
       eslint: 8.35.0
+    dev: true
+
+  /@warp-ds/icons@1.0.0-alpha.1:
+    resolution: {integrity: sha512-sJogTEFfuHugqUOdbaXSJjZgNPee5qDgUVjZGKIHRJEcZgcO+00giZFwu+lRjn+AeUsqsWbg9Zs1+cZkTit5sA==}
     dev: true
 
   /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.0.0):
