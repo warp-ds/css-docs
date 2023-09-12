@@ -25,11 +25,12 @@ const rows = computed(() => props.list ?? data[dataTitle.value])
         <td><code>{{ cls }}</code></td>
         <td v-if="desc === null" colspan="2">Unsupported</td>
         <template v-else>
-          <td :class="{ 's-text-inverted': /^s-bg-primary-/.test(cls) }">
-            <div :class="[cls, { 's-bg-primary': /^s-text-inverted/.test(cls) }]" class="border w-64 px-8">Text</div>
+          <td>
+            <div :class="[cls, { 's-bg-primary': /^s-text-inverted/.test(cls) },{ 'border': !/^s-bg/.test(cls) }, { 'h-24': !/^s-text/.test(cls) } ]" class="w-64 px-8">
+              <span v-if="/^s-text/.test(cls)">Text</span>
+            </div>
           </td>
           <td>
-
             <code v-for="(l, i) in desc.split('\n')">
               {{ l }}
               <br v-if="desc.split('\n').length > 1 && i < desc.split('n').length - 1" />
