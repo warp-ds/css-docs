@@ -15,7 +15,7 @@ Utilities for specifying the rows in a grid layout.
 > `{row-spec}`: _Any valid value for the `grid-template-rows` property - replace spaces with `_`_ <br />
 
 ::: warning grid-rows-[{col-spec}] not yet supported
-If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 
 ## Basic usage
@@ -64,5 +64,5 @@ If you need to use a one-off `grid-template-rows` value, use square brackets to 
 ```
 
 ::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::

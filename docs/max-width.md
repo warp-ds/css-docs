@@ -23,7 +23,7 @@ Utilities for setting the maximum width of an element.
 > `{breakpoint}`: `sm`, `md`, `lg`
 
 ::: warning Max-w-{breakpoint} Not yet supported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 
 ## Basic usage
@@ -78,5 +78,5 @@ If you need to use a one-off `max-width` value that doesn’t make sense to incl
 ```
 
 ::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::

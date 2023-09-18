@@ -5,7 +5,7 @@
 Utilities for controlling an element's background image.
 
 ::: warning Unsupported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 ## Quick reference
 
