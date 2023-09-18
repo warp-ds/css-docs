@@ -81,5 +81,5 @@ If you need to use a one-off flex-grow value, use square brackets to generate a 
 ```
 
 ::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-team-warp-tech](https://sch-chat.slack.com/archives/C04LG5UTCTT) .
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
