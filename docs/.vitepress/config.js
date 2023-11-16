@@ -153,7 +153,7 @@ export default defineConfig({
             { text: 'Content', link: '/content' },
           ],
         },
-        { text: 'Icongraphy',
+        { text: 'Iconography',
           collapsible: true,
           items: [
             { text: 'Icon Color', link: '/icon-color' },
