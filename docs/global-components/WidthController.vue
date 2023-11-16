@@ -39,8 +39,8 @@ watch(right, () => {
 <template>
   <div class="relative pr-16" ref="wrapperEl">
     <slot />
-    <button ref="handleEl" @mousedown="handleDragStart" @touchstart="handleDragStart" class="absolute rounded-full right-0 top-0 bottom-0 flex items-center cursor-ew-resize">
-      <div class="h-48 w-8 rounded-full pd-bg-gray-600" />
+    <button ref="handleEl" @mousedown="handleDragStart" @touchstart="handleDragStart" class="absolute rounded-full right-0 top-0 bottom-0 flex items-center cursor-ew-resize!">
+      <span class="block h-48 w-8 rounded-full s-bg-primary" />
     </button>
   </div>
 </template>

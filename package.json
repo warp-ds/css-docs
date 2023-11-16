@@ -9,24 +9,24 @@
     "lint": "eslint . --fix"
   },
   "devDependencies": {
-    "@itsy/okay": "^0.0.2",
-    "@unocss/core": "^0.55.2",
-    "@vueuse/core": "^9.13.0",
-    "@warp-ds/eslint-config": "^0.0.1",
-    "@warp-ds/icons": "1.0.0-alpha.1",
+    "@itsy/okay": "^0.0.4",
+    "@unocss/core": "^0.57.3",
+    "@vueuse/core": "^10.6.1",
+    "@warp-ds/eslint-config": "^1.0.3",
+    "@warp-ds/icons": "1.2.0",
     "@warp-ds/preset-docs": "^0.0.16",
-    "@warp-ds/uno": "^1.0.0",
-    "camelcase": "^7.0.1",
-    "eslint": "^8.35.0",
-    "sass": "^1.62.1",
-    "unocss": "^0.55.2",
-    "vitepress": "1.0.0-beta.2",
-    "vue": "^3.3.4"
+    "@warp-ds/uno": "^1.1.0",
+    "camelcase": "^8.0.0",
+    "eslint": "^8.53.0",
+    "sass": "^1.69.5",
+    "unocss": "^0.57.3",
+    "vitepress": "1.0.0-rc.25",
+    "vue": "^3.3.8"
   },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "vite"
+        "@algolia/client-search"
       ]
     }
   },

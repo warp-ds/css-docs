@@ -6,8 +6,11 @@ class FontSizeExample extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <style>
         @unocss-placeholder
+        .text-examples {
+          color: var(--vp-c-text-1);
+        }
       </style>
-      <div class="rounded-8 bg bg-color p-24">
+      <div class="rounded-8 bg bg-color p-24 text-examples">
         <span class="text-xs">text-xs</span>
         <p class="text-xs mt-0!">The quick warp scientist</p>
         <span class="text-s">text-s</span>

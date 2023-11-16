@@ -14,7 +14,10 @@ export default defineConfig({
   lastUpdated: false,
   cleanUrls: true,
   markdown: {
-    theme: 'nord',
+    theme: {
+      light: "github-light",
+      dark: "github-dark",
+    },
     headers: { level: [0, 0] },
   },
   base: `${base}/`,
@@ -150,7 +153,7 @@ export default defineConfig({
             { text: 'Content', link: '/content' },
           ],
         },
-        { text: 'Icongraphy',
+        { text: 'Iconography',
           collapsible: true,
           items: [
             { text: 'Icon Color', link: '/icon-color' },
@@ -235,10 +238,10 @@ export default defineConfig({
             { text: 'Divide Width', link: '/divide-width' },
             { text: 'Divide Color', link: '/divide-color' },
             { text: 'Divide Style', link: '/divide-style' },
-            { text: 'Outline style', link: '/outline-style' },
-            { text: 'Outline width', link: '/outline-width' },
-            { text: 'Outline color', link: '/outline-color' },
-            { text: 'Outline offset', link: '/outline-offset' },
+            { text: 'Outline Style', link: '/outline-style' },
+            { text: 'Outline Width', link: '/outline-width' },
+            { text: 'Outline Color', link: '/outline-color' },
+            { text: 'Outline Offset', link: '/outline-offset' },
           ],
         },
         {
