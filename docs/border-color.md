@@ -10,9 +10,7 @@ The s-prefix (semantic) signals that these will change with the brand css.
 
 ## Quick reference
 
-<container>
-  <ThemeContainer />
-</container>
+<ThemeContainer />
 
 <qr-color-table />
 
