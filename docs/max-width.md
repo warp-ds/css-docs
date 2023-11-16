@@ -22,7 +22,7 @@ Utilities for setting the maximum width of an element.
 > `{fraction}`: _Any fraction is valid - e.g. `1/5`_<br/>
 > `{breakpoint}`: `sm`, `md`, `lg`
 
-::: warning Max-w-{breakpoint} Not yet supported
+::: warning `max-w-{breakpoint}` not yet supported
 This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 

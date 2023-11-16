@@ -13,7 +13,7 @@ Utilities for controlling the content of the before and after pseudo-elements.
 > Available values <br />
 > `{str}`: Can be any string, will usually contain single-quotes as seen in the examples below
 
-::: warning Content-[{str}] is not yet Unsupported
+::: warning `content-[{str}]` not yet supported
 This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 
