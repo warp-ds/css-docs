@@ -138,14 +138,10 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value. Make sure to specify the [CSS unit](https://www.w3schools.com/cssref/css_units.php)
 
 ```html
-<div class="m-[7]">
+<div class="m-[7px]">
   <!-- ... -->
 </div>
 ```
-
-::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
