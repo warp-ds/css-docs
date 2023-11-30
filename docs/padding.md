@@ -133,10 +133,15 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off padding value, use square brackets to generate a property on the fly using any arbitrary value. Make sure to specify the [CSS unit](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units).  
+If you need to use a one-off padding value, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
-<div class="p-[11.3rem]">
+<div class="p-[113]">
   <!-- ... -->
 </div>
+```
+
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
+:::
 ```
