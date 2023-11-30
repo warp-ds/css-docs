@@ -133,7 +133,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off padding value, use square brackets to generate a property on the fly using any arbitrary value. Make sure to specify the [CSS unit](https://www.w3schools.com/cssref/css_units.php).  
+If you need to use a one-off padding value, use square brackets to generate a property on the fly using any arbitrary value. Make sure to specify the [CSS unit](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units).  
 
 ```html
 <div class="p-[11.3rem]">
