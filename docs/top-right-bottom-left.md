@@ -145,10 +145,13 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off top/right/bottom/left value t, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off top/right/bottom/left value, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="top-[160]">
   <!-- ... -->
 </div>
 ```
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
+:::

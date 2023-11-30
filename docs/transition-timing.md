@@ -59,4 +59,6 @@ If you need to use a one-off `transition-timing-function` value, you can use squ
   <!-- ... -->
 </div>
 ```
-
+::: warning Unsupported
+Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
+:::
