@@ -3,7 +3,7 @@
 # Usefull warp helper classes
 
 ## page container
-The `.page-container` helper class job is to normalise page behaviour across the pages/sites.
+The `.page-container` helper class job is to normalise page behaviour across the pages/sites, most pages should be set up with this.
 
 - Sets a max-width for the page ( This is dictated by the banner formats )
 - Left aligns the page if there is room for banners on both sides
