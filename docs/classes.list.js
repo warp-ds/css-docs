@@ -133,7 +133,6 @@ export const borderCollapse = ['border-collapse', 'border-separate'];
 export const borderColor = [
   'border-inherit',
   'border-current',
-  'border-inverted',
   'border-transparent',
   's-border',
   's-border-hover',
