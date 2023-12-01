@@ -1,6 +1,6 @@
 > Helper Classes
 
-# Usefull warp helper classes
+# Useful Warp helper classes
 
 ## page container
 The `.page-container` helper class job is to normalise page behaviour across the pages/sites, most pages should be set up with this.
