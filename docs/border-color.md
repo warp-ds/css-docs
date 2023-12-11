@@ -117,7 +117,7 @@ For example, use `md:s-border-positive` to apply the `s-border-positive` utility
 <div class="s-border md:s-border-positive ..."></div>
 ```
 ### Arbitrary values
-If you need to use a one-off `border-{color}` value, use square brackets to generate a property on the fly using our semantic color tokens.
+If you need to use a one-off `border-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However we recommend only using our semantic color tokens.
 
 ```html
 <div class="border-[--w-s-color-border]">
