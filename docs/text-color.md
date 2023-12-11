@@ -74,7 +74,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off `text-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However we recommend only using our semantic color tokens.
+If you need to use a one-off `text-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However, we recommend only using our semantic color tokens.
 
 ```html
 <div class="text-[--w-s-color-border]">
