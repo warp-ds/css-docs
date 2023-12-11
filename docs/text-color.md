@@ -72,3 +72,12 @@ You can also use variant modifiers to target media queries like responsive break
 ```html
 <p class="s-text md:s-text-positive">The quick smart warp scientist</p>
 ```
+
+### Arbitrary values
+If you need to use a one-off `text-{color}` value, use square brackets to generate a property on the fly using our semantic color tokens.
+
+```html
+<div class="text-[--w-s-color-border]">
+  <!-- ... -->
+</div>
+```

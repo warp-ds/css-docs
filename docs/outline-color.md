@@ -58,3 +58,12 @@ For example, use `md:s-outline-positive` to apply the `s-outline-positive` utili
 ```html
 <div class="s-outline md:s-outline-positive ..."></div>
 ```
+
+### Arbitrary values
+If you need to use a one-off `outline-{color}` value, use square brackets to generate a property on the fly using our semantic color tokens.
+
+```html
+<div class="outline-[--w-s-color-border]">
+  <!-- ... -->
+</div>
+```
