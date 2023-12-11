@@ -14,9 +14,6 @@ Utilities for specifying the rows in a grid layout.
 > `{n}`: `1` through `7` <br />
 > `{row-spec}`: _Any valid value for the `grid-template-rows` property - replace spaces with `_`_ <br />
 
-::: warning `grid-rows-[{col-spec}]` not yet supported
-If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
 
 ## Basic usage
 ### Specifying the rows in a grid
