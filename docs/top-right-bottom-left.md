@@ -152,6 +152,3 @@ If you need to use a one-off top/right/bottom/left value, use square brackets to
   <!-- ... -->
 </div>
 ```
-::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::

@@ -77,7 +77,3 @@ If you need to use a one-off gap value, use square brackets to generate a proper
   <!-- ... -->
 </div>
 ```
-
-::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
