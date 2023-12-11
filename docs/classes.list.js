@@ -133,7 +133,6 @@ export const borderCollapse = ['border-collapse', 'border-separate'];
 export const borderColor = [
   'border-inherit',
   'border-current',
-  'border-inverted',
   'border-transparent',
   's-border',
   's-border-hover',
@@ -142,6 +141,7 @@ export const borderColor = [
   's-border-selected',
   's-border-selected-hover',
   's-border-inverted',
+  's-border-focused',
   's-border-primary',
   's-border-primary-hover',
   's-border-primary-active',
@@ -178,6 +178,8 @@ export const borderColor = [
   's-border-info-subtle-hover',
   's-border-info-subtle-active',
 ];
+
+export const outlineColor = borderColor.map(c => c.replace('border', 'outline'))
 
 export const borderStyle = [
   'border-solid',
