@@ -77,3 +77,12 @@ For example, use `md:s-bg-positive` to apply the `s-bg-positive` utility at only
 ```html
 <div class="s-bg md:s-bg-positive ..."></div>
 ```
+
+### Arbitrary values
+If you need to use a one-off `bg-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However we recommend only using our semantic color tokens.
+
+```html
+<div class="bg-[--w-s-color-border]">
+  <!-- ... -->
+</div>
+```
