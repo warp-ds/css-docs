@@ -180,10 +180,19 @@ Style the button in file inputs using the file modifier.
 ### List markers
 Style the counters or bullets in lists using the marker modifier.
 
+<container>
+  <ul class="list-disc! pl-40! my-0!">
+    <li>Default disc</li>
+    <li class="marker:s-text-negative">Negative disc</li>
+    <li class="marker:s-text-positive">Positive disc</li>
+  </ul>
+</container>
+
 ```html
-<ul role="list" class="marker:s-text-current">
-  <li>...</li>
-  ...
+<ul class="list-disc pl-40">
+  <li>Default disc</li>
+  <li class="marker:s-text-negative">Negative disc</li>
+  <li class="marker:s-text-positive">Positive disc</li>
 </ul>
 ```
 
