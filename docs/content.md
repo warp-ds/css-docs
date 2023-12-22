@@ -8,7 +8,7 @@ Utilities for controlling the content of the before and after pseudo-elements.
 | Class             | Description      |
 | ----------------- | ---------------- |
 | `content-none`    | `content: none`  |
-| `content-empty`    | `content: ""`  |
+| `content-empty`   | `content: ""`    |
 | `content-[{str}]` | `content: {str}` |
 
 > Available values <br />
