@@ -3,9 +3,6 @@
 # Columns
 Utilities for controlling the number of columns within an element.
 
-::: warning Unsupported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
 
 ## Quick reference
 
@@ -145,6 +142,3 @@ If you need to use a one-off columns value, use square brackets to generate a pr
   <!-- ... -->
 </div>
 ```
-::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
