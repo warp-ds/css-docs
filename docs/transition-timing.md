@@ -42,7 +42,7 @@ Warp lets you conditionally apply utility classes in different states using vari
 </div>
 ```
 
-### reakpoints and media queries
+### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:ease-in` to apply the `ease-in` utility at only medium screen sizes and above.
 
 ```html
@@ -59,4 +59,3 @@ If you need to use a one-off `transition-timing-function` value, you can use squ
   <!-- ... -->
 </div>
 ```
-

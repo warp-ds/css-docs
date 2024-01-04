@@ -105,3 +105,11 @@ You can also use variant modifiers to target media queries like responsive break
   <!-- ... -->
 </div>
 ```
+### Arbitrary values
+If you need to use a one-off `border-width` value, use square brackets to generate a property using any arbitrary value.
+
+```html
+<div class="border-[66]">
+  <!-- ... -->
+</div>
+```

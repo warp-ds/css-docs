@@ -49,11 +49,7 @@ You can also use variant modifiers to target media queries like responsive break
 If you need to use a one-off flex-basis value, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
-<div class="basis-[14.2857143%]">
+<div class="basis-[15%]">
   <!-- ... -->
 </div>
 ```
-
-::: warning Unsupported
-Arbitrary values for this is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::

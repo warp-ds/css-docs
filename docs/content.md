@@ -8,14 +8,11 @@ Utilities for controlling the content of the before and after pseudo-elements.
 | Class             | Description      |
 | ----------------- | ---------------- |
 | `content-none`    | `content: none`  |
+| `content-empty`   | `content: ""`    |
 | `content-[{str}]` | `content: {str}` |
 
 > Available values <br />
 > `{str}`: Can be any string, will usually contain single-quotes as seen in the examples below
-
-::: warning `content-[{str}]` not yet supported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
 
 ## Basic usage
 ### Setting a pseudo-element's content
