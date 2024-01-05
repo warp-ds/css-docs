@@ -48,13 +48,6 @@ export default defineConfig({
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://assets.finn.no/pkg/@warp-ds/fonts/v1/blocket-se.css',
-      },
-    ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
         href: 'https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css',
       },
     ],
