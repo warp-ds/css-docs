@@ -22,10 +22,10 @@ devDependencies:
     version: 1.4.0
   '@warp-ds/preset-docs':
     specifier: ^0.0.16
-    version: 0.0.16(@warp-ds/uno@1.4.0)
+    version: 0.0.16(@warp-ds/uno@1.5.0)
   '@warp-ds/uno':
-    specifier: ^1.4.0
-    version: 1.4.0
+    specifier: ^1.5.0
+    version: 1.5.0
   camelcase:
     specifier: ^8.0.0
     version: 8.0.0
@@ -1138,22 +1138,8 @@ packages:
     resolution: {integrity: sha512-rWmyeNE0Na8dJPDynLVar0X22qMHFNhO+/F2FZDpG4tubTavXJJo9uvhZr/D381kiWxt+XZ38y6EAD4UMdBqMA==}
     dev: true
 
-  /@unocss/core@0.57.3:
-    resolution: {integrity: sha512-o6snDo5vwAenIqA+wjjI6BUsftJXXSqrPHYqplb+QX5bLfxW/OU1xhBRlnhiP0BOGGZXqgGEETU1ym8MM9bLwA==}
-    dev: true
-
-  /@unocss/core@0.57.7:
-    resolution: {integrity: sha512-1d36M0CV3yC80J0pqOa5rH1BX6g2iZdtKmIb3oSBN4AWnMCSrrJEPBrUikyMq2TEQTrYWJIVDzv5A9hBUat3TA==}
-    dev: true
-
   /@unocss/core@0.58.3:
     resolution: {integrity: sha512-9hTxzsrSLh+07ql/lGhE+8ZbE9MTTeZeMx131cPf2jDJUxAZooLE5pBCoK0k77ZJGcribRrwPGkUScBNOK0cYQ==}
-    dev: true
-
-  /@unocss/extractor-arbitrary-variants@0.57.3:
-    resolution: {integrity: sha512-OmF+2TjJ97i7KOCR8wPgZK/pkp8Rcfo4tzqT/4jBUIi7rfDGZx/eE3aZKFpZSZlUuTH5cdReaKxymXQmJ4dibA==}
-    dependencies:
-      '@unocss/core': 0.57.3
     dev: true
 
   /@unocss/extractor-arbitrary-variants@0.58.3:
@@ -1200,14 +1186,6 @@ packages:
       ofetch: 1.3.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@unocss/preset-mini@0.57.3:
-    resolution: {integrity: sha512-2KFxbbxRqhc+0fyWNYSiRGGr+3jp4jEQIRnjT8sv5uAMo1OaUmUTwz2qzYhSc3sCM8ZEofblZY2BOcqJwZ5yxA==}
-    dependencies:
-      '@unocss/core': 0.57.3
-      '@unocss/extractor-arbitrary-variants': 0.57.3
-      '@unocss/rule-utils': 0.57.3
     dev: true
 
   /@unocss/preset-mini@0.58.3:
@@ -1257,14 +1235,6 @@ packages:
 
   /@unocss/reset@0.58.3:
     resolution: {integrity: sha512-Q2KiRQlam2iYsTZgKdvnXEfUN4TA2oVpGIVD9Wa0ggs0XlYj5aOo0g0+4Tgqqn+YaviZQeJKnDs/JWE+ygHhZA==}
-    dev: true
-
-  /@unocss/rule-utils@0.57.3:
-    resolution: {integrity: sha512-koWXeRJHFt/SJdb3m7s/2+NrBCcUtl67SX7rSHJc99Z+dwZgIsPUfdfRKM4mZD43MayybvDrd1Wue2LNQg5R/g==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@unocss/core': 0.57.7
-      magic-string: 0.30.5
     dev: true
 
   /@unocss/rule-utils@0.58.3:
@@ -1513,21 +1483,21 @@ packages:
       '@lingui/core': 4.5.0
     dev: true
 
-  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.4.0):
+  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.5.0):
     resolution: {integrity: sha512-R4gsVtPcvYZ0LWGKGzEYuuRo+Iy8HIlSFCUwSt0MEmXtk4pCslDlxX/c2GJarUnAt6h86PUDCyAaUbHfPHAFOg==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.50.8
-      '@warp-ds/uno': 1.4.0
+      '@warp-ds/uno': 1.5.0
     dev: true
 
-  /@warp-ds/uno@1.4.0:
-    resolution: {integrity: sha512-cbhQhCQWUfjplMYNlAsPStb8xXgjUtGynpMMYddt+fDKca9cBeZl5+wTU4wsXIUiemMzN0yLEXXVtUby2xbP9g==}
+  /@warp-ds/uno@1.5.0:
+    resolution: {integrity: sha512-LYImJbiNzgJa3+M8RhAAr5TjgK+FIpPMZNVqj9bH8jLfSCjOUzQ3HNlwGrZAMysDpSxBs27+pY+LfWkWbobFfA==}
     dependencies:
-      '@unocss/core': 0.57.7
-      '@unocss/preset-mini': 0.57.3
-      '@unocss/rule-utils': 0.57.3
+      '@unocss/core': 0.58.3
+      '@unocss/preset-mini': 0.58.3
+      '@unocss/rule-utils': 0.58.3
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.10.0):
