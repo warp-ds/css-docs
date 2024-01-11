@@ -181,6 +181,8 @@ export const borderColor = [
 
 export const outlineColor = borderColor.map(c => c.replace('border', 'outline'))
 
+export const divideColor = borderColor.map(c => c.replace('border', 'divide'))
+
 export const borderStyle = [
   'border-solid',
   'border-dashed',
