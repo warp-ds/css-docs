@@ -1,12 +1,13 @@
 > Borders
 
 # Border Radius
+
 Utilities for controlling the border radius of an element.
 
 ## Quick reference
 
 | Class               | Description                                                   |
-| ------------------- | ------------------------------------------------------------- |
+|---------------------|---------------------------------------------------------------|
 | `rounded`           | border-radius: 1px;                                           |
 | `rounded-full`      | border-radius: 9999px;                                        |
 | `rounded-{size}`    | border-radius: {size};                                        |
@@ -23,6 +24,7 @@ Utilities for controlling the border radius of an element.
 > `{size}`: `0`, `2`, `4`, `8`, `16` <br />
 
 ## Basic usage
+
 ### Rounded corners
 Use utilities like `.rounded`, or `.rounded-full` to apply different border radius sizes to an element.
 
@@ -83,7 +85,7 @@ Use `rounded-{t|r|b|l}{-size}` to only round one side of an element.
 <div class="rounded-l-16 ...">04</div>
 ```
 
-### ounding corners separately
+### Rounding corners separately
 Use `rounded-{tl|tr|br|bl}{-size}` to only round one corner an element.
 
 <container>
@@ -106,9 +108,8 @@ Use `rounded-{tl|tr|br|bl}{-size}` to only round one corner an element.
 <div class="rounded-bl-16 ...">04</div>
 ```
 
-
 ### Hover, focus, and other states
-Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:rounded-8` to only apply the `rounded-8` utility on hover.
+You can conditionally apply utility classes in different states using variant modifiers. For example, use `hover:rounded-8` to only apply the `rounded-8` utility on hover.
 
 ```html
 <div class="rounded hover:rounded-8">

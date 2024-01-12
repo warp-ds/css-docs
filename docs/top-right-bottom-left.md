@@ -1,12 +1,13 @@
 > Layout
 
 # Top / Right / Bottom / Left
+
 Utilities for controlling the placement of positioned elements.
 
 ## Quick reference
 
 | Class            | Description                                                            |
-| ---------------- | ---------------------------------------------------------------------- |
+|------------------|------------------------------------------------------------------------|
 | `top-a`          | `top: auto`                                                            |
 | `right-a`        | `right: auto`                                                          |
 | `bottom-a`       | `bottom: auto`                                                         |
@@ -27,6 +28,7 @@ Utilities for controlling the placement of positioned elements.
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
 
 ## Basic usage
+
 ### Placing a positioned element
 Use the `{top|right|bottom|left|inset}-{size}` utilities to set the horizontal or vertical position of [positioned element](/position).
 
@@ -59,7 +61,6 @@ Use the `{top|right|bottom|left|inset}-{size}` utilities to set the horizontal o
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
       <div class="ex-box rounded-8 absolute right-0 bottom-0 left-a top-a h-32 w-32 pd-bg-violet-600">01</div>
     </box>
-
   </div>
 </container>
 
@@ -127,14 +128,14 @@ To use a negative top/right/bottom/left value, prefix the class name with a dash
 
 > Applying conditionally
 ### Hover, focus, and other states
-Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:top-6` to only apply the `top-6` utility on hover.
+You can conditionally apply utility classes in different states using variant modifiers. For example, use `hover:top-6` to only apply the `top-6` utility on hover.
 
 ```html
 <div class="top-8 hover:top-10">
   <!-- ... -->
 </div>
 ```
-​
+
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:top-6` to apply the `top-6` utility at only medium screen sizes and above.
 

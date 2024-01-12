@@ -1,11 +1,14 @@
 > Spacing
 
 # Margin
+
 Utilities for controlling an element's margin.
+
 ## Quick reference
-| Class            | Description                                   |
-| ---------------- | --------------------------------------------- |
-| `m{side}-{size}` | margin-{side}:{size};                         |
+
+| Class            | Description                                  |
+|------------------|----------------------------------------------|
+| `m{side}-{size}` | margin-{side}:{size};                        |
 | `mx-{size}`      | margin-left:{size};<br/>margin-right:{size}  |
 | `my-{size}`      | margin-top:{side};<br/>margin-bottom:{size}; |
 
@@ -14,6 +17,7 @@ Utilities for controlling an element's margin.
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
 
 ## Basic usage
+
 ### Add margin to a single side
 Control the margin on one side of an element using the `m{t|r|b|l}-{size}` utilities.
 
@@ -55,6 +59,7 @@ For example,`mt-16` would add `1.6rem`which should be equivalent of 16px of marg
 
 ### Add horizontal margin
 Control the horizontal margin of an element using the `mx-{size}` utilities.
+
 <container>
   <div class="relative rounded-2 overflow-auto p-8">
     <div class="flex justify-center ex-font leading-6">
@@ -71,6 +76,7 @@ Control the horizontal margin of an element using the `mx-{size}` utilities.
 
 ### Add vertical margin
 Control the vertical margin of an element using the `my-{size}` utilities.
+
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center ex-font leading-6">
@@ -87,6 +93,7 @@ Control the vertical margin of an element using the `my-{size}` utilities.
 
 ### Add margin to all sides
 Control the margin on all sides of an element using the `m-{size}` utilities.
+
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center ex-font leading-6">
@@ -103,6 +110,7 @@ Control the margin on all sides of an element using the `m-{size}` utilities.
 
 ### Using negative values
 To use a negative margin value, prefix the class name with a dash to convert it to a negative value.
+
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-center ex-font leading-6">
@@ -120,7 +128,7 @@ To use a negative margin value, prefix the class name with a dash to convert it 
 ```
 
 ### Hover, focus, and other states
-Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:mt-8` to only apply the `mt-8` utility on hover.
+You can conditionally apply utility classes in different states using variant modifiers. For example, use `hover:mt-8` to only apply the `mt-8` utility on hover.
 
 ```html
 <div class="mt-4 hover:mt-8">
@@ -138,7 +146,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off margin value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="m-[7]">

@@ -6,12 +6,12 @@ Utilities for controlling the aspect ratio of an element.
 
 ## Quick reference
 
-::: Warning
+::: warning Warning
   Known problem: the shortcuts `aspect-ratio`, `aspect-square`, `aspect-video` are not working as intended
 :::
 
 | Class               | Description                             |
-| ------------------- | --------------------------------------- |
+|---------------------|-----------------------------------------|
 | `aspect-ratio`      | aspect-ratio: auto;                     |
 | `aspect-square`     | aspect-ratio: 1/1;                      |
 | `aspect-video`      | aspect-ratio: 16/9;                     |
@@ -23,15 +23,13 @@ Utilities for controlling the aspect ratio of an element.
 
 > `{fraction}`: _Any fraction is valid - e.g. `1/5`_
 
-
 ::: tip Note
-Aspect ratio support is currently provided via the ['padding-bottom'](https://css-tricks.com/aspect-ratio-boxes/) fallback method. The built-in `aspect-ratio` property is not yet well supported.
+Aspect ratio support is currently provided via the [padding-bottom](https://css-tricks.com/aspect-ratio-boxes/) fallback method. The built-in `aspect-ratio` property is not yet well supported.
 :::
 
 ## Basic usage
 
 ### Setting the aspect ratio
-
 Use the aspect-{ratio} utilities to set the desired aspect ratio of an element.
 
 <width-controller>
@@ -63,7 +61,6 @@ Use the aspect-{ratio} utilities to set the desired aspect ratio of an element.
 ```
 
 ### Breakpoints and media queries
-
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:aspect-1/1` to apply the `aspect-16/9` utility at only medium screen sizes and above.
 
 ```html
