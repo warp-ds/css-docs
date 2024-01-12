@@ -52,15 +52,9 @@ For example, use `hover:s-bg-positive` to only apply the `s-bg-positive` utility
 </container>
 
 ```html
-<div
-  class="s-bg hover:s-bg-hover active:s-bg-active active:hover:s-bg-active-hover ..."
-></div>
-<div
-  class="s-bg-info hover:s-bg-info-hover active:s-bg-info-active active:hover:s-bg-info-active-hover ..."
-></div>
-<div
-  class="s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active active:hover:s-bg-warning-active-hover ..."
-></div>
+<div class="s-bg hover:s-bg-hover active:s-bg-active active:hover:s-bg-active-hover ..."></div>
+<div class="s-bg-info hover:s-bg-info-hover active:s-bg-info-active active:hover:s-bg-info-active-hover ..."></div>
+<div class="s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active active:hover:s-bg-warning-active-hover ..."></div>
 ```
 
 ### Breakpoints and media queries

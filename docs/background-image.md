@@ -4,10 +4,6 @@
 
 Utilities for controlling an element's background image.
 
-::: warning Unsupported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
-
 ## Quick reference
 
 <qr-table />
@@ -17,11 +13,13 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 ## Basic usage
 
 ### Arbitrary values
-If you need to use a one-off `background-image` value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off `background-image` value, use square brackets to generate a property on the fly using any url.
+
+<container>
+  <div class="h-144 bg-cover bg-center bg-no-repeat bg-[url(20s-scientists.jpg)]"></div>
+</container>
 
 ```html
-<div class="bg-[url('...')]">
-  <!-- ... -->
-</div>
+<div class="bg-[url(...)] ..."></div>
 ```
 
