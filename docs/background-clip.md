@@ -14,18 +14,18 @@ Utilities for controlling the bounding box of an element's background.
 Use the `bg-clip-{keyword}` utilities to control the bounding box of an element’s background.
 
 <container>
-  <div class="flex flex-col sm:flex-row items-center justify-center gap-32">
-    <div class="flex flex-col items-center shrink-0">
-      <p class="pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">bg-clip-border</p>
-      <div class="w-80 h-80 bg-clip-border p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-4 pd-border-white/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
+  <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-around">
+    <div class="flex flex-col justify-self-center place-items-center">
+      <div class="mb-16 pd-font-mono">bg-clip-border</div>
+      <div class="w-128 h-128 bg-clip-border p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-8 pd-border-white/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
     </div>
-    <div class="flex flex-col items-center shrink-0">
-      <p class="pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">bg-clip-padding</p>
-      <div class="w-80 h-80 bg-clip-padding p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-4 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
+    <div class="flex flex-col justify-self-center place-items-center">
+      <div class="mb-16 pd-font-mono">bg-clip-padding</div>
+      <div class="w-128 h-128 bg-clip-padding p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-8 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
     </div>
-    <div class="flex flex-col items-center shrink-0">
-      <p class="pd-text-slate-500 pd-font-mono text-center mb-16 dark:pd-text-slate-400">bg-clip-content</p>
-      <div class="w-80 h-80 bg-clip-content p-16 rounded-8 pd-bg-indigo-500 border-4 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
+    <div class="flex flex-col justify-self-center place-items-center">
+      <div class="mb-16 pd-font-mono">bg-clip-content</div>
+      <div class="w-128 h-128 bg-clip-content p-16 rounded-8 pd-bg-indigo-500 border-8 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center"></div>
     </div>
   </div>
 </container>
