@@ -1,6 +1,7 @@
 > Transitions & Animation
 
 # Transition Timing
+
 Utilities for controlling the easing of CSS transitions.
 
 ## Quick reference
@@ -8,12 +9,13 @@ Utilities for controlling the easing of CSS transitions.
 <qr-table />
 
 ## Basic usage
+
 ### Controlling the easing curve
 Use the `ease-{timing}` utilities to control an element’s easing curve.
 
 <container>
 <box striped class="relative group max-w-[344] mx-a mb-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
-  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-linear duration-300 w-[200] transform-gpu">Ease-inlinear</div>
+  <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-linear duration-300 w-[200] transform-gpu">Ease-linear</div>
 </box>
 <box striped class="relative group max-w-[344] mx-a mb-24" fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)" >
   <div class="ex-box pd-bg-indigo-500 pd-text-white group-hover:translate-x-144 ease-in duration-300 w-[200] transform-gpu">Ease-in</div>

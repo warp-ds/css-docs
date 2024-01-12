@@ -1,6 +1,7 @@
 > Flexbox & Grid
 
 # Place Content
+
 Utilities for controlling how content is justified and aligned at the same time.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling how content is justified and aligned at the same time.
 <qr-table />
 
 ## Basic usage
+
 ### Center
 Use `place-content-center` to pack items in the center of the block axis.
 
@@ -50,10 +52,8 @@ Use `place-content-start` to pack items against the start of the block axis.
 </div>
 ```
 
-
-
 ### End
-Use `place-content-end` to to pack items against the end of the block axis.
+Use `place-content-end` to pack items against the end of the block axis.
 
 <container>
   <box striped class="grid grid-cols-[repeat(2,56px)] gap-24 rounded-4 pt-128 place-content-start" fg-color="var(--tw-cyan-fg)" bg-color="var(--tw-cyan-bg)">
@@ -74,7 +74,7 @@ Use `place-content-end` to to pack items against the end of the block axis.
 ```
 
 ### Space between
-Use `place-content-between` to distribute grid items along the block axis so that that there is an equal amount of space between each row on the block axis.
+Use `place-content-between` to distribute grid items along the block axis so that there is an equal amount of space between each row on the block axis.
 
 <container>
   <box striped class="grid grid-cols-[repeat(2,56px)] place-content-between rounded-4" fg-color="var(--tw-pink-fg)" bg-color="var(--tw-pink-bg)">

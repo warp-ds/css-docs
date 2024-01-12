@@ -1,6 +1,7 @@
 > Typography
 
 # Text Align
+
 Utilities for controlling the alignment of text.
 
 ## Quick reference
@@ -8,13 +9,14 @@ Utilities for controlling the alignment of text.
 <qr-table />
 
 ## Basic usage
+
 ### Setting the text alignment
 Control the text alignment of an element using the `text-left`, `text-center`, `text-right`, and `text-justify` utilities.
 
 <container>
   <div class="mx-24">
     <p class="text-left">
-    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electro-magnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
+    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electromagnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
     </p>
   </div>
 </container>
@@ -26,7 +28,7 @@ Control the text alignment of an element using the `text-left`, `text-center`, `
 <container>
   <div class="mx-24">
     <p class="text-center">
-    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electro-magnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
+    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electromagnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
     </p>
   </div>
 </container>
@@ -38,7 +40,7 @@ Control the text alignment of an element using the `text-left`, `text-center`, `
 <container>
   <div class="mx-24">
     <p class="text-right">
-    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electro-magnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
+    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electromagnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
     </p>
   </div>
 </container>
@@ -50,7 +52,7 @@ Control the text alignment of an element using the `text-left`, `text-center`, `
 <container>
   <div class="mx-24">
     <p class="text-justify">
-    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electro-magnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
+    In some respects the force was electricity, but it was of a higher energy order, containing inherent magnetic properties in a complete union of a kind only vaguely suggested by the term “electromagnetic,” in which the two forces involved are more or less mutually exclusive, the one giving rise to the other.
     </p>
   </div>
 </container>

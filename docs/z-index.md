@@ -1,12 +1,13 @@
 > Layout
 
 # Z-Index
+
 Utilities for controlling the stack order of an element.
 
 ## Quick reference
 
 | Class       | Description           |
-| ----------- | --------------------- |
+|-------------|-----------------------|
 | `z-{index}` | `z-index: {index}`    |
 
 > Available values <br />
@@ -20,9 +21,11 @@ z-20: Header<br />
 z-10: The rest<br />
 
 <!--
-#TODO: Z-index should probably be kept to a bare minimum. Everything has a defined place within the 3 values used today in the FINN platform. Suggest we just support 0, 10, 20, 30, and Auto unless theres a reason to support more.  We might want to make these 3 into semantic z-index classes and maybe have some freerange z-indexes z-0 to z-9 including negatives, these would never interfer with the important ones mentioned above no matter if used in the same stacking-context (which is unlikely anyways)
+#TODO: Z-index should probably be kept to a bare minimum. Everything has a defined place within the 3 values used today in the FINN platform. Suggest we just support 0, 10, 20, 30, and Auto unless there is a reason to support more.  We might want to make these 3 into semantic z-index classes and maybe have some free-range z-indexes z-0 to z-9 including negatives, these would never interfere with the important ones mentioned above no matter if used in the same stacking-context (which is unlikely anyways)
 -->
+
 ## Basic usage
+
 ### Setting the z-index
 
 Control the stack order (or three-dimensional positioning) of an element in warp, regardless of order it has been displayed, using the `z-{index}` utilities.

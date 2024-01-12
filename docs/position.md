@@ -1,6 +1,7 @@
 > Layout
 
 # Position
+
 Utilities for controlling how an element is positioned in the DOM.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling how an element is positioned in the DOM.
 <qr-table />
 
 ## Basic usage
+
 ### Statically positioning elements
 Use `static` to position an element according to the normal flow of the document.
 
@@ -63,7 +65,7 @@ Any `offsets` are calculated relative to the element’s normal position and the
 ```
 
 ### Absolutely positioning elements
-Use `absolute` to position an element outside of the normal flow of the document, causing neighboring elements to act as if the element doesn’t exist.
+Use `absolute` to position an element outside the normal flow of the document, causing neighboring elements to act as if the element doesn't exist.
 
 Any `offsets` are calculated relative to the nearest parent that has a position other than static, and the element will act as a position reference for other absolutely positioned children.
 
@@ -322,4 +324,3 @@ You can also use variant modifiers to target media queries like responsive break
   <!-- ... -->
 </div>
 ```
-

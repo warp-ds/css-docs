@@ -1,11 +1,13 @@
 > Spacing
 
 # Padding
+
 Utilities for controlling an element's padding.
+
 ## Quick reference
 
 | Class            | Description                                    |
-| ---------------- | ---------------------------------------------- |
+|------------------|------------------------------------------------|
 | `p{side}-{size}` | padding-{side}:{size};                         |
 | `px-{size}`      | padding-left:{size};<br/>padding-right:{size}  |
 | `py-{size}`      | padding-top:{side};<br/>padding-bottom:{size}; |
@@ -15,6 +17,7 @@ Utilities for controlling an element's padding.
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
 
 ## Basic usage
+
 ### Add padding to a single side
 Control the padding on one side of an element using the `p{t|r|b|l|x|y}-{size}` utilities.
 
@@ -62,6 +65,7 @@ For example,`pt-16` would add `1.6rem` which is equivalent of 16px of padding to
 
 ### Horizontal Padding
 Control the horizontal padding of an element using the `px-{size}` utilities.
+
 <container>
   <div class="relative overflow-auto p-8">
     <div class="flex justify-center pd-font-mono pd-text-white pd-text-sm font-bold leading-6">
@@ -80,6 +84,7 @@ Control the horizontal padding of an element using the `px-{size}` utilities.
 
 ### Vertical padding
 Control the vertical padding of an element using the `py-{size}` utilities.
+
 <container>
   <div class="relative overflow-auto p-8">
     <div class="flex justify-center pd-font-mono pd-text-white pd-text-sm font-bold leading-6">
@@ -98,6 +103,7 @@ Control the vertical padding of an element using the `py-{size}` utilities.
 
 ### Padding to all sides
 Control the padding on all sides of an element using the `p-{size}` utilities.
+
 <container>
   <div class="relative overflow-auto p-8">
     <div class="flex justify-center pd-font-mono pd-text-white pd-text-sm font-bold leading-6">
@@ -140,4 +146,3 @@ If you need to use a one-off padding value, use square brackets to generate a pr
   <!-- ... -->
 </div>
 ```
-

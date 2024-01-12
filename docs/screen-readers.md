@@ -1,6 +1,7 @@
-> Accessability
+> Accessibility
 
 # Screen Readers
+
 Utilities for improving accessibility with screen readers.
 
 ## Quick reference
@@ -8,7 +9,8 @@ Utilities for improving accessibility with screen readers.
 <qr-table />
 
 ## Basic usage
-### creen-reader-only elements
+
+### Screen-reader-only elements
 Use `sr-only` to hide an element visually without hiding it from screen readers:
 
 ```html
@@ -27,4 +29,3 @@ Use `not-sr-only` to undo `sr-only`, making an element visible to sighted users 
   <span class="sr-only sm:not-sr-only">Settings</span>
 </a>
 ```
-

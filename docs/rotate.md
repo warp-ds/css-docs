@@ -1,20 +1,23 @@
 > Transforms
 
 # Rotate
+
 Utilities for rotating elements with transform.
 
 ## Quick reference
 
 | Class                  | Description                          |
-| ---------------------- | ------------------------------------ |
+|------------------------|--------------------------------------|
 | `rotate-{deg}`         | transform: rotate({deg});            |
 
 > Available values <br />
 > `{deg}`: Accepts any degree (120 rotates 120 degrees with the clock). <br />
 
 ## Basic usage
+
 ### Rotating an element
 Use the rotate-{angle} utilities to rotate an element.
+
 <container>
   <div class="flex items-center justify-around gap-32 sm:gap-16 pd-font-mono font-bold">
     <div class="flex flex-col items-center shrink-0">
@@ -92,7 +95,7 @@ To use a negative rotate value, prefix the class name with a dash to convert it 
 ```
 
 ### Removing transforms
-To remove all of the transforms on an element at once, use the `transform-none` utility.
+To remove all transforms on an element at once, use the `transform-none` utility.
 This can be useful when you want to remove transforms conditionally, such as on hover or at a particular breakpoint.
 
 ```html
@@ -120,7 +123,7 @@ Warp lets you conditionally apply utility classes in different states using vari
   <!-- ... -->
 </div>
 ```
-​
+
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:rotate-45` to apply the `rotate-45` utility at only medium screen sizes and above.
 

@@ -1,13 +1,15 @@
 > Flexbox & Grid
 
 # Flex Shrink
+
 Utilities for controlling how flex items shrink.
 
 ## Quick reference
 
 <qr-table />
 
-## Besic usage
+## Basic usage
+
 ### Shrink
 Use `shrink` to allow a flex item to shrink if needed.
 

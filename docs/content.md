@@ -1,12 +1,13 @@
 > Typography
 
 # Content
+
 Utilities for controlling the content of the before and after pseudo-elements.
 
 ## Quick reference
 
 | Class             | Description      |
-| ----------------- | ---------------- |
+|-------------------|------------------|
 | `content-none`    | `content: none`  |
 | `content-empty`   | `content: ""`    |
 | `content-[{str}]` | `content: {str}` |
@@ -15,6 +16,7 @@ Utilities for controlling the content of the before and after pseudo-elements.
 > `{str}`: Can be any string, will usually contain single-quotes as seen in the examples below
 
 ## Basic usage
+
 ### Setting a pseudo-element's content
 Use the `content-{value}` utilities along with the before and after variant modifiers
 to set the contents of the `::before` and `::after` pseudo-elements.
@@ -47,6 +49,7 @@ Since whitespace denotes the end of a class in HTML, replace any spaces in an ar
 ```
 
 If you need to include an actual underscore, you can do this by escaping it with a backslash.
+
 <container>
   <div class="text-center">
     <span class="before:content-['Hello\_World!']"></span>

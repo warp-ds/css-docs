@@ -1,6 +1,7 @@
 > Typography
 
 # Vertical Align
+
 Utilities for controlling the vertical alignment of an inline or table-cell box.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling the vertical alignment of an inline or table-cell box.
 <qr-table />
 
 ## Basic usage
+
 ### Baseline
 Use `align-baseline` to align the baseline of an element with the baseline of its parent.
 
@@ -32,6 +34,7 @@ Use `align-baseline` to align the baseline of an element with the baseline of it
 
 ### Top
 Use `align-top` to align the top of an element and its descendants with the top of the entire line.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -49,6 +52,7 @@ Use `align-top` to align the top of an element and its descendants with the top 
 
 ### Middle
 Use `align-middle` to align the middle of an element with the baseline plus half the x-height of the parent.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -66,6 +70,7 @@ Use `align-middle` to align the middle of an element with the baseline plus half
 
 ### Bottom
 Use `align-bottom` to align the bottom of an element and its descendants with the bottom of the entire line.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -83,6 +88,7 @@ Use `align-bottom` to align the bottom of an element and its descendants with th
 
 ### Text Top
 Use `align-text-top` to align the top of an element with the top of the parent element’s font.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -100,6 +106,7 @@ Use `align-text-top` to align the top of an element with the top of the parent e
 
 ### Text Bottom
 Use `align-text-bottom` to align the bottom of an element with the bottom of the parent element’s font.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -117,6 +124,7 @@ Use `align-text-bottom` to align the bottom of an element with the bottom of the
 
 ### Sub
 Use `align-sub` to align the bottom of an element with the subscript-baseline of its parent.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
@@ -134,6 +142,7 @@ Use `align-sub` to align the bottom of an element with the subscript-baseline of
 
 ### Super
 Use `align-super` to align the bottom of an element with the superscript-baseline of its parent.
+
 <container>
   <div class="mx-24">
     <div class="pd-bg-white py-4 max-w-md mx-auto dark:pd-bg-slate-800">
