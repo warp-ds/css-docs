@@ -5,7 +5,7 @@
 Utilities for controlling the color of an element's borders.
 
 ::: tip s-prefix
-The s-prefix (semantic) signals that these will change with the brand css.
+The s-prefix (semantic) signals that the colors will change with the brand css.
 :::
 
 ## Quick reference
@@ -17,7 +17,6 @@ The s-prefix (semantic) signals that these will change with the brand css.
 ## Basic usage
 
 ### Setting the border color
-
 Control the border color of an element using the `border-{transparent | inherit | current}` or `s-border-{semantic color}` utilities specified in the table above.
 
 <container>
@@ -52,43 +51,52 @@ Control the opacity of an element’s border color using the color opacity modif
 -->
 
 ### Individual sides
-
 Use the `border-{l|r|t|b}-{transparent|inherit|current}` or `s-border-{l|r|t|b}-{semantic color}` utilities to set the border color for only one side of an element.
 
 <container>
   <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-l-positive"></div>
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-r-positive"></div>
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-t-positive"></div>
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-b-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-l-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-r-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-t-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-b-positive"></div>
   </div>
 </container>
 
 ```html
-<div class="s-border-subtle s-border-l-positive ..."></div>
-<div class="s-border s-border-r-positive ..."></div>
-<div class="s-border s-border-t-positive ..."></div>
-<div class="s-border s-border-b-positive ..."></div>
+<div class="s-border-l-positive border-4 ..."></div>
+<div class="s-border-r-positive border-4 ..."></div>
+<div class="s-border-t-positive border-4 ..."></div>
+<div class="s-border-b-positive border-4 ..."></div>
 ```
 
 ### Horizontal and vertical sides
-
 Use the `border-{x|y}-{transparent|inherit|current}` or `s-border-{x|y}-{semantic color}` utilities to set the border color on two sides of an element at the same time.
 
 <container>
   <div class="grid grid-cols-2 gap-16 justify-items-center">
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-x-positive"></div>
-    <div class="h-80 w-80 border-4 rounded-16 s-border s-border-y-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-x-positive"></div>
+    <div class="h-80 w-80 border-4 rounded-16 s-border-y-positive"></div>
    </div>
 </container>
 
 ```html
-<div class="s-border s-border-x-positive ..."></div>
-<div class="s-border s-border-y-positive ..."></div>
+<div class="s-border-x-positive border-4 ..."></div>
+<div class="s-border-y-positive border-4 ..."></div>
+```
+
+### Arbitrary values
+If you need to use a one-off `border-{color}` value, use square brackets to generate a property on the fly using any arbitrary value.
+However, we recommend only using our semantic color tokens.
+This also works with or without an optional direction.
+`border-{x|y|l|r|t|b}-[{any color value or css var}]`
+
+```html
+<div class="border-[--w-s-color-icon]">
+  <!-- ... -->
+</div>
 ```
 
 ### Hover, focus and other states
-
 Conditionally apply utility classes in different states using variant modifiers.
 For example, use `hover:s-border-active` to only apply the `s-border-active` utility on hover.
 
@@ -103,7 +111,6 @@ For example, use `hover:s-border-active` to only apply the `s-border-active` uti
 ```
 
 ### Breakpoints and media queries
-
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more.
 For example, use `md:s-border-positive` to apply the `s-border-positive` utility at only medium screen sizes and above.
 
@@ -115,12 +122,4 @@ For example, use `md:s-border-positive` to apply the `s-border-positive` utility
 
 ```html
 <div class="s-border md:s-border-positive ..."></div>
-```
-### Arbitrary values
-If you need to use a one-off `border-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However, we recommend only using our semantic color tokens.
-
-```html
-<div class="border-[--w-s-color-border]">
-  <!-- ... -->
-</div>
 ```
