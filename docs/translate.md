@@ -1,12 +1,13 @@
 > Transforms
 
 # Translate
+
 Utilities for translating elements with transform.
 
 ## Quick reference
 
 | Class                  | Description           |
-| ---------------------- | --------------------- |
+|------------------------|-----------------------|
 | `translate-x-{amount}` | translateX({amount}); |
 | `translate-y-{amount}` | translateY({amount}); |
 
@@ -14,6 +15,7 @@ Utilities for translating elements with transform.
 > `{amount}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
 
 ## Basic usage
+
 ### Translating an element
 Use the `translate-x-{amount}` and `translate-y-{amount}` utilities to translate an element.
 
@@ -70,7 +72,7 @@ To use a negative translate value, prefix the class name with a dash to convert 
 <img class="-translate-y-8 ...">
 
 ### Removing transforms
-To remove all of the transforms on an element at once, use the `transform-none` utility.
+To remove all transforms on an element at once, use the `transform-none` utility.
 This can be useful when you want to remove transforms conditionally, such as on hover or at a particular breakpoint.
 
 ```html
@@ -89,7 +91,7 @@ Use transform-cpu to force things back to the CPU if you need to undo this condi
   <!-- ... -->
 </div>
 ```
-​​
+
 ### Hover, focus, and other states
 Warp lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:translate-y-16` to only apply the `translate-y-16` utility on hover.
 ```html
@@ -115,6 +117,3 @@ If you need to use a one-off translate value, use square brackets to generate a 
   <!-- ... -->
 </div>
 ```
-
-
-

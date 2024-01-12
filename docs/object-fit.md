@@ -1,6 +1,7 @@
 > Layout
 
 # Object Fit
+
 Utilities for controlling how a replaced element's content should be resized.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling how a replaced element's content should be resized.
 <qr-table />
 
 ## Basic usage
+
 ### Resizing to cover a container
 Resize an element’s content to cover its container using `.object-cover`.
 
@@ -26,6 +28,7 @@ Resize an element’s content to cover its container using `.object-cover`.
   <img class="object-cover ..." src="..." alt="..." />
 </div>
 ```
+
 ### Containing an element
 Resize an element’s content to stay contained within its container using `.object-contain`.
 
@@ -47,6 +50,7 @@ Resize an element’s content to stay contained within its container using `.obj
 
 ### Stretching to fit a container
 Stretch an element’s content to fit its container using `.object-fill`.
+
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">
@@ -85,6 +89,7 @@ Display an element’s content at its original size but scale it down to fit its
 ### Using an element's original size
 
 Display an element’s content at its original size ignoring the container size using `.object-none`.
+
 <container>
   <div class="flex justify-center">
     <box class="rounded" style="height:200px;width:400px;" striped fg-color="var(--tw-indigo-fg)" bg-color="var(--tw-indigo-bg)">

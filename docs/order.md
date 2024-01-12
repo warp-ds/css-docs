@@ -1,12 +1,13 @@
 > Flexbox & Grid
 
 # Order
+
 Utilities for controlling the order of flex and grid items.
 
 ## Quick reference
 
 | Class            | Description       |
-| ---------------- | ----------------- |
+|------------------|-------------------|
 | `order-{value}`  | `order: {value}`  |
 | `order-none`     | `order: 0`        |
 | `order-first`    | `order: -9999`    |
@@ -16,6 +17,7 @@ Utilities for controlling the order of flex and grid items.
 > `{value}`: `1` through `12` <br />
 
 ## Basic usage
+
 ### Ordering flex and grid items
 Use `order-{order}` to render flex and grid items in a different order than they appear in the DOM.
 
@@ -54,7 +56,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off order value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="order-[14]">

@@ -1,17 +1,20 @@
 > Backgrounds
 
 # Background Position
+
 Utilities for controlling the position of an element's background image.
 
 ## Quick reference
+
 <qr-table />
 
 ## Basic usage
+
 ### Setting the background position
 Use the `bg-{side}` utilities to control the position of an element’s background image.
 
 <container>
-  <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-arround">
+  <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-around">
     <div class="flex flex-col justify-self-start place-items-start">
       <div class="pb-8">.bg-left-top</div>
       <div class="h-128 w-128 rounded-8 bg-top-left" style="background-image:url(/50s-scientists.jpg);background-size:200%"></div>
@@ -69,14 +72,14 @@ Warp lets you conditionally apply utility classes in different states using vari
 ```html
 <div class="bg-center hover:bg-top ..." style="background-image: url(...)"></div>
 ```
-​
+
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:bg-top` to apply the `bg-top` utility at only medium screen sizes and above.
 
 ```html
 <div class="bg-center md:bg-top ..." style="background-image: url(...)"></div>
 ```
-​
+
 ### Arbitrary values
 If you need to use a one-off `background-position` value, use square brackets to generate a property on the fly using any arbitrary value.
 

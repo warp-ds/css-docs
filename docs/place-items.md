@@ -1,6 +1,7 @@
 > Flexbox & Grid
 
 # Place Items
+
 Utilities for controlling how items are justified and aligned at the same time.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling how items are justified and aligned at the same time.
 <qr-table />
 
 ## Basic usage
+
 ### Start
 Use `place-items-start` to place grid items on the start of their grid areas on both axes.
 
@@ -83,7 +85,7 @@ Use `place-items-end` to place grid items on the end of their grid areas on both
 ```
 
 ### Center
-Use `place-items-center` to place grid items on the center of their grid areas on both axes.
+Use `place-items-center` to place grid items in the center of their grid areas on both axes.
 
 <container>
   <div class="grid grid-cols-3 gap-24">
@@ -121,6 +123,7 @@ Use `place-items-center` to place grid items on the center of their grid areas o
 
 ### Stretch
 Use `place-items-stretch` to stretch items along their grid areas on both axes.
+
 <container>
   <div class="grid grid-cols-3 gap-24">
     <box striped class="h-96 grid place-items-stretch" fg-color="var(--tw-fuchsia-fg)" bg-color="var(--tw-fuchsia-bg)">

@@ -1,13 +1,15 @@
 > Layout
 
 # Display
-Utilities for controlling the display box type of an element.
+
+Utilities for controlling the display box type of elements.
 
 ## Quick reference
 
 <qr-table />
 
 ## Basic usage
+
 ### Block And Inline
 Use `inline`, `inline-block`, and `block` to control the flow of text and elements.
 
@@ -43,6 +45,7 @@ Use `inline`, `inline-block`, and `block` to control the flow of text and elemen
   will put the element on its own line and fill its parent.
 </div>
 ```
+
 ### Flow Root
 Use `flow-root` to create a block-level element with its own block formatting context.
 
@@ -71,6 +74,7 @@ Use `flow-root` to create a block-level element with its own block formatting co
 ```
 
 ## Flex
+
 Use `flex` to create a block-level flex container.
 
 <container>
@@ -214,6 +218,7 @@ Use contents to create a “phantom” container whose children act like direct 
 
 ### Table
 Use the `table`, `table-row`, `table-cell`, `table-caption`, `table-column`, `table-column-group`, `table-header-group`, `table-row-group`, and `table-footer-group` utilities to create elements that behave like their respective table elements.
+
 <container>
 <div class="table w-full">
   <div class="table-header-group font-bold">

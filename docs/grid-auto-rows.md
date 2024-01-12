@@ -1,6 +1,7 @@
 > Flexbox & Grid
 
 # Grid Auto Rows
+
 Utilities for controlling the size of implicitly-created grid rows.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling the size of implicitly-created grid rows.
 <qr-table />
 
 ## Basic usage
+
 ### Sizing implicitly-created grid rows
 Use the `auto-rows-{size}` utilities to control the size implicitly-created grid rows.
 
@@ -29,7 +31,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off `grid-auto-rows` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off `grid-auto-rows` value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="grid grid-flow-row auto-rows-[minmax(0,_2fr)]">

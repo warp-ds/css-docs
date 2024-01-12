@@ -1,12 +1,13 @@
 > Sizing
 
 # Max-Width
+
 Utilities for setting the maximum width of an element.
 
 ## Quick reference
 
 | Class                | Description                             |
-| -------------------- | --------------------------------------- |
+|----------------------|-----------------------------------------|
 | `max-w-none`         | `max-width: none`                       |
 | `max-w-full`         | `max-width: 100%`                       |
 | `max-w-min`          | `max-width: min-content`                |
@@ -27,6 +28,7 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 :::
 
 ## Basic usage
+
 ### Setting the maximum width
 Set the maximum width of an element using the `max-w-{size}` utilities.
 
@@ -69,7 +71,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off `max-width` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off `max-width` value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="max-w-[50]">

@@ -1,6 +1,7 @@
 > Borders
 
 # Divide Style
+
 Utilities for controlling the border style between elements.
 
 ::: warning Unsupported
@@ -10,15 +11,17 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 ## Quick reference
 
 | Class                   | Description           |
-| ----------------------- | --------------------- |
+|-------------------------|-----------------------|
 | `divide-solid` > * + *  | border-style: solid;  |
 | `divide-dashed` > * + * | border-style: dashed; |
 | `divide-dotted` > * + * | border-style: dotted; |
 | `divide-none` > * + *   | border-style: none;   |
 
 ## Basic usage
+
 ### Set the divide style
 Control the border style between elements using the `divide-{style}` utilities.
+
 <container>
   <div class="grid gap-16 justify-items-center">
     <div class="pd-bg-pink-500 rounded-8 divide-y divide-dashed w-full max-w-[300]">

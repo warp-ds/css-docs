@@ -1,6 +1,7 @@
 > Interactivity
 
 # Caret Color
+
 Utilities for controlling the color of the text input cursor.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling the color of the text input cursor.
 <qr-table />
 
 ## Basic usage
+
 ### Setting the caret color
 Use the `caret[-{color}]` utilities to change the color of the text input cursor.
 
@@ -20,5 +22,5 @@ Use the `caret[-{color}]` utilities to change the color of the text input cursor
 ```
 
 ::: tip
-If you are using the warp input components (and you probably should use them for themeing purposes) `caret` is already set as default.
+If you are using the warp input components (and you probably should use them for theming purposes) `caret` is already set as default.
 :::

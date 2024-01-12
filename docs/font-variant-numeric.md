@@ -1,6 +1,7 @@
 > Typography
 
 # Font Variant Numeric
+
 Utilities for controlling the variant of numbers.
 
 ::: warning Unsupported
@@ -12,8 +13,9 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 <qr-table />
 
 ## Basic usage
+
 ### Applying numeric variants
-Use the `tabular-nums` to activating the set of figures where numbers are all of the same size, allowing them to be easily aligned like in tables. (The font in use has to have support for this, like `font-mono`). !TODO: Discuss the support for this in warp. We might to have to theme this somehow, these fonts might look too different to some of the brand fonts and perhaps need different weights to match them better to the brand font.)
+Use the `tabular-nums` to activating the set of figures where numbers are all the same size, allowing them to be easily aligned like in tables. (The font in use has to have support for this, like `font-mono`). !TODO: Discuss the support for this in warp. We might to have to theme this somehow, these fonts might look too different to some of the brand fonts and perhaps need different weights to match them better to the brand font.)
 
 <container>
   <span class="pd-font-medium pd-text-sm pd-text-slate-500 pd-font-mono dark:pd-text-slate-400">with tabular-nums + pd-font-mono</span>

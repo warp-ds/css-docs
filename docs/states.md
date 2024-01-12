@@ -1,9 +1,11 @@
 > Core Concepts
 
 # Handling Hover, Focus, and Other States
+
 Using utilities to style elements on hover, focus, and more.
 
 ## Basic usage
+
 Every utility class in Warp can be applied conditionally by adding a modifier to the beginning of the class name that describes the condition you want to target.
 
 For example, to apply the `p-16` class (padding:16px) on the sm breakpoint (from 480px and up), use the `sm:p-16` class.
@@ -20,7 +22,7 @@ Warp includes modifiers for just about everything you’ll ever need, including:
 ## Quick reference
 
 | Class                | Description                                                    |
-| -------------------- | -------------------------------------------------------------- |
+|----------------------|----------------------------------------------------------------|
 | `hover:`             | `&:hover`                                                      |
 | `focus:`             | `&:focus`                                                      |
 | `focus-within:`      | `&:focus-within`                                               |
@@ -86,6 +88,7 @@ Warp includes modifiers for just about everything you’ll ever need, including:
 
 
 ## Pseudo-classes
+
 ### Hover, focus, and active
 Style elements on hover, focus, and active using the `hover`, `focus`, and `active` modifiers.
 
@@ -150,10 +153,11 @@ Style form elements in different states using modifiers like `required`, `invali
 
 Warp also includes modifiers for other form states like `:read-only`, `:indeterminate`, `:checked`, and more.
 
-We should always use the warp components for form elements if possible, they handle state styling internally by warp automagic.
+We should always use the Warp components for form elements if possible, they handle state styling internally by Warp automagic.
 
 
 ## Pseudo-elements
+
 ### Before and after
 Style the ::before and ::after pseudo-elements using the `before` and `after` modifiers.
 
@@ -229,6 +233,7 @@ Style the backdrop of a native `<dialog>` element using the `backdrop` modifier.
 If you’re using native `<dialog>` elements in your project, you may also want to read about styling `open/closed` states using the `open` modifier.
 
 ## Media and feature queries
+
 ### responsive breakpoints
 To style an element at a specific breakpoint, use responsive modifiers like `md` and `lg`.
 
@@ -254,6 +259,3 @@ Use the `motion-reduce` modifier to conditionally add styles when the user has r
 ```
 
 Warp also includes a `motion-safe` modifier that only adds styles when the user has not requested reduced motion. This can be useful when using the `motion-reduce` helper would mean having to “undo” a lot of styles.
-
-
-

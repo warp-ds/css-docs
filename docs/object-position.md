@@ -1,6 +1,7 @@
 > Layout
 
 # Object Position
+
 Utilities for controlling how a replaced element's content should be positioned within its container.
 
 ## Quick reference
@@ -8,11 +9,12 @@ Utilities for controlling how a replaced element's content should be positioned 
 <qr-table />
 
 ## Basic usage
+
 ### Positioning a replaced element
 Use the `object-{side}` utilities to specify how a replaced element’s content should be positioned within its container.
 
 <container>
-  <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-arround">
+  <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-around">
     <div class="flex flex-col justify-self-start place-items-start">
       <div class="pb-8">.object-left-top</div>
       <div class="h-128 w-128">
@@ -88,4 +90,3 @@ You can also use variant modifiers to target media queries like responsive break
 ```html
 <img class="object-center md:object-top" src="...">
 ```
-

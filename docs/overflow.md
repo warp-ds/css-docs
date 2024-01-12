@@ -1,6 +1,7 @@
 > Layout
 
 # Overflow
+
 Utilities for controlling how an element handles content that is too large for the container.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for controlling how an element handles content that is too large for t
 <qr-table />
 
 ## Basic usage
+
 ### Showing content that overflows
 Use `overflow-visible` to prevent content within an element from being clipped. Note that any content that overflows the bounds of the element will then be visible.
 
@@ -204,6 +206,7 @@ Use `overflow-y-scroll` to allow vertical scrolling and always show scrollbars u
 
 ### Scrolling in all directions
 Use `overflow-scroll` to add scrollbars to an element. Unlike `overflow-auto`, which only shows scrollbars if they are necessary, this utility always shows them. Note that some operating systems (like macOS) hide unnecessary scrollbars regardless of this setting.
+
 <container>
   <div class="overflow-scroll" style="max-height:360px;">
     <img style="max-width:800px;width:800px" src="/50s-scientists.jpg" alt="Ai generated picture of warp scientists from the 1950s">

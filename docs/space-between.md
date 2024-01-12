@@ -1,22 +1,23 @@
 > Spacing
 
 # Space Between
+
 Utilities for controlling the space between child elements.
 
 ## Basic usage
+
 > Uses a `> * + *` Selector to target child elements
 
-| Class              | Description                                            |
-| ------------------ | ------------------------------------------------------ |
-| `space-x-{amount}` | margin-right:{size}; Not on last child                 |
-| `space-y-{amount}` | margin-bottom:{size}; Not on last child                |
-| `space-x-reverse`  | Reverse space fo space-x in combo with flex-row-revese |
-| `space-y-reverse`  | Reverse space fo space-y in combo with flex-col-revese |
-
-
+| Class              | Description                                             |
+|--------------------|---------------------------------------------------------|
+| `space-x-{amount}` | margin-right:{size}; Not on last child                  |
+| `space-y-{amount}` | margin-bottom:{size}; Not on last child                 |
+| `space-x-reverse`  | Reverse space fo space-x in combo with flex-row-reverse |
+| `space-y-reverse`  | Reverse space fo space-y in combo with flex-col-reverse |
 
 > Available values <br />
 > `{amount}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
+
 ### Add horizontal space between children
 Control the horizontal space between elements using the `space-x-{amount}` utilities.
 
@@ -64,6 +65,7 @@ Control the vertical space between elements using the `space-y-{amount}` utiliti
 
 ### Reversing children order
 If your elements are in reverse order (using say `flex-row-reverse` or `flex-col-reverse`), use the `space-x-reverse` or `space-y-reverse` utilities to ensure the space is added to the correct side of each element.
+
 <container>
   <div class="relative rounded-xl overflow-auto p-8">
     <div class="flex justify-end ex-font leading-6">
@@ -110,4 +112,3 @@ For those situations, it’s better to use the gap utilities when possible, or a
 
 ### Cannot be paired with divide utilities
 The `space-*` utilities are not designed to work together with the [divide utilities](/divide-width.md). For those situations, consider adding margin/padding utilities to the children instead.
-

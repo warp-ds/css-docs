@@ -1,6 +1,7 @@
 > Sizing
 
 # Min-Width
+
 Utilities for setting the minimum width of an element.
 
 ## Quick reference
@@ -8,6 +9,7 @@ Utilities for setting the minimum width of an element.
 <qr-table />
 
 ## Basic usage
+
 ### Setting the minimum width
 Set the minimum width of an element using the `min-w-{width}` utilities.
 
@@ -27,7 +29,7 @@ You can also use variant modifiers to target media queries like responsive break
 ```
 
 ### Arbitrary values
-If you need to use a one-off `min-width` value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+If you need to use a one-off `min-width` value that doesn't make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 ```html
 <div class="min-w-[50]">

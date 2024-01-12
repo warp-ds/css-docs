@@ -1,12 +1,13 @@
 > Transforms
 
 # Scale
+
 Utilities for scaling elements with transform.
 
 ## Quick reference
 
 | Class                  | Description                                                                  |
-| ---------------------- | ---------------------------------------------------------------------------- |
+|------------------------|------------------------------------------------------------------------------|
 | `scale-{percentage}`   | transform: translateX({percentage})<br />transform: translateY({percentage}) |
 | `scale-x-{percentage}` | transform: translateX({percentage})                                          |
 | `scale-y-{percentage}` | transform: translateY({percentage})                                          |
@@ -15,6 +16,7 @@ Utilities for scaling elements with transform.
 > `{percentage}`: Accepts any percentage value. <br />
 
 ## Basic usage
+
 ### Scaling an element
 Use the `scale-{percentage}`, `scale-x-{percentage}`, and `scale-y-{percentage}` utilities to scale an element.
 
@@ -67,7 +69,7 @@ To use a negative scale value, prefix the class name with a dash to convert it t
 ```
 
 ### Removing transforms
-To remove all of the transforms on an element at once, use the `transform-none` utility.
+To remove all transforms on an element at once, use the `transform-none` utility.
 This can be useful when you want to remove transforms conditionally, such as on hover or at a particular breakpoint.
 
 ```html
@@ -84,7 +86,7 @@ Warp lets you conditionally apply utility classes in different states using vari
   <!-- ... -->
 </div>
 ```
-​
+
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:scale-125` to apply the `scale-125` utility at only medium screen sizes and above.
 
@@ -93,5 +95,3 @@ You can also use variant modifiers to target media queries like responsive break
   <!-- ... -->
 </div>
 ```
-
-

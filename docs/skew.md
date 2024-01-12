@@ -1,16 +1,18 @@
 > Transforms
 
 # Skew
+
 Utilities for skewing elements with transform.
 
 ## Quick reference
 
 | Class             | Description                |
-| ----------------- | -------------------------- |
+|-------------------|----------------------------|
 | `skew-x-{amount}` | transform: skewX({amount}) |
 | `skew-y-{amount}` | transform: skewY({amount}) |
 
 ## Basic usage
+
 ### Skewing an element
 Use the `skew-x-{amount}` and `skew-y-{amount}` utilities to skew an element.
 
@@ -90,14 +92,14 @@ To use a negative skew value, prefix the class name with a dash to convert it to
 ```
 
 ### Removing transforms
-To remove all of the transforms on an element at once, use the `transform-none` utility.
+To remove all transforms on an element at once, use the `transform-none` utility.
 
 ```html
 <div class="scale-75 translate-x-16 skew-y-12 md:transform-none">
   <!-- ... -->
 </div>
 ```
-​
+
 ### Hardware acceleration
 If your transition performs better when rendered by the GPU instead of the CPU, you can force hardware acceleration by adding the `transform-gpu` utility.
 
@@ -117,7 +119,7 @@ Warp lets you conditionally apply utility classes in different states using vari
   <!-- ... -->
 </div>
 ```
-​
+
 ### Breakpoints and media queries
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:skew-y-12` to apply the `skew-y-12´ utility at only medium screen sizes and above.
 
@@ -126,4 +128,3 @@ You can also use variant modifiers to target media queries like responsive break
   <!-- ... -->
 </div>
 ```
-
