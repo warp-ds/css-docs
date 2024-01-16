@@ -16,16 +16,16 @@ Use `bg-origin-border`, `bg-origin-padding` and `bg-origin-content` to control w
 <container>
   <div class="flex sm:grid sm:grid-cols-3 sm:gap-24 sm:justify-around">
     <div class="flex flex-col justify-self-center place-items-center">
-      <div class="mb-16 pd-font-mono">bg-origin-border</div>
-      <div class="w-128 h-128 bg-cover bg-clip-border p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-8 pd-border-white/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center bg-[url(office-warping.png)] bg-[center_-280px]"></div>
+      <h4 class="m-[0_0_16px_0]! font-normal! pd-font-mono">bg-origin-border</h4>
+      <div class="bg-origin-border bg-no-repeat w-128 h-128 p-16 rounded-8 pd-shadow-lg border-8 pd-border-white/50 border-dashed bg-[url(/50s-scientists_240.jpg)]"><span class="sr-only">Visual example of <code>bg-origin-border</code></span></div>
     </div>
     <div class="flex flex-col justify-self-center place-items-center">
-      <div class="mb-16 pd-font-mono">bg-origin-padding</div>
-      <div class="w-128 h-128 bg-cover bg-clip-padding p-16 rounded-8 pd-shadow-lg pd-bg-indigo-500 border-8 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center bg-[url(office-warping.png)] bg-[center_-280px]"></div>
+      <h4 class="m-[0_0_16px_0]! font-normal! pd-font-mono">bg-origin-padding</h4>
+      <div class="bg-origin-padding bg-no-repeat w-128 h-128 p-16 rounded-8 pd-shadow-lg border-8 pd-border-indigo-500/50 border-dashed bg-[url(/50s-scientists_240.jpg)]"><span class="sr-only">Visual example of <code>bg-origin-padding</code></span></div>
     </div>
     <div class="flex flex-col justify-self-center place-items-center">
-      <div class="mb-16 pd-font-mono">bg-origin-content</div>
-      <div class="w-128 h-128 bg-cover bg-clip-content p-16 rounded-8 pd-bg-indigo-500 border-8 pd-border-indigo-500/50 border-dashed pd-font-mono pd-font-extrabold pd-text-sm pd-text-white flex justify-center items-center bg-[url(office-warping.png)] bg-[center_-280px]"></div>
+      <h4 class="m-[0_0_16px_0]! font-normal! pd-font-mono">bg-origin-content</h4>
+      <div class="bg-origin-content bg-no-repeat w-128 h-128 p-16 pd-bg-indigo-100 rounded-8 border-8 pd-border-indigo-500/50 border-dashed bg-[url(/50s-scientists_240.jpg)]"><span class="sr-only">Visual example of <code>bg-origin-content</code></span></div>
     </div>
   </div>
 </container>
