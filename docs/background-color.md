@@ -41,26 +41,20 @@ Control the background color of an element using the `bg-{transparent|inherit|cu
 ### Hover, focus and other states
 
 Conditionally apply utility classes in different states using variant modifiers.
-For example, use `hover:s-bg-positive` to only apply the `s-bg-positive` utility on hover.
+For example, use `hover:s-bg-hover` to only apply the `s-bg-hover` utility on hover.
 
 <container>
   <div class="grid grid-cols-3 gap-16 justify-items-center">
-    <div class="h-80 w-80 border rounded-16 s-bg hover:s-bg-hover active:s-bg-active active:hover:s-bg-active-hover"></div>
-    <div class="h-80 w-80 border rounded-16 s-bg-info hover:s-bg-info-hover active:s-bg-info-active active:hover:s-bg-info-active-hover"></div>
-    <div class="h-80 w-80 border rounded-16 s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active active:hover:s-bg-warning-active-hover"></div>
+    <div class="h-80 w-80 border rounded-16 s-bg hover:s-bg-hover active:s-bg-active"></div>
+    <div class="h-80 w-80 border rounded-16 s-bg-info hover:s-bg-info-hover active:s-bg-info-active"></div>
+    <div class="h-80 w-80 border rounded-16 s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active"></div>
   </div>
 </container>
 
 ```html
-<div
-  class="s-bg hover:s-bg-hover active:s-bg-active active:hover:s-bg-active-hover ..."
-></div>
-<div
-  class="s-bg-info hover:s-bg-info-hover active:s-bg-info-active active:hover:s-bg-info-active-hover ..."
-></div>
-<div
-  class="s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active active:hover:s-bg-warning-active-hover ..."
-></div>
+<div class="s-bg hover:s-bg-hover active:s-bg-active ..."></div>
+<div class="s-bg-info hover:s-bg-info-hover active:s-bg-info-active ..."></div>
+<div class="s-bg-warning hover:s-bg-warning-hover active:s-bg-warning-active ..."></div>
 ```
 
 ### Breakpoints and media queries

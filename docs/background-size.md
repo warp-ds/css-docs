@@ -14,60 +14,39 @@ Utilities for controlling the background size of an element's background image.
 
 Use `bg-auto` to display the background image at its default size.
 
-<container>
-  <box striped class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden">
-    <div class="h-144 bg-auto bg-center bg-no-repeat" style="background-image:url(/20s-scientists.jpg);">
+<container class="p-0! overflow-hidden">
+  <box striped>
+    <div class="h-144 bg-auto bg-center bg-no-repeat bg-[url(20s-scientists.jpg)]">
     </div>
   </box>
 </container>
 
 ```html
-<div
-  class="bg-auto bg-no-repeat bg-center ..."
-  style="background-image: url(...)"
-/>
+<div class="bg-auto bg-no-repeat bg-center bg-[url(...)] ..."/>
 ```
 
 ### Cover
 Use `bg-cover` to scale the background image until it fills the background layer.
 
-<container>
-  <box
-    striped
-    class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden"
-  >
-    <div
-      class="h-144 bg-cover bg-center bg-no-repeat"
-      style="background-image:url(/20s-scientists.jpg);"
-    ></div>
+<container class="p-0! overflow-hidden">
+  <box striped>
+    <div class="h-144 bg-cover bg-center bg-no-repeat bg-[url(20s-scientists.jpg)]"></div>
   </box>
 </container>
 
 ```html
-<div
-  class="bg-cover bg-center ..."
-  style="background-image: url(...)"
->
+<div class="bg-cover bg-center bg-[url(...)] ...">
 ```
 
 ### Contain
 Use `bg-contain` to scale the background image to the outer edges without cropping or stretching.
 
-<container>
-  <box
-    striped
-    class="rounded-8 dark:border dark:pd-border-slate-200/20 overflow-hidden"
-  >
-    <div
-      class="h-144 bg-contain bg-center bg-no-repeat"
-      style="background-image:url(/20s-scientists.jpg);"
-    ></div>
+<container class="p-0! overflow-hidden">
+  <box striped>
+    <div class="h-144 bg-contain bg-center bg-no-repeat bg-[url(20s-scientists.jpg)]"></div>
   </box>
 </container>
 
 ```html
-<div
-  class="bg-contain bg-center ..."
-  style="background-image: url(...)"
-></div>
+<div class="bg-contain bg-center bg-[url(...)] ..."></div>
 ```
