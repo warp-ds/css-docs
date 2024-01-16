@@ -9,7 +9,7 @@ const pageData = useData();
 const props = defineProps({ list: Array });
 const dataTitle = computed(() => camelcase(pageData.page.value.title.replace(/[^\w\s]/gi, '')));
 const rows = computed(() => props.list ?? data[dataTitle.value]);
-const outlineClasses = 'outline outline-offset-1 outline-2 border';
+const outlineClasses = 'outline outline-4 outline-offset-2 border bg-[--w-gray-200] my-6';
 </script>
 
 <template>

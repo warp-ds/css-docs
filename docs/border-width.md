@@ -1,6 +1,7 @@
 > Borders
 
 # Border Width
+
 Utilities for controlling the border width of an element.
 
 ## Quick reference
@@ -36,10 +37,10 @@ Use the `border-0`, `border`, `border-2`, `border-4`, or `border-8` utilities to
     <div>border-2</div>
     <div>border-4</div>
     <div>border-8</div>
-    <div class="pd-bg-violet-500 h-80 w-80 border"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-4"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 border-8"></div>
+    <div class="pd-bg-violet-100 pd-border-violet-900 h-80 w-80 border"></div>
+    <div class="pd-bg-violet-100 pd-border-violet-900 h-80 w-80 border-2"></div>
+    <div class="pd-bg-violet-100 pd-border-violet-900 h-80 w-80 border-4"></div>
+    <div class="pd-bg-violet-100 pd-border-violet-900 h-80 w-80 border-8"></div>
   </div>
 </container>
 
@@ -59,10 +60,10 @@ Use the `border-{side}`, `border-{side}-0`, `border-{side}-2`, `border-{side}-4`
     <div>border-r-4</div>
     <div>border-b-4</div>
     <div>border-l-4</div>
-    <div class="pd-bg-indigo-500 h-80 w-80 border-t-4"></div>
-    <div class="pd-bg-indigo-500 h-80 w-80 border-r-4"></div>
-    <div class="pd-bg-indigo-500 h-80 w-80 border-b-4"></div>
-    <div class="pd-bg-indigo-500 h-80 w-80 border-l-4"></div>
+    <div class="pd-bg-indigo-100 pd-border-indigo-900 h-80 w-80 border-t-4"></div>
+    <div class="pd-bg-indigo-100 pd-border-indigo-900 h-80 w-80 border-r-4"></div>
+    <div class="pd-bg-indigo-100 pd-border-indigo-900 h-80 w-80 border-b-4"></div>
+    <div class="pd-bg-indigo-100 pd-border-indigo-900 h-80 w-80 border-l-4"></div>
   </div>
 </container>
 
@@ -80,8 +81,8 @@ Use the `border-{x|y}-{width}` utilities to set the border width on two sides of
   <div class="grid grid-cols-2 gap-16 justify-items-center">
     <div>border-x-4</div>
     <div>border-y-4</div>
-    <div class="pd-bg-blue-500 h-80 w-80 border-x-4"></div>
-    <div class="pd-bg-blue-500 h-80 w-80 border-y-4"></div>
+    <div class="pd-bg-blue-100 pd-border-blue-900 h-80 w-80 border-x-4"></div>
+    <div class="pd-bg-blue-100 pd-border-blue-900 h-80 w-80 border-y-4"></div>
   </div>
 </container>
 
