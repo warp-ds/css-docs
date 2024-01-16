@@ -38,7 +38,8 @@ Use `justify-items-start` to justify grid items against the start of their inlin
 <div class="flex justify-items-start ...">
   <div>01</div>
   <div>02</div>
-  <div>03</div>
+  ...
+  <div>06</div>
 </div>
 ```
 
@@ -72,7 +73,8 @@ Use `justify-items-end` to justify grid items against the end of their inline ax
 <div class="flex justify-items-end ...">
   <div>01</div>
   <div>02</div>
-  <div>03</div>
+  ...
+  <div>06</div>
 </div>
 ```
 
@@ -106,7 +108,8 @@ Use `justify-items-center` to justify grid items along their inline axis.
 <div class="flex justify-items-center ...">
   <div>01</div>
   <div>02</div>
-  <div>03</div>
+  ...
+  <div>06</div>
 </div>
 ```
 
@@ -128,7 +131,8 @@ Use `justify-items-stretch` to stretch items along their inline axis.
 <div class="flex justify-items-stretch ...">
   <div>01</div>
   <div>02</div>
-  <div>03</div>
+  ...
+  <div>06</div>
 </div>
 ```
 
