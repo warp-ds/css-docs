@@ -1,41 +1,42 @@
 > Borders
 
 # Outline Style
+
 Utilities for controlling the style of an outline of an element.
 
 ## Quick reference
 
 | Class             | Description                                               |
-| ----------------- | --------------------------------------------------------- |
+|-------------------|-----------------------------------------------------------|
 | `outline-none`    | outline: 2px solid transparent; outline-offset: 2px;      |
 | `outline`         | outline-style: solid;                                     |
 | `outline-dashed`  | outline-style: dashed;                                    |
 | `outline-dotted`  | outline-style: dotted;                                    |
 | `outline-double`  | outline-style: double;                                    |
 
-
 ## Basic usage
+
 ### Setting the outline style
 Use the `outline-{style}` utilities to set the outline style for an element.
 
 <container>
-  <div class="grid grid-cols-4 gap-16 justify-items-center">
-    <div>outline-1</div>
-    <div>outline-2</div>
-    <div>outline-4</div>
-    <div>outline-8</div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-dashed outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-dotted outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline-double outline-offset-2 outline-2"></div>
+  <div class="grid grid-cols-4 gap-16 pb-16 justify-items-center">
+    <div>outline</div>
+    <div>outline-dashed</div>
+    <div>outline-dotted</div>
+    <div>outline-double</div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dashed outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dotted outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-double outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
   </div>
 </container>
 
 ```html
-<div class="outline outline-offset-2 outline-2 ..."></div>
-<div class="outline-dashed outline-offset-2 outline-2 ..."></div>
-<div class="outline-dotted outline-offset-2 outline-2 ..."></div>
-<div class="outline-double outline-offset-2 outline-2 ..."></div>
+<div class="outline outline-offset-4 outline-4 ..."></div>
+<div class="outline-dashed outline-offset-4 outline-4 ..."></div>
+<div class="outline-dotted outline-offset-4 outline-4 ..."></div>
+<div class="outline-double outline-offset-4 outline-4 ..."></div>
 ```
 
 ### Removing outlines

@@ -1,17 +1,18 @@
 > Borders
 
 # Outline Offset
+
 Utilities for controlling the offset of an outline of an element.
 
-
-| Class             | Description                                               |
-| -----------------  | --------------------------------------------------------- |
-| `outline-offset-{size}`  | outline-offset: {size};                                    |
+| Class                   | Description             |
+|-------------------------|-------------------------|
+| `outline-offset-{size}` | outline-offset: {size}; |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `8` <br />
 
 ## Basic usage
+
 ### Setting the outline width
 Use the `outline-offset-{size}` utilities to set the outline offset for an element.
 
@@ -21,18 +22,18 @@ Use the `outline-offset-{size}` utilities to set the outline offset for an eleme
     <div>outline-offset-2</div>
     <div>outline-offset-4</div>
     <div>outline-offset-8</div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-1 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-2 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-4 outline-2"></div>
-    <div class="pd-bg-violet-500 h-80 w-80 rounded-4 outline outline-offset-8 outline-2"></div>
+    <div class="pd-bg-violet-400 h-80 w-80 rounded-4 outline outline-offset-1 outline-4"></div>
+    <div class="pd-bg-violet-400 h-80 w-80 rounded-4 outline outline-offset-2 outline-4"></div>
+    <div class="pd-bg-violet-400 h-80 w-80 rounded-4 outline outline-offset-4 outline-4"></div>
+    <div class="pd-bg-violet-400 h-80 w-80 rounded-4 outline outline-offset-8 outline-4"></div>
   </div>
 </container>
 
 ```html
-<div class="outline outline-offset-1 outline-2 ..."></div>
-<div class="outline outline-offset-2 outline-2 ..."></div>
-<div class="outline outline-offset-4 outline-2 ..."></div>
-<div class="outline outline-offset-8 outline-2 ..."></div>
+<div class="outline outline-offset-1 outline-4 ..."></div>
+<div class="outline outline-offset-2 outline-4 ..."></div>
+<div class="outline outline-offset-4 outline-4 ..."></div>
+<div class="outline outline-offset-8 outline-4 ..."></div>
 ```
 
 ### Removing outlines

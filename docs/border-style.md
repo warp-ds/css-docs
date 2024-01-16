@@ -1,6 +1,7 @@
 > Borders
 
 # Border Style
+
 Utilities for controlling the style of an element's borders.
 
 ## Quick reference
@@ -8,14 +9,15 @@ Utilities for controlling the style of an element's borders.
 <qr-table />
 
 ## Basic usage
+
 ### Setting the border style
 Use `border-{style}` to control an element’s border style.
 
 <container>
   <div class="grid grid-cols-3 gap-16 justify-items-center">
-    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-solid">01</div>
-    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-dashed">02</div>
-    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-dotted">03</div>
+    <div class="pd-border-pink-900 pd-bg-pink-100 p-24 rounded-8 border-4 border-solid">01</div>
+    <div class="pd-border-pink-900 pd-bg-pink-100 p-24 rounded-8 border-4 border-dashed">02</div>
+    <div class="pd-border-pink-900 pd-bg-pink-100 p-24 rounded-8 border-4 border-dotted">03</div>
   </div>
 </container>
 
@@ -32,12 +34,12 @@ This is most commonly used to remove a border style that was applied at a smalle
 
 <container>
   <div class="grid gap-16 justify-items-center">
-    <div class="pd-bg-pink-500 p-24 rounded-8 border-1 border-none">No border here!</div>
+    <div class="pd-bg-pink-200 p-24 rounded-8 border-4 border-none">No border here!</div>
   </div>
 </container>
 
 ```html
-    <div class="border-none ...">01</div>
+    <div class="border-4 border-none ...">01</div>
 ```
 
 ### Hover, focus, and other states
