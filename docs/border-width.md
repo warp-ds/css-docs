@@ -92,8 +92,8 @@ Use the `border-{x|y}-{width}` utilities to set the border width on two sides of
 
 ### Arbitrary values
 If you need to use a one-off `border-{width}` value, use square brackets to generate a property using any arbitrary width.
-This also works with or without an optional direction.
-`border-{x|y|l|r|t|b}-[{any width}]`
+This also works with or without an optional side:  
+`border-{side}-[{width}] | border-[{width}]`
 
 ```html
 <div class="border-[66]">

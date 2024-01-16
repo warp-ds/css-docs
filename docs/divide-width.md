@@ -84,8 +84,8 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
 
 ### Arbitrary values
 If you need to use a one-off `divide-{width}` value, use square brackets to generate a property using any arbitrary width.
-This works with or without an optional, but recommended, direction.
-`divide-{x|y}-[{any width}]`
+This works with or without an optional, but recommended, direction:  
+`divide-{x|y}-[{width}] | divide-[{width}]`
 
 ```html
 <div class="divide-x-[66]">
