@@ -15,7 +15,7 @@
     "@warp-ds/eslint-config": "^1.0.3",
     "@warp-ds/icons": "1.4.0",
     "@warp-ds/preset-docs": "^0.0.16",
-    "@warp-ds/uno": "^1.5.0",
+    "@warp-ds/uno": "^1.6.0",
     "camelcase": "^8.0.0",
     "eslint": "^8.53.0",
     "sass": "^1.69.7",

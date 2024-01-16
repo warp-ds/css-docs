@@ -22,10 +22,10 @@ devDependencies:
     version: 1.4.0
   '@warp-ds/preset-docs':
     specifier: ^0.0.16
-    version: 0.0.16(@warp-ds/uno@1.5.0)
+    version: 0.0.16(@warp-ds/uno@1.6.0)
   '@warp-ds/uno':
-    specifier: ^1.5.0
-    version: 1.5.0
+    specifier: ^1.6.0
+    version: 1.6.0
   camelcase:
     specifier: ^8.0.0
     version: 8.0.0
@@ -1483,17 +1483,17 @@ packages:
       '@lingui/core': 4.5.0
     dev: true
 
-  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.5.0):
+  /@warp-ds/preset-docs@0.0.16(@warp-ds/uno@1.6.0):
     resolution: {integrity: sha512-R4gsVtPcvYZ0LWGKGzEYuuRo+Iy8HIlSFCUwSt0MEmXtk4pCslDlxX/c2GJarUnAt6h86PUDCyAaUbHfPHAFOg==}
     peerDependencies:
       '@warp-ds/uno': '*'
     dependencies:
       '@unocss/core': 0.50.8
-      '@warp-ds/uno': 1.5.0
+      '@warp-ds/uno': 1.6.0
     dev: true
 
-  /@warp-ds/uno@1.5.0:
-    resolution: {integrity: sha512-LYImJbiNzgJa3+M8RhAAr5TjgK+FIpPMZNVqj9bH8jLfSCjOUzQ3HNlwGrZAMysDpSxBs27+pY+LfWkWbobFfA==}
+  /@warp-ds/uno@1.6.0:
+    resolution: {integrity: sha512-s7bF/6KArZpUtNtI9BOrUlDMmEFlIZgKE81xYWCh4dBh0dr0W4nUGu4rB9ELFUE4YzuwRZLn/IqpooIOBmcZ2g==}
     dependencies:
       '@unocss/core': 0.58.3
       '@unocss/preset-mini': 0.58.3
