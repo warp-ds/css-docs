@@ -8,7 +8,7 @@ Utilities for controlling an element's background image.
 
 <qr-table />
 
-! TODO: Add support for bg-none
+> `{url}`: _Any valid image url_
 
 ## Basic usage
 

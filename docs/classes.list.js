@@ -126,7 +126,7 @@ export const backgroundRepeat = [
 
 export const backgroundSize = ['bg-auto', 'bg-cover', 'bg-contain'];
 
-export const backgroundImage = ['bg-none'];
+export const backgroundImage = ['bg-none', 'bg-[url({url})]', 'bg-[url(var(--any-css-variable))]'];
 
 export const borderCollapse = ['border-collapse', 'border-separate'];
 
