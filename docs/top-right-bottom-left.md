@@ -38,33 +38,33 @@ Use the `{top|right|bottom|left|inset}-{size}` utilities to set the horizontal o
       <div class="ex-box rounded-8 rounded-8 absolute left-0 top-0 h-32 w-32 pd-bg-violet-600">01</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute top-0 inset-x-0 h-32  pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute top-0 inset-x-0 h-32 pd-bg-violet-600">02</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 left-a top-0 h-32 w-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 left-a top-0 h-32 w-32 pd-bg-violet-600">03</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute left-0 top-0 bottom-0 w-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute left-0 top-0 bottom-0 w-32 pd-bg-violet-600">04</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute inset-0 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute inset-0 pd-bg-violet-600">05</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 left-a inset-y-0 w-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 left-a inset-y-0 w-32 pd-bg-violet-600">06</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute left-0 bottom-0 h-32 top-a w-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute left-0 bottom-0 h-32 top-a w-32 pd-bg-violet-600">07</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute inset-x-0 bottom-0 top-a h-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute inset-x-0 bottom-0 top-a h-32 pd-bg-violet-600">08</div>
     </box>
     <box striped class="rounded-8 relative aspect-2/1" fg-color="var(--tw-purple-fg)" bg-color="var(--tw-purple-bg)">
-      <div class="ex-box rounded-8 absolute right-0 bottom-0 left-a top-a h-32 w-32 pd-bg-violet-600">01</div>
+      <div class="ex-box rounded-8 absolute right-0 bottom-0 left-a top-a h-32 w-32 pd-bg-violet-600">09</div>
     </box>
   </div>
 </container>
 
-```html
+```html{3,8,13,18,23,28,33,38,43}
 <!-- Pin to top left corner -->
 <div class="relative ...">
   <div class="absolute left-0 top-0 h-32 w-32 ...">01</div>

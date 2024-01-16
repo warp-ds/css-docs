@@ -34,16 +34,18 @@ Use utilities like `.rounded`, or `.rounded-full` to apply different border radi
     <div>rounded-8</div>
     <div>rounded-16</div>
     <div>rounded-full</div>
-    <div class="pd-bg-pink-500 p-24 rounded">01</div>
-    <div class="pd-bg-pink-500 p-24 rounded-8">02</div>
-    <div class="pd-bg-pink-500 p-24 rounded-16">01</div>
-    <div class="pd-bg-pink-500 p-24 rounded-full">02</div>
+    <div class="pd-bg-pink-500 w-96 h-96 rounded ex-box">01</div>
+    <div class="pd-bg-pink-500 w-96 h-96 rounded-8 ex-box">02</div>
+    <div class="pd-bg-pink-500 w-96 h-96 rounded-16 ex-box">03</div>
+    <div class="pd-bg-pink-500 w-96 h-96 rounded-full ex-box">04</div>
   </div>
 </container>
 
 ```html
-<div class="rounded ..."></div>
-<div class="rounded-full ..."></div>
+<div class="rounded ...">01</div>
+<div class="rounded-8 ...">02</div>
+<div class="rounded-16 ...">03</div>
+<div class="rounded-full ...">04</div>
 ```
 
 ### No rounding
@@ -54,7 +56,7 @@ This is most commonly used to remove a border radius that was applied at a small
 <container>
   <div class="grid gap-16 justify-items-center">
     <div>rounded-0</div>
-    <div class="pd-bg-fuchsia-500 p-24 rounded-0">OMG, a square</div>
+    <div class="pd-bg-fuchsia-500 p-24 rounded-0 ex-box">OMG, a square</div>
   </div>
 </container>
 
@@ -71,10 +73,10 @@ Use `rounded-{t|r|b|l}{-size}` to only round one side of an element.
     <div>rounded-r-16</div>
     <div>rounded-b-16</div>
     <div>rounded-l-16</div>
-    <div class="pd-bg-purple-500 p-24 rounded-t-16">01</div>
-    <div class="pd-bg-purple-500 p-24 rounded-r-16">02</div>
-    <div class="pd-bg-purple-500 p-24 rounded-b-16">03</div>
-    <div class="pd-bg-purple-500 p-24 rounded-l-16">04</div>
+    <div class="pd-bg-purple-500 p-24 rounded-t-16 ex-box">01</div>
+    <div class="pd-bg-purple-500 p-24 rounded-r-16 ex-box">02</div>
+    <div class="pd-bg-purple-500 p-24 rounded-b-16 ex-box">03</div>
+    <div class="pd-bg-purple-500 p-24 rounded-l-16 ex-box">04</div>
   </div>
 </container>
 
@@ -94,10 +96,10 @@ Use `rounded-{tl|tr|br|bl}{-size}` to only round one corner an element.
     <div>rounded-tr</div>
     <div>rounded-br</div>
     <div>rounded-bl</div>
-    <div class="pd-bg-violet-500 p-24 rounded-tl-16">01</div>
-    <div class="pd-bg-violet-500 p-24 rounded-tr-16">02</div>
-    <div class="pd-bg-violet-500 p-24 rounded-br-16">03</div>
-    <div class="pd-bg-violet-500 p-24 rounded-bl-16">04</div>
+    <div class="pd-bg-violet-500 p-24 rounded-tl-16 ex-box">01</div>
+    <div class="pd-bg-violet-500 p-24 rounded-tr-16 ex-box">02</div>
+    <div class="pd-bg-violet-500 p-24 rounded-br-16 ex-box">03</div>
+    <div class="pd-bg-violet-500 p-24 rounded-bl-16 ex-box">04</div>
   </div>
 </container>
 
