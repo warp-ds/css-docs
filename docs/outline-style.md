@@ -25,18 +25,18 @@ Use the `outline-{style}` utilities to set the outline style for an element.
     <div>outline-dashed</div>
     <div>outline-dotted</div>
     <div>outline-double</div>
-    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline outline-offset-4 outline-8 outline-[--w-s-color-border-focused]"></div>
-    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dashed outline-offset-4 outline-8 outline-[--w-s-color-border-focused]"></div>
-    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dotted outline-offset-4 outline-8 outline-[--w-s-color-border-focused]"></div>
-    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-double outline-offset-4 outline-8 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dashed outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-dotted outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
+    <div class="pd-bg-violet-100 h-80 w-80 rounded-4 outline-double outline-offset-4 outline-4 outline-[--w-s-color-border-focused]"></div>
   </div>
 </container>
 
 ```html
-<div class="outline outline-offset-4 outline-8 ..."></div>
-<div class="outline-dashed outline-offset-4 outline-8 ..."></div>
-<div class="outline-dotted outline-offset-4 outline-8 ..."></div>
-<div class="outline-double outline-offset-4 outline-8 ..."></div>
+<div class="outline outline-offset-4 outline-4 ..."></div>
+<div class="outline-dashed outline-offset-4 outline-4 ..."></div>
+<div class="outline-dotted outline-offset-4 outline-4 ..."></div>
+<div class="outline-double outline-offset-4 outline-4 ..."></div>
 ```
 
 ### Removing outlines
