@@ -10,7 +10,7 @@ Utilities for applying backdrop blur filters to an element.
 
 ## Basic usage
 ### Blurring behind an element
-Use the `backdrop-blur-{amount?}` utilities to control an element’s backdrop blur.
+Use the `backdrop-blur-{size}` utilities to control an element’s backdrop blur.
 
 <container>
   <div class="flex flex-wrap gap-16">
