@@ -19,7 +19,7 @@ Control the position of the markers and text indentation in a list using the `li
         <div class="absolute left-32 top-[50] bottom-10 w-1 bg-[var(--tw-pink-fg)]"></div>
         <p class=" mb-3 ml-8 s-text dark:s-text-inverted">list-inside</p>
         <ul class="list-disc !list-inside s-text dark:s-text-inverted s-bg dark:s-bg-inverted rounded-8 !p-16 !pl-32">
-          <li>5 cups of coffee with enough caffein to show how the line breaks</li>
+          <li>5 cups of coffee with enough caffeine to show how the line breaks</li>
           <li>0 cups of tea</li>
           <li>0 cups of water</li>
         </ul>
