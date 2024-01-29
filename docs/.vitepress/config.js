@@ -133,6 +133,8 @@ export default defineConfig({
               link: '/font-variant-numeric',
             },
             { text: 'Line Height', link: '/line-height' },
+            { text: 'List Style Position', link: '/list-style-position' },
+            { text: 'List Style Type', link: '/list-style-type' },
             { text: 'Text Align', link: '/text-align' },
             { text: 'Text Color', link: '/text-color' },
             { text: 'Text Decoration', link: '/text-decoration' },

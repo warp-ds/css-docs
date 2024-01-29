@@ -463,6 +463,17 @@ export const lineHeight = [
   'leading-6',
 ];
 
+export const listStylePosition = [
+  'list-inside',
+  'list-outside',
+];
+
+export const listStyleType = [
+  'list-none',
+  'list-disc',
+  'list-decimal',
+];
+
 export const minWidth = [
   'min-w-0',
   'min-w-full',
