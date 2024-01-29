@@ -242,6 +242,12 @@ export default defineConfig({
             { text: 'Box Shadow', link: '/box-shadow' },
             { text: 'Opacity', link: '/opacity' },
           ],
+        },        {
+          text: 'Filters',
+          collapsible: true,
+          items: [
+            { text: 'Backdrop Blur', link: '/backdrop-blur' },
+          ],
         },
         {
           text: 'Tables',

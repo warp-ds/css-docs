@@ -26,6 +26,17 @@ export const animation = ['animate-inprogress', 'animate-spinner'];
 
 export const appearance = ['appearance-none'];
 
+export const backdropBlur = [
+  'backdrop-blur-none',
+  'backdrop-blur',
+  'backdrop-blur-s',
+  'backdrop-blur-m',
+  'backdrop-blur-l',
+  'backdrop-blur-xl',
+  'backdrop-blur-xxl',
+  'backdrop-blur-xxxl'
+];
+
 export const backgroundAttachment = [
   'bg-fixed',
   'bg-local',
