@@ -5,7 +5,7 @@
 Utilities for controlling an element's background color.
 
 ::: tip s-prefix
-The s-prefix (semantic) signals that these will change with the brand css.
+The `s-` (semantic) prefix signals that the color value of these will change with the brand css.
 :::
 
 ## Quick reference
@@ -17,7 +17,6 @@ The s-prefix (semantic) signals that these will change with the brand css.
 ## Basic usage
 
 ### Setting the background color
-
 Control the background color of an element using the `bg-{transparent|inherit|current}` or `s-bg-{semantic color}` utilities specified in the table above.
 
 <container>
@@ -38,8 +37,40 @@ Control the background color of an element using the `bg-{transparent|inherit|cu
 <div class="s-bg-negative ..."></div>
 ```
 
-### Hover, focus and other states
+### Arbitrary values
+If you need to use a one-off `bg-{color}` value, use square brackets to generate a property on the fly using any arbitrary value.
+However, we recommend only using our semantic color tokens.
 
+```html
+<div class="bg-[--w-s-color-background]"></div>
+```
+
+### Opacity
+It is possible to control the opacity of an element’s background color by adding an optional alpha modifier.
+The modifier accepts any integer percentage value between 0 and 100.
+This works for both semantic and arbitrary classes with any primitive `--w-{color}` or semantic `--w-s-color-{name}` css variable.
+
+::: warning Warning
+Please be advised that by using primitive variables you will lose theming possibilities, therefor we highly recommend only using semantic classes and tokens.
+:::
+
+<container class="bg-center bg-[url(/50s-scientists.jpg)]">
+  <div class="grid grid-cols-4 gap-16 justify-items-center">
+    <div class="s-bg/60 hover:s-bg/100 h-80 w-80 rounded-16 backdrop-blur-s transition-colors ease-in-out duration-700"></div>
+    <div class="s-bg-primary/50 hover:s-bg-primary/100 h-80 w-80 rounded-16 backdrop-blur-s transition-colors ease-in-out duration-700"></div>
+    <div class="bg-[--w-s-color-background-positive/40] hover:bg-[--w-s-color-background-positive/100] h-80 w-80 rounded-16 backdrop-blur-s transition-colors ease-in-out duration-700"></div>
+    <div class="bg-[var(--w-black)/70] hover:bg-[var(--w-black)/100] h-80 w-80 rounded-16 backdrop-blur-s transition-colors ease-in-out duration-700"></div>
+  </div>
+</container>
+
+```html
+<div class="s-bg/60 hover:s-bg/100 ..."></div>
+<div class="s-bg-primary/50 hover:s-bg-primary/100 ..."></div>
+<div class="bg-[--w-s-color-background-positive/40] hover:bg-[--w-s-color-background-positive/100] ..."></div>
+<div class="bg-[var(--w-black)/70] hover:bg-[var(--w-black)/100] ..."></div>
+```
+
+### Hover, focus and other states
 Conditionally apply utility classes in different states using variant modifiers.
 For example, use `hover:s-bg-hover` to only apply the `s-bg-hover` utility on hover.
 
@@ -58,7 +89,6 @@ For example, use `hover:s-bg-hover` to only apply the `s-bg-hover` utility on ho
 ```
 
 ### Breakpoints and media queries
-
 You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more.
 For example, use `md:s-bg-positive` to apply the `s-bg-positive` utility at only medium screen sizes and above.
 
@@ -70,13 +100,4 @@ For example, use `md:s-bg-positive` to apply the `s-bg-positive` utility at only
 
 ```html
 <div class="s-bg md:s-bg-positive ..."></div>
-```
-
-### Arbitrary values
-If you need to use a one-off `bg-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However, we recommend only using our semantic color tokens.
-
-```html
-<div class="bg-[--w-s-color-background]">
-  <!-- ... -->
-</div>
 ```
