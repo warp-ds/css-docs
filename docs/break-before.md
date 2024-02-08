@@ -3,7 +3,7 @@
 # Break Before
 Utilities for controlling how a column or page should break before an element.
 
-::: warning Unsupported
+::: danger Unsupported
 This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 

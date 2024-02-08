@@ -1,12 +1,13 @@
 > Flexbox & Grid
 
 # Grid Columns Start / End
+
 Utilities for controlling how elements are sized and placed across grid columns.
 
 ## Quick reference
 
 | Class           | Description                        |
-| --------------- | ---------------------------------- |
+|-----------------|------------------------------------|
 | `col-span-{n}`  | `grid-column: span {n} / span {n}` |
 | `col-start-{n}` | `grid-column-start: {n}`           |
 | `col-end-{n}`   | `grid-column-end: {n}`             |
@@ -15,6 +16,7 @@ Utilities for controlling how elements are sized and placed across grid columns.
 > `{n}`: `1` through `13` <br />
 
 ## Basic usage
+
 ### Spanning columns
 Use the `col-span-{n}` utilities to make an element span n columns.
 
@@ -45,7 +47,7 @@ Use the `col-span-{n}` utilities to make an element span n columns.
 ### Starting and ending lines
 Use the `col-start-{n}` and `col-end-{n}` utilities to make an element start or end at the nth grid line. These can also be combined with the `col-span-{n}` utilities to span a specific number of columns.
 
-::: tip
+::: warning Note
 CSS grid lines start at 1, not 0, so a full-width element in a 6-column grid would start at line 1 and end at line 7.
 :::
 
