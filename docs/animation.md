@@ -13,22 +13,26 @@ Utilities for animating elements with CSS animations.
 ### In Progress
 Add the `animate-inprogress` utility to add an animated background to indicate that something is in progress.
 
-<container>
-  <button class="hidden py-12 px-16 border-0 pd-text-white pd-bg-slate-700 hover:pd-bg-slate-600 font-bold rounded-8 leading-24 max-w-max focusable justify-center transition-colors ease-in-out">Save</button>
-  <button class="pd-bg-white pd-text-slate-400 font-bold px-16 py-12 rounded-8 animate-inprogress">Saving</button>
+<container class="flex place-content-center  animate-inprogress">
+Saving...
 </container>
 
 ```html
-  <button class="animate-inprogress">Save</button>
+  <div class="animate-inprogress">Saving...</div>
 ```
 
 ### Spinner
-Add the `animate-spinner` utility to add an animated background to indicate that something is loading.
+Add the `animate-spinner` utility to add an animated spinner to indicate that something is loading.
+You can change the size by adjusting `--spinner-size` (default size is 24px).
 
-<container>
+<container class="flex gap-32 place-content-center place-items-center">
+  <div class="animate-spinner [--spinner-size:16px]"></div>
   <div class="animate-spinner"></div>
+  <div class="animate-spinner [--spinner-size:32px]"></div>
 </container>
 
 ```html
-  <div class="animate-spinner"></div>
+<div class="animate-spinner [--spinner-size:16px]"></div>
+<div class="animate-spinner"></div>
+<div class="animate-spinner [--spinner-size:32px]"></div>
 ```
