@@ -10,12 +10,12 @@ This functionality is not yet supported! If you need this, reach out to us on [#
 
 ## Quick reference
 
-| Class                       | Description           |
-|-----------------------------|-----------------------|
-| ~~`divide-solid`~~ > * + *  | border-style: solid;  |
-| ~~`divide-dashed`~~ > * + * | border-style: dashed; |
-| ~~`divide-dotted`~~ > * + * | border-style: dotted; |
-| ~~`divide-none`~~ > * + *   | border-style: none;   |
+| Class                       | Description                          |
+|-----------------------------|--------------------------------------|
+| ~~`divide-solid`~~ > * + *  | `border-style: solid` (Unsupported)  |
+| ~~`divide-dashed`~~ > * + * | `border-style: dashed` (Unsupported) |
+| ~~`divide-dotted`~~ > * + * | `border-style: dotted` (Unsupported) |
+| ~~`divide-none`~~ > * + *   | `border-style: none` (Unsupported)   |
 
 ## Basic usage
 
@@ -39,23 +39,3 @@ Control the border style between elements using the `divide-{style}` utilities.
   <div>3</div>
 </div>
 ```
-
-<!--
-### Hover, focus, and other states
-Warp lets you conditionally apply utility classes in different states using variant modifiers. For example, use `hover:divide-solid` to only apply the `divide-solid` utility on hover.
-
-```html
-<div class="divide-y divide-dashed hover:divide-solid">
-  ...
-</div>
-```
-
-### Breakpoints and media queries
-You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use `md:divide-solid` to apply the `divide-solid` utility at only medium screen sizes and above.
-
-```html
-<div class="divide-y divide-dashed md:divide-solid">
-  ...
-</div>
-```
--->

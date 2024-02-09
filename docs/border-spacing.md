@@ -1,20 +1,22 @@
 > Tables
 
 # Border Spacing
+
 Utilities for controlling the spacing between table borders.
 
 ## Quick reference
 
-| Class                     | Description                                      |
-| ------------------------- | ------------------------------------------------ |
-| `border-spacing-{size}`   | border-spacing: {size} {size}                    |
-| `border-spacing-x-{size}` | border-spacing: {size} var(--w-border-spacing-y) |
-| `border-spacing-y-{size}` | border-spacing: var(--w-border-spacing-x) {size} |
+| Class                     | Description                                        |
+|---------------------------|----------------------------------------------------|
+| `border-spacing-{size}`   | `border-spacing: {size} {size}`                    |
+| `border-spacing-x-{size}` | `border-spacing: {size} var(--w-border-spacing-y)` |
+| `border-spacing-y-{size}` | `border-spacing: var(--w-border-spacing-x) {size}` |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
 
 ## Basic usage
+
 ### Setting the border spacing
 Use `border-spacing` to control the space between the borders of table cells with [separate borders](/border-collapse.md#separate).
 
@@ -47,7 +49,7 @@ Use `border-spacing` to control the space between the borders of table cells wit
   </table>
 </container>
 
-```html{1}
+```html {1}
 <table class="border border-separate border-spacing-8  ...">
   <thead>
     <tr>

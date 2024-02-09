@@ -6,10 +6,10 @@ Utilities for skewing elements with transform.
 
 ## Quick reference
 
-| Class             | Description                |
-|-------------------|----------------------------|
-| `skew-x-{amount}` | transform: skewX({amount}) |
-| `skew-y-{amount}` | transform: skewY({amount}) |
+| Class             | Description                  |
+|-------------------|------------------------------|
+| `skew-x-{amount}` | `transform: skewX({amount})` |
+| `skew-y-{amount}` | `transform: skewY({amount})` |
 
 ## Basic usage
 

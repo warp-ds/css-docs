@@ -6,11 +6,11 @@ Utilities for scaling elements with transform.
 
 ## Quick reference
 
-| Class                  | Description                                                                  |
-|------------------------|------------------------------------------------------------------------------|
-| `scale-{percentage}`   | transform: translateX({percentage})<br />transform: translateY({percentage}) |
-| `scale-x-{percentage}` | transform: translateX({percentage})                                          |
-| `scale-y-{percentage}` | transform: translateY({percentage})                                          |
+| Class                  | Description                                                                      |
+|------------------------|----------------------------------------------------------------------------------|
+| `scale-{percentage}`   | `transform: translateX({percentage})`<br />`transform: translateY({percentage})` |
+| `scale-x-{percentage}` | `transform: translateX({percentage})`                                            |
+| `scale-y-{percentage}` | `transform: translateY({percentage})`                                            |
 
 > Available values <br />
 > `{percentage}`: Accepts any percentage value. <br />

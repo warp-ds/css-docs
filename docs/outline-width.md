@@ -6,9 +6,9 @@ Utilities for controlling the outline width of an element.
 
 ## Quick reference
 
-| Class             | Description                                               |
-|-------------------|-----------------------------------------------------------|
-| `outline-{size}`  | outline-width: {size};                                    |
+| Class             | Description                  |
+|-------------------|------------------------------|
+| `outline-{size}`  | `outline-width: {size}`      |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `8` <br />

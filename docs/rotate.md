@@ -6,9 +6,9 @@ Utilities for rotating elements with transform.
 
 ## Quick reference
 
-| Class                  | Description                          |
-|------------------------|--------------------------------------|
-| `rotate-{deg}`         | transform: rotate({deg});            |
+| Class                  | Description                         |
+|------------------------|-------------------------------------|
+| `rotate-{deg}`         | `transform: rotate({deg})`          |
 
 > Available values <br />
 > `{deg}`: Accepts any degree (120 rotates 120 degrees with the clock). <br />
@@ -16,7 +16,7 @@ Utilities for rotating elements with transform.
 ## Basic usage
 
 ### Rotating an element
-Use the rotate-{angle} utilities to rotate an element.
+Use the `rotate-{angle}` utilities to rotate an element.
 
 <container>
   <div class="flex items-center justify-around gap-32 sm:gap-16 pd-font-mono font-bold">
@@ -87,7 +87,6 @@ Use the rotate-{angle} utilities to rotate an element.
 ```
 
 ### Using negative values
-
 To use a negative rotate value, prefix the class name with a dash to convert it to a negative value.
 
 ```html
@@ -103,7 +102,7 @@ This can be useful when you want to remove transforms conditionally, such as on 
   <!-- ... -->
 </div>
 ```
-​
+
 ### Hardware acceleration
 If your transition performs better when rendered by the GPU instead of the CPU, you can force hardware acceleration by adding the `transform-gpu` utility.
 

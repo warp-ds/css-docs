@@ -6,19 +6,19 @@ Utilities for controlling the border radius of an element.
 
 ## Quick reference
 
-| Class               | Description                                                   |
-|---------------------|---------------------------------------------------------------|
-| `rounded`           | border-radius: 1px;                                           |
-| `rounded-full`      | border-radius: 9999px;                                        |
-| `rounded-{size}`    | border-radius: {size};                                        |
-| `rounded-t-{size}`  | border-top-radius: {size};                                    |
-| `rounded-tr-{size}` | border-top-radius: {size};<br>border-right-radius: {size};    |
-| `rounded-r-{size}`  | border-right-radius: {size};                                  |
-| `rounded-br-{size}` | border-bottom-radius: {size};<br>border-right-radius: {size}; |
-| `rounded-b-{size}`  | border-bottom-radius: {size};                                 |
-| `rounded-bl-{size}` | border-bottom-radius: {size};<br>border-left-radius: {size};  |
-| `rounded-l-{size}`  | border-left-radius: {size};                                   |
-| `rounded-tl-{size}` | border-top-radius: {size};<br>border-left-radius: {size};     |
+| Class               | Description                                                        |
+|---------------------|--------------------------------------------------------------------|
+| `rounded`           | `border-radius: 4px`                                               |
+| `rounded-full`      | `border-radius: 9999px`                                            |
+| `rounded-{size}`    | `border-radius: {size}`                                            |
+| `rounded-t-{size}`  | `border-top-radius: {size}`                                        |
+| `rounded-tr-{size}` | `border-top-radius: {size}`<br/>`border-right-radius: {size}`      |
+| `rounded-r-{size}`  | `border-right-radius: {size}`                                      |
+| `rounded-br-{size}` | `border-bottom-radius: {size}`<br/>`border-right-radius: {size}`   |
+| `rounded-b-{size}`  | `border-bottom-radius: {size}`                                     |
+| `rounded-bl-{size}` | `border-bottom-radius: {size}`<br/>`border-left-radius: {size}`    |
+| `rounded-l-{size}`  | `border-left-radius: {size}`                                       |
+| `rounded-tl-{size}` | `border-top-radius: {size}`<br/>`border-left-radius: {size}`       |
 
 > Available values <br />
 > `{size}`: `0`, `2`, `4`, `8`, `16` <br />

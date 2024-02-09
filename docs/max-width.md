@@ -6,17 +6,17 @@ Utilities for setting the maximum width of an element.
 
 ## Quick reference
 
-| Class                | Description                             |
-|----------------------|-----------------------------------------|
-| `max-w-none`         | `max-width: none`                       |
-| `max-w-full`         | `max-width: 100%`                       |
-| `max-w-min`          | `max-width: min-content`                |
-| `max-w-max`          | `max-width: max-content`                |
-| `max-w-fit`          | `max-width: fit-content`                |
-| `max-w-prose`        | `max-width: 65ch`                       |
-| `max-w-{size}`       | `max-width: {size}`                     |
-| `max-w-{fraction}`   | `max-width: {fraction}`                 |
-| `max-w-{breakpoint}` | `max-width: {breakpoint}` (Unsupported) |
+| Class                    | Description                             |
+|--------------------------|-----------------------------------------|
+| `max-w-none`             | `max-width: none`                       |
+| `max-w-full`             | `max-width: 100%`                       |
+| `max-w-min`              | `max-width: min-content`                |
+| `max-w-max`              | `max-width: max-content`                |
+| `max-w-fit`              | `max-width: fit-content`                |
+| `max-w-prose`            | `max-width: 65ch`                       |
+| `max-w-{size}`           | `max-width: {size}`                     |
+| `max-w-{fraction}`       | `max-width: {fraction}`                 |
+| ~~`max-w-{breakpoint}`~~ | `max-width: {breakpoint}` (Unsupported) |
 
 > Available values <br />
 > `{size}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
