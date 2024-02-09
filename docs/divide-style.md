@@ -4,7 +4,7 @@
 
 Utilities for controlling the border style between elements.
 
-::: warning Unsupported
+::: danger Unsupported
 This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 

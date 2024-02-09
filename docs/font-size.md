@@ -28,8 +28,9 @@ Line-heights can be overridden by the `.leading-{size}` classes, but please only
 <p class="text-xxxl ...">The quick warp scientist ...</p>
 ```
 ### Setting the headings
+
 Control the heading sizes using the `h1` - `h5` utilities. These classes aim to contain all the styling needed for each heading-level pr. brand.
-::: tip
+::: warning Note
 The heading tags should be implemented strictly semantic in a clear tree structure. Use the `h1` - `h5` classes to give them the correct visual size and appearance.
 :::
 

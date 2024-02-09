@@ -7,6 +7,7 @@ import QrTable from '../../global-components/qr-table.vue';
 import QrColorTable from '../../global-components/qr-color-table.vue';
 import ThemeContainer from '../../global-components/ThemeContainer.vue';
 import WidthController from '../../global-components/WidthController.vue';
+import { IconStarFull32 } from '@warp-ds/icons/vue';
 
 export default {
   ...DefaultTheme,
@@ -31,5 +32,6 @@ export default {
     ctx.app.component('QrColorTable', QrColorTable);
     ctx.app.component('ThemeContainer', ThemeContainer);
     ctx.app.component('WidthController', WidthController);
+    ctx.app.component('IconStarFull32', IconStarFull32);
   },
 };

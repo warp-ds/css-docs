@@ -11,7 +11,7 @@ Utilities for controlling the color of the text input cursor.
 ## Basic usage
 
 ### Setting the caret color
-Use the `caret[-{color}]` utilities to change the color of the text input cursor.
+Use the `caret-{color}` utilities to change the color of the text input cursor.
 
 <container>
   <textarea class="caret-current w-full h-112"></textarea>
@@ -21,6 +21,6 @@ Use the `caret[-{color}]` utilities to change the color of the text input cursor
 <textarea class="caret-current ..."></textarea>
 ```
 
-::: tip
+::: tip Note
 If you are using the warp input components (and you probably should use them for theming purposes) `caret` is already set as default.
 :::

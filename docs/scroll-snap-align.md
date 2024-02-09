@@ -3,7 +3,7 @@
 # Scroll Snap Align
 Utilities for controlling the scroll offset around items in a snap container.
 
-::: warning Unsupported
+::: danger Unsupported
 This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
 :::
 
