@@ -453,14 +453,15 @@ export const justifySelf = [
   'justify-self-stretch',
 ];
 
-// !TODO - different names
 export const lineHeight = [
-  'leading-1',
-  'leading-2',
-  'leading-3',
-  'leading-4',
-  'leading-5',
-  'leading-6',
+  'leading-xs',
+  'leading-s',
+  'leading-m',
+  'leading-ml',
+  'leading-l',
+  'leading-xl',
+  'leading-xxl',
+  'leading-xxxl',
 ];
 
 export const listStylePosition = [
