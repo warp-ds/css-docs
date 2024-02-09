@@ -5,7 +5,7 @@
 Utilities for controlling the color of an outline of an element.
 
 ::: tip s-prefix
-The s-prefix (semantic) signals that these will change with the brand css.
+The `s-` (semantic) prefix signals that the color value of these will change with the brand css.
 :::
 
 ## Quick reference
@@ -27,6 +27,40 @@ Control the outline color of an element using the `s-outline-{semantic color}` u
 
 ```html
 <div class="s-outline-focused outline-4 ..."></div>
+```
+
+### Arbitrary values
+If you need to use a one-off `outline-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However, we recommend only using our semantic color tokens.
+
+```html
+<div class="outline-[--w-s-color-border]">
+  <!-- ... -->
+</div>
+```
+
+### Opacity
+It is possible to control the opacity of an element’s outline color by adding an optional alpha modifier.
+The modifier accepts any integer percentage value between 0 and 100.
+This works for both semantic and arbitrary classes with any primitive `--w-{color}` or semantic `--w-s-color-{name}` css variable.
+
+::: warning Warning
+Please be advised that by using primitive variables you will lose theming possibilities, therefor we highly recommend only using semantic classes and tokens.
+:::
+
+<container class="bg-center bg-[url(/50s-scientists.jpg)]">
+  <div class="grid grid-cols-4 gap-16 justify-items-center">
+    <div class="s-outline/50 hover:s-outline/100 s-bg/10 backdrop-blur-m h-80 w-80 rounded-4 outline outline-offset-4 outline-8 transition-all ease-in-out duration-700"></div>
+    <div class="s-outline-focused/50 hover:s-outline-focused/100 s-bg/10 backdrop-blur-m h-80 w-80 rounded-4 outline outline-offset-4 outline-8 transition-all ease-in-out duration-700"></div>
+    <div class="outline-[--w-s-color-background-positive/40] hover:outline-[--w-s-color-background-positive/100] s-bg/10 backdrop-blur-m h-80 w-80 rounded-4 outline outline-offset-4 outline-8 transition-all ease-in-out duration-700"></div>
+    <div class="outline-[--w-black/40] hover:outline-[--w-black/100] s-bg/10 backdrop-blur-m h-80 w-80 rounded-4 outline outline-offset-4 outline-8 transition-all ease-in-out duration-700"></div>
+  </div>
+</container>
+
+```html
+<div class="s-outline/50 hover:s-outline/100 ..."></div>
+<div class="s-outline-focused/50 hover:s-outline-focused/100 ..."></div>
+<div class="outline-[--w-s-color-background-positive/40] hover:bg-[--w-s-color-background-positive/100] ..."></div>
+<div class="outline-[--w-black/40] hover:outline-[--w-black/100] ..."></div>
 ```
 
 ### Hover, focus and other states
@@ -55,13 +89,4 @@ For example, use `md:s-outline-positive` to apply the `s-outline-positive` utili
 
 ```html
 <div class="s-outline md:s-outline-positive ..."></div>
-```
-
-### Arbitrary values
-If you need to use a one-off `outline-{color}` value, use square brackets to generate a property on the fly using any arbitrary value. However, we recommend only using our semantic color tokens.
-
-```html
-<div class="outline-[--w-s-color-border]">
-  <!-- ... -->
-</div>
 ```

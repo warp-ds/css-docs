@@ -3,7 +3,7 @@ import { computed } from 'vue';
 import { useData } from 'vitepress';
 import { data } from '../classes.data.js';
 import camelcase from 'camelcase';
-import { IconRatingFull16 } from '@warp-ds/icons/vue';
+import { IconStarFull24 } from '@warp-ds/icons/vue';
 
 const pageData = useData();
 const props = defineProps({ list: Array });
@@ -32,7 +32,7 @@ const outlineClasses = 'outline outline-4 outline-offset-2 border bg-[--w-gray-2
               <div class="pl-6">B</div>
             </div>
             <div v-else :class="[cls, { 'border-2': /^(s-)?border/.test(cls) }, { 'h-24': !/^(s-)?(text|icon)/.test(cls) }, { [outlineClasses]: /^(s-)?outline/.test(cls) } ]" class="w-64 px-8 text-center rounded">
-              <icon-rating-full-16 v-if="/^s-icon/.test(cls)" class="m-auto my-4" />
+              <icon-star-full-24 v-if="/^s-icon/.test(cls)" class="m-auto my-4" />
               <span v-else-if="/^(s-)?text/.test(cls)" class="text-l">Text</span>
             </div>
           </td>
