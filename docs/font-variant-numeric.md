@@ -4,13 +4,13 @@
 
 Utilities for controlling the variant of numbers.
 
-::: warning Unsupported
-This functionality is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
-:::
-
 ## Quick reference
 
 <qr-table />
+
+::: warning `normal-nums` not yet supported
+This class is not yet supported! If you need this, reach out to us on [#nmp-warp-design-system](https://sch-chat.slack.com/archives/C04P0GYTHPV).
+:::
 
 ## Basic usage
 
