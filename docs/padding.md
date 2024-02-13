@@ -6,11 +6,12 @@ Utilities for controlling an element's padding.
 
 ## Quick reference
 
-| Class            | Description                                    |
-|------------------|------------------------------------------------|
-| `p{side}-{size}` | padding-{side}:{size};                         |
-| `px-{size}`      | padding-left:{size};<br/>padding-right:{size}  |
-| `py-{size}`      | padding-top:{side};<br/>padding-bottom:{size}; |
+| Class             | Description                                         |
+|-------------------|-----------------------------------------------------|
+| `p-{size}`        | `padding: {size}`                                   |
+| `p{side}-{size}`  | `padding-{side}: {size}`                            |
+| `px-{size}`       | `padding-left: {size}`<br/>`padding-right: {size}`  |
+| `py-{size}`       | `padding-top: {side}`<br/>`padding-bottom: {size}`  |
 
 > Available values <br />
 > `{side}`: `t`(top), `r`(right), `b`(bottom), `l`(left)<br />

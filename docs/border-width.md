@@ -6,22 +6,22 @@ Utilities for controlling the border width of an element.
 
 ## Quick reference
 
-| Class             | Description                                               |
-|-------------------|-----------------------------------------------------------|
-| `border`          | border-width: 1px;                                        |
-| `border-x`        | border-left-width: 1px;<br>border-right-width: 1px;       |
-| `border-y`        | border-top-width: 1px;<br>border-bottom-width: 1px;       |
-| `border-t`        | border-top-width: 1px;                                    |
-| `border-r`        | border-right-width: 1px;                                  |
-| `border-b`        | border-bottom-width: 1px;                                 |
-| `border-l`        | border-left-width: 1px;                                   |
-| `border-{size}`   | border-radius: {size};                                    |
-| `border-x-{size}` | border-left-width: {size};<br>border-right-width: {size}; |
-| `border-y-{size}` | border-top-width: {size};<br>border-bottom-width: {size}; |
-| `border-t-{size}` | border-top-width: {size};                                 |
-| `border-r-{size}` | border-right-width: {size};                               |
-| `border-b-{size}` | border-bottom-width: {size};                              |
-| `border-l-{size}` | border-left-width: {size};                                |
+| Class             | Description                                                  |
+|-------------------|--------------------------------------------------------------|
+| `border`          | `border-width: 1px`                                          |
+| `border-x`        | `border-left-width: 1px`<br/>`border-right-width: 1px`       |
+| `border-y`        | `border-top-width: 1px`<br/>`border-bottom-width: 1px`       |
+| `border-t`        | `border-top-width: 1px`                                      |
+| `border-r`        | `border-right-width: 1px`                                    |
+| `border-b`        | `border-bottom-width: 1px`                                   |
+| `border-l`        | `border-left-width: 1px`                                     |
+| `border-{size}`   | `border-radius: {size}`                                      |
+| `border-x-{size}` | `border-left-width: {size}`<br/>`border-right-width: {size}` |
+| `border-y-{size}` | `border-top-width: {size}`<br/>`border-bottom-width: {size}` |
+| `border-t-{size}` | `border-top-width: {size}`                                   |
+| `border-r-{size}` | `border-right-width: {size}`                                 |
+| `border-b-{size}` | `border-bottom-width: {size}`                                |
+| `border-l-{size}` | `border-left-width: {size}`                                  |
 
 > Available values <br />
 > `{size}`: `0`, `2`, `4`, `8` <br />

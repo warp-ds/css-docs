@@ -6,14 +6,14 @@ Utilities for controlling the border width between elements.
 
 ## Quick reference
 
-| Class                             | Description                                                 |
-|-----------------------------------|-------------------------------------------------------------|
-| `divide-x` > * + *                | border-right-width: 1px <br /> border-left-width: 1px       |
-| `divide-y` > * + *                | border-top-width: 1px <br /> border-bottom-width: 1px       |
-| `divide-x-{size}` > * + *         | border-right-width: {size} <br /> border-left-width: {size} |
-| `divide-y-{size}` > * + *         | border-top-width: {size} <br /> border-bottom-width: {size} |
-| `divide-x-reverse` > * + *        | Flips the borders to work with flex-row-reverse             |
-| `divide-y-reverse` > * + *        | Flips the borders to work with flex-col-reverse             |
+| Class                             | Description                                                      |
+|-----------------------------------|------------------------------------------------------------------|
+| `divide-x` > * + *                | `border-right-width: 1px`<br />`border-left-width: 1px`          |
+| `divide-y` > * + *                | `border-top-width: 1px`<br />`border-bottom-width: 1px`          |
+| `divide-x-{size}` > * + *         | `border-right-width: {size}`<br />`border-left-width: {size}`    |
+| `divide-y-{size}` > * + *         | `border-top-width: {size}`<br />`border-bottom-width: {size}`    |
+| `divide-x-reverse` > * + *        | Flips the borders to work with flex-row-reverse                  |
+| `divide-y-reverse` > * + *        | Flips the borders to work with flex-col-reverse                  |
 
 > Available values<br />
 `{sizes}` : `0`, `2`, `4`, `8`
@@ -33,7 +33,7 @@ Add borders between horizontal elements using the `divide-x-{width}` utilities.
   </div>
 </container>
 
-```html{1}
+```html {1}
 <div class="divide-x-4 ...">
   <div>01</div>
   <div>02</div>
@@ -54,7 +54,7 @@ Add borders between stacked elements using the `divide-y-{width}` utilities.
   </div>
 </container>
 
-```html{1}
+```html {1}
 <div class="divide-y ...">
   <div>01</div>
   <div>02</div>
@@ -75,7 +75,7 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
   </div>
 </container>
 
-```html{1}
+```html {1}
 <div class="flex flex-col-reverse divide-y divide-y-reverse ...">
   <div>01</div>
   <div>02</div>

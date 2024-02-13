@@ -6,11 +6,12 @@ Utilities for controlling an element's margin.
 
 ## Quick reference
 
-| Class            | Description                                  |
-|------------------|----------------------------------------------|
-| `m{side}-{size}` | margin-{side}:{size};                        |
-| `mx-{size}`      | margin-left:{size};<br/>margin-right:{size}  |
-| `my-{size}`      | margin-top:{side};<br/>margin-bottom:{size}; |
+| Class            | Description                                      |
+|------------------|--------------------------------------------------|
+| `m-{size}`       | `margin: {size};`                                |
+| `m{side}-{size}` | `margin-{side}: {size};`                         |
+| `mx-{size}`      | `margin-left: {size}`<br/>`margin-right: {size}` |
+| `my-{size}`      | `margin-top: {side}`<br/>`margin-bottom: {size}` |
 
 > Available values <br />
 > `{side}`: `t`(top), `r`(right), `b`(bottom), `l`(left), `x`(horizontal), `y`(vertical)<br />

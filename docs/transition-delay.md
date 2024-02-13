@@ -1,19 +1,20 @@
 > Transitions & Animation
 
 # Transition Delay
+
 Utilities for controlling the delay of CSS transitions.
 
 ## Quick reference
 
-| Class                | Description                |
-| -------------------- | -------------------------- |
-| `delay-{amount(ms)}` | transition-delay: {amount} |
-
+| Class                 | Description                  |
+|-----------------------|------------------------------|
+| `delay-{amount(ms)}`  | `transition-delay: {amount}` |
 
 > Available values <br />
 > `{amount}`: Accepts any value in ms (1000 = 1 s)<br />
 
 ## Basic usage
+
 ### Delaying transitions
 Use the `delay-{amount}` utilities to control an element’s transition-delay.
 

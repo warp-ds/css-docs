@@ -8,12 +8,12 @@ Utilities for controlling the space between child elements.
 
 > Uses a `> * + *` Selector to target child elements
 
-| Class              | Description                                             |
-|--------------------|---------------------------------------------------------|
-| `space-x-{amount}` | margin-right:{size}; Not on last child                  |
-| `space-y-{amount}` | margin-bottom:{size}; Not on last child                 |
-| `space-x-reverse`  | Reverse space fo space-x in combo with flex-row-reverse |
-| `space-y-reverse`  | Reverse space fo space-y in combo with flex-col-reverse |
+| Class              | Description                                              |
+|--------------------|----------------------------------------------------------|
+| `space-x-{amount}` | `margin-right:{size}` (Not on last child)                |
+| `space-y-{amount}` | `margin-bottom:{size}` (Not on last child)               |
+| `space-x-reverse`  | Reverse space for space-x in combo with flex-row-reverse |
+| `space-y-reverse`  | Reverse space for space-y in combo with flex-col-reverse |
 
 > Available values <br />
 > `{amount}`: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144` <br />
@@ -40,6 +40,7 @@ Control the horizontal space between elements using the `space-x-{amount}` utili
   <div>03</div>
 </div>
 ```
+
 ### Add vertical space between children
 Control the vertical space between elements using the `space-y-{amount}` utilities.
 

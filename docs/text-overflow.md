@@ -1,20 +1,15 @@
 > Typography
 
 # Text Overflow
+
 Utilities for controlling text overflow in an element.
 
 ## Quick reference
 
 <qr-table />
 
-| Class           | Description                                                                |
-| --------------- | -------------------------------------------------------------------------- |
-| `truncate`      | overflow: hidden; <br />text-overflow: ellipsis;<br />white-space: nowrap; |
-| `text-ellipsis` | text-overflow: ellipsis;                                                   |
-| `text-clip`     | text-overflow: clip;                                                       |
-
-
 ## Basic usage
+
 ### Truncate
 Use `truncate` to truncate overflowing text with an ellipsis (`…`) if needed.
 

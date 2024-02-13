@@ -1,19 +1,20 @@
 > Transitions & Animation
 
 # Transition Duration
+
 Utilities for controlling the duration of CSS transitions.
 
 ## Quick reference
 
-| Class                   | Description                   |
-| ----------------------- | ----------------------------- |
-| `duration-{amount(ms)}` | transition-duration: {amount} |
-|                         |                               |
+| Class                   | Description                     |
+|-------------------------|---------------------------------|
+| `duration-{amount(ms)}` | `transition-duration: {amount}` |
 
-> Available values <br />
-> `{amount}`: Accepts any value in ms (1000 = 1 s)<br />
+> Available values<br />
+> `{amount}`: Accepts any value in ms (1000 = 1 s)
 
 ## Basic usage
+
 ### Changing transition duration
 Use the `duration-{amount}` utilities to control an element’s transition-duration.
 

@@ -7,24 +7,26 @@ Utilities for controlling the aspect ratio of an element.
 ## Quick reference
 
 ::: warning Warning
-  Known problem: the shortcuts `aspect-ratio`, `aspect-square`, `aspect-video` are not working as intended
+  Known problem: the shortcuts `aspect-ratio`, `aspect-square`, `aspect-video` are not working as intended.
 :::
 
-| Class               | Description                             |
-|---------------------|-----------------------------------------|
-| `aspect-ratio`      | aspect-ratio: auto;                     |
-| `aspect-square`     | aspect-ratio: 1/1;                      |
-| `aspect-video`      | aspect-ratio: 16/9;                     |
-| `aspect-1/1`        | Sets the aspect ratio to 1:1            |
-| `aspect-4/3`        | Sets the aspect ratio to 4:3            |
-| `aspect-16/9`       | Sets the aspect ratio to 16:9           |
-| `aspect-2/1`        | Sets the aspect ratio to 2:1            |
-| `aspect-{fraction}` | Sets the aspect ratio to any {fraction} |
+| Class               | Description                                |
+|---------------------|--------------------------------------------|
+| `aspect-ratio`      | `aspect-ratio: auto`                       |
+| `aspect-square`     | `aspect-ratio: 1/1`                        |
+| `aspect-video`      | `aspect-ratio: 16/9`                       |
+| `aspect-1/1`        | Sets the aspect ratio to 1:1               |
+| `aspect-4/3`        | Sets the aspect ratio to 4:3               |
+| `aspect-16/9`       | Sets the aspect ratio to 16:9              |
+| `aspect-2/1`        | Sets the aspect ratio to 2:1               |
+| `aspect-{fraction}` | Sets the aspect ratio to any \{fraction\}  |
 
+> Available values <br />
 > `{fraction}`: _Any fraction is valid - e.g. `1/5`_
 
 ::: tip Note
-Aspect ratio support is currently provided via the [padding-bottom](https://css-tricks.com/aspect-ratio-boxes/) fallback method. The built-in `aspect-ratio` property is not yet well supported.
+Aspect ratio support is currently provided via the [padding-bottom](https://css-tricks.com/aspect-ratio-boxes/) fallback method.
+The built-in `aspect-ratio` property is not yet well supported.
 :::
 
 ## Basic usage
