@@ -10,21 +10,32 @@
   },
   "devDependencies": {
     "@itsy/okay": "^0.0.4",
-    "@unocss/core": "^0.58.5",
-    "@vueuse/core": "^10.7.2",
+    "@unocss/core": "^0.59.3",
+    "@vueuse/core": "^10.9.0",
     "@warp-ds/eslint-config": "^1.0.4",
     "@warp-ds/icons": "2.0.0",
     "@warp-ds/preset-docs": "^0.0.16",
-    "@warp-ds/uno": "^1.8.0",
+    "@warp-ds/uno": "^1.11.0",
     "camelcase": "^8.0.0",
-    "eslint": "^8.56.0",
-    "sass": "^1.70.0",
-    "unocss": "^0.58.5",
-    "vite": "^5.0.12",
-    "vitepress": "1.0.0-rc.36",
-    "vue": "^3.4.15"
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "prettier": "3.2.5",
+    "sass": "^1.75.0",
+    "unocss": "^0.59.3",
+    "vite": "^5.2.9",
+    "vitepress": "1.1.0",
+    "vue": "^3.4.22"
   },
   "eslintConfig": {
     "extends": "@warp-ds"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
   }
 }
