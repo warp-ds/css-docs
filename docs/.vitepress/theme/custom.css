@@ -42,6 +42,24 @@ html.dark body {
   --vp-home-hero-image-filter: blur(32px);
 }
 
+.VPHome .danger {
+  margin-bottom: 16px;
+}
+.VPContent > div:first-child:not(.VPDoc):not(.VPHome) .danger {
+  max-width: 720px;
+  margin: 32px auto;
+}
+.VPContent > div:first-child:not(.VPHome) .danger h1 {
+  font-size: 40px;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.VPHome .danger h1 {
+  font-size: 32px;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+
 .vp-doc blockquote > p {
   font-size: 1.28rem !important;
 }

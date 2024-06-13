@@ -7,11 +7,8 @@ hero:
   image: /warp-logo.svg
   actions:
   - theme: brand
-    text: Get Started →
-    link: /getting-started
-  - theme: alt
-    text: View on GitHub
-    link: https://github.com/warp-ds/drive
+    text: Our CSS documentation has moved to Warp Tech Docs →
+    link: https://warp-ds.github.io/tech-docs/css/
 features:
 - title: Uno Inside
   details: Leveraging UnoCSS to provide support for a wide variety of frameworks and use cases.
