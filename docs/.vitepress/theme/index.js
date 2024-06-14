@@ -1,3 +1,4 @@
+import { h } from 'vue'
 import Box from '../../global-components/Box.vue';
 import 'uno.css';
 import DefaultTheme from 'vitepress/theme';
@@ -8,9 +9,17 @@ import QrColorTable from '../../global-components/qr-color-table.vue';
 import ThemeContainer from '../../global-components/ThemeContainer.vue';
 import WidthController from '../../global-components/WidthController.vue';
 import { IconStarFull32 } from '@warp-ds/icons/vue';
+import obsolete from '../../global-components/obsolete.md';
 
 export default {
   ...DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'doc-before': obsolete.render,
+      'home-hero-info-before': obsolete.render,
+      'not-found': obsolete.render,
+    })
+  },
   async enhanceApp(ctx) {
     if (!import.meta.env.SSR) {
       const fontsize = await import(
