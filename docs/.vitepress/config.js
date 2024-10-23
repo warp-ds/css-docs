@@ -51,6 +51,13 @@ export default defineConfig({
         href: 'https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/finn-no.css',
       },
     ],
+    [
+      'meta',
+      {
+        'http-equiv': 'refresh',
+        content: '0;url=https://warp-ds.github.io/docs/',
+      }
+    ]
   ],
   themeConfig: {
     logo: '/warp-logo-small.svg',
